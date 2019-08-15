@@ -15,6 +15,7 @@ RUN mkdir -p /usr/local/src && \
 COPY . /src/
 RUN cd /src/ && /usr/local/bin/hugo -b /
 RUN cp -rf /src/public/* /usr/share/nginx/html/
+RUN chmod -R 755 /usr/share/nginx/html
 
 ENV RUN_USER nginx
 ENV RUN_GROUP nginx
