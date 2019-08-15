@@ -1,4 +1,4 @@
-baseurl = "https://netlify.newto.co/"
+baseurl = "/"
 title = "Universal"
 theme = "project"
 themesDir = "./themes"
