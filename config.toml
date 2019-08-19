@@ -107,6 +107,7 @@ paginate = 10
     BookEditPath= 'blob/master'
     BookDateFormat = 'Jan 2, 2019'
     enableGitInfo = true
+    BookMenuBundle = '/menu'
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
