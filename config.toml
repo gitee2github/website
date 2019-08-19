@@ -32,7 +32,7 @@ paginate = 10
 [[menu.main]]
     identifier = "docs"
     name = "DOCS"
-    url  = "/docs/advanced"
+    url  = "/docs/abstract/"
     weight = 3
 
 
@@ -101,6 +101,12 @@ paginate = 10
       """
     #latitude = "-12.043333"
     #longitude = "-77.028333"
+    
+    ### DOC Configurations
+    BookRepo = 'https://gitee.com/openeuler/doc'
+    BookEditPath= 'blob/master'
+    BookDateFormat = 'Jan 2, 2019'
+    enableGitInfo = true
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -160,3 +166,5 @@ paginate = 10
     enable = true
     title = "From our news"
     subtitle = "There are many events ocur since we announce open source, Please keep an your eye on us."
+
+
