@@ -10,6 +10,8 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
+uglyURLs = true
+
 # Define the number of posts per page
 paginate = 10
 
@@ -26,26 +28,26 @@ paginate = 10
 [[menu.main]]
     identifier="news"
     name = "News"
-    url  = "/news/"
+    url  = "/news.html"
     weight = 2
 
 [[menu.main]]
     identifier = "docs"
     name = "DOCS"
-    url  = "/docs/home/"
+    url  = "/docs/home.html"
     weight = 3
 
 
 [[menu.main]]
     identifier = "faq"
     name = "FAQ"
-    url  = "/faq/"
+    url  = "/faq.html"
     weight = 4
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url  = "/contact/"
+    url  = "/contact.html"
     weight = 5
 
 # Top bar social links menu
