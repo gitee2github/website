@@ -103,8 +103,8 @@ paginate = 10
     #longitude = "-77.028333"
     
     ### DOC Configurations
-    BookRepo = 'https://gitee.com/openeuler/doc'
-    BookEditPath= 'blob/master'
+    BookRepo = 'https://gitee.com/openeuler/docs'
+    BookEditPath= 'blob/master/content'
     BookDateFormat = 'Jan 2, 2019'
     enableGitInfo = true
     BookMenuBundle = '/menu'
