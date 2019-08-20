@@ -32,7 +32,7 @@ paginate = 10
 [[menu.main]]
     identifier = "docs"
     name = "DOCS"
-    url  = "/docs/abstract/"
+    url  = "/docs/home/"
     weight = 3
 
 
@@ -108,6 +108,8 @@ paginate = 10
     BookDateFormat = 'Jan 2, 2019'
     enableGitInfo = true
     BookMenuBundle = '/menu'
+    bookHidden = true
+    bookFlatSection = true
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
