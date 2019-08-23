@@ -82,11 +82,11 @@ paginate = 10
     style = "blue"
 
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "contact@openeuler.io"
     contact_form_ajax = false
 
     about_us = "<p>We are an open source orgnization provides open source software.</p>"
-    copyright = "Copyright (c) 2019 - 2020, openEuler; all rights reserved."
+    copyright = "Copyright (c) 2019 - 2020, openEuler; all rights reserved. <br /> The openEuler has registered <span>trademarks</span> and uses trademarks. For a list of trademarks of the openEuler, please see our Trademark Usage page. <span>Privacy Policy</span> and <span>Terms of Use</span>"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2019"
