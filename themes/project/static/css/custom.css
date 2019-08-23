@@ -25,6 +25,7 @@
 }
 .bannernew .content h2 {
   font-size: 62px;
+  color: #fff;
 }
 .bannernew .content p {
   width: 800px;
@@ -77,7 +78,7 @@
 }
 
 .reason {
-  padding: 200px 30px 70px;
+  padding: 170px 30px 70px;
 }
 .reason h2 {
   margin-bottom: 67px;
@@ -90,13 +91,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 .reason .content_why .bg {
   background: url('../img/flows.png') no-repeat;
   height: 300px;
   width: 500px;
+  flex-shrink: 0;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -106,6 +108,7 @@
 }
 .reason .content_why .bg h3 {
   font-size: 59px;
+  color: #FFFFFF;
 }
 .reason .content_why .bg p {
   margin-top: 60px;
@@ -113,7 +116,7 @@
   line-height: 28px;
 }
 .reason .content_why .detail {
-  width: 540px;
+  margin-left: 50px;
 }
 .reason .content_why .detail p {
   font-size: 20px;
@@ -123,7 +126,6 @@
 .reason .content_why .detail p:nth-child(1) {
   margin-bottom: 40px;
 }
-
 
 .e_mail {
   background: url('../img/bg2.png') no-repeat;
@@ -136,7 +138,8 @@
 }
 .e_mail h2 {
   color: #fff;
-  margin-bottom: 53px;
+  font-size: 40px;
+  padding-top: 40px;
 }
 .e_mail ul {
   width: 40%;
@@ -162,14 +165,15 @@
   background: #FFFFFF;
   border-radius: 2px;
   padding: 11px 18px;
+  text-transform: none;
 }
 
 .action {
-  padding: 63px 30px 80px;
+  padding: 63px 30px 45px;
 }
 .action .active_box {
   display: flex;
-  max-width: 1440px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 .action .active_box .active {
@@ -182,18 +186,22 @@
   display: flex;
   align-items: flex-end;
   padding-bottom: 24px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #b5b5b5;
+  margin-bottom: 0;
 }
 .action .active_box .active h2 p {
-  margin-left: 26px;
+  margin: 0 0 0 26px;
   font-size: 14px;
   color: #3399FF;
   line-height: 36px;
   cursor: pointer;
 }
+.action .active_box .active ul {
+  padding: 0px;
+}
 .action .active_box .active ul li {
-  padding: 26px 5px 30px;
-  border-bottom: 1px solid #999;
+  padding: 18px 5px 20px;
+  border-bottom: 1px solid #b5b5b5;
 }
 .action .active_box .active ul li h6 {
   display: flex;
@@ -231,7 +239,7 @@
 }
 
 #footer {
-  #padding: 44px 270px 50px;
+  padding: 44px 270px 50px;
   background: #111;
   color: #fff;
   display: flex;
