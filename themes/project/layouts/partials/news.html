@@ -4,7 +4,9 @@
 <div class="news active">
     <h2>
         News
-        <p>more ></p>
+        <a href="/news.html">
+            <p>more ></p>
+        </a>
     </h2>
 
     <ul>
@@ -15,7 +17,9 @@
             <h6>
                 <span>NEWS</span> <i>|</i> <span>{{ .Date.Format .Site.Params.date_format }}</span>
             </h6>
-            <p>{{ .Title }}</p>
+            <a href="{{ .URL }}">
+                <p>{{ .Title }}</p>
+            </a>
         </li>
         {{ end }}
     </ul>

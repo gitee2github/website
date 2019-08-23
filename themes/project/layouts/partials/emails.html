@@ -11,9 +11,10 @@
                                 <h3>{{ .emailaddress }}</h3>
                                 <p> {{ .description }}</p>
                         </div>
-                        <div class="btn">
-                                {{ .buttontext }}
-                        </div>
+
+                        <a href="{{ .websitelink}}" target="_blank">
+                                <div class="btn">{{ .buttontext }} </div>
+                        </a>
                 </li>
                 {{ end }}
         </ul>
