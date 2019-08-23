@@ -44,11 +44,11 @@ paginate = 10
     weight = 4
 
 
-[[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq.html"
-    weight = 5
+# [[menu.main]]
+#    identifier = "faq"
+#    name = "FAQ"
+#    url  = "/faq.html"
+#    weight = 5
 
 [[menu.main]]
     identifier = "contact"
