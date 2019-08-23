@@ -131,6 +131,18 @@ paginate = 10
     tags = true
     search = true
 
+[params.cards]
+    enable = true
+
+[params.emails]
+    enable = true
+
+[params.news]
+    enable = true
+
+[params.events]
+    enable = true
+
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items

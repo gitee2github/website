@@ -1,0 +1,25 @@
+{{ if isset .Site.Params "emails" }}
+{{ if .Site.Params.emails.enable }}
+{{ if gt (len .Site.Data.emails) 0 }}
+<section class="bar background-white">
+           <div class="e_mail">
+                <h2>E-mail Subscription</h2>
+                <ul>
+                        {{ range .Site.Data.emails }}
+                        <li>
+                                <div>
+                                        <h3>{{ .emailaddress }}</h3>
+                                        <p> {{ .description }}</p>
+                                    </div>
+                                    <div class="btn">
+                                            {{ .buttontext }}
+                                    </div>
+                        </li>
+                        {{ end }}
+                </ul>
+        </div>
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

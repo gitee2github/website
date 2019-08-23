@@ -9,6 +9,220 @@
   min-height: 230px;
 }
 
+.bannernew {
+  background: url('../img/bannernew.jpg') no-repeat;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+
+.bannernew .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  color: #fff;
+}
+.bannernew .content h2 {
+  font-size: 62px;
+}
+.bannernew .content p {
+  width: 800px;
+  margin: 26px auto 0;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+}
+.bannernew .cards {
+  padding: 0 270px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: -25%;
+  transform: translate(-50%, 0%);
+}
+.bannernew .cards ul {
+  background: #fff;
+  box-shadow: 0 40px 45px 0 rgba(214, 228, 238, 0.5);
+  border-radius: 4px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.bannernew .cards ul li {
+  padding: 35px 16px;
+  text-align: center;
+}
+.bannernew .cards ul li h3 {
+  font-size: 20px;
+  color: #141414;
+  margin: 16px 0 24px;
+}
+.bannernew .cards ul li p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 20px;
+}
+.bannernew .cards ul li:not(:last-child) {
+  border-right: 1px solid #E3E9EB;
+}
+
+.bannernew ul {
+  list-style-type: none;
+}
+
+.bannernew li {
+  list-style-type: none;
+}
+
+.reason {
+  padding: 200px 30px 70px;
+}
+.reason h2 {
+  margin-bottom: 67px;
+  font-size: 40px;
+  color: #333333;
+  text-align: center;
+  line-height: 36px;
+}
+.reason .content_why {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.reason .content_why .bg {
+  background: url('../img/flows.png') no-repeat;
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.reason .content_why .bg h3 {
+  font-size: 59px;
+}
+.reason .content_why .bg p {
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.reason .content_why .detail {
+  width: 540px;
+}
+.reason .content_why .detail p {
+  font-size: 20px;
+  color: #313131;
+  line-height: 30px;
+}
+.reason .content_why .detail p:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+
+.e_mail {
+  background: url('../img/bg2.png') no-repeat;
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.e_mail h2 {
+  color: #fff;
+  margin-bottom: 53px;
+}
+.e_mail ul {
+  width: 40%;
+}
+.e_mail ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.e_mail ul li h3 {
+  font-size: 28px;
+  color: #FFFFFF;
+  line-height: 36px;
+}
+.e_mail ul li p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 20px;
+}
+.e_mail ul li .btn {
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 11px 18px;
+}
+
+.action {
+  padding: 63px 30px 80px;
+}
+.action .active_box {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.action .active_box .active {
+  width: 47%;
+}
+.action .active_box .active:not(:last-child) {
+  margin-right: 50px;
+}
+.action .active_box .active h2 {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #999;
+}
+.action .active_box .active h2 p {
+  margin-left: 26px;
+  font-size: 14px;
+  color: #3399FF;
+  line-height: 36px;
+  cursor: pointer;
+}
+.action .active_box .active ul li {
+  padding: 26px 5px 30px;
+  border-bottom: 1px solid #999;
+}
+.action .active_box .active ul li h6 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+.action .active_box .active ul li h6 span {
+  color: #666;
+  font-size: 14px;
+}
+.action .active_box .active ul li h6 i {
+  margin: 0 4px;
+  font-style: normal;
+}
+.action .active_box .active ul li p {
+  word-break: break-word;
+  font-size: 20px;
+  color: #333333;
+  line-height: 28px;
+}
+
+.action li {
+  list-style-type: none;
+}
+
+.action h2 {
+  font-size: 40px;
+}
+
 .align-center {
   align-items: center;
 }

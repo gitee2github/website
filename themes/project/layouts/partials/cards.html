@@ -1,0 +1,27 @@
+{{ if isset .Site.Params "cards" }}
+{{ if .Site.Params.cards.enable }}
+{{ if gt (len .Site.Data.cards) 0 }}
+<section class="bar background-white">
+        <div class="bannernew">
+                <div class="content">
+                    <h2>Welcome to openEulerOS</h2>
+                    <p>The openEulerOS Project is a community-driven free software effort focused on delivering a robust
+                        open source ecosystem.</p>
+                </div>
+                <div class="cards">
+                        <ul>
+                            {{ range .Site.Data.cards }}
+                            <li>
+                                    <img src="{{ .image }}" alt="{{ .title }}">
+                                    <h3>{{ .title }}</h3>
+                                    <p>{{ .description }}</p>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+        </div>
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,25 @@
+{{ if isset .Site.Params "news" }}
+{{ if .Site.Params.news.enable }}
+
+        <div class="news active">
+                <h2>
+                    News
+                    <p>more ></p>
+                </h2>
+
+                <ul>
+                {{ $posts := .Paginate (where .Data.Pages "Type" "news") }}
+                {{ range first 4 $posts.Pages }}
+
+                <li>
+                        <h6>
+                            <span>NEWS</span> <i>|</i> <span>{{ .Date.Format .Site.Params.date_format }}</span>
+                        </h6>
+                        <p>{{ .Title }}</p>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+{{ end }}
+{{ end }}
