@@ -283,3 +283,61 @@ footer .notice span {
   justify-content: center;
   align-items: center;
 }
+
+.search_v {
+  padding-top: 30px;
+  width: 260px;
+  flex-shrink: 0;
+}
+
+.search_v li {
+  list-style-type: none;
+}
+.search_v li h3 {
+  font-size: 16px;
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #467FBF;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.search_v li .search_box {
+  display: flex;
+}
+.search_v li .search_box .input_box {
+  border-top: 1px solid #D4D4D4;
+  border-left: 1px solid #D4D4D4;
+  border-bottom: 1px solid #D4D4D4;
+  padding: 3px;
+  width: calc(100% - 46px);
+}
+.search_v li .search_box .input_box input {
+  border: 0;
+  padding: 5px;
+  width: 100%;
+}
+.search_v li .search_box .icon {
+  width: 46px;
+  height: 35px;
+  border: 1px solid #467FBF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0px;
+}
+.search_v li .search_box .icon svg {
+  width: 14px;
+}
+.search_v li .search_box .icon svg path {
+  fill: #467FBF;
+}
+.search_v li:not(:last-child) {
+  margin-bottom: 25px;
+}
+.search_v li p {
+  font-size: 14px;
+  color: #467FBF;
+  margin-bottom: 16px;
+}
+
