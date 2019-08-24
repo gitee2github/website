@@ -3,20 +3,22 @@
         <div class="events active">
                 <h2>
                     Upcoming Events
-                    <a href="#">
+                    <a href="/events.html">
                         <p>more ></p>
                     </a>
                 </h2>
 
                 <ul>
-                {{ $posts := .Paginate (where .Data.Pages "Type" "events") }}
-                {{ range first 4 $posts.Pages }}
+                {{ $events := .Paginate (where .Data.Pages "Type" "events") }}
+                {{ range first 2 $events.Pages }}
 
                 <li>
                         <h6>
                             <span>EVENTS</span> <i>|</i> <span>{{ .Date.Format .Site.Params.date_format }}</span>
                         </h6>
-                        <p>{{ .Title }}</p>
+                        <a href="{{ .URL }}">
+                            <p>{{ .Title }}</p>
+                        </a>
                 </li>
                 {{ end }}
             </ul>

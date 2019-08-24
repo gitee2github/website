@@ -10,8 +10,8 @@
     </h2>
 
     <ul>
-        {{ $posts := .Paginate (where .Data.Pages "Type" "news") }}
-        {{ range first 4 $posts.Pages }}
+        {{ $posts := where .Data.Pages "Type" "news" }}
+        {{ range first 4 $posts }}
 
         <li>
             <h6>
