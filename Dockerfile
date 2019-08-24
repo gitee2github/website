@@ -14,9 +14,10 @@ RUN mkdir -p /usr/local/src && \
     curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz | tar -xz && \
     mv hugo /usr/local/bin/
 
-RUN mkdir -p /src/ && \
-    cd /src/ && \
-    git clone https://gitee.com/openeuler/website && \
+RUN mkdir -p /src/website/
+COPY . /src/website/
+
+RUN cd /src/ && \
     git clone -b stable https://gitee.com/openeuler/docs && \
     rm -rf /src/website/content/docs/ && \
     rm -rf /src/website/content/menu/ && \
