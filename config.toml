@@ -50,7 +50,7 @@ paginate = 10
 [[menu.main]]
     identifier = "events"
     name = "Upcoming Events"
-    url = "/news.html"
+    url = "/events.html"
     parent = "community"
     weight = 2
 
