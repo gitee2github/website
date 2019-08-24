@@ -27,22 +27,72 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "/news.html"
+    weight = 2
+    hasChilren = true
+
+[[menu.main]]
+    identifier = "mails"
+    name = "Mail Lists"
+    url = "/news.html"
+    parent = "community"
+    weight = 10
+
+[[menu.main]]
+    identifier = "irc"
+    name = "IRC"
+    url = "/news.html"
+    parent = "community"
+    weight = 9
+
+[[menu.main]]
+    identifier = "events"
+    name = "Upcoming Events"
+    url = "/news.html"
+    parent = "community"
+    weight = 2
+
+[[menu.main]]
     identifier="news"
     name = "News"
     url  = "/news.html"
-    weight = 2
+    parent = "community"
+    weight = 1
 
 [[menu.main]]
     identifier = "docs"
     name = "DOCS"
     url  = "/docs/home.html"
-    weight = 3
+    weight = 4
+    hasChildren = true
+
+[[menu.main]]
+    identifier = "get-start"
+    name = "Getting Started"
+    parent = "docs"
+    url = "/docs/home.html"
+    weight=1
+
+[[menu.main]]
+    identifier = "user-guide"
+    name = "User Guide"
+    parent = "docs"
+    url = "/docs/home.html"
+
+[[menu.main]]
+    identifier = "app-dev"
+    name = "App Development"
+    parent = "docs"
+    url = "/docs/home.html"
+    weight=3
 
 [[menu.main]]
     identifier = "download"
     name = "Download"
     url  = "/download.html"
-    weight = 4
+    weight = 5
 
 
 # [[menu.main]]
@@ -71,16 +121,66 @@ paginate = 10
     weight = 1
 
 [[languages.zh.menu.main]]
+    identifier = "community"
+    name = "社区"
+    url = "/zh/faq.html"
+    weight = 2
+    hasChilren = true
+
+[[languages.zh.menu.main]]
+    identifier = "mails"
+    name = "邮件列表"
+    url = "/zh/news.html"
+    parent = "community"
+    weight = 10
+
+[[languages.zh.menu.main]]
+    identifier = "irc"
+    name = "IRC"
+    url = "/zh/news.html"
+    parent = "community"
+    weight = 9
+
+[[languages.zh.menu.main]]
+    identifier = "events"
+    name = "未来事件"
+    url = "/zh/news.html"
+    parent = "community"
+    weight = 2
+
+[[languages.zh.menu.main]]
     identifier="news"
     name = "新闻"
     url  = "/zh/news.html"
-    weight = 2
+    weight = 1
+    parent = "community"
 
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
     url  = "/zh/docs/home.html"
     weight = 3
+    hasChidren = true
+
+[[languages.zh.menu.main]]
+    identifier = "get-start"
+    name = "快速入门"
+    parent = "docs"
+    url = "/zh/docs/home.html"
+    weight=1
+
+[[languages.zh.menu.main]]
+    identifier = "user-guide"
+    name = "用户指南"
+    parent = "docs"
+    url = "/zh/docs/home.html"
+
+[[languages.zh.menu.main]]
+    identifier = "app-dev"
+    name = "应用开发"
+    parent = "docs"
+    url = "/zh/docs/home.html"
+    weight=3
 
 [[languages.zh.menu.main]]
     identifier = "download"
