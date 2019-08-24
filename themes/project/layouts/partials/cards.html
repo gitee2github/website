@@ -1,19 +1,20 @@
 {{ if isset .Site.Params "cards" }}
 {{ if .Site.Params.cards.enable }}
-{{ if gt (len .Site.Data.cards) 0 }}
+{{ if gt (len .Site.Params.card) 0 }}
         <div class="bannernew">
                 <div class="content">
-                    <h2>Welcome to openEuler</h2>
-                    <p>The openEuler Project is a community-driven free software effort focused on delivering a robust
-                        open source ecosystem.</p>
+                    <h2>{{ .Site.Params.cards.title }}</h2>
+                    <p> {{ .Site.Params.Cards.description }}</p>
                 </div>
                 <div class="cards">
                         <ul>
-                            {{ range .Site.Data.cards }}
+                            {{ range .Site.Params.card }}
                             <li>
+                                 <a href="{{ .url }}">
                                     <img src="{{ .image }}" alt="{{ .title }}">
                                     <h3>{{ .title }}</h3>
                                     <p>{{ .description }}</p>
+                                </a>
                             </li>
                             {{ end }}
                         </ul>

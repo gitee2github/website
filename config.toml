@@ -283,9 +283,83 @@ paginate = 10
 
 [params.cards]
     enable = true
+    title = "Welcome to openEuler"
+    description = "The openEuler Project is a community-driven free software effort focused on delivering an operation system open source ecosystem."
+
+[languages.zh.params.cards]
+    enable = true
+    title = "欢迎加入openEuler社区"    
+    description = "openEuler社区致力于构建一个开放的操作系统社区"
+
+# cards 
+[[params.card]]
+    image = "/img/1.svg"
+    title = "Contribution"
+    url = "https://gitee.com/openeuler/"
+    description = "Easy to use operating system for laptop and desktop computers"
+    weight = 1
+
+[[params.card]]
+    image = "/img/2.svg"
+    title = "Getting Started"
+    url = "/docs/home.html"
+    description = "We puts you in control of all your infrastructure and services"
+    weight = 2
+
+[[params.card]]
+    image = "/img/3.svg"
+    title = "Cooperation"
+    url = "/docs/home.html"
+    description = "We provides a trusted open source platform as a strong foundation"
+    weight = 3
+
+[[params.card]]
+    image = "/img/4.svg"
+    title = "Application Development"
+    url = "/docs/home.html"
+    description = "We are always free for anyone to use, modify and development"
+    weight = 4
+
+#  chinese cards
+[[languages.zh.params.card]]
+    image = "/img/1.svg"
+    title = "社区贡献"
+    url = "https://gitee.com/openeuler/"
+    description = "点击这里了解如何参与社区贡献"
+    weight = 1
+
+[[languages.zh.params.card]]
+    image = "/img/2.svg"
+    title = "快速入门"
+    url = "/zh/docs/home.html"
+    description = "点击这里了解如何快速入门"
+    weight = 2
+
+[[languages.zh.params.card]]
+    image = "/img/3.svg"
+    title = "合作伙伴"
+    url = "/docs/home.html"
+    description = "了解更多合作伙伴"
+    weight = 3
+
+[[languages.zh.params.card]]
+    image = "/img/4.svg"
+    title = "应用开发"
+    url = "/zh/docs/home.html"
+    description = "点击这里如何开发应用"
+    weight = 4
+
+# why party configuration
+[params.why]
+    enable = true
 
 [params.emails]
     enable = true
+    title = "Email Subscribe"
+
+[languages.zh.params.emails]
+    enable = true
+    title = "邮件订阅"
 
 [params.news]
     enable = true
@@ -327,6 +401,12 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "Our Partners"
+    subtitle = ""
+
+
+[languages.zh.params.clients]
+    enable = true
+    title = "合作伙伴"
     subtitle = ""
 
 [params.recent_posts]

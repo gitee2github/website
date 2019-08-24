@@ -1,25 +1,23 @@
 {{ if isset .Site.Params "emails" }}
 {{ if .Site.Params.emails.enable }}
-{{ if gt (len .Site.Data.emails) 0 }}
 
 <div class="e_mail">
-        <h2>E-mail Subscription</h2>
+        <h2>{{ .Site.Params.emails.title }}</h2>
         <ul>
-                {{ range .Site.Data.emails }}
+                 {{ range where .Data.Pages "Type" "maillist" }}
                 <li>
                         <div>
-                                <h3>{{ .emailaddress }}</h3>
-                                <p> {{ .description }}</p>
+                                <h3>{{ .Params.emailaddress }}</h3>
+                                <p> {{ .Params.description }}</p>
                         </div>
 
-                        <a href="{{ .websitelink}}" target="_blank">
-                                <div class="btn">{{ .buttontext }} </div>
+                        <a href="{{ .Params.websitelink}}" target="_blank">
+                                <div class="btn">{{ .Params.buttontext }} </div>
                         </a>
                 </li>
                 {{ end }}
         </ul>
 </div>
 
-{{ end }}
 {{ end }}
 {{ end }}

@@ -1,15 +1,19 @@
+{{ if isset .Site.Params "why" }}
+{{ if .Site.Params.why.enable }}
 <div class="reason">
-        <h2>Why openEuler</h2>
+    {{ $whys := where .Data.Pages "Type" "intro" }}
+    {{ range first 1 $whys }}
+        <h2>{{ .Params.question }}</h2>
         <div class="content_why">
             <div class="bg">
-                <h3>OpenEuler</h3>
-                <p>An innovative, free, and open source platform</p>
+                <h3>{{ .Params.Title }}</h3>
+                <p>{{ .Params.Brief }}</p>
             </div>
             <div class="detail">
-                <p>For users, we offer a consistent manageable platform that suits a wide variety of deployments.
-                </p>
-                <p> For open source communities, we offer a solid, predictable base to build upon, along with
-                    extensive resources to build, test, release, and maintain their code.</p>
+                {{ .Content }}
             </div>
         </div>
+    {{ end }}
 </div>
+{{ end }}
+{{ end }}
