@@ -80,6 +80,7 @@ paginate = 10
     name = "Tutorials"
     parent = "docs"
     url = "/docs/home.html"
+    weight = 2
 
 [[menu.main]]
     identifier = "develop"
@@ -181,6 +182,7 @@ paginate = 10
     name = "教程"
     parent = "docs"
     url = "/zh/docs/home.html"
+    weight = 2
 
 [[languages.zh.menu.main]]
     identifier = "development"
