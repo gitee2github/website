@@ -76,17 +76,24 @@ paginate = 10
     weight=1
 
 [[menu.main]]
-    identifier = "user-guide"
-    name = "User Guide"
+    identifier = "tutorials"
+    name = "Tutorials"
     parent = "docs"
     url = "/docs/home.html"
 
 [[menu.main]]
-    identifier = "app-dev"
-    name = "App Development"
+    identifier = "develop"
+    name = "Development"
     parent = "docs"
     url = "/docs/home.html"
     weight=3
+
+[[menu.main]]
+    identifier = "reference"
+    name = "Reference"
+    parent = "docs"
+    url = "/docs/home.html"
+    weight = 4
 
 [[menu.main]]
     identifier = "download"
@@ -170,17 +177,24 @@ paginate = 10
     weight=1
 
 [[languages.zh.menu.main]]
-    identifier = "user-guide"
-    name = "用户指南"
+    identifier = "tutorials"
+    name = "教程"
     parent = "docs"
     url = "/zh/docs/home.html"
 
 [[languages.zh.menu.main]]
-    identifier = "app-dev"
-    name = "应用开发"
+    identifier = "development"
+    name = "开发"
     parent = "docs"
     url = "/zh/docs/home.html"
     weight=3
+
+[[languages.zh.menu.main]]
+    identifier = "reference"
+    name = "参考"
+    parent = "docs"
+    url = "/zh/docs/home.html"
+    weight = 4
 
 [[languages.zh.menu.main]]
     identifier = "download"
