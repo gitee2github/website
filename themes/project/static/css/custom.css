@@ -238,42 +238,39 @@
   display: flex;
 }
 
-#footer {
-  padding: 44px 270px 50px;
+footer {
+  padding: 44px 30px 50px;
   background: #111;
   color: #fff;
+}
+footer .foot {
+  max-width: 1366px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.container h2 {
-  font-family: "Microsoft YaHei";
-  font-size: 40px;
-}
-
-footer .container img {
-  width: 16px;
-  height: 8px;
-}
-
-#footer h2 {
-  margin-top: 0px;
-  margin-bottom: 16px;
-}
-
-footer svg {
+footer .contact svg {
   width: 14px;
 }
-footer svg path {
+footer .contact svg path {
   fill: #fff;
 }
-
+footer .contact p {
+  margin:0 0 0 10px;
+  font-size: 16px;
+}
+footer .contact h2 {
+  margin-bottom: 16px;
+  margin-top: 0px;
+  font-size: 40px;
+  color: #fff;
+}
 footer .notice {
   width: 570px;
-  font-size: 12px;
+  font-size: 13px;
   color: #909090;
-  line-height: 17px;
+  line-height: 28px;
 }
 footer .notice span {
   color: #5F9BDE;
