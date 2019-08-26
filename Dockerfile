@@ -19,12 +19,7 @@ COPY . /src/website/
 
 RUN cd /src/ && \
     git clone -b stable https://gitee.com/openeuler/docs && \
-    rm -rf /src/website/content/docs/ && \
-    rm -rf /src/website/content/menu/ && \
-    mkdir -p /src/website/content/docs/ && \
-    mkdir -p /src/website/content/menu/ && \
-    cp -rf /src/docs/content/docs/* /src/website/content/docs/ && \
-    cp -rf /src/docs/content/menu/* /src/website/content/menu/ && \
+    cp -rf /src/docs/content/* /src/website/content/ && \
     cd /src/website && /usr/local/bin/hugo -b / && \
     cp -rf /src/website/public/* /usr/share/nginx/html/ && \
     chmod -R 755 /usr/share/nginx/html
