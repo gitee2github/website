@@ -418,6 +418,8 @@ paginate = 10
 
 [languages.en]
     languageCode = "en-us"
+    contentDir = "content/en"
 
 [languages.zh]
     languageCode = "zh-cn"
+    contentDir = "content/zh"
