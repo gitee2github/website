@@ -299,13 +299,7 @@ paginate = 10
 
 [params.cards]
     enable = true
-    title = "Welcome to openEuler"
-    description = "The openEuler Project is a community-driven free software effort focused on delivering an operation system open source ecosystem."
 
-[languages.zh.params.cards]
-    enable = true
-    title = "欢迎加入openEuler社区"    
-    description = "openEuler社区致力于构建一个开放的操作系统社区"
 
 # cards 
 [[params.card]]
@@ -371,11 +365,6 @@ paginate = 10
 
 [params.emails]
     enable = true
-    title = "Email Subscribe"
-
-[languages.zh.params.emails]
-    enable = true
-    title = "邮件订阅"
 
 [params.news]
     enable = true
@@ -419,11 +408,6 @@ paginate = 10
     title = "Our Partners"
     subtitle = ""
 
-
-[languages.zh.params.clients]
-    enable = true
-    title = "合作伙伴"
-    subtitle = ""
 
 [params.recent_posts]
     enable = true
