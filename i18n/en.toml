@@ -1,6 +1,6 @@
 # main page
 [main_partner_title]
-other = "Our Partners"
+other = "Members"
 
 
 [main_email_subscribe_title]
@@ -27,3 +27,6 @@ other = "EVENT"
 
 [main_news_subtitle]
 other = "NEWS"
+
+[main_nav_news_name]
+other = "News"

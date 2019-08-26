@@ -26,3 +26,6 @@ other = "事件"
 
 [main_news_subtitle]
 other = "新闻"
+
+[main_nav_news_name]
+other = "新闻"
