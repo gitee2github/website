@@ -2,9 +2,9 @@
 {{ if .Site.Params.events.enable }}
         <div class="events active">
                 <h2>
-                    Upcoming Events
+                    {{ i18n "main_events_title" }}
                     <a href="/events.html">
-                        <p>more ></p>
+                        <p>{{ i18n "main_list_more" }} ></p>
                     </a>
                 </h2>
 
@@ -14,7 +14,7 @@
 
                 <li>
                         <h6>
-                            <span>EVENTS</span> <i>|</i> <span>{{ .Date.Format .Site.Params.date_format }}</span>
+                            <span>{{ i18n "main_events_subtitle" }}</span> <i>|</i> <span>{{ .Date.Format .Site.Params.date_format }}</span>
                         </h6>
                         <a href="{{ .URL }}">
                             <p>{{ .Title }}</p>

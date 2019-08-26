@@ -13,3 +13,17 @@ other = "Welcome to openEuler"
 [main_cards_description]
 other = "The openEuler Project is a community-driven free software effort focused on delivering an operation system open source ecosystem."
 
+[main_events_title]
+other = "Upcoming Events"
+
+[main_news_title]
+other = "News"
+
+[main_list_more]
+other = "more"
+
+[main_events_subtitle]
+other = "EVENT"
+
+[main_news_subtitle]
+other = "NEWS"
