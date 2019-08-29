@@ -1,4 +1,4 @@
-emailaddress: "community@openeuler.io"
-description: "The main discuss the mailboxes used"
+emailaddress: "community@openeuler.org"
+description: "The main contact point of community discussion."
 buttontext: "Subscription"
-websitelink: http://mailweb.openeuler.io/postorius/lists/community.openeuler.io
+websitelink: https://mailweb.openeuler.org/postorius/lists/community.openeuler.org

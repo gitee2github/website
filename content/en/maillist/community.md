@@ -1,6 +1,6 @@
 +++
-emailaddress = "community@openeuler.io"
-description = "The main discuss the mailboxes used"
-websitelink = "http://mailweb.openeuler.io/postorius/lists/community.openeuler.io"
+emailaddress = "community@openeuler.org"
+description = "The main discussion contact point of community"
+websitelink = "https://mailweb.openeuler.org/postorius/lists/community.openeuler.org"
 buttontext = "Subscription"
 +++

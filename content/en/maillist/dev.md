@@ -1,6 +1,6 @@
 +++
-emailaddress = "dev@openeuler.io"
-description = "The main list for dev"
-websitelink = "http://mailweb.openeuler.io/postorius/lists/dev.openeuler.io"
+emailaddress = "dev@openeuler.org"
+description = "Development discussion contact point, technology mail threads"
+websitelink = "https://mailweb.openeuler.org/postorius/lists/dev.openeuler.org"
 buttontext = "Subscription"
 +++
