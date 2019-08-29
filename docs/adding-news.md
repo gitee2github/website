@@ -20,15 +20,22 @@ All above content except banner image will be defined in one file under ```conte
 
 so, the folder structure would be:
 
-|__content/en/news/my-news.md
-|__static/img/my-news-banner.png
+.
++--content
+|  +--en
+|  |  +--news
+|  |  |  +--my-news.md
++--static
+|  +--img
+|  |  +--my-news-banner.png
 
-Note: content file must locates under ```news``` folder. however banner iamge can locates whatever sub-dir you want, but be sure you have configuration the path correctly. please step to next section for more file style.
+***Note***: content file must locates under ```news``` folder. however banner iamge can locates whatever sub-dir you want, but be sure you have configuration the path correctly. please step to next section for more file style.
 
 ### Header definition
 
 A news file content two parties, one is the header configuration, another is the content. the header definition starts and end with ```+++``` or ```---```. Note: the sign number must be ***3***. e.g.
 
+```
 +++
 title = "openEuler community meetup held in Shanghai"
 date = "2019-10-10T13:50:46+02:00"
@@ -37,8 +44,9 @@ author = "openEuler"
 description = "The first meetup held in shanghai, there are more 500+ attenders joined this meetup."
 banner = "img/banners/banner-1.jpg"
 +++
+```
 
-Note:
+***Note***:
 - banner: a path starts with ```img```.
 - categories: mutil-value supports, this value is a list of strings, echo one is a category.
 - date: we recommend flowing the example style.
@@ -47,6 +55,7 @@ the remain content following the header definition is the news characters.
 
 ### Example
 
+```
 +++
 title = "openEuler community meetup held in Shanghai"
 date = "2019-10-10T13:50:46+02:00"
@@ -57,9 +66,13 @@ banner = "img/banners/banner-1.jpg"
 
 
 10th, Oct, 2019. openEuler held the first meetup in Shanghai, China. the chairman Mr.Li has a wonderful speech and give us a good blueprint that openEuler will reach out.....
+```
 
 
+### Getting Help
 
+Please contact the infrastructure team if meeting any question:
 
-
+- Mail: infra@openeuler.org
+- IRC: #openEuler-infra
 
