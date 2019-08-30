@@ -27,10 +27,43 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
+    identifier = "user"
+    name = "User"
+    url = "/introduction.html"
+    weight = 2
+
+[[menu.main]]
+    identifier = "intro"
+    name = "Brief Introduction"
+    url = "/introduction.html"
+    parent = "user"
+    weight = 1
+
+[[menu.main]]
+    identifier = "story"
+    name = "User Story"
+    url = "/story.html"
+    parent = "user"
+    weight = 2
+
+[[menu.main]]
+    identifier = "developer"
+    name = "Developer"
+    url = "/contribution.html"
+    weight = 3
+
+[[menu.main]]
+    identifier = "contribution"
+    name = "Contribution"
+    url = "/contribution.html"
+    weight = 1
+    parent = "developer"
+
+[[menu.main]]
     identifier = "community"
     name = "Community"
     url = "/news.html"
-    weight = 2
+    weight = 4
     hasChilren = true
 
 [[menu.main]]
@@ -65,7 +98,7 @@ paginate = 10
     identifier = "docs"
     name = "DOCS"
     url  = "/docs/home.html"
-    weight = 4
+    weight = 5
     hasChildren = true
 
 [[menu.main]]
@@ -100,20 +133,8 @@ paginate = 10
     identifier = "download"
     name = "Download"
     url  = "/download.html"
-    weight = 5
-
-
-# [[menu.main]]
-#    identifier = "faq"
-#    name = "FAQ"
-#    url  = "/faq.html"
-#    weight = 5
-
-[[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url  = "/contact.html"
     weight = 6
+
 
 [[menu.main]]
     identifier = "lang"
@@ -129,10 +150,43 @@ paginate = 10
     weight = 1
 
 [[languages.zh.menu.main]]
+    identifier = "user"
+    name = "用户"
+    url = "/zh/introduction.html"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "intro"
+    name = "软件介绍"
+    url = "/zh/introduction.html"
+    parent = "user"
+    weight = 1
+
+[[languages.zh.menu.main]]
+    identifier = "story"
+    name = "用户故事"
+    url = "/zh/story.html"
+    parent = "user"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "developer"
+    name = "开发者"
+    url = "/zh/contribution.html"
+    weight = 3
+
+[[languages.zh.menu.main]]
+    identifier = "contribution"
+    name = "如何贡献"
+    url = "/zh/contribution.html"
+    weight = 1
+    parent = "developer"
+
+[[languages.zh.menu.main]]
     identifier = "community"
     name = "社区"
     url = "/zh/faq.html"
-    weight = 2
+    weight = 4
     hasChilren = true
 
 [[languages.zh.menu.main]]
@@ -167,7 +221,7 @@ paginate = 10
     identifier = "docs"
     name = "文档"
     url  = "/zh/docs/home.html"
-    weight = 3
+    weight = 5
     hasChidren = true
 
 [[languages.zh.menu.main]]
@@ -202,13 +256,8 @@ paginate = 10
     identifier = "download"
     name = "下载"
     url  = "/zh/download.html"
-    weight = 4
-
-[[languages.zh.menu.main]]
-    identifier = "contact"
-    name = "联系我们"
-    url  = "/zh/contact.html"
     weight = 6
+
 
 [[languages.zh.menu.main]]
     identifier = "lang"
