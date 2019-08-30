@@ -30,3 +30,9 @@ other = "NEWS"
 
 [main_nav_news_name]
 other = "News"
+
+# 404 page
+[404_title]
+other = "Page Not Found"
+[404_homepage]
+other = "Go to Homepage"
