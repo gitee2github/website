@@ -2,7 +2,7 @@
 
 ### Brief Introduction
 
-Website is openEuler community contents management system base on [Hugo](https://gohugo.io/) and [Universal Theme for Hugo](https://github.com/devcows/hugo-universal-theme), maintained by this project [maintainers](#Maintainers), which publish on https://openeuler.org. Now we are under developing. you are welcome to join us.
+Website is openEuler community contents management system base on [Hugo](https://gohugo.io/) framework, [Universal Theme for Hugo](https://github.com/devcows/hugo-universal-theme) theme and [Hugo Book](https://github.com/alex-shpak/hugo-book) theme, maintained by this project [maintainers](#Maintainers), which publish on https://openeuler.org. Now we are under developing. you are welcome to join us.
 
 ### Installation
 
