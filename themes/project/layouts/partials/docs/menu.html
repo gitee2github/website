@@ -3,7 +3,9 @@
 {{ partial "docs/inject/menu-before" . }}
 
 {{ if .Site.Params.BookMenuBundle }}
+<div id="docstreeview">
     {{ partial "docs/menu-bundle" . }}
+</div>
 {{ else }}
     {{ partial "docs/menu-filetree" . }}
 {{ end }}

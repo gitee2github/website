@@ -348,7 +348,12 @@ footer .notice span {
 }
 
 #error-page .box {
-  margin-top: 60px;
+  margin-top: 148px;
+  margin-bottom: 148px;
+}
+
+.jstree-default .jstree-anchor {
+  height: 35px !important;
 }
 
 html {
