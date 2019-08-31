@@ -2,8 +2,7 @@
 
 ### Brief Introduction
 
-Website is openEuler community contents management system. which publish on http://openeuler.io. Now we are under developing.
-you are welcome to join us.
+Website is openEuler community contents management system base on [Hugo](https://gohugo.io/) and [Universal Theme for Hugo](https://github.com/devcows/hugo-universal-theme), maintained by this project [maintainers](#Maintainers), which publish on https://openeuler.org. Now we are under developing. you are welcome to join us.
 
 ### Installation
 
@@ -27,6 +26,10 @@ The website will serving on http://your-server-ip:80
 docker rm -f `cat web.pid` && rm -f web.pid
 ```
 
+### Maintainers
+
+1. freesky-edward
+2. edisonxiang
 
 ### Contribution
 
