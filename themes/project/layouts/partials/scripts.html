@@ -1,6 +1,9 @@
 {{ template "_internal/google_analytics.html" . }}
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.4/jstree.min.js"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -20,13 +23,15 @@
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('#docstreeview').jstree();
-        $('#docstreeview').jstree().open_all();
-        $('#docstreeview').jstree().hide_dots();
-        $('#docstreeview').jstree().hide_icons();
-        $('#docstreeview').on("changed.jstree", function(e, data) {
-            location.href=data.node.a_attr.href;
-        });
-      });
+    $(document).ready(function () {
+        if ($('docstreeview').length) {
+            $('#docstreeview').jstree();
+            $('#docstreeview').jstree().open_all();
+            $('#docstreeview').jstree().hide_dots();
+            $('#docstreeview').jstree().hide_icons();
+            $('#docstreeview').on("changed.jstree", function (e, data) {
+                location.href = data.node.a_attr.href;
+            });
+        }
+    });
 </script>

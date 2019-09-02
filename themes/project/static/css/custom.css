@@ -290,6 +290,27 @@ footer .notice span {
   align-items: center;
 }
 
+.owl-carousel.customers {
+  display: block;
+}
+
+.owl-carousel.customers .item {
+ display: inline;
+}
+
+.owl-carousel.customers .item img {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.owl-carousel.customers .item a:hover {
+  text-decoration: none;
+}
+
+.owl-carousel.customers .item a:focus {
+  text-decoration: none;
+}
+
 .search_v {
   padding-top: 30px;
   width: 260px;
