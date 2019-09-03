@@ -1,0 +1,13 @@
+<div class="div-archives">
+    {{ range where $.Page.Site.Pages "Type" "maillist" }}
+    {{ if .Params }}
+    <div>
+        <ul>
+            <li>
+                <b>{{ .Params.listname }}</b> Archives: <a href="{{ .Params.archivelink}}">{{ .Params.archivelink }}</a>
+            </li>
+        </ul>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
