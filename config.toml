@@ -76,7 +76,7 @@ paginate = 10
 [[menu.main]]
     identifier = "irc"
     name = "IRC"
-    url = "/news.html"
+    url = "/community/irc.html"
     parent = "community"
     weight = 9
 
@@ -199,7 +199,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "irc"
     name = "IRC"
-    url = "/zh/news.html"
+    url = "/zh/community/irc.html"
     parent = "community"
     weight = 9
 
