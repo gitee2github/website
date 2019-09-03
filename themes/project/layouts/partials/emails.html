@@ -4,7 +4,9 @@
 <div class="e_mail">
         <h2>{{ i18n "main_email_subscribe_title" }}</h2>
         <ul>
-                 {{ range where .Data.Pages "Type" "maillist" }}
+                {{ $mls := .Paginate (where .Data.Pages "Type" "maillist") }}
+                {{ $sortedmls :=  $mls.Pages.ByParam "weight" }}
+                {{ range first 2 $sortedmls}}
                 <li>
                         <div>
                                 <h3>{{ .Params.emailaddress }}</h3>
@@ -12,7 +14,7 @@
                         </div>
 
                         <a href="{{ .Params.websitelink}}" target="_blank">
-                                <div class="btn">{{ .Params.buttontext }} </div>
+                                <div class="btn">{{ i18n "main_email_subscribe_buttontext" }} </div>
                         </a>
                 </li>
                 {{ end }}

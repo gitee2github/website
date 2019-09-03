@@ -5,6 +5,8 @@ other = "合作伙伴"
 [main_email_subscribe_title]
 other = "邮件订阅"
 
+[main_email_subscribe_buttontext]
+other = "订阅"
 
 [main_cards_title]
 other = "欢迎加入openEuler社区"

@@ -2,10 +2,11 @@
 [main_partner_title]
 other = "Members"
 
-
 [main_email_subscribe_title]
 other = "Email Subscribe"
 
+[main_email_subscribe_buttontext]
+other = "Subscription"
 
 [main_cards_title]
 other = "Welcome to openEuler"
