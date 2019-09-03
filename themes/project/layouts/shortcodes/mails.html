@@ -1,17 +1,28 @@
-<div class="e_mail">
-    <h2>{{ i18n "main_email_subscribe_title" }}</h2>
-    {{ range where $.Page.Site.Pages "Type" "maillist" }}
-    {{ if .Params }}
-    <li>
-        <div>
-            <h3>{{ .Params.emailaddress }}</h3>
-            <p> {{ .Params.description }}</p>
-        </div>
-
-        <a href="{{ .Params.websitelink}}" target="_blank">
-            <div class="btn">{{ .Params.buttontext }} </div>
-        </a>
-    </li>
-    {{ end }}
-    {{ end }}
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>List name</th>
+                <th>Post address</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range where $.Page.Site.Pages "Type" "maillist" }}
+            {{ if .Params }}
+            <tr>
+                <td>
+                    <a href="{{ .Params.websitelink}}">{{ .Params.listname }}</a>
+                </td>
+                <td>
+                    <a href="{{ .Params.archivelink}}">{{ .Params.emailaddress }}</a>
+                </td>
+                <td>
+                    {{ .Params.description }}
+                </td>
+            </tr>
+            {{ end }}
+            {{ end }}
+        </tbody>
+    </table>
 </div>

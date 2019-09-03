@@ -377,6 +377,10 @@ footer .notice span {
   height: 35px !important;
 }
 
+.table-bordered.table-striped td {
+  white-space: nowrap;
+}
+
 html {
   min-width: 1280px;
   max-width: 1920px;
