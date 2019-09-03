@@ -69,7 +69,7 @@ paginate = 10
 [[menu.main]]
     identifier = "mails"
     name = "Mail Lists"
-    url = "/news.html"
+    url = "/community/mails.html"
     parent = "community"
     weight = 10
 
@@ -192,7 +192,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "mails"
     name = "邮件列表"
-    url = "/zh/news.html"
+    url = "/zh/community/mails.html"
     parent = "community"
     weight = 10
 
