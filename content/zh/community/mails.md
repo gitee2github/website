@@ -1,31 +1,29 @@
 +++
-title = "Mail Lists"
+title = "邮件列表"
 id = "mails"
 +++
 
-### How Do I Subscribe To A Mailing List?
+### 如何订阅邮件列表？
 
-Welcome! If you have never subscribed to a mailing list before, here are some suggestions.
+欢迎！如果您以前从未订阅过邮件列表，下面有一些建议。
 
-* Click the link in the list name column for the mailing list to which you wish to subscribe.
-* You will be taken to a page for that mailing list, there will be instructions about how to subscribe.
-* Read the instructions, you will probably be asked for an email address you wish to use to subscribe to the mailing list.
-* Enter your email address, you will receive an email to the email address you entered asking you to confirm your subscription.
-* Reply the email you receive to confirm your subscription.
-* At last you will receive a welcome email from the mailing list.
+* 点击您想要订阅的邮件列表的列表名称链接。
+* 浏览器将跳转到该邮件列表的页面，那里将提供有关如何订阅的说明。
+* 阅读订阅说明，您可能会被要求提供一个您希望用来订阅邮件列表的电子邮件地址。
+* 输入您的电子邮件地址，您将收到一封电子邮件，要求您确认订阅。
+* 回复您收到的电子邮件以确认您的订阅。
+* 最后您将收到来自一封来自邮件列表的欢迎邮件。
 
 {{< mails >}}
 
-### How Do I Post A Message To A Mailing List?
+### 如何发送邮件到邮件列表？
 
-To post a message to a mailling list,
-please send an email to the mailling list post address which is listed in the above table.
+要将邮件发送到指定的邮件列表，请向上表中列出的邮件地址发送您的电子邮件。
 
-So that all the community list members will receive an email from you.
+这样所有在这个邮件列表中的社区成员都能收到您的电子邮件。
 
-### How Do I See Prior Postings To A Mailing List?
+### 如何查看以前的邮件列表？
 
-To see the collection of prior postings to a mailling list,
-please visist the following archives:
+要查看邮件列表中以前发布的电子邮件，请访问以下存档地址：
 
 {{< archives >}}
