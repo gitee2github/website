@@ -69,3 +69,9 @@
 
 - id: publishedOn
   translation: "在"
+
+- id: downloadImage
+  translation: "下载镜像"
+
+- id: versionsTitle
+  translation: "版本"

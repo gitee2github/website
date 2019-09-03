@@ -69,3 +69,9 @@
 
 - id: publishedOn
   translation: "on"
+
+- id: downloadImage
+  translation: "Download Image"
+
+- id: versionsTitle
+  translation: "Versions"

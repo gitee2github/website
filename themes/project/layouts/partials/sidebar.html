@@ -1,5 +1,11 @@
-{{ partial "widgets/search.html" . }}
+{{ if isset . "downloadPage" }}
+    {{ partial "widgets/search.html" .context }}
 
-{{ partial "widgets/categories.html" . }}
+    {{ partial "widgets/versions.html" .context }}
+{{ else }}
+    {{ partial "widgets/search.html" . }}
 
-{{ partial "widgets/tags.html" . }}
+    {{ partial "widgets/categories.html" . }}
+
+    {{ partial "widgets/tags.html" . }}
+{{ end }}

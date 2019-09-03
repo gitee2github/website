@@ -472,3 +472,9 @@ paginate = 10
 [languages.zh]
     languageCode = "zh-cn"
     contentDir = "content/zh"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  version = "versions"
+
