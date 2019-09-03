@@ -389,6 +389,11 @@ footer .notice span {
   line-height: 25px;  
 }
 
+.divmail ul li a {
+  margin-left: 10px;
+}
+
+
 html {
   min-width: 1280px;
   max-width: 1920px;
