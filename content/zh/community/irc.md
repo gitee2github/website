@@ -3,26 +3,25 @@ title = "IRC"
 id = "irc"
 +++
 
-IRC or Internet Relay Chat, is often used as a real-time communication capability with open source projects.
-We sincerely invite anyone wanting to ask questions or talk about all things about openEuler to the irc channels.
-openEuler uses [freenode.net](https://freenode.net/) to provide free and open source communities.
+IRC全称为Internet Relay Chat，凭借强大的实时通信能力，在开源项目中被大量使用。
+我们真诚地邀请任何想问问题或谈论有关openEuler的人加入IRC频道参与讨论。
+openEuler使用[freenode.net](https://freenode.net/)提供免费和开源的沟通和交流。
 
-IRC software can be found for all operating systems.
-The IRC clients comparison chart on Wikipedia can help you pick one for your operating system.
-You don't have to have a complex setup to use IRC.
-You can use the web client for [freenode.net](https://freenode.net/),
-which doesn't require any download or setup.
-Just pick a nickname and join openEuler IRC channels.
+IRC软件可用于所有操作系统。
+维基百科上有IRC客户端的对比，您可以根据您的操作系统选择一个。
+使用IRC不需要复杂的配置。如果您不想下载和安装软件，
+您可以使用Web客户端[freenode.net](https://freenode.net/)。
+只需选择一个昵称就可以加入openEuler IRC频道。
 
-### openEuler IRC Channels
+### openEuler IRC频道
 
 {{< ircs "IRC频道" "描述" >}}
 
-### Others You May Want To Know
+### 其他您可能想知道的
 
-If you want to start a new IRC channel,
-please contact with the infrastructure team in [#openeuler-infra](https://webchat.freenode.net/#openeuler)
-or send email to <infra@openeuler.org> to ensure it gets registered appropriately.
+如果您要创建一个新的IRC频道，
+请通过IRC频道[#openeuler-infra](https://webchat.freenode.net/#openeuler)，
+或者发送邮件到<infra@openeuler.org>联系基础设施团队寻求帮助。
 
-Many IRC channels are logged and recordings are publicly accessible.
-If you're concerned about privacy, you may consider not to write sensitive data in these channels.
+许多IRC频道都记录日志，并且日志记录可以公开访问。
+如果您有隐私数据，您可以考虑不在这些频道中敲入敏感数据。
