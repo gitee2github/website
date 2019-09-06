@@ -4,7 +4,7 @@ theme = "project"
 themesDir = "./themes"
 # Site language. Available translations in the theme's `/i18n` directory.
 languageCode = "en-us"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -23,81 +23,81 @@ paginate = 10
 [[menu.main]]
     identifier="home"
     name = "Home"
-    url  = "/"
+    url  = "/en"
     weight = 1
 
 # [[menu.main]]
 #     identifier = "user"
 #     name = "User"
-#     url = "/introduction.html"
+#     url = "/en/introduction.html"
 #     weight = 2
 #
 # [[menu.main]]
 #     identifier = "intro"
 #     name = "Brief Introduction"
-#     url = "/introduction.html"
+#     url = "/en/introduction.html"
 #     parent = "user"
 #     weight = 1
 #
 # [[menu.main]]
 #     identifier = "story"
 #     name = "User Story"
-#     url = "/story.html"
+#     url = "/en/story.html"
 #     parent = "user"
 #     weight = 2
 
 [[menu.main]]
     identifier = "developer"
     name = "Developer"
-    url = "/contribution.html"
+    url = "/en/contribution.html"
     weight = 3
 
 # [[menu.main]]
 #     identifier = "contribution"
 #     name = "Contribution"
-#     url = "/contribution.html"
+#     url = "/en/contribution.html"
 #     weight = 1
 #     parent = "developer"
 
 [[menu.main]]
     identifier = "community"
     name = "Community"
-    url = "/news.html"
+    url = "/en/news.html"
     weight = 4
     hasChilren = true
 
 [[menu.main]]
     identifier = "mails"
     name = "Mail Lists"
-    url = "/community/mails.html"
+    url = "/en/community/mails.html"
     parent = "community"
     weight = 10
 
 [[menu.main]]
     identifier = "irc"
     name = "IRC"
-    url = "/community/irc.html"
+    url = "/en/community/irc.html"
     parent = "community"
     weight = 9
 
 [[menu.main]]
     identifier = "events"
     name = "Upcoming Events"
-    url = "/events.html"
+    url = "/en/events.html"
     parent = "community"
     weight = 2
 
 [[menu.main]]
     identifier="news"
     name = "News"
-    url  = "/news.html"
+    url  = "/en/news.html"
     parent = "community"
     weight = 1
 
 [[menu.main]]
     identifier = "docs"
     name = "DOCS"
-    url  = "/docs/home.html"
+    url  = "/en/docs/home.html"
     weight = 5
     hasChildren = true
 
@@ -105,122 +105,122 @@ paginate = 10
     identifier = "get-start"
     name = "Getting Started"
     parent = "docs"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     weight=1
 
 [[menu.main]]
     identifier = "tutorials"
     name = "Tutorials"
     parent = "docs"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     weight = 2
 
 [[menu.main]]
     identifier = "develop"
     name = "Development"
     parent = "docs"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     weight=3
 
 [[menu.main]]
     identifier = "reference"
     name = "Reference"
     parent = "docs"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     weight = 4
 
 [[menu.main]]
     identifier = "download"
     name = "Download"
-    url  = "/building/download.html"
+    url  = "/en/building/download.html"
     weight = 6
 
 
 [[menu.main]]
     identifier = "lang"
     name = "中文"
-    url = "../zh"
+    url = "/"
     weight = 7
 
 # Menu chinese
 [[languages.zh.menu.main]]
     dentifier="home"
     name = "主页"
-    url  = "/zh"
+    url  = "/"
     weight = 1
 
 # [[languages.zh.menu.main]]
 #     identifier = "user"
 #     name = "用户"
-#     url = "/zh/introduction.html"
+#     url = "/introduction.html"
 #     weight = 2
 #
 # [[languages.zh.menu.main]]
 #     identifier = "intro"
 #     name = "软件介绍"
-#     url = "/zh/introduction.html"
+#     url = "/introduction.html"
 #     parent = "user"
 #     weight = 1
 #
 # [[languages.zh.menu.main]]
 #     identifier = "story"
 #     name = "用户故事"
-#     url = "/zh/story.html"
+#     url = "/story.html"
 #     parent = "user"
 #     weight = 2
 
 [[languages.zh.menu.main]]
     identifier = "developer"
     name = "开发者"
-    url = "/zh/contribution.html"
+    url = "/contribution.html"
     weight = 3
 
 # [[languages.zh.menu.main]]
 #     identifier = "contribution"
 #     name = "如何贡献"
-#     url = "/zh/contribution.html"
+#     url = "/contribution.html"
 #     weight = 1
 #     parent = "developer"
 
 [[languages.zh.menu.main]]
     identifier = "community"
     name = "社区"
-    url = "/zh/faq.html"
+    url = "/faq.html"
     weight = 4
     hasChilren = true
 
 [[languages.zh.menu.main]]
     identifier = "mails"
     name = "邮件列表"
-    url = "/zh/community/mails.html"
+    url = "/community/mails.html"
     parent = "community"
     weight = 10
 
 [[languages.zh.menu.main]]
     identifier = "irc"
     name = "IRC"
-    url = "/zh/community/irc.html"
+    url = "/community/irc.html"
     parent = "community"
     weight = 9
 
 [[languages.zh.menu.main]]
     identifier = "events"
     name = "未来事件"
-    url = "/zh/news.html"
+    url = "/news.html"
     parent = "community"
     weight = 2
 
 [[languages.zh.menu.main]]
     identifier="news"
     name = "新闻"
-    url  = "/zh/news.html"
+    url  = "/news.html"
     weight = 1
     parent = "community"
 
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
-    url  = "/zh/docs/home.html"
+    url  = "/docs/home.html"
     weight = 5
     hasChidren = true
 
@@ -228,41 +228,41 @@ paginate = 10
     identifier = "get-start"
     name = "快速入门"
     parent = "docs"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     weight=1
 
 [[languages.zh.menu.main]]
     identifier = "tutorials"
     name = "教程"
     parent = "docs"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     weight = 2
 
 [[languages.zh.menu.main]]
     identifier = "development"
     name = "开发"
     parent = "docs"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     weight=3
 
 [[languages.zh.menu.main]]
     identifier = "reference"
     name = "参考"
     parent = "docs"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     weight = 4
 
 [[languages.zh.menu.main]]
     identifier = "download"
     name = "下载"
-    url  = "/zh/building/download.html"
+    url  = "/building/download.html"
     weight = 6
 
 
 [[languages.zh.menu.main]]
     identifier = "lang"
     name = "EN"
-    url = "/"
+    url = "../en"
     weight = 7
 
 # Top bar social links menu
@@ -361,21 +361,21 @@ paginate = 10
 [[params.card]]
     image = "/img/2.svg"
     title = "Getting Started"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     description = "We puts you in control of all your infrastructure and services"
     weight = 2
 
 [[params.card]]
     image = "/img/3.svg"
     title = "Cooperation"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     description = "We provides a trusted open source platform as a strong foundation"
     weight = 3
 
 [[params.card]]
     image = "/img/4.svg"
     title = "Application Development"
-    url = "/docs/home.html"
+    url = "/en/docs/home.html"
     description = "We are always free for anyone to use, modify and development"
     weight = 4
 
@@ -390,7 +390,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     description = "点击这里了解如何快速入门"
     weight = 2
 
@@ -404,7 +404,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/4.svg"
     title = "应用开发"
-    url = "/zh/docs/home.html"
+    url = "/docs/home.html"
     description = "点击这里如何开发应用"
     weight = 4
 
