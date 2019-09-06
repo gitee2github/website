@@ -26,25 +26,25 @@ paginate = 10
     url  = "/"
     weight = 1
 
-[[menu.main]]
-    identifier = "user"
-    name = "User"
-    url = "/introduction.html"
-    weight = 2
-
-[[menu.main]]
-    identifier = "intro"
-    name = "Brief Introduction"
-    url = "/introduction.html"
-    parent = "user"
-    weight = 1
-
-[[menu.main]]
-    identifier = "story"
-    name = "User Story"
-    url = "/story.html"
-    parent = "user"
-    weight = 2
+# [[menu.main]]
+#     identifier = "user"
+#     name = "User"
+#     url = "/introduction.html"
+#     weight = 2
+#
+# [[menu.main]]
+#     identifier = "intro"
+#     name = "Brief Introduction"
+#     url = "/introduction.html"
+#     parent = "user"
+#     weight = 1
+#
+# [[menu.main]]
+#     identifier = "story"
+#     name = "User Story"
+#     url = "/story.html"
+#     parent = "user"
+#     weight = 2
 
 [[menu.main]]
     identifier = "developer"
@@ -52,12 +52,12 @@ paginate = 10
     url = "/contribution.html"
     weight = 3
 
-[[menu.main]]
-    identifier = "contribution"
-    name = "Contribution"
-    url = "/contribution.html"
-    weight = 1
-    parent = "developer"
+# [[menu.main]]
+#     identifier = "contribution"
+#     name = "Contribution"
+#     url = "/contribution.html"
+#     weight = 1
+#     parent = "developer"
 
 [[menu.main]]
     identifier = "community"
@@ -149,25 +149,25 @@ paginate = 10
     url  = "/zh"
     weight = 1
 
-[[languages.zh.menu.main]]
-    identifier = "user"
-    name = "用户"
-    url = "/zh/introduction.html"
-    weight = 2
-
-[[languages.zh.menu.main]]
-    identifier = "intro"
-    name = "软件介绍"
-    url = "/zh/introduction.html"
-    parent = "user"
-    weight = 1
-
-[[languages.zh.menu.main]]
-    identifier = "story"
-    name = "用户故事"
-    url = "/zh/story.html"
-    parent = "user"
-    weight = 2
+# [[languages.zh.menu.main]]
+#     identifier = "user"
+#     name = "用户"
+#     url = "/zh/introduction.html"
+#     weight = 2
+#
+# [[languages.zh.menu.main]]
+#     identifier = "intro"
+#     name = "软件介绍"
+#     url = "/zh/introduction.html"
+#     parent = "user"
+#     weight = 1
+#
+# [[languages.zh.menu.main]]
+#     identifier = "story"
+#     name = "用户故事"
+#     url = "/zh/story.html"
+#     parent = "user"
+#     weight = 2
 
 [[languages.zh.menu.main]]
     identifier = "developer"
@@ -175,12 +175,12 @@ paginate = 10
     url = "/zh/contribution.html"
     weight = 3
 
-[[languages.zh.menu.main]]
-    identifier = "contribution"
-    name = "如何贡献"
-    url = "/zh/contribution.html"
-    weight = 1
-    parent = "developer"
+# [[languages.zh.menu.main]]
+#     identifier = "contribution"
+#     name = "如何贡献"
+#     url = "/zh/contribution.html"
+#     weight = 1
+#     parent = "developer"
 
 [[languages.zh.menu.main]]
     identifier = "community"
