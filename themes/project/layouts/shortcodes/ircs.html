@@ -9,6 +9,7 @@
         <tbody>
             {{ range where $.Page.Site.Pages "Type" "ircs" }}
             {{ if .Params }}
+            {{ if .Params.visible }}
             <tr>
                 <td>
                     <a href="{{ .Params.link}}">{{ .Params.channelname }}</a>
@@ -17,6 +18,7 @@
                     {{ .Params.description }}
                 </td>
             </tr>
+            {{ end }}
             {{ end }}
             {{ end }}
         </tbody>

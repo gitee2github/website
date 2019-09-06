@@ -4,13 +4,15 @@ id = "irc"
 +++
 
 IRC全称为Internet Relay Chat，凭借强大的实时通信能力，在开源项目中被大量使用。
+
 我们真诚地邀请任何想问问题或谈论有关openEuler的人加入IRC频道参与讨论。
+
 openEuler使用[freenode.net](https://freenode.net/)提供免费和开源的沟通和交流。
 
-IRC软件可用于所有操作系统。
-维基百科上有IRC客户端的对比，您可以根据您的操作系统选择一个。
-使用IRC不需要复杂的配置。如果您不想下载和安装软件，
-您可以使用Web客户端[freenode.net](https://freenode.net/)。
+IRC软件可用于所有操作系统，维基百科上有IRC客户端的对比，您可以根据您的操作系统选择一个。
+
+使用IRC不需要复杂的配置。如果您不想下载和安装软件，您可以使用Web客户端[freenode.net](https://freenode.net/)。
+
 只需选择一个昵称就可以加入openEuler IRC频道。
 
 ### openEuler IRC频道
