@@ -394,6 +394,18 @@ footer .notice span {
   margin-left: 10px;
 }
 
+.container .building {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.container .building h4 {
+  margin-bottom: 40px;
+}
+.container .building p.buttons {
+  margin-top: 40px;
+}
+
 html {
   min-width: 1280px;
   max-width: 1920px;

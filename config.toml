@@ -132,7 +132,7 @@ paginate = 10
 [[menu.main]]
     identifier = "download"
     name = "Download"
-    url  = "/download.html"
+    url  = "/building/download.html"
     weight = 6
 
 
@@ -255,7 +255,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "download"
     name = "下载"
-    url  = "/zh/download.html"
+    url  = "/zh/building/download.html"
     weight = 6
 
 
