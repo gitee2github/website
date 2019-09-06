@@ -49,7 +49,7 @@ paginate = 10
 [[menu.main]]
     identifier = "developer"
     name = "Developer"
-    url = "/en/contribution.html"
+    url = "/en/developer.html"
     weight = 3
 
 # [[menu.main]]
@@ -172,7 +172,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "developer"
     name = "开发者"
-    url = "/zh/contribution.html"
+    url = "/zh/developer.html"
     weight = 3
 
 # [[languages.zh.menu.main]]
