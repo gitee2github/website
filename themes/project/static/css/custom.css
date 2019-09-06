@@ -406,6 +406,10 @@ footer .notice span {
   margin-top: 40px;
 }
 
+#all .navbar ul.nav > li > a {
+  text-decoration: none !important;
+}
+
 html {
   min-width: 1280px;
   max-width: 1920px;
