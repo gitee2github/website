@@ -12,6 +12,7 @@ disqusShortname = ""
 googleAnalytics = ""
 
 uglyURLs = true
+buildFuture = true
 
 # Define the number of posts per page
 paginate = 10

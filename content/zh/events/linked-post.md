@@ -1,6 +1,6 @@
 +++
 title = "Huawei全连接大会"
-date = "2017-09-18T21:49:20+02:00"
+date = "2019-09-18T21:49:20+02:00"
 tags = ["meetup", "summit"]
 categories = ["programming"]
 banner = "img/banners/banner-4.jpg"
