@@ -394,6 +394,10 @@ footer .notice span {
   padding-left: 15px;
 }
 
+.divmail ul li, .divmail ol li {
+  line-height: 30px;
+}
+
 .divmail ul li{
   line-height: 25px;  
 }
