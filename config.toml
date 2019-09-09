@@ -302,7 +302,7 @@ paginate = 10
     copyright = "Copyright (c) 2019 - 2020 openEuler. All rights reserved. <br /> The openEuler has registered <span>trademarks</span> and uses trademarks. For a list of trademarks of the openEuler, please see our Trademark Usage page. <span>Privacy Policy</span> and <span>Terms of Use</span>"
 
     # Format dates with Go's time formatting
-    date_format = "2019-01-02"
+    date_format = "2006-01-02"
 
     logo = "img/openeuler.png"
     logo_small = "img/openeuler.png"
