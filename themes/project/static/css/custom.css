@@ -141,7 +141,6 @@
 .e_mail h2 {
   color: #fff;
   font-size: 40px;
-  padding-top: 40px;
 }
 .e_mail ul {
   width: 40%;
@@ -150,7 +149,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
 }
 .e_mail ul li h3 {
   font-size: 28px;
