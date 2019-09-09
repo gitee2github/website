@@ -22,6 +22,14 @@
                   {{ $current := . }}
                   {{ range .Site.Menus.main }}
                   {{ $topLevel := replace .URL "/" "" }}
+                  <div style="display: none">
+                    RelPermalink: {{ $current.RelPermalink }}<br>
+                    URL: {{ .URL }}<br>
+                    current.Type: {{ $current.Type }}<br>
+                    topLevel: {{ $topLevel }}<br>
+                    Identifier: {{ .Identifier }}<br>
+                    Kind: {{ $current.Kind }} <br>
+                  </div>
                   <li class="dropdown{{ if eq $current.RelPermalink .URL | or (eq (trim $current.RelPermalink "/") $topLevel) | or (eq $current.Type .Identifier) | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
                     {{ if .HasChildren }}
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>

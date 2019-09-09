@@ -10,7 +10,7 @@ We sincerely invite anyone wanting to ask questions or talk about all things abo
 openEuler uses [freenode.net](https://freenode.net/) to provide free and open source communities.
 
 IRC software can be found for all operating systems.
-The IRC clients comparison chart on Wikipedia can help you pick one for your operating system.
+The IRC clients comparison chart on [Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat) can help you pick one for your operating system.
 
 You don't have to have a complex setup to use IRC.
 You can use the web client for [freenode.net](https://freenode.net/),
@@ -28,5 +28,5 @@ If you want to start a new IRC channel,
 please contact with the infrastructure team in [#openeuler-infra](https://webchat.freenode.net/#openeuler)
 or send email to <infra@openeuler.org> to ensure it gets registered appropriately.
 
-Many IRC channels are logged and recordings are publicly accessible.
+***Note:*** Many IRC channels are logged and recordings are publicly accessible.
 If you're concerned about privacy, you may consider not to write sensitive data in these channels.
