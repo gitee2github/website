@@ -354,28 +354,28 @@ paginate = 10
 [[params.card]]
     image = "/img/1.svg"
     title = "Contribution"
-    url = "https://gitee.com/openeuler/"
+    url = "/en/developer.html"
     description = "Easy to use operating system for laptop and desktop computers"
     weight = 1
 
 [[params.card]]
     image = "/img/2.svg"
-    title = "Getting Started"
+    title = "Get Started"
     url = "/en/docs/home.html"
     description = "We puts you in control of all your infrastructure and services"
     weight = 2
 
 [[params.card]]
     image = "/img/3.svg"
-    title = "Cooperation"
-    url = "/en/docs/home.html"
+    title = "Memebers"
+    url = "#memebers"
     description = "We provides a trusted open source platform as a strong foundation"
     weight = 3
 
 [[params.card]]
     image = "/img/4.svg"
     title = "Application Development"
-    url = "/en/docs/home.html"
+    url = "#"
     description = "We are always free for anyone to use, modify and development"
     weight = 4
 
@@ -383,29 +383,29 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/1.svg"
     title = "社区贡献"
-    url = "https://gitee.com/openeuler/"
-    description = "点击这里了解如何参与社区贡献"
+    url = "/en/developer.html"
+    description = "不管您是初学者还是有经验的开发者，这里将帮助您快速参与贡献。"
     weight = 1
 
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
     url = "/zh/docs/home.html"
-    description = "点击这里了解如何快速入门"
+    description = "如果您想要尝试使用openEuler，这里提供教程助您快速入门。"
     weight = 2
 
 [[languages.zh.params.card]]
     image = "/img/3.svg"
     title = "合作伙伴"
-    url = "/zh/docs/home.html"
-    description = "了解更多合作伙伴"
+    url = "#memebers"
+    description = "了解合作伙伴，欢迎贵公司或者组织加入我们成为社区一员。"
     weight = 3
 
 [[languages.zh.params.card]]
     image = "/img/4.svg"
     title = "应用开发"
-    url = "/zh/docs/home.html"
-    description = "点击这里如何开发应用"
+    url = "#"
+    description = "如果您想要在openEuler运行您的应用，这里提供开发应用的教程。"
     weight = 4
 
 # why party configuration

@@ -65,6 +65,7 @@
   font-size: 14px;
   color: #666666;
   line-height: 20px;
+  padding: 0 45px;
 }
 .bannernew .cards ul li:not(:last-child) {
   border-right: 1px solid #E3E9EB;
@@ -156,6 +157,11 @@
   color: #FFFFFF;
   line-height: 36px;
 }
+
+.e_mail ul li h3 a {
+  color: #FFFFFF;
+}
+
 .e_mail ul li p {
   margin-top: 8px;
   font-size: 16px;
