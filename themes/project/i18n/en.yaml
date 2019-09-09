@@ -47,7 +47,7 @@
   translation: "Tags"
 
 - id: continueReading
-  translation: "Continue reading"
+  translation: "View All"
 
 - id: readMore
   translation: "Read more"
@@ -62,10 +62,10 @@
   translation: "About us"
 
 - id: newer
-  translation: "Newer"
+  translation: "Last Page"
 
 - id: older
-  translation: "Older"
+  translation: "Next Page"
 
 - id: publishedOn
   translation: "on"

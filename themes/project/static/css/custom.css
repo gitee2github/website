@@ -167,6 +167,7 @@
   font-size: 16px;
   color: #FFFFFF;
   line-height: 20px;
+  padding-right: 50px;
 }
 .e_mail ul li .btn {
   background: #FFFFFF;
@@ -266,6 +267,9 @@ footer .contact svg path {
 footer .contact p {
   margin:0 0 0 10px;
   font-size: 16px;
+}
+footer .contact p a {
+  color: #FFFFFF;
 }
 footer .contact h2 {
   margin-bottom: 16px;
