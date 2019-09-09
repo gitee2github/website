@@ -9,8 +9,8 @@
                 </h2>
 
                 <ul>
-                {{ $events := .Paginate (where .Data.Pages "Type" "events") }}
-                {{ range first 2 $events.Pages }}
+                {{ $events := where .Data.Pages "Type" "events" }}
+                {{ range first 4 $events }}
 
                 <li>
                         <h6>
