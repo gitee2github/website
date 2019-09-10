@@ -1,6 +1,6 @@
 # home page
 [main_partner_title]
-other = "合作伙伴"
+other = "社区会员"
 
 [main_email_subscribe_title]
 other = "邮件订阅"
@@ -12,7 +12,7 @@ other = "订阅"
 other = "欢迎加入openEuler社区"
 
 [main_cards_description]
-other = "openEuler社区致力于构建一个开放的操作系统社区"
+other = "openEuler社区致力于构建开放的操作系统生态，让软件开发者、客户可以基于此开发适合自己使用的操作系统。"
 
 [main_events_title]
 other = "未来事件"
