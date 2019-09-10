@@ -382,7 +382,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/1.svg"
     title = "社区贡献"
-    url = "/en/developer.html"
+    url = "/zh/developer.html"
     description = "不管您是初学者还是有经验的开发者，这里将帮助您快速参与贡献。"
     weight = 1
 
