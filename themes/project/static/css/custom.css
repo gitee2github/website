@@ -480,6 +480,23 @@ footer .notice span {
   max-width: 1920px;
 }*/
 
+.container .book-menu {
+  font-size: inherit;
+  flex: 0 0 5rem;
+}
+
+.container div.book-page {
+  margin-left: 30px;
+}
+
+.container div.book-page > header {
+  display: block;
+}
+
+.container aside.book-toc {
+  display: none;
+}
+
 html,
 body {
   position: relative;
