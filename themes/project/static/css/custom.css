@@ -36,11 +36,8 @@
 }
 .bannernew .cards ul a:hover  {
   text-decoration: none;
-}
-.bannernew .cards ul li:hover {
   background: #467FBF;
 }
-
 .bannernew .cards ul li:hover h3,
 .bannernew .cards ul li:hover p {
   color: #FFF;
