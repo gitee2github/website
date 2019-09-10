@@ -4,46 +4,10 @@
 {{ partial "head.html" . }}
 
 <body>
-  <!--h5 -->
-  <div class="isH5 isPad">
-    <header>
-      <h2><a class="navbar-brand home" href="/">
-        <img src="/img/openeuler.png" alt="openEuler logo" class="hidden-xs hidden-sm">
-        <img src="/img/openeuler.png" alt="openEuler logo" class="visible-xs visible-sm">
-        <span class="sr-only">openEuler - go to homepage</span>
-    </a></h2>
-      <ul class="topbar">
-        <li class="search">
-          <img src="../img/earth.svg">
-          <span>English</span>
-          <i></i>
-        </li>
-        <li class="flex" onclick="getList('menu')" style="position:relative">
-          <img src="../img/nav.svg" alt="导航">
-        </li>
-      </ul>
-      <div id="nav">
-        <p class="list">HOME</p>
-        <p class="second_menu" onclick="getList('secondMenu')">COMMUNITY
-          <i></i>
-        </p>
-
-        <div class="menu_list" id="second_menu">
-          <p class="list">NEWS</p>
-          <p class="list">UPCOMING EVENTS</p>
-          <p class="list">IRC</p>
-          <p class="list">MAIL LISTS</p>
-        </div>
-        <p class="list">DOCS</p>
-        <p class="list">DOWNLOAD</p>
-        <p class="list">CONTACT</p>
-      </div>
-    </header>
-  </div>
 
   <div id="all">
 
-    <header class="isPc">
+    <header>
 
       {{ partial "top.html" . }}
 

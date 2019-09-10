@@ -19,7 +19,7 @@
     align-items: center;
     margin-bottom: 0;
     list-style-type: none;
-    padding: 0px;
+    padding: 15px 0px;
   }
 
   header .navbar-brand {
@@ -40,6 +40,7 @@
     font-size: 0.28rem;
   }
   header ul li.search {
+    display: flex;
     margin-right: .2rem;
   }
   header ul li img {
@@ -416,8 +417,9 @@
   header .topbar {
     display: flex;
     align-items: center;
-    margin-bottom: 0;
+    margin: 0 595px;
     list-style-type: none;
+    padding: 20px 0;
   }
   header .navbar-brand {
     padding: 5px 15px;
@@ -429,6 +431,7 @@
   header ul li {
     padding: 0 0.1rem;
     font-size: 0.28rem;
+    display: flex;
   }
   header ul li img {
     width: 18px;
