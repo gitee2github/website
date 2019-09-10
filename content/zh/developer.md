@@ -30,9 +30,9 @@ openEuler社区每个项目均集成提供issue管理，如 infrastructure项目
 
 openEuler社区提供多种沟通渠道，详细参见[这里](https://gitee.com/openeuler/community/blob/master/en/communication.md)，我们建议您通过如下方式参与讨论或者获取到社区成员的帮助。
 
-如果您的观点、问题、方案等比较明确，想实时获得社区关键项目关键成员反馈或者帮助，建议您使用[IRC](../community/irc.html)。
+如果您的观点、问题、方案等比较明确，想实时获得社区关键项目关键成员反馈或者帮助，建议您使用[IRC](./community/irc.html)。
 
-如果您有一个不错的想法或者方案，但是不确定是否应该属于哪个项目或者不知道怎么获取到帮助，建议您使用[邮件列表](../community/mails.html)发起讨论。
+如果您有一个不错的想法或者方案，但是不确定是否应该属于哪个项目或者不知道怎么获取到帮助，建议您使用[邮件列表](./community/mails.html)发起讨论。
 
 如果您发现某一个项目的一个问题，或者对某一项目有一个明确的方案，建议您向项目提交issue讨论。
 
@@ -46,7 +46,7 @@ openEuler社区采用[gitee](https://gitee.com/openeuler) PR管理代码合入�
 
 ### 建议
 
-初次参与openEuler社区，建议先选择您感兴趣的[SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md)，根据SIG组信息加入相应的IRC频道（[加入方法](../community/irc.html)），订阅相关的邮件列表（[订阅方法](../community/mails.html)），以方便与其他的开发者交流。
+初次参与openEuler社区，建议先选择您感兴趣的[SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md)，根据SIG组信息加入相应的IRC频道（[加入方法](./community/irc.html)），订阅相关的邮件列表（[订阅方法](./community/mails.html)），以方便与其他的开发者交流。
 
 初次贡献某一个项目，建议可以从bug-fix开始，每个项目issue列表里将使用```help-wanted```标签标识出一些适合于初次贡献者解决的bug，解决这类bug将有助于您快速熟悉项目结构，了解社区流程。
 
