@@ -395,9 +395,9 @@ paginate = 10
 
 [[languages.zh.params.card]]
     image = "/img/3.svg"
-    title = "合作伙伴"
+    title = "社区会员"
     url = "#memebers"
-    description = "了解合作伙伴，欢迎贵公司或者组织加入我们成为社区一员。"
+    description = "了解社区会员，欢迎贵公司或者组织加入我们成为社区一员。"
     weight = 3
 
 [[languages.zh.params.card]]
