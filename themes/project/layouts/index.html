@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
+<body>
+  <!--h5 -->
+  <div class="isH5 isPad">
+    <header>
+      <h2><a class="navbar-brand home" href="/">
+        <img src="/img/openeuler.png" alt="openEuler logo" class="hidden-xs hidden-sm">
+        <img src="/img/openeuler.png" alt="openEuler logo" class="visible-xs visible-sm">
+        <span class="sr-only">openEuler - go to homepage</span>
+    </a></h2>
+      <ul class="topbar">
+        <li class="search">
+          <img src="../img/earth.svg">
+          <span>English</span>
+          <i></i>
+        </li>
+        <li class="flex" onclick="getList('menu')" style="position:relative">
+          <img src="../img/nav.svg" alt="导航">
 
-    <div id="all">
+        </li>
+      </ul>
+      <div id="nav">
+        <p class="list">HOME</p>
+        <p class="second_menu" onclick="getList('secondMenu')">COMMUNITY
+          <i></i>
+        </p>
 
-        <header>
+        <div class="menu_list" id="second_menu">
+          <p class="list">NEWS</p>
+          <p class="list">UPCOMING EVENTS</p>
+          <p class="list">IRC</p>
+          <p class="list">MAIL LISTS</p>
+        </div>
+        <p class="list">DOCS</p>
+        <p class="list">DOWNLOAD</p>
+        <p class="list">CONTACT</p>
+      </div>
+    </header>
+  </div>
 
-          {{ partial "top.html" . }}
+  <div id="all">
 
-          {{ partial "nav.html" . }}
+    <header class="isPc">
 
-        </header>
+      {{ partial "top.html" . }}
 
-        {{ partial "cards.html" . }}
-        
-        {{ partial "reason.html" . }}
+      {{ partial "nav.html" . }}
 
-        {{ partial "emails.html" . }}
+    </header>
 
-        {{ partial "action.html" . }}
+    {{ partial "cards.html" . }}
 
-        {{ partial "clients.html" . }}
+    {{ partial "reason.html" . }}
 
-        {{ partial "footer.html" . }}
+    {{ partial "emails.html" . }}
 
-    </div>
-    <!-- /#all -->
+    {{ partial "action.html" . }}
 
-    {{ partial "scripts.html" . }}
+    {{ partial "clients.html" . }}
 
-  </body>
+    {{ partial "footer.html" . }}
+
+  </div>
+  <!-- /#all -->
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
 </html>

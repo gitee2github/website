@@ -34,6 +34,63 @@
   text-align: center;
   line-height: 36px;
 }
+.bannernew .cards ul a:hover  {
+  text-decoration: none;
+}
+.bannernew .cards ul li:hover {
+  background: #467FBF;
+}
+
+.bannernew .cards ul li:hover h3,
+.bannernew .cards ul li:hover p {
+  color: #FFF;
+}
+
+.bannernew .cards ul li:hover .icon1 {
+  background: url('../img/1_hover.svg') no-repeat center;
+}
+
+.bannernew .cards ul li:hover .icon2 {
+  background: url('../img/2_hover.svg') no-repeat center;
+}
+
+.bannernew .cards ul li:hover .icon3 {
+  background: url('../img/3_hover.svg') no-repeat center;
+}
+
+.bannernew .cards ul li:hover .icon4 {
+  background: url('../img/4_hover.svg') no-repeat center;
+}
+
+.bannernew .cards ul li .icon {
+  display: inline-block;
+  border: 0px;
+}
+
+.bannernew .cards ul li .icon1 {
+  width: 65px;
+  height: 47px;
+  background: url('../img/1.svg') no-repeat center;
+}
+
+.bannernew .cards ul li .icon2 {
+  width: 67px;
+  height: 47px;
+  background: url('../img/2.svg') no-repeat center;
+}
+
+.bannernew .cards ul li .icon3 {
+  width: 83px;
+  height: 47px;
+  background: url('../img/3.svg') no-repeat center;
+}
+
+.bannernew .cards ul li .icon4 {
+  width: 50px;
+  height: 47px;
+  background: url('../img/4.svg') no-repeat center;
+}
+
 .bannernew .cards {
   padding: 0 270px;
   width: 100%;
@@ -49,12 +106,11 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 5px 0;
+  padding: 0px;
 }
 .bannernew .cards ul li {
   padding: 35px 16px;
   text-align: center;
-  width: 25%;
 }
 .bannernew .cards ul li h3 {
   font-size: 20px;
@@ -422,8 +478,18 @@ footer .notice span {
   text-decoration: none !important;
 }
 
-html {
+/*html {
   min-width: 1280px;
+  max-width: 1920px;
+}*/
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+html {
+  min-width: 320px;
   max-width: 1920px;
 }
 

@@ -1,25 +1,26 @@
 {{ if isset .Site.Params "cards" }}
 {{ if .Site.Params.cards.enable }}
 {{ if gt (len .Site.Params.card) 0 }}
-        <div class="bannernew">
-                <div class="content">
-                    <h2>{{ i18n "main_cards_title" }}</h2>
-                    <p> {{ i18n "main_cards_description" }}</p>
-                </div>
-                <div class="cards">
-                        <ul>
-                            {{ range .Site.Params.card }}
-                            <li>
-                                 <a href="{{ .url }}">
-                                    <img src="{{ .image }}" alt="{{ .title }}">
-                                    <h3>{{ .title }}</h3>
-                                    <p>{{ .description }}</p>
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-        </div>
+<div class="bannernew">
+    <div class="content">
+        <h2>{{ i18n "main_cards_title" }}</h2>
+        <p> {{ i18n "main_cards_description" }}</p>
+    </div>
+    <div class="cards">
+        <ul>
+            {{ range .Site.Params.card }}
+            <a href="{{ .url }}">
+                <!--<img src="{{ .image }}" alt="{{ .title }}">-->
+                <li>
+                    <i class="icon icon{{ .weight }}"></i>
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .description }}</p>
+                </li>
+            </a>
+            {{ end }}
+        </ul>
+    </div>
+</div>
 {{ end }}
 {{ end }}
 {{ end }}

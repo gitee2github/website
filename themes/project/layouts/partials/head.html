@@ -2,7 +2,8 @@
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
-  <meta name="viewport" content="width=device-width, initial-scale=0.33">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ .Title }}</title>
   <meta name="author" content="{{ .Site.Author.name }}" />
 
@@ -39,6 +40,7 @@
 
   <!-- Custom stylesheet - for your changes -->
   <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
+  <link href="{{ "css/custommobile.css" | relURL}}" rel="stylesheet">
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -71,5 +73,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .Permalink }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
+
+  <script src="{{ .Site.BaseURL }}js/flexible.js"></script>
 
 </head>
