@@ -23,6 +23,18 @@
     padding: 15px 0px;
   }
 
+  header .topbar .search {
+    white-space: nowrap;
+  }
+
+  header .topbar .search a.list,
+  header .topbar .search a.list:hover,
+  header .topbar .search a.list:active {
+    color:inherit;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+
   header .navbar-brand {
     padding: 5px 0;
     height: auto;
@@ -49,7 +61,7 @@
   }
   header #nav {
     position: absolute;
-    top: 41px;
+    top: 39px;
     left: 0;
     width: 100%;
     display: none;
@@ -63,6 +75,7 @@
     line-height: .52rem;
     padding: .14rem 0;
     font-size: .26rem;
+    border-bottom: 1px solid #ECECEC;
   }
   header #nav p:not(:last-child) {
     border-bottom: 1px solid #ECECEC;
@@ -86,6 +99,13 @@
   }
   header #nav .menu_list p {
     padding: 0.14rem .3rem;
+  }
+  header #nav a.list,
+  header #nav a.list:hover,
+  header #nav a.list:active {
+    color:inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #ECECEC;
   }
   .bannernew {
     height: 280px;
@@ -422,6 +442,16 @@
     list-style-type: none;
     padding: 20px 0;
   }
+  header .topbar .search {
+    white-space: nowrap;
+  }
+  header .topbar .search a.list,
+  header .topbar .search a.list:hover,
+  header .topbar .search a.list:active {
+    color:inherit;
+    text-decoration: none;
+    padding: 0 10px;
+  }
   header .navbar-brand {
     padding: 5px 15px;
   }
@@ -453,6 +483,7 @@
     line-height: .52rem;
     padding: .14rem 0;
     font-size: .28rem;
+    border-bottom: 1px solid #ECECEC;
   }
   header #nav p:not(:last-child) {
     border-bottom: 1px solid #ECECEC;
@@ -476,6 +507,13 @@
   }
   header #nav .menu_list p {
     padding: 0.14rem .3rem;
+  }
+  header #nav a.list,
+  header #nav a.list:hover,
+  header #nav a.list:active 
+  {
+    color:inherit;
+    text-decoration: none;
   }
   .bannernew .content {
     padding: 1.8rem .4rem;
