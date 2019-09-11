@@ -37,3 +37,6 @@ other = "News"
 other = "Page Not Found"
 [404_homepage]
 other = "Go to Homepage"
+
+[docs_nav_menu_name]
+other = "MENU"

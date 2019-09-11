@@ -31,5 +31,23 @@
                 location.href = data.node.a_attr.href;
             });
         }
+        function showNav() {
+            $('#menu').css({
+                "transform": "translateX(0)"
+            }).attr("onoff", "on");
+        }
+        function hideNav() {
+            $('#menu').css({
+                "transform": "translateX(-100%)"
+            }).attr("onoff", "off");
+        }
+
+        $("#slideNav").bind('click' ,function(){
+            if ($('#menu').attr("onoff") == "on") {
+                hideNav();
+            } else {
+                showNav();
+            }
+        })
     });
 </script>

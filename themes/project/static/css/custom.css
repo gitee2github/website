@@ -513,6 +513,10 @@ footer .notice span {
   display: none;
 }
 
+#slideNav{
+  display: none;
+}
+
 html,
 body {
   position: relative;

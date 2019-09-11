@@ -66,13 +66,13 @@
   }
   header #nav {
     position: absolute;
-    top: 53px;
+    top: 51px;
     left: 0;
     width: 100%;
     display: none;
     background: #fff;
     color: #333;
-    z-index: 100;
+    z-index: 1000;
     padding: 0 .3rem;
     box-shadow: 0 5px 10px 0 #D3D3D3;
   }
@@ -176,6 +176,44 @@
   .bannernew .cards ul li img {
     height: 30px;
   }
+
+
+/* doc_nav */
+#heading-breadcrumbs{
+  margin-bottom: 20px;
+}
+.container{
+  position: relative;
+  padding: 0;
+}
+.slide_nav {
+  display: flex !important;
+  align-items: center;
+  padding: 10px 15px 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b5b5b5;
+}
+.slide_nav p {
+  margin: 0;
+}
+
+.book-menu {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  background: #fff;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  transition: .3s;
+  transform: translateX(-100%);
+}
+
+.container div.book-page {
+  margin-left: 0;
+  padding: 0 15px;
+}
+
   .reason {
     padding: 6.7rem .6rem .6rem;
   }

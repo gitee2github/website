@@ -37,3 +37,6 @@ other = "新闻"
 other = "没有找到页面"
 [404_homepage]
 other = "返回主页"
+
+[docs_nav_menu_name]
+other = "目录"
