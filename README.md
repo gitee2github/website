@@ -26,10 +26,28 @@ The website will serving on http://your-server-ip:80
 docker rm -f `cat web.pid` && rm -f web.pid
 ```
 
+### Debug
+
+1. Install Hugo
+
+```
+curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_0.56.3_Linux-64bit.tar.gz | tar -xz && \
+chmod +x hugo && mv hugo /usr/local/bin/
+```
+
+2. Run Hugo
+
+```
+hugo serve --bind 0.0.0.0 --port 80 --baseUrl /
+```
+
+The website will serving on http://your-server-ip:80, any change will take effect here.
+
 ### Maintainers
 
 1. freesky-edward
 2. edisonxiang
+3. TommyLike
 
 ### Contribution
 
@@ -42,5 +60,5 @@ Please refer to [CONTRIBUTING](./CONTRIBUTING.md) for more guide.
 
 ### Get Help
 
-- IRC
-- Mail
+- IRC： #openeuler-infra     
+- Mail: infra@openeuler.org
