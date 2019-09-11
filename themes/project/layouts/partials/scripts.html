@@ -24,7 +24,6 @@
     $(document).ready(function () {
         if ($('#docstreeview').length) {
             $('#docstreeview').jstree();
-            $('#docstreeview').jstree().open_all();
             $('#docstreeview').jstree().hide_dots();
             $('#docstreeview').jstree().hide_icons();
             $('#docstreeview').on("changed.jstree", function (e, data) {

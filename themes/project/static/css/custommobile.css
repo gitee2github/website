@@ -186,7 +186,7 @@
 #heading-breadcrumbs{
   margin-bottom: 20px;
 }
-.container{
+.container.docscontainer {
   position: relative;
   padding: 0;
 }

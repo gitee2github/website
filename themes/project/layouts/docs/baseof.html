@@ -17,12 +17,12 @@
     {{ partial "breadcrumbs.html" . }}
 
     <div id="content">
-      <div class="container">
+      <div class="container docscontainer">
         <input type="checkbox" style="display: none" id="menu-control" />
         <div class="slide_nav" id="slideNav">
           <img src="/svg/menu.svg" alt="Menu"><p>{{ i18n "docs_nav_menu_name" }}</p>
         </div>
-        <main class="flex container">
+        <main class="flex container docscontainer">
 
           <aside class="book-menu fixed" id="menu">
             {{ partial "docs/menu" . }}
