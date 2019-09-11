@@ -1,6 +1,6 @@
 +++
 channelname = "#openeuler-doc"
-description = "Documentation team discussion."
+description = "Discussion channel for the documentation team."
 link = "https://webchat.freenode.net/#openeuler-doc"
 weight =  4
 visible = true

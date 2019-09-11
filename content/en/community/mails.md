@@ -1,33 +1,31 @@
 +++
-title = "Mail Lists"
+title = "Mail List"
 id = "mails"
 +++
 
-### How Do I Subscribe To A Mailing List?
+### How Do I Subscribe to the Mail List?
 
-Welcome to the mailing list discussion!
+Welcome to participate in the discussion through the mail list.
 
-If you have never subscribed to a mailing list before, here are some suggestions.
+If you have never subscribed to the mail list, do as follows:
 
-1. Click the link in the list name column for the mailing list to which you wish to subscribe.
-2. You will be taken to a page for that mailing list, there will be instructions about how to subscribe.
-3. Read the instructions, you will probably be asked for an email address you wish to use to subscribe to the mailing list.
-4. Enter your email address and click subscribe, you will receive an email to the email address you entered asking you to confirm your subscription.
-5. Reply the email you receive to confirm your subscription.
-6. At last you will receive a welcome email from the mailing list.
+1. Click the name of the mail list that you want to subscribe to.
+2. Wait until the browser goes to the subscription page of the mail list, which provides instructions on how to subscribe.
+3. Read the subscription instructions and provide an email address that you want to use to subscribe to the mail list.
+4. Enter your email address and click Subscribe. You will receive an email asking you to confirm the subscription.
+5. Reply the email to confirm your subscription.
+6. At last, you will receive a welcome email from the email list.
 
-{{< mails >}}
+{{< mails "List Name" " Email Address " "Description" >}}
 
-### How Do I Post A Message To A Mailing List?
+### How Do I Send an Email to the Mail List?
 
-To post a message to a mailling list,
-please send an email to the mailling list post address which is listed in the above table.
+To send an email to a specified mail list, send your email to the address listed after the mail list.
 
-So that all the community list members will receive an email from you.
+All community memberships in this mail list will receive your email.
 
-### How Do I See Prior Postings To A Mailing List?
+### How Can I View the Previous Mail List?
 
-To see the collection of prior postings to a mailling list,
-please visist the following archives:
+To view previous emails, visit the following archive addresses:
 
 {{< archives >}}

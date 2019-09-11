@@ -1,18 +1,18 @@
-# main page
+# home page
 [main_partner_title]
-other = "Members"
+other = "Community Memberships"
 
 [main_email_subscribe_title]
-other = "Email Subscribe"
-
-[main_email_subscribe_buttontext]
 other = "Subscription"
 
+[main_email_subscribe_buttontext]
+other = "Subscribe"
+
 [main_cards_title]
-other = "Welcome to openEuler"
+other = "Welcome to Join the openEuler Community"
 
 [main_cards_description]
-other = "The openEuler Project is a community-driven free software effort focused on delivering an operation system open source ecosystem."
+The other = "openEuler community is dedicated to building an open operating system ecosystem for software developers and customers to develop their own operating systems. "
 
 [main_events_title]
 other = "Upcoming Events"
@@ -21,13 +21,13 @@ other = "Upcoming Events"
 other = "News"
 
 [main_list_more]
-other = "more"
+other = "More"
 
 [main_events_subtitle]
-other = "EVENT"
+other = "Event"
 
 [main_news_subtitle]
-other = "NEWS"
+other = "News"
 
 [main_nav_news_name]
 other = "News"
@@ -36,12 +36,11 @@ other = "News"
 [doc_git_footer]
 other = "Edit this page"
 
-
 # 404 page
 [404_title]
-other = "Page Not Found"
+other = "The page is not found."
 [404_homepage]
-other = "Go to Homepage"
+other = "Back to Home"
 
 [docs_nav_menu_name]
 other = "MENU"

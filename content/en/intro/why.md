@@ -1,8 +1,10 @@
 +++
 question = "Why openEuler"
 title = "openEuler"
-brief = "An innovative, free, and open source platform"
+brief = "The openEuler community is dedicated to building an open operating system community."
 +++
 
-For users, we offer a consistent manageable platform that suits a wide variety of deployments.
-For open source communities, we offer a solid, predictable base to build upon, along with extensive resources to build, test, release, and maintain their code.
+**Ultra-high Performance:** notably improved performance with server optimization based on Kunpeng/ARM processors <br>     
+**Secure and Trustworthy:** trusted computing with ARM Enclave <br>      
+**Open Ecosystem:** Built on open source software for continuous contribution to upstream communities, providing an open ecosystem <br>      
+**Technical Support:** openEuler LTS released to provide long-term and stable technical support services for customers in the community

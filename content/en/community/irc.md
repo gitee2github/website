@@ -3,30 +3,27 @@ title = "IRC"
 id = "irc"
 +++
 
-IRC or Internet Relay Chat, is often used as a real-time communication capability with open source projects.
+Internet Relay Chat (IRC) is widely used in open source projects because of its powerful real-time communication capability.
 
-We sincerely invite anyone wanting to ask questions or talk about all things about openEuler to the irc channels.
+We sincerely invite you to join the openEuler IRC channel for discussion.
 
-openEuler uses [freenode.net](https://freenode.net/) to provide free and open source communities.
+openEuler provide free and open communication through [freenode.net](https://freenode.net/).
 
-IRC software can be found for all operating systems.
-The IRC clients comparison chart on [Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat) can help you pick one for your operating system.
+The IRC software can be used in all operating systems. The [Wikipedia] (https://zh.wikipedia.org/wiki/IRC) provides a comparison of diverse IRC clients. You may select one suitable client for your operating system.
 
-You don't have to have a complex setup to use IRC.
-You can use the web client for [freenode.net](https://freenode.net/),
-which doesn't require any download or setup.
+IRC does not require complex configurations. If you do not want to download or install the software, you can use its web client (see at [freenode.net](https://freenode.net/)).
 
-Just pick a nickname and join openEuler IRC channels.
+Select a nickname to join the openEuler IRC channel.
 
-### openEuler IRC Channels
+### openEuler IRC Channel
 
-{{< ircs >}}
+{{< ircs "IRC Channel " "Description" >}}
 
-### Others You May Want To Know
+### Other Things You Might Want to Know
 
-If you want to start a new IRC channel,
-please contact with the infrastructure team in [#openeuler-infra](https://webchat.freenode.net/#openeuler)
-or send email to <infra@openeuler.org> to ensure it gets registered appropriately.
+If you want to create a new IRC channel,
+visit the IRC channel [#openeuler-infra](https://webchat.freenode.net/#openeuler)
+or send an email to <infra@openeuler.org> for help.
 
-***Note:*** Many IRC channels are logged and recordings are publicly accessible.
-If you're concerned about privacy, you may consider not to write sensitive data in these channels.
+***Note: ***Many IRC channels have logs, and the logs are publicly accessible.
+Therefore, do not enter your private and sensitive data in these channels.
