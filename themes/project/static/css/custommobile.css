@@ -12,7 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 0.8rem;
+    /* height: 0.8rem; */
+  }
+  .nav_table{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
 
   header .topbar {
@@ -54,14 +59,14 @@
   }
   header ul li.search {
     display: flex;
-    margin-right: .2rem;
+    /* margin-right: .2rem; */
   }
   header ul li img {
     width: 16px;
   }
   header #nav {
     position: absolute;
-    top: 39px;
+    top: 53px;
     left: 0;
     width: 100%;
     display: none;
@@ -77,6 +82,7 @@
     font-size: .26rem;
     border-bottom: 1px solid #ECECEC;
     text-transform: uppercase;
+    margin: 0;
   }
   header #nav p:not(:last-child) {
     border-bottom: 1px solid #ECECEC;
@@ -345,6 +351,9 @@
     transform: scale(.75);
   }
 
+  .divmail ul li a {
+    margin: 0px;
+  }
 
   .main .down_banner {
     padding: .3rem .4rem;

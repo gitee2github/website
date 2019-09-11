@@ -226,6 +226,20 @@
   padding: 11px 18px;
   text-transform: none;
 }
+.div-archives>div>ul{
+  position: relative;
+}
+.div-archives>div>ul li::before{
+  content:'';
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left:0;
+  border-radius: 50%;
+  background: #000;
+  width: 5px;
+  height: 5px;
+}
 
 .action {
   padding: 63px 30px 45px;
@@ -454,6 +468,8 @@ footer .notice span {
 .divmail ul li{
   line-height: 25px;  
 }
+
+
 
 .divmail ul li a {
   margin-left: 10px;

@@ -3,8 +3,11 @@
     {{ if .Params }}
     <div>
         <ul>
-            <li>
+            <li class="isPc">
                 <b>{{ .Params.listname }}</b> Archives: <a href="{{ .Params.archivelink}}">{{ .Params.archivelink }}</a>
+            </li>
+            <li class="isH5">
+                <a href="{{ .Params.archivelink}}"><b>{{ .Params.listname }}</b> Archives</a>
             </li>
         </ul>
     </div>
