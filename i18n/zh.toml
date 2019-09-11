@@ -32,6 +32,10 @@ other = "新闻"
 [main_nav_news_name]
 other = "新闻"
 
+# DOC page
+[doc_git_footer]
+other = "编辑此页"
+
 # 404 page
 [404_title]
 other = "没有找到页面"
