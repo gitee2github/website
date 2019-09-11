@@ -1,10 +1,12 @@
 <!--h5 -->
 <div class="isH5 isPad">
-  <h2><a class="navbar-brand home" href="/">
-      <img src="/img/openeuler.png" alt="openEuler logo" class="hidden-xs hidden-sm">
-      <img src="/img/openeuler.png" alt="openEuler logo" class="visible-xs visible-sm">
-      <span class="sr-only">openEuler - go to homepage</span>
-    </a></h2>
+  <h2>
+    <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+      <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
+      <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
+      <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+    </a>
+  </h2>
   <ul class="topbar">
     <li class="search">
       <img src="/img/earth.svg">
@@ -20,7 +22,6 @@
     <p class="second_menu" onclick="getList('secondMenu')">COMMUNITY
       <i></i>
     </p>
-
     <div class="menu_list" id="second_menu">
       <p class="list">NEWS</p>
       <p class="list">UPCOMING EVENTS</p>
