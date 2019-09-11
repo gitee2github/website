@@ -12,7 +12,7 @@ other = "Subscribe"
 other = "Welcome to Join the openEuler Community"
 
 [main_cards_description]
-The other = "openEuler community is dedicated to building an open operating system ecosystem for software developers and customers to develop their own operating systems. "
+other = "openEuler community is dedicated to building an open operating system ecosystem for software developers and customers to develop their own operating systems. "
 
 [main_events_title]
 other = "Upcoming Events"
