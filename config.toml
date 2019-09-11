@@ -287,7 +287,6 @@ paginate = 10
     contact_form_ajax = false
 
     about_us = "<p>We are an open source orgnization provides open source software.</p>"
-    copyright = "Copyright (c) 2019 - 2020 openEuler. All rights reserved. <br /> The openEuler has registered <span>trademarks</span> and uses trademarks. For a list of trademarks of the openEuler, please see our Trademark Usage page. <span>Privacy Policy</span> and <span>Terms of Use</span>"
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
@@ -448,6 +447,14 @@ paginate = 10
     enable = true
     title = "From our news"
     subtitle = "There are many events ocur since we announce open source, Please keep an your eye on us."
+
+[params.copyright]
+    enable = true
+    text = "Copyright (c) 2019 - 2020 openEuler. All copyrights belong to openEuler community. Please see our <a href=\"/en/legal.html\">Legal Notice</a>"
+
+[languages.zh.params.copyright]
+    enable = true
+    text = "版权所有@ openEuler社区2019 - 2020. 所有权归openEuler社区所有，请参见<a href=\"/zh/legal.html\">法律申明</a>" 
 
 [languages]
 
