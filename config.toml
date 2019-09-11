@@ -96,7 +96,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "docs"
-    name = "DOCS"
+    name = "Docs"
     url  = "/en/docs/home.html"
     weight = 5
     hasChildren = true
