@@ -22,12 +22,71 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
+
+        function getRelativePath() {
+            var url = location.href;
+            var arrURL = url.split("//");
+            return arrURL[1].substring(arrURL[1].indexOf("/"));
+        }
+
+        function getCurrentID(wholeData, relativeURL) {
+            for (var j in wholeData) {
+                var href = wholeData[j].a_attr.href;
+                var text = wholeData[j].text;
+                //debugger;
+                if ((href == relativeURL) || (text.indexOf(relativeURL) >= 0)) {
+                    //console.log(wholeData[j].id);
+                    return wholeData[j].id;
+                } else {
+                    if (wholeData[j].children.length > 0) {
+                        var v = getCurrentID(wholeData[j].children, relativeURL);
+                        if (v != "") {
+                            return v;
+                        }
+                    }
+                }
+            }
+            return "";
+        }
+
         if ($('#docstreeview').length) {
             $('#docstreeview').jstree();
             $('#docstreeview').jstree().hide_dots();
             $('#docstreeview').jstree().hide_icons();
             $('#docstreeview').on("changed.jstree", function (e, data) {
-                location.href = data.node.a_attr.href;
+                if (data.node) {
+                    var link = data.node.a_attr.href;
+                    if (link == "" || link == "#") {
+                        var aElementID = "#" + data.node.id + "_anchor";
+                        var aElement = $(aElementID).find("a");
+                        if (aElement.length) {
+                            link = aElement.attr("href");
+                        }
+                    }
+                    console.log(link);
+                    var relativeURL = getRelativePath();
+                    console.log(relativeURL);
+                    if (link != relativeURL) {
+                        location.href = link;
+                    }
+                }
+            });
+
+            /* select the node by the relative url
+            var currentAElement = $('#docstreeview').find("a[href='" + getRelativePath() + "']");
+            if (currentAElement.length) {
+                console.log("click");
+                currentAElement.trigger("click");
+            }*/
+
+            $("#docstreeview").on("ready.jstree", function (e, data) {
+                $("#docstreeview").fadeIn("slow")
+                var relativeURL = getRelativePath();
+                var wholeData = $("#docstreeview").jstree().get_json();
+                var currentID = getCurrentID(wholeData, relativeURL);
+                console.log(currentID);
+                $("#docstreeview").jstree()._open_to(currentID);
+                $('#docstreeview').jstree().select_node(currentID);
             });
         }
         function showNav() {
@@ -41,7 +100,7 @@
             }).attr("onoff", "off");
         }
 
-        $("#slideNav").bind('click' ,function(){
+        $("#slideNav").bind('click', function () {
             if ($('#menu').attr("onoff") == "on") {
                 hideNav();
             } else {

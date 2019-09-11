@@ -449,8 +449,26 @@ footer .notice span {
   margin-bottom: 148px;
 }
 
-.jstree-default .jstree-anchor {
-  height: 35px !important;
+.book-menu .jstree-default .jstree-anchor {
+  height: 36px;
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 0px;
+}
+
+.book-menu .jstree-default .jstree-anchor a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-menu .jstree-default .jstree-anchor.jstree-hovered,
+.book-menu .jstree-default .jstree-anchor.jstree-clicked {
+  color: #ffffff;
+  background-color: #467fbf;
+}
+
+.book-menu .jstree-default .jstree-icon.jstree-ocl {
+  margin-top:6px;
 }
 
 .table-bordered.table-striped td {
@@ -468,8 +486,6 @@ footer .notice span {
 .divmail ul li{
   line-height: 25px;  
 }
-
-
 
 .divmail ul li a {
   margin-left: 10px;
@@ -489,6 +505,10 @@ footer .notice span {
 
 #all .navbar ul.nav > li > a {
   text-decoration: none !important;
+}
+
+#docstreeview {
+  display: none;
 }
 
 /*html {
