@@ -25,5 +25,5 @@ If you want to create a new IRC channel,
 visit the IRC channel [#openeuler-infra](https://webchat.freenode.net/#openeuler)
 or send an email to <infra@openeuler.org> for help.
 
-***Note: ***Many IRC channels have logs, and the logs are publicly accessible.
+***Note:*** Many IRC channels have logs, and the logs are publicly accessible.
 Therefore, do not enter your private and sensitive data in these channels.
