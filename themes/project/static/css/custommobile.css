@@ -127,6 +127,7 @@
   .bannernew .content h2 {
     font-size: 0.48rem;
     font-family: "HuaweiSansBold";
+    text-align: center;
   }
   .bannernew .content p {
     width: auto;
@@ -243,6 +244,7 @@
     line-height: inherit;
     position: absolute;
     bottom: .44rem;
+    padding: 0 10px;
   }
   .reason .content_why .detail {
     margin-left: 0;
@@ -573,6 +575,7 @@
   }
   .bannernew .content h2 {
     font-size: 0.6rem;
+    text-align: center;
   }
   .bannernew .content p {
     width: auto;
@@ -647,6 +650,10 @@
   }
   footer .notice {
     width: 360px;
+  }
+  .reason .content_why .bg p {
+    margin-top: 40px;
+    padding: 0 10px;
   }
   #mask {
     position: fixed;

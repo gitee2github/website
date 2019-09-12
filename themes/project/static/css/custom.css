@@ -160,6 +160,7 @@
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
+  padding: 0 10px;
 }
 .reason .content_why .bg h3 {
   font-size: 59px;
