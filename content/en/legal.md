@@ -1,3 +1,7 @@
++++
+title = "LEGAL NOTICE"
++++
+
 ## Legal Notice 
 
 ### Terms and Conditions for Accessing the openEuler community Website 

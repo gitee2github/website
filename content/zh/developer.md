@@ -8,15 +8,15 @@ title = "社区贡献"
 
 注册gitee账号。注册地址 [https://gitee.com/signup](https://gitee.com/signup)，如果已有gitee账号，请跳过。    
 
-签署社区CLA。签署CLA是参与社区前提，复制CLA内容[https://gitee.com/openeuler/community/blob/master/zh/CLA.md](https://gitee.com/openeuler/community/blob/master/zh/CLA.md)并填写个人信息后，发送邮件到 <contact@openeuler.org>，待管理员确认后签署成功。 注：暂未支持在线签署，待基础设施完善后后续将采用在线签署。    
+签署社区CLA。签署CLA是参与社区前提，复制CLA内容[https://gitee.com/openeuler/community/blob/master/zh/CLA.md](https://gitee.com/openeuler/community/blob/master/zh/CLA.md)并填写个人信息后，发送邮件到 <contact@openeuler.org>，待管理员确认后签署成功。       
 
 选择贡献项目，所有项目参见：[https://gitee.com/openeuler](https://gitee.com/openeuler)。 阅读项目下 ```CONTRIBUTING.md``` 文件了解该项目贡献指导。 如果您不确定哪个项目适合您，建议参考社区 [SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md)组介绍。    
 
-了解项目的编码规范。了解项目编码规范就有助于您的提交快速接纳，在每个项目里有关于该项目的编码规范介绍，文件名为```code-of-conduct.md```，位于项目根目录下，如果项目下未提供，请参考社区编码规范，地址：[https://gitee.com/openeuler/community](https://gitee.com/openeuler/community)。注： 规范上线准备中。<br>    
+了解项目的编码规范。了解项目编码规范就有助于您的提交快速接纳，在每个项目里有关于该项目的编码规范介绍，文件名为```code-of-conduct.md```，位于项目根目录下，如果项目下未提供，请参考社区编码规范，地址：[https://gitee.com/openeuler/community](https://gitee.com/openeuler/community)。<br>    
 
 ### 参与贡献
 
-  openEuler社区采用[gitee](https://gitee.com/openeuler)作为开发系统，所有的贡献均通过该平台完成，我们欢迎您通过参与如下贡献：
+openEuler社区采用[gitee](https://gitee.com/openeuler)作为开发系统，所有的贡献均通过该平台完成，我们欢迎您通过参与如下贡献：
 
 #### 提交bug
 
