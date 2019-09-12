@@ -2,8 +2,6 @@
 title = "社区贡献"
 +++
 
-## 如何参与社区
-
 ### 贡献前准备
 
 注册gitee账号。注册地址 [https://gitee.com/signup](https://gitee.com/signup)，如果已有gitee账号，请跳过。    

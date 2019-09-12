@@ -2,8 +2,6 @@
 title = "法律声明"
 +++
 
-## 法律声明 
-
 ### 规则及openEuler网址访问条件 
 
 openEuler网站指由openEuler社区运营的网站，域名为[https://openeuler.org](https://openeuler.org)。以下规则适用于所有访问openEuler网站的用户或浏览者，openEuler社区保留根据国家法律法规及市场行情等变化修改这些规则的权利。访问openEuler网站的权利由openEuler社区根据下列条款授予。如果您不同意下列任何条款、请停止使用本网址。如果您使用[https://openeuler.org](https://openeuler.org)服务，您的使用行为将被视为对本声明全部内容的认可。对于违反这些规则的行为，openEuler社区有权采取法律和公平的补救措施。 

@@ -2,8 +2,6 @@
 title = "Contributions to the Community"
 +++
 
-## How to Contribute
-
 ### Preparations
 
 Before you start, please note that you must have a Gitee account. To register an account, go to [https://gitee.com/signup](https://gitee.com/signup).    
