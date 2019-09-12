@@ -40,9 +40,7 @@ If you find an issue in a project or have a clear solution for a project, you ar
 
 The openEuler community uses [Gitee](https://gitee.com/openeuler) pull requests (PRs) to manage code. You are welcome to submit your contributions to the community through PRs. If you are a beginner, please click [Here] (https://gitee.com/openeuler/community/blob/master/CONTRIBUTING.md#submit-pull-requests) to see how to submit a PR.
 
-Before submitting a PR, you are advised to communicate with related project memberships in advance through any communication channel provided above for quick PR processing. 
-
- <br/>
+Before submitting a PR, you are advised to communicate with related project memberships in advance through any communication channel provided above for quick PR processing.
 
 ### Suggestions
 
