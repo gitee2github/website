@@ -338,30 +338,30 @@ paginate = 10
 # cards 
 [[params.card]]
     image = "/img/1.svg"
-    title = "Contribution"
+    title = "Contributions"
     url = "/en/developer.html"
-    description = "Easy to use operating system for laptop and desktop computers"
+    description = "We appreciate your ideas and contributions"
     weight = 1
 
 [[params.card]]
     image = "/img/2.svg"
-    title = "Get Started"
+    title = "Quick Start"
     url = "/en/docs/home.html"
-    description = "We puts you in control of all your infrastructure and services"
+    description = "Tutorial guide for you a quick start"
     weight = 2
 
 [[params.card]]
     image = "/img/3.svg"
     title = "Memebers"
     url = "#memebers"
-    description = "We provides a trusted open source platform as a strong foundation"
+    description = "Trustworthy memberships in this community"
     weight = 3
 
 [[params.card]]
     image = "/img/4.svg"
     title = "Application Development"
     url = "#"
-    description = "We are always free for anyone to use, modify and development"
+    description = "Feel free to start development here"
     weight = 4
 
 #  chinese cards
