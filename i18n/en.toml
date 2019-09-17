@@ -9,7 +9,7 @@ other = "Subscription"
 other = "Subscribe"
 
 [main_cards_title]
-other = "Welcome to Join the openEuler Community"
+other = "Welcome to openEuler Community"
 
 [main_cards_description]
 other = "Through community contributions, openEuler builds an innovative platform and a unified and open OS that supports the multi-processor architecture, and promotes the robustness of the software and hardware application ecosystem."
