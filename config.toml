@@ -346,7 +346,7 @@ paginate = 10
 [[params.card]]
     image = "/img/2.svg"
     title = "Quick Start"
-    url = "/en/docs/home.html"
+    url = "/en/building/docs.html"
     description = "Tutorial guide for you a quick start"
     weight = 2
 
@@ -360,7 +360,7 @@ paginate = 10
 [[params.card]]
     image = "/img/4.svg"
     title = "Application Development"
-    url = "#"
+    url = "/en/building/docs.html"
     description = "Feel free to start development here"
     weight = 4
 
@@ -375,7 +375,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
-    url = "/zh/docs/home.html"
+    url = "/zh/building/quickstart.html"
     description = "如果您想要尝试使用openEuler，这里提供教程助您快速入门。"
     weight = 2
 
@@ -389,7 +389,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/4.svg"
     title = "应用开发"
-    url = "#"
+    url = "/zh/building/applicationdevelopment.html"
     description = "如果您想要在openEuler运行您的应用，这里提供开发应用的教程。"
     weight = 4
 
