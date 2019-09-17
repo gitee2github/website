@@ -14,13 +14,13 @@
 
       <ul class="owl-carousel customers align-center">
         {{ range .Site.Data.clients }}
-        <li class="item" title="{{ .name }}">
+        <li class="item" title="">
           {{ if .url }}
           <a href="{{ .url }}" target="_blank">
-            <img src="{{ .image }}" alt="{{ .name }}" />
+            <img src="{{ .image }}" alt="" />
           </a>
           {{ else }}
-          <img src="{{ .image }}" alt="{{ .name }}" />
+          <img src="{{ .image }}" alt="" />
           {{ end }}
         </li>
         {{ end }}
