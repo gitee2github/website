@@ -213,7 +213,7 @@ paginate = 10
     identifier = "install"
     name = "安装指南"
     parent = "docs"
-    url = "/zh/docs/installation/home.html"
+    url = "/zh/docs/Installation/installation.html"
     weight=3
 
 [[languages.zh.menu.main]]
