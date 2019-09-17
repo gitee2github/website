@@ -144,7 +144,7 @@
 }
 .reason .content_why {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   max-width: 1366px;
   margin: 0 auto;
