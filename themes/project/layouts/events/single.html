@@ -24,7 +24,7 @@
 
                     <div class="col-md-10" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ .Params.author }}| {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ .Params.author }} | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
 
                         <div id="post-content">
                           {{ .Content }}

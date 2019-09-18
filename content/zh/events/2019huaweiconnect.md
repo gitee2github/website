@@ -4,7 +4,7 @@ date = "2019-09-18"
 tags = ["meetup", "summit"]
 banner = "img/banners/banner-hc.jpg"
 author = "freesky-edward"
-summary = "2019华为全联接大会于9月18日 - 9月20日在上海世博展览馆&世博中心举行"
+summary = "2019华为全联接大会于9月18日 - 9月20日在上海世博展览馆&世博中心举行。"
 +++
 
 ADVANCE INTELLIGENCE

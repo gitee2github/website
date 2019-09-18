@@ -493,10 +493,12 @@ footer .notice span {
   margin-left: 10px;
 }
 
-.container #blog-listing-medium .post .clearfix,
+.container #blog-listing-medium .post .clearfix {
+  margin-top: 15px;
+}
 .container #blog-listing-medium .post .intro,
 .container #blog-listing-medium .read-more {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .container .building {
