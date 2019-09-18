@@ -4,7 +4,7 @@ title = "openEuler"
 brief = ""
 +++
 
-**Openness:** Built on open source software, continuous contribution to upstream communities, providing an open ecosystem.<br>     
-**Performance:** Fully unleashes the potential of computing chips, and supports Huawei Kunpeng and other processors.<br>     
-**Readiness:**  An efficient, stable, and secure open-source OS built by global open-source contributors.
+Co-built, shared, and co-governed community<br>     
+With spirit of openness, collaboration, and innovation<br>     
+OS community that best matches the application scenarios
 
