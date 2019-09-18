@@ -277,7 +277,7 @@
     display: block;
     width: 100%;
     position: relative;
-    border-bottom: 0;
+    border-bottom: 1px solid #b5b5b5;
   }
   .action .active_box .active h2 p {
     line-height: inherit;
@@ -289,13 +289,14 @@
   }
   .action .active_box .active ul li {
     padding: .26rem .1rem .3rem;
+    border-bottom: 1px solid rgba(181, 181, 181, 0.5);
   }
-  .action .active_box .active ul li:not(:last-child) {
+  /*.action .active_box .active ul li:not(:last-child) {
     border-bottom: 1px solid rgba(181, 181, 181, 0.5);
   }
   .action .active_box .active ul li:last-child {
     border-bottom: 0px;
-  }
+  }*/
   .action .active_box .active ul li h6 {
     font-size: .28rem;
   }
