@@ -2,6 +2,9 @@
 [main_partner_title]
 other = "社区会员"
 
+[main_partner_subtitle]
+other = "(欢迎加入)"
+
 [main_email_subscribe_title]
 other = "邮件订阅"
 
