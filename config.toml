@@ -199,17 +199,10 @@ paginate = 10
     hasChidren = true
 
 [[languages.zh.menu.main]]
-    identifier = "developer"
-    name = "开发指南"
-    parent = "docs"
-    url = "/zh/docs/home.html#"
-    weight=1
-
-[[languages.zh.menu.main]]
     identifier = "release"
     name = "发行说明"
     parent = "docs"
-    url = "/zh/docs/releasenotes/release_notes.html"
+    url = "/zh/docs/Releasenotes/release_notes.html"
     weight = 2
 
 [[languages.zh.menu.main]]
@@ -223,21 +216,21 @@ paginate = 10
     identifier = "management"
     name = "管理员指南"
     parent = "docs"
-    url = "/zh/docs/administration/administration.html"
+    url = "/zh/docs/Administration/administration.html"
     weight = 4
 
 [[languages.zh.menu.main]]
     identifier = "container"
     name = "容器用户指南"
     parent = "docs"
-    url = "/zh/docs/container/container.html"
+    url = "/zh/docs/Container/container.html"
     weight = 5
 
 [[languages.zh.menu.main]]
     identifier = "vitrual"
     name = "虚拟化用户指南"
     parent = "docs"
-    url = "/zh/docs/virtualization/virtualization.html"
+    url = "/zh/docs/Virtualization/virtualization.html"
     weight = 6
 
 
