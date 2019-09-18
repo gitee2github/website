@@ -174,14 +174,28 @@
 }
 .reason .content_why .detail {
   margin-left: 50px;
+  position: relative;
 }
 .reason .content_why .detail p {
   font-size: 20px;
   color: #313131;
   line-height: 30px;
+  padding-left: 15px;
 }
 .reason .content_why .detail p:nth-child(1) {
   /*margin-bottom: 40px;*/
+}
+
+.reason .content_why .detail p::before{
+  content:'';
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left:0;
+  border-radius: 50%;
+  background: #000;
+  width: 5px;
+  height: 5px;
 }
 
 .e_mail {
