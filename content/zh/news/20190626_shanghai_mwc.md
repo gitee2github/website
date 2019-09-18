@@ -2,7 +2,7 @@
 title = "TaiShan 助力运营商应对多样性计算时代的挑战"
 date = "2019-06-26"
 tags = ["theme"]
-banner = "img/banners/banner-hc.jpg"
+banner = "img/banners/banner-20190626.png"
 author = "创新与实践"
 summary = "6月26日，MWC19 上海在上海新国际博览中心 (SNIEC) 盛大揭幕。今年大会的主题是「智联万物」，吸引了来自 110 多个国家和地区、横跨移动生态系统及邻近行业的逾 6 万名专业人士出席，聆听中国移动执行董事兼董事长杨杰、中国电信董事长兼首席执行官柯瑞文、中国联通总裁李国华、华为副董事长胡厚崑、高通总裁 Cristiano Amon 等重磅嘉宾分享业界发展最新趋势。"
 +++
