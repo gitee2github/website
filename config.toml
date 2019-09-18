@@ -446,11 +446,11 @@ paginate = 10
 
 [params.copyright]
     enable = true
-    text = "Copyright © 2019 - 2020 openEuler. All rights reserved. Please see our <a href=\"/en/legal.html\">Legal Notice</a>."
+    text = "Copyright © openEuler 2019 - 2020. All rights reserved. Please see our <a href=\"/en/legal.html\">Legal Notice</a>."
 
 [languages.zh.params.copyright]
     enable = true
-    text = "版权所有 © 2019 - 2020 openEuler。保留一切权利。请参见<a href=\"/zh/legal.html\">法律声明</a>。"
+    text = "版权所有 © openEuler 2019 - 2020 保留一切权利 请参见<a href=\"/zh/legal.html\">法律声明</a>"
 
 [languages]
 
