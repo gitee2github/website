@@ -1,17 +1,19 @@
 +++
-title = "HUAWEI CONNECT 2019 is held in Shanghai, September 18 - 20"
+title = "2019华为全联接大会于9月18日 - 9月20日在上海举行"
 date = "2019-09-18"
 tags = ["meetup", "summit"]
 banner = "img/banners/banner-hc.jpg"
 author = "freesky-edward"
-summary = "HUAWEI CONNECT 2019 is held in SWEECC & SECC, Shanghai, China, September 18 - 20."
+summary = "2019华为全联接大会于9月18日 - 9月20日在上海世博展览馆&世博中心举行。"
 +++
 
 ADVANCE INTELLIGENCE
 
-HUAWEI CONNECT 2019 is held in SWEECC & SECC, Shanghai, China, September 18 - 20.
+共创智能新高度
 
-Conference Link: https://www.huawei.com/en/press-events/events/huaweiconnect2019
+2019华为全联接大会于9月18日 - 9月20日在上海世博展览馆&世博中心举行。
+
+会议链接：https://www.huawei.com/cn/press-events/events/huaweiconnect2019
 
 <br>
 <br>
