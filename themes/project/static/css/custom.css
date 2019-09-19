@@ -390,7 +390,9 @@ footer .notice span {
 }
 
 .owl-carousel.customers {
-  display: block;
+  /*display: block;*/
+  display: flex;
+  justify-content: space-around;
 }
 
 .owl-carousel.customers .item {
