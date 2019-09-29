@@ -545,6 +545,14 @@ footer .notice span {
   display: none;
 }
 
+.container #individual-table {
+  display: block;
+}
+
+.container #legalentity-table {
+  display: none;
+}
+
 /*html {
   min-width: 1280px;
   max-width: 1920px;
