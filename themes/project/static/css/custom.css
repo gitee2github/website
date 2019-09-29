@@ -545,12 +545,71 @@ footer .notice span {
   display: none;
 }
 
+.container #cla-type-table {
+  width: 50%;
+  min-width: 320px;
+  max-width: 420px;
+  margin: 0 40px;
+}
+
 .container #individual-table {
   display: block;
+  width: 70%;
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 40px;
 }
 
 .container #legalentity-table {
   display: none;
+  width: 70%;
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 40px;
+}
+
+.container #cla-table {
+  width: 70%;
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 40px 20px 40px;
+  text-align: center;
+}
+
+.container #cla-type-table tr,
+.container #individual-table tr,
+.container #legalentity-table tr,
+.container #cla-table tr {
+  height: 35px;
+}
+
+.container #individual-table tr td:first-child,
+.container #legalentity-table tr td:first-child {
+  width: 30%;
+}
+
+.container #individual-table tr input[type=text],
+.container #legalentity-table tr input[type=text] {
+  width: 80%;
+}
+
+.container #cla-type-table input[type=radio] {
+  margin-right: 10px;
+}
+
+.container .clanote {
+  line-height: 35px;
+}
+
+.container #sign-cla-button,
+.container #reset-cla-button {
+  width:80px;
+  margin: 0 20px;
+}
+
+.container #tip-cla-label {
+  margin-top: 10px;
+  color: #467fbf;
 }
 
 /*html {
