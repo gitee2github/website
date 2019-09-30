@@ -59,7 +59,7 @@ function initClaPage() {
                 var checkpass = true;
                 $("input[type=text]", "#individual-table").each(function (i) {
                     if ($(this).hasClass("require")) {
-                        if ($(this).val() == "") {
+                        if ($.trim($(this).val()) == "") {
                             checkpass = false;
                             return false;
                         }
@@ -74,7 +74,7 @@ function initClaPage() {
                     }
                     return false;
                 }
-                var email = $('#individual-email').val();
+                var email = $.trim($('#individual-email').val());
                 if (!regemail.test(email)) {
                     if (lang == "zh-cn") {
                         $('#tip-cla-label').html("邮箱格式不正确!");
@@ -83,7 +83,7 @@ function initClaPage() {
                     }
                     return false;
                 }
-                var telephone = $('#individual-telephone').val();
+                var telephone = $.trim($('#individual-telephone').val());
                 if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
                     if (lang == "zh-cn") {
                         $('#tip-cla-label').html("电话格式不正确!");
@@ -97,7 +97,7 @@ function initClaPage() {
                 var checkpass = true;
                 $("input[type=text]", "#legalentity-table").each(function (i) {
                     if ($(this).hasClass("require")) {
-                        if ($(this).val() == "") {
+                        if ($.trim($(this).val()) == "") {
                             checkpass = false;
                             return false;
                         }
@@ -112,7 +112,7 @@ function initClaPage() {
                     }
                     return false;
                 }
-                var email = $('#legalentity-email').val();
+                var email = $.trim($('#legalentity-email').val());
                 if (!regemail.test(email)) {
                     if (lang == "zh-cn") {
                         $('#tip-cla-label').html("邮箱格式不正确!");
@@ -121,15 +121,63 @@ function initClaPage() {
                     }
                     return false;
                 }
-                var telephone = $('#legalentity-telephone').val();
+                var telephone = $.trim($('#legalentity-telephone').val());
                 if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
                     if (lang == "zh-cn") {
                         $('#tip-cla-label').html("电话格式不正确!");
                     } else {
                         $('#tip-cla-label').html("Telephone format is incorrent!");
                     }
+                    return false;
                 }
             }
+
+            // build json
+            var posturl = $(this).attr("posturl");
+            var jsonData = {};
+            if (v == 0) {
+                // individual
+                jsonData = {
+                    "type": v,
+                    "name": $.trim($('#individual-name').val()),
+                    "address": $.trim($('#individual-address').val()),
+                    "date": $.trim($('#individual-date').val()),
+                    "email": $.trim($('#individual-email').val()),
+                    "telephone": $.trim($('#individual-telephone').val()),
+                    "fax": $.trim($('#individual-fax').val()),
+                };
+            } else {
+                // legalentity
+                jsonData = {
+                    "type": v,
+                    "name": $.trim($('#legalentity-name').val()),
+                    // only for legalentity
+                    "title": $.trim($('#legalentity-title').val()),
+                    // only for legalentity
+                    "corporation": $.trim($('#legalentity-corporation').val()),
+                    "address": $.trim($('#legalentity-address').val()),
+                    "date": $.trim($('#legalentity-date').val()),
+                    "email": $.trim($('#legalentity-email').val()),
+                    "telephone": $.trim($('#legalentity-telephone').val()),
+                    "fax": $.trim($('#legalentity-fax').val()),
+                };
+            }
+
+            // send request
+            $.ajax({
+                type: "POST",
+                url: posturl,
+                data: JSON.stringify(jsonData),
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+                datatype: "json",
+                success: function (data) {
+                    alert(data);
+                },
+                error: function () {
+                    alert("请求失败");
+                }
+            });
 
             return false;
         });

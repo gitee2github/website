@@ -93,7 +93,7 @@ Please select one applicable statement from the following and fill in the blanks
             Fax:
         </td>
         <td>
-            <input type="text" id="individual-Fax" />
+            <input type="text" id="individual-fax" />
         </td>
     </tr>
     <tr>
@@ -170,7 +170,7 @@ Please select one applicable statement from the following and fill in the blanks
             Fax:
         </td>
         <td>
-            <input type="text" id="legalentity-Fax" />
+            <input type="text" id="legalentity-fax" />
         </td>
     </tr>
     <tr>
@@ -183,7 +183,7 @@ Please select one applicable statement from the following and fill in the blanks
 <table id="cla-table">
     <tr>
         <td>
-            <a href="#" id="sign-cla-button" class="btn btn-template-main">
+            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="http://159.138.129.162:8888/cla">
                 Sign
             </a>
             <a href="#" id="reset-cla-button" class="btn btn-template-main">

@@ -96,7 +96,7 @@ title = "签署CLA"
             传真:
         </td>
         <td>
-            <input type="text" id="individual-Fax" />
+            <input type="text" id="individual-fax" />
         </td>
     </tr>
     <tr>
@@ -173,7 +173,7 @@ title = "签署CLA"
             传真:
         </td>
         <td>
-            <input type="text" id="legalentity-Fax" />
+            <input type="text" id="legalentity-fax" />
         </td>
     </tr>
     <tr>
@@ -186,7 +186,7 @@ title = "签署CLA"
 <table id="cla-table">
     <tr>
         <td>
-            <a href="#" id="sign-cla-button" class="btn btn-template-main">
+            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="http://159.138.129.162:8888/cla">
                 签署
             </a>
             <a href="#" id="reset-cla-button" class="btn btn-template-main">
