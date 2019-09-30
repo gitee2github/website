@@ -47,7 +47,7 @@ function initClaPage() {
 
     if ($('#sign-cla-button').length) {
         $("#sign-cla-button").bind('click', function () {
-            v = $('input[name="cla-type-radio"]:checked').val();
+            v = parseInt($('input[name="cla-type-radio"]:checked').val());
             var regphone = /^(\d{4}-|\d{3}-)?(\d{8}|\d{7})$/;
             var regmobile = /^1\d{10}$/;
             var regemail = /^[-_A-Za-z0-9]+@([_A-Za-z0-9]+\.)+[A-Za-z0-9]{2,3}$/;
