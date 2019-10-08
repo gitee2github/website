@@ -53,7 +53,7 @@ Please select one applicable statement from the following and fill in the blanks
             Name*:
         </td>
         <td>
-            <input type="text" id="individual-name" class = "require" />
+            <input type="text" id="individual-name" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@ Please select one applicable statement from the following and fill in the blanks
             Mailing Address*:
         </td>
         <td>
-            <input type="text" id="individual-address" class = "require" />
+            <input type="text" id="individual-address" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ Please select one applicable statement from the following and fill in the blanks
             Date*:
         </td>
         <td>
-            <input type="text" id="individual-date" class = "require" />
+            <input type="text" id="individual-date" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -77,7 +77,7 @@ Please select one applicable statement from the following and fill in the blanks
             E-Mail*:
         </td>
         <td>
-            <input type="text" id="individual-email" class = "require" />
+            <input type="text" id="individual-email" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@ Please select one applicable statement from the following and fill in the blanks
             Telephone*:
         </td>
         <td>
-            <input type="text" id="individual-telephone" class = "require" />
+            <input type="text" id="individual-telephone" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -93,7 +93,7 @@ Please select one applicable statement from the following and fill in the blanks
             Fax:
         </td>
         <td>
-            <input type="text" id="individual-fax" />
+            <input type="text" id="individual-fax" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -114,7 +114,7 @@ Please select one applicable statement from the following and fill in the blanks
             Authorized Representative*:
         </td>
         <td>
-            <input type="text" id="legalentity-name" class = "require" />
+            <input type="text" id="legalentity-name" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@ Please select one applicable statement from the following and fill in the blanks
             Title*:
         </td>
         <td>
-            <input type="text" id="legalentity-title" class = "require" />
+            <input type="text" id="legalentity-title" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@ Please select one applicable statement from the following and fill in the blanks
             Corporation Name*:
         </td>
         <td>
-            <input type="text" id="legalentity-corporation" class = "require" />
+            <input type="text" id="legalentity-corporation" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -138,7 +138,7 @@ Please select one applicable statement from the following and fill in the blanks
             Mailing Address*:
         </td>
         <td>
-            <input type="text" id="legalentity-address" class = "require" />
+            <input type="text" id="legalentity-address" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -146,7 +146,7 @@ Please select one applicable statement from the following and fill in the blanks
             Date*:
         </td>
         <td>
-            <input type="text" id="legalentity-date" class = "require" />
+            <input type="text" id="legalentity-date" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -154,7 +154,7 @@ Please select one applicable statement from the following and fill in the blanks
             E-Mail*:
         </td>
         <td>
-            <input type="text" id="legalentity-email" class = "require" />
+            <input type="text" id="legalentity-email" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -162,7 +162,7 @@ Please select one applicable statement from the following and fill in the blanks
             Telephone*:
         </td>
         <td>
-            <input type="text" id="legalentity-telephone" class = "require" />
+            <input type="text" id="legalentity-telephone" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -170,7 +170,7 @@ Please select one applicable statement from the following and fill in the blanks
             Fax:
         </td>
         <td>
-            <input type="text" id="legalentity-fax" />
+            <input type="text" id="legalentity-fax" maxlength="100" />
         </td>
     </tr>
     <tr>

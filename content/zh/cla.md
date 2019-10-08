@@ -56,7 +56,7 @@ title = "签署CLA"
             姓名*:
         </td>
         <td>
-            <input type="text" id="individual-name" class = "require" />
+            <input type="text" id="individual-name" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -64,7 +64,7 @@ title = "签署CLA"
             地址*:
         </td>
         <td>
-            <input type="text" id="individual-address" class = "require" />
+            <input type="text" id="individual-address" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -72,7 +72,7 @@ title = "签署CLA"
             日期*:
         </td>
         <td>
-            <input type="text" id="individual-date" class = "require" />
+            <input type="text" id="individual-date" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ title = "签署CLA"
             邮箱*:
         </td>
         <td>
-            <input type="text" id="individual-email" class = "require" />
+            <input type="text" id="individual-email" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -88,7 +88,7 @@ title = "签署CLA"
             电话*:
         </td>
         <td>
-            <input type="text" id="individual-telephone" class = "require" />
+            <input type="text" id="individual-telephone" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -96,7 +96,7 @@ title = "签署CLA"
             传真:
         </td>
         <td>
-            <input type="text" id="individual-fax" />
+            <input type="text" id="individual-fax" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -117,7 +117,7 @@ title = "签署CLA"
             授权代表*:
         </td>
         <td>
-            <input type="text" id="legalentity-name" class = "require" />
+            <input type="text" id="legalentity-name" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -125,7 +125,7 @@ title = "签署CLA"
             职位*:
         </td>
         <td>
-            <input type="text" id="legalentity-title" class = "require" />
+            <input type="text" id="legalentity-title" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -133,7 +133,7 @@ title = "签署CLA"
             公司名*:
         </td>
         <td>
-            <input type="text" id="legalentity-corporation" class = "require" />
+            <input type="text" id="legalentity-corporation" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -141,7 +141,7 @@ title = "签署CLA"
             地址*:
         </td>
         <td>
-            <input type="text" id="legalentity-address" class = "require" />
+            <input type="text" id="legalentity-address" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@ title = "签署CLA"
             日期*:
         </td>
         <td>
-            <input type="text" id="legalentity-date" class = "require" />
+            <input type="text" id="legalentity-date" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -157,7 +157,7 @@ title = "签署CLA"
             邮箱*:
         </td>
         <td>
-            <input type="text" id="legalentity-email" class = "require" />
+            <input type="text" id="legalentity-email" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -165,7 +165,7 @@ title = "签署CLA"
             电话*:
         </td>
         <td>
-            <input type="text" id="legalentity-telephone" class = "require" />
+            <input type="text" id="legalentity-telephone" class = "require" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -173,7 +173,7 @@ title = "签署CLA"
             传真:
         </td>
         <td>
-            <input type="text" id="legalentity-fax" />
+            <input type="text" id="legalentity-fax" maxlength="100" />
         </td>
     </tr>
     <tr>
