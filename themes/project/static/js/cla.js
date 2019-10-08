@@ -172,10 +172,50 @@ function initClaPage() {
                 crossDomain: true,
                 datatype: "json",
                 success: function (data) {
-                    alert(data);
+                    if (data) {
+                        if(data.isSuccess) {
+                            $("#reset-cla-button").trigger('click');
+                            if (lang == "zh-cn") {
+                                alert("签署成功!");
+                            } else {
+                                alert("Sign succeed!");
+                            }
+                        } else {
+                            if(data.errorCode == 1) {
+                                if (lang == "zh-cn") {
+                                    alert("服务器处理错误!");
+                                } else {
+                                    alert("Server handle error!");
+                                }
+                            } else if (data.errorCode == 2) {
+                                if (lang == "zh-cn") {
+                                    alert("邮箱已经被注册!");
+                                } else {
+                                    alert("E-Mail is already registered!");
+                                }
+                            } else if (data.errorCode == 3) {
+                                if (lang == "zh-cn") {
+                                    alert("电话已经被注册!");
+                                } else {
+                                    alert("Telephone is already registered!");
+                                }  
+                            }
+                        }
+                    }
+                    else {
+                        if (lang == "zh-cn") {
+                            alert("签署失败!");
+                        } else {
+                            alert("Sign failed!");
+                        }
+                    }
                 },
                 error: function () {
-                    alert("请求失败");
+                    if (lang == "zh-cn") {
+                        alert("签署失败!");
+                    } else {
+                        alert("Sign failed!");
+                    }
                 }
             });
 
