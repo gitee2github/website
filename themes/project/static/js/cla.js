@@ -28,6 +28,9 @@ function initCurrentDate() {
 // init cla page
 function initClaPage() {
     if ($('#cla-type-table').length) {
+        // default show individual
+        $('#individual-table').show();
+        $('#legalentity-table').hide();
         $('td', '#cla-type-table').click(function () {
             // select checked
             $('input[name="track"]').removeAttr('checked');
