@@ -630,6 +630,27 @@ footer .notice span {
   display: block;
 }
 
+.container div.book-page table {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container div.book-page table td,
+.container div.book-page table th {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.container div.book-page table th {
+  background-color: #eee;
+}
+
+.container div.book-page table > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
 .container aside.book-toc {
   display: none;
 }
