@@ -183,7 +183,7 @@ Please select one applicable statement from the following and fill in the blanks
 <table id="cla-table">
     <tr>
         <td>
-            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="http://159.138.129.162:8888/cla">
+            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="/cla/">
                 Sign
             </a>
             <a href="#" id="reset-cla-button" class="btn btn-template-main">

@@ -186,7 +186,7 @@ title = "签署CLA"
 <table id="cla-table">
     <tr>
         <td>
-            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="http://159.138.129.162:8888/cla">
+            <a href="#" id="sign-cla-button" class="btn btn-template-main" posturl="/cla/">
                 签署
             </a>
             <a href="#" id="reset-cla-button" class="btn btn-template-main">
