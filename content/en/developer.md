@@ -6,7 +6,7 @@ title = "Contributions to the Community"
 
 Before you start, please note that you must have a Gitee account. To register an account, go to [https://gitee.com/signup](https://gitee.com/signup).    
 
-We appreciate your contributions to the community. By signing a contributor license agreement (CLA), we ensure that the community is free to use your contributions. Please send an email containing the CLA content (see at [https://gitee.com/openeuler/community/blob/master/zh/CLA.md](https://gitee.com/openeuler/community/blob/master/zh/CLA.md)) and your personal information to <contact@openeuler.org> for signing.      
+We appreciate your contributions to the community. By signing a contributor license agreement (CLA), we ensure that the community is free to use your contributions. The signing link is [https://openeuler.org/en/cla.html](https://openeuler.org/en/cla.html).      
 
 Select a project you may be interested in from the project catalog at [https://gitee.com/openeuler](https://gitee.com/openeuler). Read the ```CONTRIBUTING.md``` file for project information and contribution instructions.  If you are not sure which project is suitable for you, refer to the introduction of the [SIGs](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md) in the community.    
 
