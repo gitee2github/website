@@ -6,7 +6,7 @@ title = "社区贡献"
 
 注册gitee账号。注册地址 [https://gitee.com/signup](https://gitee.com/signup)，如果已有gitee账号，请跳过。    
 
-签署社区CLA。签署CLA是参与社区前提，复制CLA内容[https://gitee.com/openeuler/community/blob/master/zh/CLA.md](https://gitee.com/openeuler/community/blob/master/zh/CLA.md)并填写个人信息后，发送邮件到 <contact@openeuler.org>，待管理员确认后签署成功。       
+签署社区CLA。签署地址：[https://openeuler.org/zh/cla.html](https://openeuler.org/zh/cla.html)，根据情况选择**个人独立贡献者**或者**法律实体贡献者**签署。       
 
 选择贡献项目，所有项目参见：[https://gitee.com/openeuler](https://gitee.com/openeuler)。 阅读项目下 ```CONTRIBUTING.md``` 文件了解该项目贡献指导。 如果您不确定哪个项目适合您，建议参考社区 [SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md)组介绍。    
 
