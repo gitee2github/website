@@ -111,7 +111,7 @@ Please select one applicable statement from the following and fill in the blanks
     </tr>
     <tr>
         <td>
-            Authorized Representative（Name）*:
+            Authorized Representative(Name)*:
         </td>
         <td>
             <input type="text" id="legalentity-name" class = "require" maxlength="100" />
