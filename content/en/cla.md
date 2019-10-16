@@ -82,10 +82,10 @@ Please select one applicable statement from the following and fill in the blanks
     </tr>
     <tr>
         <td>
-            Telephone*:
+            Telephone:
         </td>
         <td>
-            <input type="text" id="individual-telephone" class = "require" maxlength="100" />
+            <input type="text" id="individual-telephone" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -111,7 +111,7 @@ Please select one applicable statement from the following and fill in the blanks
     </tr>
     <tr>
         <td>
-            Authorized Representative*:
+            Authorized Representative（Name）*:
         </td>
         <td>
             <input type="text" id="legalentity-name" class = "require" maxlength="100" />
@@ -159,10 +159,10 @@ Please select one applicable statement from the following and fill in the blanks
     </tr>
     <tr>
         <td>
-            Telephone*:
+            Telephone:
         </td>
         <td>
-            <input type="text" id="legalentity-telephone" class = "require" maxlength="100" />
+            <input type="text" id="legalentity-telephone" maxlength="100" />
         </td>
     </tr>
     <tr>

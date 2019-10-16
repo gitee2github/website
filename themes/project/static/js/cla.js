@@ -87,13 +87,15 @@ function initClaPage() {
                     return false;
                 }
                 var telephone = $.trim($('#individual-telephone').val());
-                if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
-                    if (lang == "zh-cn") {
-                        $('#tip-cla-label').html("电话格式不正确!");
-                    } else {
-                        $('#tip-cla-label').html("Telephone format is incorrent!");
+                if (telephone != "") {
+                    if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
+                        if (lang == "zh-cn") {
+                            $('#tip-cla-label').html("电话格式不正确!");
+                        } else {
+                            $('#tip-cla-label').html("Telephone format is incorrent!");
+                        }
+                        return false;
                     }
-                    return false;
                 }
             } else {
                 // legalentity
@@ -125,13 +127,15 @@ function initClaPage() {
                     return false;
                 }
                 var telephone = $.trim($('#legalentity-telephone').val());
-                if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
-                    if (lang == "zh-cn") {
-                        $('#tip-cla-label').html("电话格式不正确!");
-                    } else {
-                        $('#tip-cla-label').html("Telephone format is incorrent!");
+                if (telephone != "") {
+                    if ((!regphone.test(telephone)) && (!regmobile.test(telephone))) {
+                        if (lang == "zh-cn") {
+                            $('#tip-cla-label').html("电话格式不正确!");
+                        } else {
+                            $('#tip-cla-label').html("Telephone format is incorrent!");
+                        }
+                        return false;
                     }
-                    return false;
                 }
             }
 
@@ -176,7 +180,7 @@ function initClaPage() {
                 datatype: "json",
                 success: function (data) {
                     if (data) {
-                        if(data.isSuccess) {
+                        if (data.isSuccess) {
                             $("#reset-cla-button").trigger('click');
                             if (lang == "zh-cn") {
                                 alert("签署成功!");
@@ -184,7 +188,7 @@ function initClaPage() {
                                 alert("Sign succeed!");
                             }
                         } else {
-                            if(data.errorCode == 1) {
+                            if (data.errorCode == 1) {
                                 if (lang == "zh-cn") {
                                     alert("服务器处理错误!");
                                 } else {
@@ -201,7 +205,7 @@ function initClaPage() {
                                     alert("电话已经被注册!");
                                 } else {
                                     alert("Telephone is already registered!");
-                                }  
+                                }
                             }
                         }
                     }

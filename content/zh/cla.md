@@ -85,10 +85,10 @@ title = "签署CLA"
     </tr>
     <tr>
         <td>
-            电话*:
+            电话:
         </td>
         <td>
-            <input type="text" id="individual-telephone" class = "require" maxlength="100" />
+            <input type="text" id="individual-telephone" maxlength="100" />
         </td>
     </tr>
     <tr>
@@ -114,7 +114,7 @@ title = "签署CLA"
     </tr>
     <tr>
         <td>
-            授权代表*:
+            授权代表（姓名）*:
         </td>
         <td>
             <input type="text" id="legalentity-name" class = "require" maxlength="100" />
@@ -162,10 +162,10 @@ title = "签署CLA"
     </tr>
     <tr>
         <td>
-            电话*:
+            电话:
         </td>
         <td>
-            <input type="text" id="legalentity-telephone" class = "require" maxlength="100" />
+            <input type="text" id="legalentity-telephone" maxlength="100" />
         </td>
     </tr>
     <tr>
