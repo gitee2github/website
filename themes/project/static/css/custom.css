@@ -667,6 +667,12 @@ body {
 html {
   min-width: 320px;
   max-width: 1920px;
+  margin: 0 auto;
+}
+
+.navbar-affixed-top.affix {
+  min-width: 320px;
+  max-width: 1920px;
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1366px) {
