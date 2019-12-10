@@ -1,5 +1,11 @@
 /* your styles go here */
 
+#tablehdc td
+{
+  border: 1px solid #ccc;
+  line-height: 30px;
+}
+
 .box-image-text .image {
   min-height: 200px;
   max-height: 200px;
