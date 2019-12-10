@@ -6,6 +6,13 @@
   line-height: 30px;
 }
 
+#heading-breadcrumbs h1,
+#blog-listing-medium .post h2,
+#blog-listing-medium .post .author-category
+{
+  text-transform: inherit !important;
+}
+
 .box-image-text .image {
   min-height: 200px;
   max-height: 200px;
