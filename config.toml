@@ -85,7 +85,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "meetings"
-    name = "IRC"
+    name = "Meetings"
     url = "/en/meetings.html"
     parent = "community"
     weight = 10
@@ -186,7 +186,7 @@ paginate = 10
 
 [[languages.zh.menu.main]]    
     identifier = "meetings"
-    name = "IRC"
+    name = "会议"
     url = "/zh/meetings.html"
     parent = "community"
     weight = 10
