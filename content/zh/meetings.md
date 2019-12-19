@@ -25,7 +25,7 @@ IRC频道与日志，您可以在这里找到所有的频道和记录[IRC Channe
 
 #startmeeting
 
-开始一个会议，键入这个命令的人讲成为该会议的主持人，命令后面的文字将成为该会议的主题。
+开始一个会议，键入这个命令的人将成为该会议的主持人，命令后面的文字将成为该会议的主题。
 
 #endmeeting
 
@@ -44,15 +44,15 @@ IRC频道与日志，您可以在这里找到所有的频道和记录[IRC Channe
 用于增加或者移除会议主持人，命令后跟IRC的昵称，开始会议的人将是会议的所有者，在会议过程中是不能被移除，命令将对执行结果给出回应信息，例如：
 
 ```
-<  MrBeige>  #chair  MrGreen  MsAlizarin
-<  MeetBot>  Current  chairs  are:  MsAlizarin  MrBeige  MrGreen
+<freesky-edward>  #chair  MrGreen  MsAlizarin
+<openeuler-ci-bot> Current  chairs  are: freesky-edward MsAlizarin MrGreen
 ```
 #action
 
 用于记录会议讨论后下一步需要某人采取的动作，命令后面的第一串字符表示动作的执行人，后续文字将是对动作的描述，待会议结束后，会议纪要将把该后续动作记录下来。命令样例：
 
 ```
-<  MrBeige>  #action  MrGreen  will  read  the  entire  Internet  to determine  why  the  hive  cluster  is  under  attack.If  MrGreen  has  said  something  during  the  meeting,  this  will  be automatically  assigned  to  him.
+<freesky-edward>  #action MrGreen 查找整个网络了解为啥集群受到攻击.
 ```
 
 #info
@@ -60,7 +60,7 @@ IRC频道与日志，您可以在这里找到所有的频道和记录[IRC Channe
 用于在会议记录中高亮显示一个记录，例如：
 
 ```
-<  MrBeige>  #info  We  need  to  spawn  more  overlords  before  the  next release.
+<freesky-edward>  #info 在下一个版本发布前，我们还有很多工作需要做.
 ```
 
 #link
@@ -68,9 +68,8 @@ IRC频道与日志，您可以在这里找到所有的频道和记录[IRC Channe
 用于添加一个网络连接，命令后即是该连接的地址，连接不能有空格，如果敲入的文字以http或者https开头，系统会默认执行该命令，例如：
 
 ```
-<  MrBeige>  #link  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
-<  MrBeige>  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
-<  MrBeige>  #link  the  main  page  is  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)
-so  go  there
-<  MrBeige>  the  main  page  is  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  so  go there.  (This  will  NOT  be  detected  automatically)
+<freesky-edward> #link [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 是主页
+<freesky-edward> [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 是主页
+<freesky-edward> #link the main page is [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 
+浏览这里
 ```

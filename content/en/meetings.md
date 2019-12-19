@@ -14,65 +14,64 @@ IRC channels and logged. You can find all channels and all logs here:
 
 ### Use Case
 
-The meeting channel can be managed by meeting chair with bot command. which is used by ``#`` prefix character. the basic useful commands are following:
+The meeting channel can be managed by meeting chair with bot command, which is used by # prefix character. The basic commands are shown below:
 
-#startmeeting - (chair) start the meeting on channel. the meeting topic should be given on the rest. e.g. ``#startmeeting infra``  
-#topic - (chair) - (chair)start a topic on channel to make sure all partners focus on a special topic.
-#endmeeting - (chair) end the whole meeting.
+#startmeeting - (chair) Start the meeting on channel. the meeting topic should be given on the rest. e.g. ``#startmeeting infra``  
+#topic - (chair) - (chair) Start a topic on channel to make sure all partners focus on a special topic.
+#endmeeting - (chair) End the whole meeting.
 
 For more other commands, please step into next section.
 
 ### Commands
 
-All  commands  are  case-insensitive,  and  use  the  ``#``  prefix character.  Not  all  commands  have  output.  This  might  be  confusing, because  you  don't  know  if  it's  been  acted  on  or  not.  However,  this  is a  conscious  design  decision  to  try  to  keep  out  of  the  way  and  not distract  from  the  real  people.  If  something  goes  wrong,  you  can adjust  and  have  MeetBot  re-process  the  logs  later.
+All commands are case-insensitive, and use the ``#`` prefix character. Not all commands have output. The commands are.
 
 #startmeeting
 
-Starts  a  meeting.  The  calling  nick  becomes  the  chair.  If  any  text is  given  on  the  rest  of  the  line,  this  becomes  the  meeting  topic, see  ``#meetingtopic``  above.
+Start a meeting. The calling nick becomes the chair. If any text is given on the rest of the line, this becomes the meeting topic.
 
 #endmeeting
 
-End  a  meeting,  save  logs,  restore  previous  topic,  give  links  to logs.  You  know  the  drill.  (Chairs  only.)
+End a meeting, save logs, restore previous topic, give links to logs. You know the drill.  (Chairs  only.)
 
 #topic
 
-Set  the  current  topic  of  discussion.  MeetBot  changes  the  topic  in the  channel  (saving  the  original  topic  to  be  restored  at  the  end  of the  meeting).  (Chairs  only.)
+Set  the  current  topic  of  discussion, the rest of the line will become the topic, change the topic in the channel (saving  the  original  topic  to  be  restored  at  the  end  of the  meeting).  (Chairs  only.)
 
 #agreed  (alias  #agree)
 
-Mark  something  as  agreed  on.  The  rest  of  the  line  is  the  details. (Chairs  only.)
+Mark something as agreed on. The rest of the line is the details. (Chairs  only.) All the rest text will be recorded by system after the meeting end.
 
 #chair  and  #unchair
 
-Add  new  chairs  to  the  meeting.  The  rest  of  the  line  is  a  list  of nicks,  separated  by  commas  and/or  spaces.  The  nick  which  started the  meeting  is  the  ``owner``  and  can't  be  de-chaired.  The  command replies  with  a  list  of  the  current  chairs,  for  verification  (Chairs only.)  Example::
+Add new chairs to the meeting. The rest of the line is a list of nicks, separated by commas and/or spaces. The nick which started the meeting is the  ``owner`` and can't be de-chaired. The command replies with a list of the current chairs, for verification (Chairs only.)  Example::
 ```
-<  MrBeige>  #chair  MrGreen  MsAlizarin
-<  MeetBot>  Current  chairs  are:  MsAlizarin  MrBeige  MrGreen
+<freesky-edward>  #chair MrGreen MsAlizarin
+<openeuler-ci-bot>  Current chairs are: freesky-edward MsAlizarin MrGreen
 ```
 #action
 
-Add  an  ``ACTION``  item  to  the  minutes.  Provide  irc  nicks  of  people involved,  and  will  be  both  a  complete  listing  of  action  items,  and  a listing  of  action  items  sorted  by  nick  at  the  end  of  the  meeting. This  is  very  useful  for  making  sure  this  gets  done.  Example::
+Add an ``ACTION`` item to the minutes. Provide irc nicks of people involved, and will be both a complete listing of action items, and a listing of action items sorted by nick at the end of the meeting. This is very useful for making sure this gets done.  Example::
 
 ```
-<  MrBeige>  #action  MrGreen  will  read  the  entire  Internet  to determine  why  the  hive  cluster  is  under  attack.If  MrGreen  has  said  something  during  the  meeting,  this  will  be automatically  assigned  to  him.
+<freesky-edward>  #action MrGreen will read the entire Internet to determine why the hive cluster is under attack.
 ```
 
 #info
 
-Add  an  ``INFO``  item  to  the  minutes.  Example::
+Add an ``INFO`` item to the minutes. Example::
 
 ```
-<  MrBeige>  #info  We  need  to  spawn  more  overlords  before  the  next release.
+<freesky-edward>  #info We need much effort before the next release.
 ```
 
 #link
 
-Add  a  link  to  the  minutes.  The  URL  will  be  properly  detected  within the  line  in  most  cases  -  the  URL  can't  contain  spaces.  This  command is  automatically  detected  if  the  line  starts  with  http:,  https:, mailto:,  and  some  other  common  protocols  defined  in  the ``UrlProtocols``  configuration  variable.  Examples::
+Add a link to the minutes. The URL will be properly detected within the line in most cases - the URL can't contain spaces. This command is automatically detected if the line starts with http:, https:. Examples::
 
 ```
-<  MrBeige>  #link  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
-<  MrBeige>  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
-<  MrBeige>  #link  the  main  page  is  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)
-so  go  there
-<  MrBeige>  the  main  page  is  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  so  go there.  (This  will  NOT  be  detected  automatically)
+<freesky-edward>  #link  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
+<freesky-edward>  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)  is  the  main  page
+<freesky-edward>  #link  the  main  page  is  [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)
+so go there
 ```
