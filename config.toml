@@ -74,7 +74,7 @@ paginate = 10
     name = "Mail Lists"
     url = "/en/community/mails.html"
     parent = "community"
-    weight = 10
+    weight = 11
 
 [[menu.main]]
     identifier = "irc"
@@ -82,6 +82,13 @@ paginate = 10
     url = "/en/community/irc.html"
     parent = "community"
     weight = 9
+
+[[menu.main]]
+    identifier = "meetings"
+    name = "Meetings"
+    url = "/en/meetings.html"
+    parent = "community"
+    weight = 10
 
 [[menu.main]]
     identifier = "events"
@@ -168,7 +175,7 @@ paginate = 10
     name = "邮件列表"
     url = "/zh/community/mails.html"
     parent = "community"
-    weight = 10
+    weight = 11
 
 [[languages.zh.menu.main]]
     identifier = "irc"
@@ -176,6 +183,13 @@ paginate = 10
     url = "/zh/community/irc.html"
     parent = "community"
     weight = 9
+
+[[languages.zh.menu.main]]    
+    identifier = "meetings"
+    name = "会议"
+    url = "/zh/meetings.html"
+    parent = "community"
+    weight = 10
 
 [[languages.zh.menu.main]]
     identifier = "events"
