@@ -529,6 +529,11 @@ footer .notice span {
 
 .table-bordered.table-striped td {
   white-space: nowrap;
+  vertical-align: middle;
+}
+
+.table-bordered.table-striped td:last-child {
+  white-space: inherit;
 }
 
 .divmail ul, .divmail ol {
