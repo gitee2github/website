@@ -92,7 +92,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "events"
-    name = "Upcoming Events"
+    name = "Events"
     url = "/en/events.html"
     parent = "community"
     weight = 2
@@ -193,7 +193,7 @@ paginate = 10
 
 [[languages.zh.menu.main]]
     identifier = "events"
-    name = "未来事件"
+    name = "活动"
     url = "/zh/events.html"
     parent = "community"
     weight = 2
