@@ -4,10 +4,10 @@ id = "Integrat & Certification"
 +++
 
 
-`` `
+```
 Note: The openEuler community is still being set up, and the design for integration and certification is still in preparation. This article shows the draft idea. Contact community@openeuler.org to provide your suggestions.
 
-`` `
+```
 ## What is Integration & Certification
 
 As an open source operating system, openEuler needs to provide users with a rich technical ecosystem, including:
