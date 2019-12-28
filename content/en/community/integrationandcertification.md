@@ -20,7 +20,7 @@ As an open source operating system, openEuler needs to provide users with a rich
 
 These software may be open source, free, or commercial.
 
-Integration and certification means passing the test to ensure that the openEuler operating system and the above software can be used and are mutually recognized (mutual authentication).
+Integration and certification means passing the test to ensure that the openEuler operating system and the above software can be used and are mutually certificated.
 
 ## Integration and CertificationopenEuler for hardware drivers 
 
