@@ -1,3 +1,3 @@
 +++
-title = "Upcoming Events"
+title = "Events"
 +++
