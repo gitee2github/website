@@ -57,7 +57,7 @@ Maintainer identifies and distributes CVE issues. Solutions to CVE problems can 
               <th align="left" style="width:40px">Scoring Item</th>
               <th align="left" style="width:40px">openEuler</th>
               <th align="left" style="width:40px">NVD</th>
-              <th align="left" style="width:100px">具体说明</th>
+              <th align="left" style="width:100px">Details</th>
           </tr>
           <tr>
               <td align="left">CVSS v3 Base Score</td>
