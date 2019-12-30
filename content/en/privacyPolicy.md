@@ -1,11 +1,8 @@
 +++
 title = "Privacy Policy"
 +++
-<<<<<<< HEAD
-openEuler深知您的隐私对您的重要性，并充分尊重您的隐私。如果您对于我们处理您的个人数据的方式有任何疑问，欢迎与我们联系。
-=======
+
 openEuler community understands the importance of your privacy to you and fully respects your privacy. If you have any questions about how we process your personal data, please feel free to contact us.
->>>>>>> 1.首页邮件显示修改 2.更换集成&认证图标 3.banner中英文修改 4.sig超出表格隐藏。5.修改隐私政策英文
 
 **1. We will collect the following personal data from you**
 
@@ -20,13 +17,9 @@ openEuler community understands the importance of your privacy to you and fully 
 * When you use our mail subscription service, we will collect your personal data:
    + your email address
 
-<<<<<<< HEAD
-* 为持续了解openEuler社区的运行状况，以便我们更好地为您服务，我们将收集您的以下个人数据：
-   + 您的IP地址
-=======
+
 * To keep track of the running status of the openEuler community so as to provide better service for you, we will collect your personal data:
    + Your IP address
->>>>>>> 1.首页邮件显示修改 2.更换集成&认证图标 3.banner中英文修改 4.sig超出表格隐藏。5.修改隐私政策英文
 
 **2. How will we process your personal data**
 
