@@ -11,14 +11,14 @@ id = "security"
 
 
 
-<h2 id="itm1">扫描和提交CVE问题</h2>
+<h4 id="itm1">扫描和提交CVE问题</h4>
 openEuler的安全系统会扫描属于openEuler软件包范围内的CVE问题，并向openEuler社区的安全团队提交CVE问题。CVE类的问题的issue标题必须以CVE ID起始，后面跟上CVE问题的简要描述，如：
 
 **CVE-2019-11255:** CSI volume snapshot, cloning and resizing features can result in unauthorized volume data access or mutation 
 
 
 
-<h2 id="itm2">安全团队处理和分发CVE问题</h2>
+<h4 id="itm2">安全团队处理和分发CVE问题</h4>
 
 安全团队会根据CVE问题所属的包分发对应的CVE ISSUE到repo内。CVE ISSUE会包含以下信息：
 
@@ -40,7 +40,7 @@ openEuler的安全系统会扫描属于openEuler软件包范围内的CVE问题�
 
 
 
-<h2 id="itm3">处理CVE问题</h2>
+<h4 id="itm3">处理CVE问题</h4>
 
 Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以由贡献者提供，并经过Maintainer或Committer的评审提交。提交时请关联CVE ISSUE，并在ISSUE内提供完善的的信息：
 
@@ -128,7 +128,7 @@ Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以�
   
     
 
-<h2 id="itm4">CVE问题合入策略</h2>
+<h4 id="itm4">CVE问题合入策略</h4>
 
 + **快速通道**：对openEuler评定级别是严重的安全类问题，openEuler安全团队会启动快速通道，优先向涉及到且在生命周期内的LTS版本提供解决方案。
 
@@ -144,9 +144,7 @@ Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以�
 
   + 未流入正式版本的安全类问题：作为开发版本的ISSUE处理，合入到当前开发版本，此类问题也不需要发布安全公告；
 
-<h2 id="itm5">CVE问题流程说明</h2>
 
-
-<h2 id="itm5">CVE问题处理流程</h2>
+<h4 id="itm5">CVE问题处理流程</h4>
 
 <img src="./security/procedure.png" width="100%" style="max-width:1079px" />

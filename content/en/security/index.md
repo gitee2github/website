@@ -12,7 +12,7 @@ id = "security"
 
 
 
-<h2 id="itm1">Submit a CVE Issue</h2>
+<h4 id="itm1">Submit a CVE Issue</h4>
 
 openEuler's security system scans CVE issues and submits CVE issues to the security committee of openEuler community. The issue title of a CVE issue must start with a CVE ID, followed by a brief description of the CVE issue, for example,
 
@@ -20,7 +20,7 @@ openEuler's security system scans CVE issues and submits CVE issues to the secur
 
 
 
-<h2 id="itm2">Security Group Distributes CVE Issues</h2>
+<h4 id="itm2">Security Group Distributes CVE Issues</h4>
 
 The security Group will distribute the CVE issues to the related repos. CVE issues contain the following information:
 
@@ -41,7 +41,7 @@ The security Group will distribute the CVE issues to the related repos. CVE issu
     + [ASSIGNINGCNA]: assign the name of CNA
 
 
-<h2 id="itm3">Handle CVE Issues</h2>
+<h4 id="itm3">Handle CVE Issues</h4>
 
 Maintainer identifies and distributes CVE issues. Solutions to CVE problems can be provided by contributors and submitted for review by the Maintainer or Committer. When submitting, please associate with CVE ISSUE and provide complete information in Issues:
 
@@ -130,7 +130,7 @@ Maintainer identifies and distributes CVE issues. Solutions to CVE problems can 
     + [ASSIGNINGCNA]: assign the name of CNA    
 
 
-<h2 id="itm4">CVE Issues Management Policy</h2>
+<h4 id="itm4">CVE Issues Management Policy</h4>
 
 + **Fast Way**: The openEuler rating is a serious security issue. The openEuler security team will start the fast track to provide solutions to the LTS versions involved and within the life cycle.
 
@@ -146,6 +146,6 @@ Maintainer identifies and distributes CVE issues. Solutions to CVE problems can 
 
     + Security issues that have not flown into the official version: handled as a development version of ISSUE and incorporated into the current development version. Such issues do not require a security announcement;
 
-<h2 id="itm5">CVE Issues Proceure</h2>
+<h4 id="itm5">CVE Issues Proceure</h4>
 
 <img src="./security/procedure.png" width="100%" style="max-width:1079px" />
