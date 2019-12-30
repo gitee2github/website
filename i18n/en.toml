@@ -21,13 +21,13 @@ other = "openEuler builds an innovative platform and a unified and open OS that 
 other = "iSula"
 
 [main_cards_description_second]
-other = "a cloud-native lightweight container solution that can meet the needs of device, edge, and cloud scenarios in ICT domain with a unified and flexible architecture."
+other = "A cloud-native lightweight container solution that can meet the needs of device, edge, and cloud scenarios in ICT domain with a unified and flexible architecture."
 
 [main_cards_title_third]
 other = "A-Tune"
 
 [main_cards_description_third]
-other = "a system software to auto-optimize the system adaptively to multiple scenarios with embedded AI-engine."
+other = "A system software to auto-optimize the system adaptively to multiple scenarios with embedded AI-engine."
 
 [main_events_title]
 other = "Events"
@@ -58,6 +58,15 @@ other = "Maintainers: "
 
 [sig_homepage]
 other = "Homepage: "
+
+[main_mail_more]
+other = "Get more in "
+
+[main_mail_more_link]
+other = "/en/community/mails.html"
+
+[main_mail_more_list]
+other = "Mail List"
 
 # DOC page
 [doc_git_footer]

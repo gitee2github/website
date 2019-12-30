@@ -1,52 +1,62 @@
 +++
-title = "隐私政策"
+title = "Privacy Policy"
 +++
+<<<<<<< HEAD
 openEuler深知您的隐私对您的重要性，并充分尊重您的隐私。如果您对于我们处理您的个人数据的方式有任何疑问，欢迎与我们联系。
+=======
+openEuler community understands the importance of your privacy to you and fully respects your privacy. If you have any questions about how we process your personal data, please feel free to contact us.
+>>>>>>> 1.首页邮件显示修改 2.更换集成&认证图标 3.banner中英文修改 4.sig超出表格隐藏。5.修改隐私政策英文
 
-**1. 我们将收集您的以下个人数据**
+**1. We will collect the following personal data from you**
 
-* 在您签署我们的贡献者协议（CLA）时，我们将收集以下个人数据：
-   + 您的姓名或账户
-   + 您的地址
-   + 您的电子邮件地址
-   + 您的电话号码
-   + 您的传真号码
-   + 您在码云（Gitee）的ID
+* When you sign our Contributor Agreement (CLA), we will collect the following personal data:
+   + Your name or account
+   + Your address
+   + Your email address
+   + Your phone number
+   + Your fax number
+   + Your ID in Gitee
 
-* 在您使用我们的邮件订阅服务时，我们将收集您的以下个人数据：
-   + 您的电子邮件地址
+* When you use our mail subscription service, we will collect your personal data:
+   + your email address
 
+<<<<<<< HEAD
 * 为持续了解openEuler社区的运行状况，以便我们更好地为您服务，我们将收集您的以下个人数据：
    + 您的IP地址
+=======
+* To keep track of the running status of the openEuler community so as to provide better service for you, we will collect your personal data:
+   + Your IP address
+>>>>>>> 1.首页邮件显示修改 2.更换集成&认证图标 3.banner中英文修改 4.sig超出表格隐藏。5.修改隐私政策英文
 
-**2. 我们将如何处理您的个人数据**
+**2. How will we process your personal data**
 
-除以下情形，我们不会将您的个人数据用于其他目的
+We will not use your personal data for any other purpose except under the following circumstances:
 
-*  与您在码云（Gitee）的ID进行匹配，以确认您在提交代码之前已签署CLA。
+*  Match your ID in Gitee to confirm that you signed the CLA before submitting codes.
 
-*  为您提供邮件订阅服务，便于您参与社区中的讨论。
+*  Provide you with a mail subscription service so you can participate in discussions in the community.
 
-*  进行数据统计，以了解Gitee社区的运营状况。
+*  Conduct statistics to understand the operating status of the Gitee community.
 
-**3. 我们将如何保护您的个人数据**
+**3. How will we protect your personal data**
 
-我们重视个人数据的安全。我们采用适当的物理、管理和技术保障措施来保护您的个人数据不被未经授权访问、披露、使用、修改、损坏或丢失。
+We attach importance to personal data security. We take appropriate physical, administrative and technical safeguards to protect your personal data from unauthorized access, disclosure, use, modification, damage or loss.
 
-**4. 您的个人数据如何跨境转移**
+**4. How your personal data is transferred across borders**
 
-不同国家或地区可能会有不同的数据保护法律。在此类情况下，对于我们收集到的个人数据，我们会采取措施按照所适用的法律要求进行处理。
+Different countries may have different data protection laws. In such cases, we will take measures to handle personal data collected according to applicable laws and regulations.
 
-**5. 如何访问或控制您的个人数据**
+**5. How to access or control your personal data**
 
-根据适用的法律法规，您可能有权（1）访问我们持有您的任何个人数据; （2）要求我们更新或更正您的个人数据;（3）要求我们删除您的个人数据；（4）拒绝或限制我们使用您的个人数据；以及（5）获取个人数据副本。如果您需要我们协助行使上述权利，请通过末尾的联系方式与我们联系。
+In accordance with applicable laws and regulations, you may have the right to: (1) access any personal data we hold about you; (2) request us to update or correct your personal data; (3) request us to delete your personal data; (4) refuse or restrict our use of your personal data; and (5) obtain a copy of your personal data. If you need our assistance in exercising these rights, please contact us via the contact details at the end.
 
-**6. 如何更新本声明**
+**6. How to update this Privacy Policy**
 
-我们可能会根据我们的服务或数据处理的变化不时更新或修改本声明。如果我们更新本声明，我们会将最新版隐私声明发布在本网站上，并自发布时立即生效。建议您定期查看本声明以了解任何更改。如果我们对本声明做出任何重大更改（收集的个人数据范围和使用目的变更），我们将通过适当渠道通知您，并获取您的同意。
+We may update or modify this privacy policy from time to time as our services or data processing changes. If we update this privacy policy, we will publish the latest version of the privacy policy on this website, which will come into effect immediately after being published. We recommend you to check this privacy policy regularly for any changes being made. If we make any material changes to this privacy policy (changes in the scope of personal data collected and the purpose of use), we will notify you through appropriate channels and obtain your consent.
 
-**7. 如何联系我们**
+**7. How to contact us**
 
-如果您想联系我们，请通过以下方式与我们联系：
-**联系方式：** **[contact@openeuler.org](mailto:contact@openeuler.org)**
+If you want to contact us, please contact us by:
+
+**Contact:** **[contact@openeuler.org](mailto:contact@openeuler.org)**
 
