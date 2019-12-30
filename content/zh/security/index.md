@@ -3,14 +3,6 @@ title = "安全"
 id = "security"
 +++
 
-- [扫描并提交CVE问题](#itm1)
-- [安全团队分发CVE问题](#itm2)
-- [处理CVE问题](#itm3)
-- [CVE问题合入策略](#itm4)
-- [CVE问题流程说明](#itm5)
-
-
-
 <h4 id="itm1">扫描和提交CVE问题</h4>
 openEuler的安全系统会扫描属于openEuler软件包范围内的CVE问题，并向openEuler社区的安全团队提交CVE问题。CVE类的问题的issue标题必须以CVE ID起始，后面跟上CVE问题的简要描述，如：
 

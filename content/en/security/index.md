@@ -3,15 +3,6 @@ title = "Security"
 id = "security"
 +++
 
-
-- [Submit a CVE Issue](#itm1)
-- [Security Group Distributes CVE Issues](#itm2)
-- [Handle CVE Issues](#itm3)
-- [CVE Issues Management Policy](#itm4)
-- [CVE Proceure](#itm5)
-
-
-
 <h4 id="itm1">Submit a CVE Issue</h4>
 
 openEuler's security system scans CVE issues and submits CVE issues to the security committee of openEuler community. The issue title of a CVE issue must start with a CVE ID, followed by a brief description of the CVE issue, for example,
