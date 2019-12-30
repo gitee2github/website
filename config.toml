@@ -49,13 +49,6 @@ paginate = 10
 #     url = "/en/story.html"
 #     parent = "user"
 #     weight = 2
-
-[[menu.main]]
-    identifier = "developer"
-    name = "Developer"
-    url = "/en/developer.html"
-    weight = 3
-
 # [[menu.main]]
 #     identifier = "contribution"
 #     name = "Contribution"
@@ -66,15 +59,43 @@ paginate = 10
 [[menu.main]]
     identifier = "community"
     name = "Community"
-    weight = 4
+    weight = 3
     hasChilren = true
 
 [[menu.main]]
-    identifier = "integrationandcertification"
+    identifier = "developer"
+    name = "Developer"
+    url = "/en/developer.html"
+    weight = 1
+    parent = "community"
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/en/events.html"
+    parent = "community"
+    weight = 2
+
+[[menu.main]]
+    identifier = "sig"
+    name = "SIG (Special Interest Group)"
+    url = "/en/sig.html"
+    weight = 3
+    parent = "community"
+
+[[menu.main]]
+    identifier = "memebers"
+    name = "Memebers"
+    url = "/en/building/memebers.html"
+    weight = 4
+    parent = "community"
+
+[[menu.main]]
+    identifier = "integrationCertification"
     name = "Integration & Certification"
     url = "/en/community/integrationandcertification.html"
+    weight = 5
     parent = "community"
-    weight = 12
 
 [[menu.main]]
     identifier = "mails"
@@ -98,25 +119,23 @@ paginate = 10
     weight = 10
 
 [[menu.main]]
-    identifier = "events"
-    name = "Events"
-    url = "/en/events.html"
-    parent = "community"
-    weight = 2
-
-[[menu.main]]
     identifier="news"
     name = "News"
     url  = "/en/news.html"
-    parent = "community"
     weight = 1
+
+[[menu.main]]
+    identifier = "versions"
+    name = "Versions"
+    url  = "/en/versions.html"
+    weight = 4
 
 [[menu.main]]
     identifier = "docs"
     name = "Docs"
     url  = "/en/building/docs.html"
     weight = 5
-    hasChildren = true
+    #hasChildren = true
 
 [[menu.main]]
     identifier = "download"
@@ -129,7 +148,6 @@ paginate = 10
     name = "Security"
     url  = "/en/security.html"
     weight = 7
-
 [[menu.main]]
     identifier = "lang"
     name = "中文"
@@ -139,7 +157,7 @@ paginate = 10
 # Menu chinese
 [[languages.zh.menu.main]]
     dentifier="home"
-    name = "主页"
+    name = "首页"
     url  = "/zh"
     weight = 1
 
@@ -163,11 +181,7 @@ paginate = 10
 #     parent = "user"
 #     weight = 2
 
-[[languages.zh.menu.main]]
-    identifier = "developer"
-    name = "开发者"
-    url = "/zh/developer.html"
-    weight = 3
+
 
 # [[languages.zh.menu.main]]
 #     identifier = "contribution"
@@ -179,15 +193,43 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "community"
     name = "社区"
-    weight = 4
+    weight = 3
     hasChilren = true
 
 [[languages.zh.menu.main]]
-    identifier = "integrationandcertification"
-    name = "集成与认证"
-    url = "/zh/community/integrationandcertification.html"
+    identifier = "developer"
+    name = "开发者"
+    url = "/zh/developer.html"
+    weight = 1
     parent = "community"
-    weight = 12
+
+[[languages.zh.menu.main]]
+    identifier = "events"
+    name = "活动"
+    url = "/zh/events.html"
+    parent = "community"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "sig"
+    name = "SIG（项目组）"
+    url = "/zh/sig.html"
+    weight = 3
+    parent = "community"
+
+[[languages.zh.menu.main]]
+    identifier = "memebers"
+    name = "会员"
+    url = "/zh/building/memebers.html"
+    weight = 4
+    parent = "community"
+
+[[languages.zh.menu.main]]
+    identifier = "integrationCertification"
+    name = "集成&认证"
+    url = "/zh/community/integrationandcertification.html"
+    weight = 5
+    parent = "community"
 
 [[languages.zh.menu.main]]
     identifier = "mails"
@@ -210,61 +252,61 @@ paginate = 10
     parent = "community"
     weight = 10
 
-[[languages.zh.menu.main]]
-    identifier = "events"
-    name = "活动"
-    url = "/zh/events.html"
-    parent = "community"
-    weight = 2
+
 
 [[languages.zh.menu.main]]
     identifier="news"
     name = "新闻"
     url  = "/zh/news.html"
-    weight = 1
-    parent = "community"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "versions"
+    name = "版本"
+    url  = "/zh/versions.html"
+    weight = 4
 
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
-    url  = "/zh/docs/home.html"
+    url  = "/zh/building/docs.html"
     weight = 5
-    hasChidren = true
+    #hasChidren = true
 
-[[languages.zh.menu.main]]
-    identifier = "release"
-    name = "发行说明"
-    parent = "docs"
-    url = "/zh/docs/Releasenotes/release_notes.html"
-    weight = 2
+#[[languages.zh.menu.main]]
+#    identifier = "release"
+#    name = "发行说明"
+#    parent = "docs"
+#    url = "/zh/docs/Releasenotes/release_notes.html"
+#    weight = 2
 
-[[languages.zh.menu.main]]
-    identifier = "install"
-    name = "安装指南"
-    parent = "docs"
-    url = "/zh/docs/Installation/installation.html"
-    weight=3
+#[[languages.zh.menu.main]]
+#    identifier = "install"
+#    name = "安装指南"
+#    parent = "docs"
+#    url = "/zh/docs/Installation/installation.html"
+#    weight=3
 
-[[languages.zh.menu.main]]
-    identifier = "management"
-    name = "管理员指南"
-    parent = "docs"
-    url = "/zh/docs/Administration/administration.html"
-    weight = 4
+#[[languages.zh.menu.main]]
+#    identifier = "management"
+#    name = "管理员指南"
+#    parent = "docs"
+#    url = "/zh/docs/Administration/administration.html"
+#    weight = 4
 
-[[languages.zh.menu.main]]
-    identifier = "container"
-    name = "容器用户指南"
-    parent = "docs"
-    url = "/zh/docs/Container/container.html"
-    weight = 5
+#[[languages.zh.menu.main]]
+#    identifier = "container"
+#    name = "容器用户指南"
+#    parent = "docs"
+#    url = "/zh/docs/Container/container.html"
+#    weight = 5
 
-[[languages.zh.menu.main]]
-    identifier = "vitrual"
-    name = "虚拟化用户指南"
-    parent = "docs"
-    url = "/zh/docs/Virtualization/virtualization.html"
-    weight = 6
+#[[languages.zh.menu.main]]
+#    identifier = "vitrual"
+#    name = "虚拟化用户指南"
+#    parent = "docs"
+#    url = "/zh/docs/Virtualization/virtualization.html"
+#    weight = 6
 
 
 [[languages.zh.menu.main]]
@@ -387,15 +429,15 @@ paginate = 10
 [[params.card]]
     image = "/img/3.svg"
     title = "Memebers"
-    url = "#memebers"
+    url = "/en/building/memebers.html"
     description = "Trustworthy memberships in this community"
     weight = 3
 
 [[params.card]]
     image = "/img/4.svg"
-    title = "Application Development"
-    url = "/en/building/docs.html"
-    description = "Feel free to start development here"
+    title = "Integration & Certification"
+    url = "/en/community/integrationandcertification.html"
+    description = "Integrate your drivers, middlewares and apps with openEuler and get certified."
     weight = 4
 
 #  chinese cards
@@ -416,15 +458,15 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/3.svg"
     title = "社区会员"
-    url = "#memebers"
+    url = "/zh/building/memebers.html"
     description = "了解社区会员，欢迎贵公司或者组织加入我们成为社区一员。"
     weight = 3
 
 [[languages.zh.params.card]]
     image = "/img/4.svg"
-    title = "应用开发"
-    url = "/zh/building/applicationdevelopment.html"
-    description = "如果您想要在openEuler运行您的应用，这里提供开发应用的教程。"
+    title = "集成&认证"
+    url = "/zh/community/integrationandcertification.html"
+    description = "将您的驱动、中间件和应用与openEuler进行集成及认证。"
     weight = 4
 
 # why party configuration
@@ -484,11 +526,11 @@ paginate = 10
 
 [params.copyright]
     enable = true
-    text = "Copyright © openEuler 2019 - 2020. All rights reserved. Please see our <a href=\"/en/legal.html\">Legal Notice</a>."
+    text = "Copyright © openEuler 2019 - 2020. All rights reserved. Please see our &nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>&nbsp;&nbsp;<a href=\"/en/privacyPolicy.html\">Privacy Policy</a>&nbsp;&nbsp;<a href=\"/en/aboutus.html\">About us</a>"
 
 [languages.zh.params.copyright]
     enable = true
-    text = "版权所有 © openEuler 2019 - 2020 保留一切权利 请参见<a href=\"/zh/legal.html\">法律声明</a>"
+    text = "版权所有 © openEuler 2019 - 2020 保留一切权利 请参见&nbsp;&nbsp;<a href=\"/zh/legal.html\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacyPolicy.html\">隐私政策</a>&nbsp;&nbsp;<a href=\"/zh/aboutus.html\">关于我们</a>"
 
 [languages]
 

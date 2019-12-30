@@ -1,5 +1,6 @@
-# Meetings
-
++++
+title = "Meetings"
++++
 ### Brief
 
 openEuler community holds its various public meetings on **[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)**, in the following channels

@@ -1,5 +1,5 @@
 - id: home
-  translation: "主页"
+  translation: "首页"
 
 - id: templateBy
   translation: "模板来自"
@@ -32,7 +32,7 @@
   translation: "发送信息"
 
 - id: navHome
-  translation: "跳到主页"
+  translation: "跳到首页"
 
 - id: navToggle
   translation: "切换导航"
@@ -75,3 +75,21 @@
 
 - id: versionsTitle
   translation: "版本"
+
+- id: versionNumber
+  translation: "版本号"
+
+- id: architecture
+  translation: "架构"
+
+- id: releaseTime
+  translation: "发布时间"
+
+- id: endOfLife
+  translation: "停止维护"
+
+- id: imagesDownload
+  translation: "镜像下载"
+
+- id: packageDownload
+  translation: "包下载"

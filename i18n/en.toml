@@ -1,9 +1,9 @@
 # home page
 [main_partner_title]
-other = "Members"
+other = "Memebers"
 
 [main_partner_subtitle]
-other = "Welcome to join"
+other = "Being constructed"
 
 [main_email_subscribe_title]
 other = "Subscription"
@@ -15,10 +15,22 @@ other = "Subscribe"
 other = "Welcome to openEuler Community"
 
 [main_cards_description]
-other = "Through community contributions, openEuler builds an innovative platform and a unified and open OS that supports the multi-processor architecture, and promotes the robustness of the software and hardware application ecosystem."
+other = "openEuler builds an innovative platform and a unified and open OS that supports the multi-processor architecture."
+
+[main_cards_title_second]
+other = "iSula"
+
+[main_cards_description_second]
+other = "a cloud-native lightweight container solution that can meet the needs of device, edge, and cloud scenarios in ICT domain with a unified and flexible architecture."
+
+[main_cards_title_third]
+other = "A-Tune"
+
+[main_cards_description_third]
+other = "a system software to auto-optimize the system adaptively to multiple scenarios with embedded AI-engine."
 
 [main_events_title]
-other = "Upcoming Events"
+other = "Events"
 
 [main_news_title]
 other = "News"
@@ -34,6 +46,18 @@ other = "News"
 
 [main_nav_news_name]
 other = "News"
+
+[sig_mail_list]
+other = "Mailing list: "
+
+[sig_IRC_channel]
+other = "IRC Channel: "
+
+[sig_maintainers]
+other = "Maintainers: "
+
+[sig_homepage]
+other = "Homepage: "
 
 # DOC page
 [doc_git_footer]
