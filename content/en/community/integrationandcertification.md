@@ -24,9 +24,9 @@ Integration and certification means passing the test to ensure that the openEule
 
 ## Integration and CertificationopenEuler for hardware drivers 
 
--The openEuler infrastructure team (infrastructure@openeuler.org) needs to provide instructions for preparing a continuous integration environment.
+- The openEuler infrastructure team (infrastructure@openeuler.org) needs to provide instructions for preparing a continuous integration environment.
 
--The hardware driver provider provides a test verification environment.
+- The hardware driver provider provides a test verification environment.
 
 ## Integration and Certification for middleware and applications
 
