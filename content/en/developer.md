@@ -8,7 +8,7 @@ Before you start, please note that you must have a Gitee account. To register an
 
 We appreciate your contributions to the community. By signing a contributor license agreement (CLA), we ensure that the community is free to use your contributions. The signing link is [https://openeuler.org/en/cla.html](https://openeuler.org/en/cla.html).      
 
-Select a project you may be interested in from the project catalog at [https://gitee.com/openeuler](https://gitee.com/openeuler)-source group, [https://gitee.com/src-openeuler](https://gitee.com/src-openeuler)-integration group. Read the ```CONTRIBUTING.md``` file for project information and contribution instructions.  If you are not sure which project is suitable for you, refer to the introduction of the [SIGs](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md) in the community.    
+Select a project you may be interested in from the project catalog at [https://gitee.com/openeuler](https://gitee.com/openeuler)-source group, [https://gitee.com/src-openeuler](https://gitee.com/src-openeuler)-integration group. Read the ```CONTRIBUTING.md``` file for project information and contribution instructions.  If you are not sure which project is suitable for you, refer to the introduction of the [SIGs](https://gitee.com/openeuler/community/tree/master/sig) in the community.    
 
 The coding style suggested for each project will help the community quickly process your submittals. Please read the ```code-of-conduct.md``` file in the root directory of each project. If no such suggestion is provided, please refer to the coding style suggested by the community at [https://gitee.com/openeuler/community](https://gitee.com/openeuler/community).  <br>    
 
@@ -42,7 +42,7 @@ Before submitting a PR, you are advised to communicate with related project memb
 
 ### Suggestions
 
-If you join the openEuler community for the first time, you are advised to select the [SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md) that you are interested in, add the [SIG](https://gitee.com/openeuler/community/blob/master/zh/Sigs.md) to the IRC channel ([IRC] (./community/irc.html)) based on the SIG group information, and subscribe to the related mail list ([Subscription] (./community/mails.html)) to facilitate communication with other developers.
+If you join the openEuler community for the first time, you are advised to select the [SIG](https://gitee.com/openeuler/community/tree/master/sig) that you are interested in, add the [SIG](https://gitee.com/openeuler/community/tree/master/sig) to the IRC channel ([IRC] (./community/irc.html)) based on the SIG group information, and subscribe to the related mail list ([Subscription] (./community/mails.html)) to facilitate communication with other developers.
 
 For new beginners, it is recommended that you start from bug-fix. The help-wanted label is used in the issue list of each project to identify bugs that can be fixed by the beginners. This helps you quickly get familiar with the project structure and understand the community process.
 
