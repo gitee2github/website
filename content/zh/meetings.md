@@ -1,5 +1,6 @@
-# 会议
-
++++
+title = "会议"
++++
 ### 简要介绍
 
 openEuler社区在**[IRC](https://zh.wikipedia.org/wiki/IRC)**举行相关的会议，频道有：

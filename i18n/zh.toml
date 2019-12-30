@@ -3,7 +3,7 @@
 other = "社区会员"
 
 [main_partner_subtitle]
-other = "(欢迎加入)"
+other = "会员中心正在构建中，敬请期待"
 
 [main_email_subscribe_title]
 other = "邮件订阅"
@@ -15,7 +15,19 @@ other = "订阅"
 other = "欢迎加入openEuler社区"
 
 [main_cards_description]
-other = "通过社区合作，打造创新平台，构建支持多处理器架构、统一和开放的操作系统openEuler，推动软硬件生态繁荣发展。"
+other = "openEuler通过社区合作，打造创新平台，构建支持多处理器架构、统一和开放的操作系统，推动软硬件应用生态繁荣发展。"
+
+[main_cards_title_second]
+other = "iSula"
+
+[main_cards_description_second]
+other = "iSula是一种云原生轻量级容器解决方案，可通过统一、灵活的架构满足ICT领域端、边、云场景的多种需求。"
+
+[main_cards_title_third]
+other = "A-Tune"
+
+[main_cards_description_third]
+other = "是智能性能优化系统软件，即通过机器学习引擎对业务应用建立精准模型, 再根据业务负载智能匹配最佳操作系统配置参数组合，实现系统整体运行效率提升。"
 
 [main_events_title]
 other = "活动"
@@ -35,6 +47,18 @@ other = "新闻"
 [main_nav_news_name]
 other = "新闻"
 
+[sig_mail_list]
+other = "邮件列表频道: "
+
+[sig_IRC_channel]
+other = "IRC频道: "
+
+[sig_maintainers]
+other = "管理员: "
+
+[sig_homepage]
+other = "首页: "
+
 # DOC page
 [doc_git_footer]
 other = "编辑此页"
@@ -43,7 +67,7 @@ other = "编辑此页"
 [404_title]
 other = "没有找到页面"
 [404_homepage]
-other = "返回主页"
+other = "返回首页"
 
 [docs_nav_menu_name]
 other = "目录"

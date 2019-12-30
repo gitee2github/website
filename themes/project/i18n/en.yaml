@@ -75,3 +75,21 @@
 
 - id: versionsTitle
   translation: "Versions"
+
+- id: versionNumber
+  translation: "Version"
+
+- id: architecture
+  translation: "Arch"
+
+- id: releaseTime
+  translation: "Release Time"
+
+- id: endOfLife
+  translation: "End of Life"
+
+- id: imagesDownload
+  translation: "Images"
+
+- id: packageDownload
+  translation: "Package"
