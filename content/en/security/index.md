@@ -1,60 +1,60 @@
-- [扫描并提交CVE问题](#itm1)
-- [安全团队分发CVE问题](#itm2)
-- [处理CVE问题](#itm3)
-- [CVE问题合入策略](#itm4)
-- [CVE问题流程说明](#itm5)
+- [Submit a CVE Issue](#itm1)
+- [Security Group Distributes CVE Issues](#itm2)
+- [Handle CVE Issues](#itm3)
+- [CVE Issues Management Policy](#itm4)
+- [CVE Proceure](#itm5)
 
 
 
-<h2 id="itm1">扫描和提交CVE问题</h2>
-openEuler的安全系统会扫描属于openEuler软件包范围内的CVE问题，并向openEuler社区的安全团队提交CVE问题。CVE类的问题的issue标题必须以CVE ID起始，后面跟上CVE问题的简要描述，如：
+<h2 id="itm1">Submit a CVE Issue</h2>
+
+openEuler's security system scans CVE issues and submits CVE issues to the security committee of openEuler community. The issue title of a CVE issue must start with a CVE ID, followed by a brief description of the CVE issue, for example,
 
 **CVE-2019-11255:** CSI volume snapshot, cloning and resizing features can result in unauthorized volume data access or mutation 
 
 
 
-<h2 id="itm2">安全团队处理和分发CVE问题</h2>
+<h2 id="itm2">Security Group Distributes CVE Issues</h2>
 
-安全团队会根据CVE问题所属的包分发对应的CVE ISSUE到repo内。CVE ISSUE会包含以下信息：
+The security Group will distribute the CVE issues to the related repos. CVE issues contain the following information:
 
-+ 漏洞的详细描述（以下信息由CVE扫描工具提供）
++ Detailed description of the vulnerability (the following information is provided by the CVE scanning tool)
 
-  + [CVEID] : 必须包含对应的CVE链接
+    + [CVEID]: Including the corresponding CVE link
 
-  + [PRODUCT]：CVE提供的信息，包含供应商，开发人员或项目名称，以及存在漏洞的实际软    	件或硬件的名称
+    + [PRODUCT]: Information provided by CVE, including the vendor, developer, or project, and the name of the actual software or hardware that has the vulnerability
 
-  + [ VERSION ]：包括版本，发行日期或供应商，开发人员或项目用来区分发行版本的任何差异信息。也可以用特定的版本号，版本范围或“版本号或日期之前/之后的所有版本”来描述。
+    + [VERSION]: Including version, release date, or any discrepancies used by vendors, developers, or projects to distinguish release versions. It can also be described with a specific version number, version range, or "all versions before / after version number or date".
 
-  + [ PROBLEMTYPE ]：
+    + [PROBLEMTYPE]:
 
-  + [ REFERENCES ]：相关URL链接和参考说明
+    + [REFERENCES]: related URL and reference descriptions
 
-  + [ DESCRIPTION ]：漏洞的详细描述说明，包括：使用该漏洞的攻击类型的说明；漏洞的影		响；受漏洞影响的软件产品中的软件组件；可以利用此漏洞的任何攻击媒介
+    + [DESCRIPTION]: Detailed description of the vulnerability, including description of the type of attack using the vulnerability; impact of the vulnerability; software components in the software product affected by the vulnerability,  any attack vector that can exploit this vulnerability
 
-  + [ ASSIGNINGCNA ]：分配CNA的名称
+    + [ASSIGNINGCNA]: assign the name of CNA
 
 
+<h2 id="itm3">Handle CVE Issues</h2>
 
-<h2 id="itm3">处理CVE问题</h2>
+Maintainer identifies and distributes CVE issues. Solutions to CVE problems can be provided by contributors and submitted for review by the Maintainer or Committer. When submitting, please associate with CVE ISSUE and provide complete information in Issues:
 
-Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以由贡献者提供，并经过Maintainer或Committer的评审提交。提交时请关联CVE ISSUE，并在ISSUE内提供完善的的信息：
+- Is it a loophole? (**Am I vulnerable?**):
+    + Describe the scenarios of the problem (including software and hardware and interaction scenarios)
+    + Impact and scope of impact
+    + How to confirm whether the version used contains the issue
 
-- 是漏洞吗？（ **Am I vulnerable?** ）：
-  + 描述问题发生需要的场景（包括软硬件和交互场景等）
-  + 问题所造成的影响和影响的范围
-  + 如何确认使用的版本是否包含该问题
-
-+ 如何缓解漏洞造成的影响( **How do I mitigate the vulnerability?** )
-  + 短期缓解方案
-  + 长期缓解方案：比如patch的安装地址、安装方式等。
-  
-+ 对该漏洞的评分
++ How to mitigate the impact of the vulnerability (**How do I mitigate the vulnerability?**)
+    + Short-term mitigation plan
+    + Long-term mitigation plan: such as patch installation address, installation method, etc.
+  
++ Rating for this vulnerability
   
   <table board="2">
-      <caption><b>CVSS打分表</b></caption>
+      <caption><b>CVSS Scoring Sheet</b></caption>
       <thead>
           <tr>
-              <th align="left" style="width:40px">打分项</th>
+              <th align="left" style="width:40px">Scoring Item</th>
               <th align="left" style="width:40px">openEuler</th>
               <th align="left" style="width:40px">NVD</th>
               <th align="left" style="width:100px">具体说明</th>
@@ -117,39 +117,40 @@ Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以�
       <tbody>
       </tbody>
   </table>
-  
-+ 漏洞的详细描述（以下信息由CVE扫描工具提供）
-
-  + [CVEID] : 必须包含对应的CVE链接
-+ [PRODUCT]：CVE提供的信息，包含供应商，开发人员或项目名称，以及存在漏洞的实际软    	件或硬件的名称
-  
-  + [ VERSION ]：包括版本，发行日期或供应商，开发人员或项目用来区分发行版本的任何差异信息。也可以用特定的版本号，版本范围或“版本号或日期之前/之后的所有版本”来描述。
-+ [ PROBLEMTYPE ]：
-  
-  + [ REFERENCES ]：相关URL链接和参考说明
-+ [ DESCRIPTION ]：漏洞的详细描述说明，包括：使用该漏洞的攻击类型的说明；漏洞的影		响；受漏洞影响的软件产品中的软件组件；可以利用此漏洞的任何攻击媒介
-  
-  + [ ASSIGNINGCNA ]：分配CNA的名称
-  
-    
-
-<h2 id="itm4">CVE问题合入策略</h2>
-
-+ **快速通道**：对openEuler评定级别是严重的安全类问题，openEuler安全团队会启动快速通道，优先向涉及到且在生命周期内的LTS版本提供解决方案。
 
   
++ Detailed description of the vulnerability (the following information is provided by the CVE scanning tool)
 
-+ **普通合入**：对重要及以下影响的安全类问题，根据问题的严重程度和影响范围可以选择以下几种策略：
+    + [CVEID]: Must include the corresponding CVE link
++ [PRODUCT]: Information provided by CVE, including the name of the vendor, developer, or project, and the name of the actual software or hardware that has the vulnerability
+  
+    + [VERSION]: Includes version, release date, or any discrepancies used by vendors, developers, or projects to distinguish release versions. It can also be described with a specific version number, version range, or "all versions before / after version number or date".
 
-  + 正式版本存在的安全类问题，可视问题影响选择：
++ [PROBLEMTYPE]:
+    + [REFERENCES]: related URL links and reference descriptions
 
-    + 策略一：补丁向所有涉及到且在生命周期内的LTS&社区版本发布
-    + 策略二：补丁向当前最新的LTS版本&社区版本发布
-    + 策略三：补丁合入当前开发的LTS版本&社区版本（此类问题不会发布安全公告）
-
-  + 未流入正式版本的安全类问题：作为开发版本的ISSUE处理，合入到当前开发版本，此类问题也不需要发布安全公告；
-
-<h2 id="itm5">CVE问题流程说明</h2>
++ [DESCRIPTION]: Detailed description of the vulnerability, including: description of the type of attack using the vulnerability; impact of the vulnerability; software components in the software product affected by the vulnerability; any attack vector that can exploit this vulnerability
+  
+    + [ASSIGNINGCNA]: assign the name of CNA    
 
 
-![CVE问题处理流程](./procedure.png)
+<h2 id="itm4">CVE Issues Management Policy</h2>
+
++ **Fast Way**: The openEuler rating is a serious security issue. The openEuler security team will start the fast track to provide solutions to the LTS versions involved and within the life cycle.
+
+  
+
++ **Common Integration**: For security issues that are important and affect the following, you can choose the following strategies based on the severity and scope of the problem:
+
+    + There are security problems in the official version. Depending on the problem, the selection will be affected:
+
+        + Strategy 1: Patches are released to all LTS & community versions involved and within the life cycle
+        + Strategy 2: The patch is released to the latest LTS version & community version
+        + Strategy 3: Patches are incorporated into the currently developed LTS version & community version (such issues will not issue a security bulletin)
+
+    + Security issues that have not flown into the official version: handled as a development version of ISSUE and incorporated into the current development version. Such issues do not require a security announcement;
+
+<h2 id="itm5">CVE Issues Proceure</h2>
+
+
+![CVE Procedure](./procedure.png)
