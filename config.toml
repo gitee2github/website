@@ -124,12 +124,17 @@ paginate = 10
     url  = "/en/building/download.html"
     weight = 6
 
+[[menu.main]]
+    identifier = "security"
+    name = "Security"
+    url  = "/en/security.html"
+    weight = 7
 
 [[menu.main]]
     identifier = "lang"
     name = "中文"
     url = "/zh"
-    weight = 7
+    weight = 8
 
 # Menu chinese
 [[languages.zh.menu.main]]
@@ -268,12 +273,17 @@ paginate = 10
     url  = "/zh/building/download.html"
     weight = 6
 
+[[languages.zh.menu.main]]
+    identifier = "security"
+    name = "安全"
+    url  = "/zh/security.html"
+    weight = 7
 
 [[languages.zh.menu.main]]
     identifier = "lang"
     name = "EN"
     url = "/en"
-    weight = 7
+    weight = 8
 
 # Top bar social links menu
 

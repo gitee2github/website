@@ -1,3 +1,9 @@
++++
+title = "Security"
+id = "security"
++++
+
+
 - [Submit a CVE Issue](#itm1)
 - [Security Group Distributes CVE Issues](#itm2)
 - [Handle CVE Issues](#itm3)
@@ -152,5 +158,4 @@ Maintainer identifies and distributes CVE issues. Solutions to CVE problems can 
 
 <h2 id="itm5">CVE Issues Proceure</h2>
 
-
-![CVE Procedure](./procedure.png)
+<img src="./security/procedure.png" width="100%" style="max-width:1079px" />
