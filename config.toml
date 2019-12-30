@@ -70,6 +70,13 @@ paginate = 10
     hasChilren = true
 
 [[menu.main]]
+    identifier = "integrationandcertification"
+    name = "Integration & Certification"
+    url = "/en/community/integrationandcertification.html"
+    parent = "community"
+    weight = 12
+
+[[menu.main]]
     identifier = "mails"
     name = "Mail Lists"
     url = "/en/community/mails.html"
@@ -169,6 +176,13 @@ paginate = 10
     name = "社区"
     weight = 4
     hasChilren = true
+
+[[languages.zh.menu.main]]
+    identifier = "integrationandcertification"
+    name = "集成与认证"
+    url = "/zh/community/integrationandcertification.html"
+    parent = "community"
+    weight = 12
 
 [[languages.zh.menu.main]]
     identifier = "mails"

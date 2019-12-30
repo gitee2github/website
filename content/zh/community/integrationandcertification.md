@@ -1,13 +1,13 @@
 +++
 title = "集成与认证"
-id = "Integrat & Certification"
+id = "integrationandcertification"
 +++
 
 
 ```
 说明：openEuler社区尚处于筹备期，关于集成与认证的设计还在准备中，此文是初步设想，欢迎您通过community@openeuler.org表达想法。
-
 ```
+
 ## 什么是集成与认证
 
 openEuler作为一个开源操作系统，需要给用户提供丰富的技术生态，包括：
@@ -24,7 +24,7 @@ openEuler作为一个开源操作系统，需要给用户提供丰富的技术�
 
 ## 与硬件驱动的集成与认证
 
-- openEuler基础设施团队(infrastructure@openeuler.org)需要提供持续集成环境的准备指导书。
+- openEuler基础设施团队(<infrastructure@openeuler.org>)需要提供持续集成环境的准备指导书。
 
 - 硬件驱动提供者提供测试验证环境。
 
