@@ -56,68 +56,58 @@ Maintainer identifies and distributes CVE issues. Solutions to CVE problems can 
   
 + Rating for this vulnerability
   
-  <table board="2">
+  <table board="2" class="table table-bordered table-striped">
       <caption><b>CVSS Scoring Sheet</b></caption>
       <thead>
           <tr>
               <th align="left" style="width:40px">Scoring Item</th>
               <th align="left" style="width:40px">openEuler</th>
               <th align="left" style="width:40px">NVD</th>
-              <th align="left" style="width:100px">Details</th>
           </tr>
           <tr>
               <td align="left">CVSS v3 Base Score</td>
               <td>7.3</td>
               <td>7.8</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Attack Vector</td>
               <td>Network</td>
               <td>Local</td>
-              <td></td>
           </tr>
            <tr>
               <td align="left">Attack complexity</td>
               <td>Low</td>
               <td>7.8</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Privileges Required</td>
               <td>None</td>
               <td>7.8</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">User Interaction</td>
               <td>Low</td>
               <td>Required</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Scope</td>
               <td>Unchanged</td>
               <td>Unchanged</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Confidentiality</td>
               <td>Low</td>
               <td>High</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Integrity Impact</td>
               <td>Low</td>
               <td>High</td>
-              <td></td>
           </tr>
           <tr>
               <td align="left">Availability Impact</td>
               <td>Low</td>
               <td>High</td>
-              <td></td>
           </tr>
       </thead>
       <tbody>
