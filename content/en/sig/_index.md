@@ -1,3 +1,3 @@
 +++
-title = "SIG/项目"
+title = "SIG(Special Interest Group)"
 +++
