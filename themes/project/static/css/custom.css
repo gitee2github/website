@@ -370,10 +370,15 @@
   justify-content: center;
   align-items: center;
 }
-.e_mail h2 {
+.e_mail h2{
   color: #fff;
   font-size: 40px;
 }
+
+.e_mail h3{
+  color: #fff;
+}
+
 .e_mail ul {
   width: 40%;
 }
@@ -403,7 +408,7 @@
   border: none;
   text-transform: none; 
 }
-A
+.homeMemebersBlock{
   background: url('../img/texture-bw.png') center center repeat;
   height: 120px;
   background-size: cover;
@@ -849,6 +854,9 @@ html {
 /*new*/
 #sigSection .dataBlock{
   margin-top:5px;
+  white-space:nowrap;/*不允许换行*/
+  overflow:hidden;/*超出隐藏*/
+  text-overflow:ellipsis;/*文本超出三点代替*/
 }
 #sigSection .dataBlockLast{
   margin-bottom:5px;
@@ -1070,3 +1078,4 @@ html,body {
 .cards a{
   width:25%;
 }
+

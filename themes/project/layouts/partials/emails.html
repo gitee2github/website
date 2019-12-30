@@ -6,7 +6,7 @@
         <ul>
                 {{ $mls := .Paginate (where .Data.Pages "Type" "maillist") }}
                 {{ $sortedmls :=  $mls.Pages.ByParam "weight" }}
-                {{ range first 2 $sortedmls}}
+                {{ range first 1 $sortedmls}}
                 <li>
                         <div>
                                 <h3><a href="mailto:{{ .Params.emailaddress }}">{{ .Params.emailaddress }}</a></h3>
@@ -19,6 +19,7 @@
                 </li>
                 {{ end }}
         </ul>
+        <h3 >{{i18n "main_mail_more"}}<a href='{{i18n "main_mail_more_link"}}' style="color:white;">{{i18n "main_mail_more_list"}}</a></h3>
 </div>
 
 {{ end }}
