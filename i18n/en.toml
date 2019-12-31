@@ -20,6 +20,15 @@ other = "openEuler builds an innovative platform and a unified and open OS that 
 [main_cards_title_second]
 other = "iSula"
 
+[main_cards_title_enter_repository]
+other = ">>More"
+
+[main_nav_repository]
+other = "Repository"
+
+[main_nav_packageSources]
+other = "Package Sources"
+
 [main_cards_description_second]
 other = "A cloud-native lightweight container solution that can meet the needs of device, edge, and cloud scenarios in ICT domain with a unified and flexible architecture."
 
@@ -80,3 +89,12 @@ other = "Back to Home"
 
 [docs_nav_menu_name]
 other = "MENU"
+
+[download_title]
+other = "Download ISO"
+
+[download_issues]
+other = "Submit issues: "
+
+[download_iso_button]
+other = "Get openEuler ISO"
