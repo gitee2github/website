@@ -1,5 +1,5 @@
 +++
-title = "Download"
+title = "Download ISO"
 id = "download"
 +++
 
