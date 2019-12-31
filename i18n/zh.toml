@@ -20,6 +20,15 @@ other = "openEuler通过社区合作，打造创新平台，构建支持多处�
 [main_cards_title_second]
 other = "iSula"
 
+[main_cards_title_enter_repository]
+other = ">>更多"
+
+[main_nav_repository]
+other = "代码仓"
+
+[main_nav_packageSources]
+other = "软件包仓"
+
 [main_cards_description_second]
 other = "iSula是一种云原生轻量级容器解决方案，可通过统一、灵活的架构满足ICT领域端、边、云场景的多种需求。"
 
@@ -79,3 +88,13 @@ other = "返回首页"
 
 [docs_nav_menu_name]
 other = "目录"
+
+[download_title]
+other = "下载ISO"
+
+[download_issues]
+other = "如果您遇到问题，请在此提交问题："
+
+[download_iso_button]
+other = "下载openEuler ISO"
+

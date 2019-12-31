@@ -523,6 +523,10 @@ body.boxed .navbar-affixed-top.affix {
   line-height: 1.42857143;
   border-radius: 0;
 }
+.btn-download {
+  text-transform: none;
+  margin-top:15px;
+}
 .input-group .btn {
   font-size: 14px;
 }
