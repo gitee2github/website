@@ -99,9 +99,9 @@ paginate = 10
     weight = 1
 
 #[[menu.main]]
-#   identifier = "versions"
-#    name = "Versions"
-#    url  = "/en/versions.html"
+#   identifier = "releases"
+#    name = "Releases"
+#    url  = "/en/releases.html"
 #    weight = 4
 
 [[menu.main]]
@@ -206,9 +206,9 @@ paginate = 10
     weight = 2
 
 #[[languages.zh.menu.main]]
-#    identifier = "versions"
+#    identifier = "releases"
 #    name = "版本"
-#    url  = "/zh/versions.html"
+#    url  = "/zh/releases.html"
 #    weight = 4
 
 [[languages.zh.menu.main]]
@@ -487,8 +487,5 @@ paginate = 10
     languageCode = "zh-cn"
     contentDir = "content/zh"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  version = "versions"
+
 

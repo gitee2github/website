@@ -24,7 +24,7 @@ other = "iSula"
 other = ">>More"
 
 [main_nav_repository]
-other = "Repository"
+other = "Code Source"
 
 [main_nav_packageSources]
 other = "Package Sources"
