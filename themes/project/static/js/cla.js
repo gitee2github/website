@@ -28,6 +28,12 @@ function initCurrentDate() {
 
 
 function getCode() {
+    if (getLanguage() == "zh") {
+         $("#client").val("6c298174d665b993c8a4dd56b0976654d3ef6f59af6c88f59b5b0c99f635c893");
+    } else {
+         $("#client").val("88913556129bdae86458ec266f174b0cc5833198641e0e219891e7eb463bd3bf")
+    }
+    
     code = getQueryString("code")
     if (!code || code == "") {
         oauthLogin();
@@ -59,23 +65,13 @@ function oauthLogin() {
      if (!code || code == "") {
          let config = {
               providerID: "openeuler_bot",
-	      client_id: "88913556129bdae86458ec266f174b0cc5833198641e0e219891e7eb463bd3bf",
-	      redirect_uri: "https://openeuler.org/en/cla.html",
+	      client_id: $("#client").val(),
+	      redirect_uri: window.location.origin + "/" + getLanguage() +"/cla.html",
               response_type: "code",
 	      authorization: "https://gitee.com/oauth/authorize",
 	      scopes: { request: ["user_info", "emails"]}
          }
-         if (getLanguage() == "zh") {
-             config = {
-                 providerID: "openeuler_bot",
-                 client_id: "6c298174d665b993c8a4dd56b0976654d3ef6f59af6c88f59b5b0c99f635c893",
-                 redirect_uri: "https://openeuler.org/zh/cla.html",
-                 response_type: "code",
-                 authorization: "https://gitee.com/oauth/authorize",
-                 scopes: { request: ["user_info", "emails"]} 
-             
-             }
-         }
+ 
          let client = new jso.JSO(config)
          client.callback()
 
@@ -221,6 +217,9 @@ function initClaPage() {
                     "email": $.trim($('#individual-email').val()),
                     "telephone": $.trim($('#individual-telephone').val()),
                     "fax": $.trim($('#individual-fax').val()),
+                    "code": $.trim($('#oauth-code').val()),
+                    "lang": $.trim($('#language').val()),
+                    "client": $.trim($('#client').val()),
                 };
             } else {
                 // legalentity
@@ -238,6 +237,7 @@ function initClaPage() {
                     "fax": $.trim($('#legalentity-fax').val()),
                     "code": $.trim($('#oauth-code').val()),
                     "lang": $.trim($('#language').val()),
+                    "client": $.trim($('#client').val()),
                 };
             }
 

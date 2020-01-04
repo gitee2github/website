@@ -189,6 +189,7 @@ title = "签署CLA"
     <tr>
         <td>
              <input type="hidden" value="" id="oauth-code" />
+             <input type="hidden" value="" id="client" />
              <input type="hidden" value="zh" id="language" />
         </td>
     </tr>

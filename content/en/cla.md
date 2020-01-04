@@ -180,6 +180,7 @@ Please select one applicable statement from the following and fill in the blanks
     <tr>
         <td>
             <input type="hidden" value="" id="oauth-code" />
+            <input type="hidden" value="" id="client" />
             <input type="hidden" value="en" id="language" />
         </td>
     </tr>
