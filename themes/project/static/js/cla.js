@@ -1,4 +1,5 @@
 $(function () {
+    getCode();
     initClaPage();
     initCurrentDate();
 })
@@ -23,6 +24,74 @@ function initCurrentDate() {
         $('#legalentity-date').val(time);
         $('#legalentity-date').attr("disabled", true);
     }
+}
+
+
+function getCode() {
+    code = getQueryString("code")
+    if (!code || code == "") {
+        oauthLogin();
+    }
+    else { 
+        $('#oauth-code').val(code);
+    }
+} 
+
+function getQueryString(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) return unescape(r[2]); return null;
+}
+
+function getLanguage() {
+        var url = window.location.href;
+        if (url.indexOf("/en/") >= 0 ) {
+            return "en";
+        }
+        if (url.indexOf("/zh/") >= 0 ) {
+            return "zh";
+        }
+        return "en"
+}
+
+function oauthLogin() {
+     code = $('#oauth-code').val();
+     if (!code || code == "") {
+         let config = {
+              providerID: "openeuler_bot",
+	      client_id: "88913556129bdae86458ec266f174b0cc5833198641e0e219891e7eb463bd3bf",
+	      redirect_uri: "https://openeuler.org/en/cla.html",
+              response_type: "code",
+	      authorization: "https://gitee.com/oauth/authorize",
+	      scopes: { request: ["user_info", "emails"]}
+         }
+         if (getLanguage() == "zh") {
+             config = {
+                 providerID: "openeuler_bot",
+                 client_id: "6c298174d665b993c8a4dd56b0976654d3ef6f59af6c88f59b5b0c99f635c893",
+                 redirect_uri: "https://openeuler.org/zh/cla.html",
+                 response_type: "code",
+                 authorization: "https://gitee.com/oauth/authorize",
+                 scopes: { request: ["user_info", "emails"]} 
+             
+             }
+         }
+         let client = new jso.JSO(config)
+         client.callback()
+
+         let f = new jso.Fetcher(client)
+         let url = 'https://gitee.com/v5/users/freesky-edward'
+         f.fetch(url, {})
+	      .then((data) => {
+	          return data.json()
+	      })
+	      .then((data) => {
+                  console.log("I got protected json data from the API", data)
+              })
+              .catch((err) => {
+                  console.error("Error from fetcher", err)
+	})
+     }
 }
 
 // init cla page
@@ -167,6 +236,8 @@ function initClaPage() {
                     "email": $.trim($('#legalentity-email').val()),
                     "telephone": $.trim($('#legalentity-telephone').val()),
                     "fax": $.trim($('#legalentity-fax').val()),
+                    "code": $.trim($('#oauth-code').val()),
+                    "lang": $.trim($('#language').val()),
                 };
             }
 
