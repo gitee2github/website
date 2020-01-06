@@ -76,7 +76,7 @@ function oauthLogin() {
          client.callback()
 
          let f = new jso.Fetcher(client)
-         let url = 'https://gitee.com/v5/users/freesky-edward'
+         let url = 'https://gitee.com/v5/user'
          f.fetch(url, {})
 	      .then((data) => {
 	          return data.json()
