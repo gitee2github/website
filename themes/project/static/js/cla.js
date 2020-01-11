@@ -277,6 +277,12 @@ function initClaPage() {
                                 } else {
                                     alert("Telephone is already registered!");
                                 }
+                            } else if (data.errorCode == 4) {
+                                if (lang == "zh-cn") {
+                                    alert("注册邮箱与gitee账号邮箱不一致，请在这里检查：https://gitee.com/profile/emails")
+                                } else {
+                                    alert("The submit email is not the gitee account email. Please checck in https://gitee.com/profile/emails.");
+                                } 
                             }
                         }
                     }
