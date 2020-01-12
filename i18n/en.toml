@@ -96,5 +96,8 @@ other = "Download ISO"
 [download_issues]
 other = "Submit issues: "
 
+[download_checksum]
+other = "please download the checksum file："
+
 [download_iso_button]
 other = "Get openEuler ISO"

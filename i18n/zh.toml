@@ -95,6 +95,9 @@ other = "下载ISO"
 [download_issues]
 other = "如果您遇到问题，请在此提交问题："
 
+[download_checksum]
+other = "如何检验请下载："
+
 [download_iso_button]
 other = "下载openEuler ISO"
 
