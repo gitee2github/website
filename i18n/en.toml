@@ -100,4 +100,4 @@ other = "Submit issues: "
 other = "please download the checksum file："
 
 [download_iso_button]
-other = "Get openEuler ISO"
+other = "Get openEuler-1.0-aarch64-dvd.iso"
