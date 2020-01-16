@@ -99,5 +99,5 @@ other = "如果您遇到问题，请在此提交问题："
 other = "如何检验请下载："
 
 [download_iso_button]
-other = "下载openEuler ISO"
+other = "下载openEuler-1.0-aarch64-dvd.iso"
 
