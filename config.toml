@@ -214,9 +214,9 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
-    url  = "/zh/building/docs.html"
+    url  = "/zh/docs/home.html"
     weight = 5
-    #hasChidren = true
+    hasChidren = true
 
 #[[languages.zh.menu.main]]
 #    identifier = "release"
