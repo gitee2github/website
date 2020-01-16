@@ -1,5 +1,4 @@
 $(function () {
-    getCode();
     initClaPage();
     initCurrentDate();
 })
@@ -27,26 +26,21 @@ function initCurrentDate() {
 }
 
 
-function getCode() {
-    if (getLanguage() == "zh") {
-         $("#client").val("6c298174d665b993c8a4dd56b0976654d3ef6f59af6c88f59b5b0c99f635c893");
-    } else {
-         $("#client").val("88913556129bdae86458ec266f174b0cc5833198641e0e219891e7eb463bd3bf")
-    }
-    
-    code = getQueryString("code")
-    if (!code || code == "") {
-        oauthLogin();
-    }
-    else { 
-        $('#oauth-code').val(code);
-    }
-} 
-
 function getQueryString(name) {
 	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
 	var r = window.location.search.substr(1).match(reg);
 	if (r != null) return unescape(r[2]); return null;
+}
+
+function readCookie(name) {
+    var namePrefix = name + "=";
+    var cookies = document.cookie.split(';');
+    for(var i=0; i < cookies.length; i++) {
+        var c = cookies[i];
+        while (c.charAt(0)==' ') c = c.substring(1, c.length);
+        if (c.indexOf(namePrefix) == 0) return c.substring(namePrefix.length, c.length);
+    }
+    return null;
 }
 
 function getLanguage() {
@@ -61,12 +55,10 @@ function getLanguage() {
 }
 
 function oauthLogin() {
-     code = $('#oauth-code').val();
-     if (!code || code == "") {
          let config = {
               providerID: "openeuler_bot",
 	      client_id: $("#client").val(),
-	      redirect_uri: window.location.origin + "/" + getLanguage() +"/cla.html",
+	      redirect_uri: window.location.origin + "/cla",
               response_type: "code",
 	      authorization: "https://gitee.com/oauth/authorize",
 	      scopes: { request: ["user_info", "emails"]}
@@ -87,11 +79,18 @@ function oauthLogin() {
               .catch((err) => {
                   console.error("Error from fetcher", err)
 	})
-     }
 }
 
 // init cla page
 function initClaPage() {
+    
+    $("#client").val("d00e9b289d8cf8f98e2fc68a9c240304f6413007d82d30701cd1da7e937db75c");
+
+    cla = readCookie("cla-info")
+    if (!cla || cla == "") {
+        oauthLogin();
+    }
+  
     if ($('#cla-type-table').length) {
         // default show individual
         $('#individual-table').show();
@@ -112,6 +111,42 @@ function initClaPage() {
             }
         });
     }
+
+    type = readCookie("type")
+    if (type && type == "0") {
+
+        $('#individual-email').val(readCookie("email"));
+        $('#individual-address').val(readCookie("address"));
+        $('#individual-name').val(readCookie("name"));
+        $('#individual-telephone').val(readCookie("telephone"));
+        $('#individual-fax').val(readCookie("fax"));
+        $('#individual-date').val(readCookie("date"));
+
+        $('#individual-table').show();
+        $('#legalentity-table').hide();
+        
+        $("#sign-cla-button").attr('disabled',true)
+        $("#reset-cla-button").attr('disabled',true) 
+    } else if (type && type == "1") {
+
+        $('#legalentity-name').val(readCookie("name"));
+        $('#legalentity-title').val(readCookie("title"));
+        $('#legalentity-corporation').val(readCookie("corporation"));
+        $('#legalentity-address').val(readCookie("address"));
+        $('#legalentity-date').val(readCookie("date"));
+        $('#legalentity-email').val(readCookie("email"));
+        $('#legalentity-telephone').val(readCookie("telephone"));
+        $('#legalentity-fax').val(readCookie("fax"));
+
+        $('#individual-table').hide();
+        $('#legalentity-table').show();
+        $("#sign-cla-button").attr('disabled',true)
+        $("#reset-cla-button").attr('disabled',true)
+
+    }
+
+    $('#individual-email').val(readCookie("email"));
+    $("#individual-email").attr('disabled',true) 
 
     if ($('#sign-cla-button').length) {
         $("#sign-cla-button").bind('click', function () {
