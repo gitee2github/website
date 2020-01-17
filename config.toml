@@ -239,12 +239,12 @@ paginate = 10
     url = "/zh/docs/Administration/administration.html"
     weight = 4
 
-[[languages.zh.menu.main]]
-    identifier = "container"
-    name = "容器用户指南"
-    parent = "docs"
-    url = "/zh/docs/Container/container.html"
-    weight = 5
+#[[languages.zh.menu.main]]
+#    identifier = "container"
+#    name = "容器用户指南"
+#    parent = "docs"
+#    url = "/zh/docs/Container/container.html"
+#    weight = 5
 
 [[languages.zh.menu.main]]
     identifier = "vitrual"
