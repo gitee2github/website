@@ -218,12 +218,12 @@ paginate = 10
     weight = 5
     hasChidren = true
 
-#[[languages.zh.menu.main]]
-#    identifier = "release"
-#    name = "发行说明"
-#    parent = "docs"
-#    url = "/zh/docs/Releasenotes/release_notes.html"
-#    weight = 2
+[[languages.zh.menu.main]]
+    identifier = "release"
+    name = "发行说明"
+    parent = "docs"
+    url = "/zh/docs/Releasenotes/release_notes.html"
+    weight = 2
 
 [[languages.zh.menu.main]]
     identifier = "install"
