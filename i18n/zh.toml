@@ -93,11 +93,17 @@ other = "目录"
 other = "下载ISO"
 
 [download_issues]
-other = "如果您遇到问题，请在此提交问题："
+other = "如果您遇到问题，请在此提交问题:"
 
-[download_checksum]
-other = "如何检验请下载："
+[download_releaseNote]
+other = "发行说明:"
 
-[download_iso_button]
-other = "下载openEuler-1.0-aarch64-dvd.iso"
+[download_getiso]
+other = "获取ISO:"
+
+[download_installationGuide]
+other = "安装指南:"
+
+
+
 

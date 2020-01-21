@@ -94,10 +94,13 @@ other = "MENU"
 other = "Download ISO"
 
 [download_issues]
-other = "Submit issues: "
+other = "Submit issues:"
 
-[download_checksum]
-other = "please download the checksum file："
+[download_releaseNote]
+other = "Release Note:"
 
-[download_iso_button]
-other = "Get openEuler-1.0-aarch64-dvd.iso"
+[download_getiso]
+other = "Download ISO:"
+
+[download_installationGuide]
+other = "Installation guide:"

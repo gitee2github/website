@@ -1094,7 +1094,28 @@ html,body {
   text-align: left;
   padding:10px;
   padding-left:40px;
+  padding-right:40px;
 }
 .downloadWholeBlock{
   margin-bottom: 30px;
+}
+.downloadContentBlock .titleLine{
+  margin-top:10px;
+}
+.downloadContentBlock .titleLine1{
+  margin-top:10px;
+  font-size:15px;
+}
+.downloadContentBlock .titleLine1 strong{
+  margin-right:5px;
+}
+.downloadContentBlock .contentLine{
+  margin-top:5px;
+}
+.downloadVersion{
+  margin-bottom: 10px;
+}
+.downloadDescription{
+  margin-bottom:20px;
+  margin-top:20px;
 }
