@@ -8,7 +8,7 @@ title = "社区贡献"
 
 签署社区CLA。签署地址：[https://openeuler.org/zh/cla.html](https://openeuler.org/zh/cla.html)，根据情况选择**个人独立贡献者**或者**法律实体贡献者**签署。       
 
-选择贡献项目，所有项目参见：代码仓组织-[https://gitee.com/openeuler](https://gitee.com/openeuler), 软件包组织-[https://gitee.com/src-openeuler](https://gitee.com/src-openeuler)。 阅读项目下 ```CONTRIBUTING.md``` 文件了解该项目贡献指导。 如果您不确定哪个项目适合您，建议参考社区 [SIG](./sig.html)组介绍。    
+选择贡献项目，所有项目参见：代码仓组织-[https://gitee.com/openeuler](https://gitee.com/openeuler), 软件包组织-[https://gitee.com/src-openeuler](https://gitee.com/src-openeuler)。 阅读项目下 ```CONTRIBUTING.md``` 文件了解该项目贡献指导。 如果您不确定哪个项目适合您，建议参考社区 [SIG](./sig.html)组介绍。签署CLA必须要登录Gitee。    
 
 了解项目的编码规范。了解项目编码规范就有助于您的提交快速接纳，在每个项目里有关于该项目的编码规范介绍，文件名为```code-of-conduct.md```，位于项目根目录下，如果项目下未提供，请参考社区编码规范，地址：[https://gitee.com/openeuler/community/blob/master/code-of-conduct.md](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md)。<br>    
 
