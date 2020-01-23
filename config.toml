@@ -107,9 +107,16 @@ paginate = 10
 [[menu.main]]
     identifier = "docs"
     name = "Docs"
-    url  = "/en/building/docs.html"
+    url  = "/en/docs.html"
     weight = 5
-    #hasChildren = true
+    hasChildren = true
+
+[[menu.main]]
+    identifier = "install"
+    name = "Installation Guide"
+    parent = "docs"
+    url = "/en/docs/Installation/Installation.html"
+    weight=3
 
 [[menu.main]]
     identifier = "download"
