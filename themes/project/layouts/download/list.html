@@ -12,12 +12,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 downloadWholeBlock"id="tabArchi">
-                        {{ range where $.Page.Site.Pages "Type" "versions" }}
+                        {{ range where $.Page.Site.Pages "Type" "releases" }}
                         {{ if .Params }}
                         {{ if .Params.isLastestVersion}}
                         <div id="downloadBlock">
                             <div class="downloadContentBlock">
-                                <h3 class="downloadVersion">{{.Params.version}}</h3>
+                                <div class="downloadVersion"><strong style="font-size:18px;">{{.Params.version}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;<span><a href='{{ i18n "download_versionsUrl"}}'>{{ i18n "download_allRelease"}}</a></span></div>
                                 <div class="downloadDescription">{{.Params.description}}</div>
                                 {{ if .Params.releaseNote}}
                                 <div class="titleLine1"><strong>{{ i18n "download_releaseNote"}}</strong><a href="{{.Params.releaseNote}}" target="_blank">Link</a></div>

@@ -119,21 +119,27 @@ paginate = 10
     weight=3
 
 [[menu.main]]
+    identifier = "releases"
+    name = "Releases"
+    url  = "/en/releases.html"
+    weight = 6
+
+[[menu.main]]
     identifier = "download"
     name = "Download"
     url  = "/en/download.html"
-    weight = 6
+    weight = 7
 
 [[menu.main]]
     identifier = "security"
     name = "Security"
     url  = "/en/security.html"
-    weight = 7
+    weight = 8
 [[menu.main]]
     identifier = "lang"
     name = "中文"
     url = "/zh"
-    weight = 8
+    weight = 9
 
 # Menu chinese
 [[languages.zh.menu.main]]
@@ -262,22 +268,28 @@ paginate = 10
 
 
 [[languages.zh.menu.main]]
+    identifier = "releases"
+    name = "版本"
+    url  = "/zh/releases.html"
+    weight = 7
+
+[[languages.zh.menu.main]]
     identifier = "download"
     name = "下载"
     url  = "/zh/download.html"
-    weight = 6
+    weight = 8
 
 [[languages.zh.menu.main]]
     identifier = "security"
     name = "安全"
     url  = "/zh/security.html"
-    weight = 7
+    weight = 9
 
 [[languages.zh.menu.main]]
     identifier = "lang"
     name = "EN"
     url = "/en"
-    weight = 8
+    weight = 10
 
 # Top bar social links menu
 

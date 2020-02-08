@@ -5,10 +5,6 @@
     {{ range first 1 $whys }}
         <h2>{{ .Params.question }}</h2>
         <div class="content_why">
-            <div class="bg">
-                <h3>{{ .Params.Title }}</h3>
-                <p>{{ .Params.Brief }}</p>
-            </div>
             <div class="detail">
                 {{ .Content }}
             </div>
