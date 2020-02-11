@@ -104,6 +104,36 @@ other = "获取ISO:"
 [download_installationGuide]
 other = "安装指南:"
 
+[download_versionsUrl]
+other = "/zh/releases.html"
+
+[download_allRelease]
+other = "获取全部版本>>"
+
+[versions_versionPlan]
+other = "版本计划"
+
+[versions_versionName]
+other = "版本"
+
+[versions_status]
+other = "状态"
+
+[versions_releaseTime]
+other = "发行时间"
+
+[versions_EOLTime]
+other = "EOL时间"
+
+[versions_releaseNote]
+other = "发行说明"
+
+[versions_getiso]
+other = "ISO"
+
+[versions_installationGuide]
+other = "安装指南"
+
 
 
 
