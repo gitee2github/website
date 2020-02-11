@@ -108,7 +108,7 @@ other = "安装指南:"
 other = "/zh/releases.html"
 
 [download_allRelease]
-other = "获取早期版本>>"
+other = "获取全部版本>>"
 
 [versions_versionPlan]
 other = "版本计划"

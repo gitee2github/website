@@ -98,12 +98,6 @@ paginate = 10
     url  = "/en/news.html"
     weight = 1
 
-#[[menu.main]]
-#   identifier = "releases"
-#    name = "Releases"
-#    url  = "/en/releases.html"
-#    weight = 4
-
 [[menu.main]]
     identifier = "docs"
     name = "Docs"
@@ -118,11 +112,11 @@ paginate = 10
     url = "/en/docs/Installation/Installation.html"
     weight=3
 
-[[menu.main]]
-    identifier = "releases"
-    name = "Releases"
-    url  = "/en/releases.html"
-    weight = 6
+# [[menu.main]]
+#    identifier = "releases"
+#    name = "Releases"
+#    url  = "/en/releases.html"
+#    weight = 6
 
 [[menu.main]]
     identifier = "download"
@@ -218,12 +212,6 @@ paginate = 10
     url  = "/zh/news.html"
     weight = 2
 
-#[[languages.zh.menu.main]]
-#    identifier = "releases"
-#    name = "版本"
-#    url  = "/zh/releases.html"
-#    weight = 4
-
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
@@ -252,12 +240,12 @@ paginate = 10
     url = "/zh/docs/Administration/administration.html"
     weight = 4
 
-#[[languages.zh.menu.main]]
-#    identifier = "container"
-#    name = "容器用户指南"
-#    parent = "docs"
-#    url = "/zh/docs/Container/container.html"
-#    weight = 5
+[[languages.zh.menu.main]]
+    identifier = "secHarden"
+    name = "安全加固指南"
+    parent = "docs"
+    url = "/zh/docs/SecHarden/secHarden.html"
+    weight = 5
 
 [[languages.zh.menu.main]]
     identifier = "vitrual"
@@ -266,12 +254,18 @@ paginate = 10
     url = "/zh/docs/Virtualization/virtualization.html"
     weight = 6
 
-
 [[languages.zh.menu.main]]
-    identifier = "releases"
-    name = "版本"
-    url  = "/zh/releases.html"
+    identifier = "container"
+    name = "容器用户指南"
+    parent = "docs"
+    url = "/zh/docs/Container/container.html"
     weight = 7
+
+#[[languages.zh.menu.main]]
+#    identifier = "releases"
+#    name = "版本"
+#    url  = "/zh/releases.html"
+#    weight = 7
 
 [[languages.zh.menu.main]]
     identifier = "download"
