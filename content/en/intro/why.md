@@ -1,5 +1,5 @@
 +++
-question = "Why openEuler"
+question = "What is openEuler"
 title = "openEuler"
 brief = ""
 +++
