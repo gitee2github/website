@@ -146,7 +146,6 @@ function initClaPage() {
     }
 
     $('#individual-email').val(readCookie("email"));
-    $("#individual-email").attr('disabled',true) 
 
     if ($('#sign-cla-button').length) {
         $("#sign-cla-button").bind('click', function () {
