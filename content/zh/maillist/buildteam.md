@@ -1,5 +1,5 @@
 +++
-listname = "Built-team"
+listname = "Build-team"
 emailaddress = "buildteam@openeuler.org"
 description = "openEuler操作系统构建团队的邮件列表。"
 websitelink = "https://mailweb.openeuler.org/postorius/lists/buildteam@openeuler.org"
