@@ -93,10 +93,10 @@ paginate = 10
     weight = 10
 
 [[menu.main]]
-    identifier="news"
-    name = "News"
-    url  = "/en/news.html"
-    weight = 1
+    identifier="blog"
+    name = "Blog"
+    url  = "http://blog.openeuler.org/"
+    weight = 2
 
 [[menu.main]]
     identifier = "docs"
@@ -207,9 +207,9 @@ paginate = 10
 
 
 [[languages.zh.menu.main]]
-    identifier="news"
-    name = "新闻"
-    url  = "/zh/news.html"
+    identifier="blog"
+    name = "博客"
+    url  = "http://blog.openeuler.org/"
     weight = 2
 
 [[languages.zh.menu.main]]
