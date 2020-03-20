@@ -17,6 +17,15 @@ RUN mkdir -p /usr/local/src && \
 RUN mkdir -p /src/website/
 COPY . /src/website/
 
+RUN mkdir -p /src/website/build && cd /src/website/build && \
+    chmod +x ../script/sig-builder.sh && \
+    ../script/sig-builder.sh && \
+    find ../content/zh/sig/ -name "*.md" | grep -v "_index.md" | xargs rm && \
+    cp *.md ../content/zh/sig/ && \
+    find ../content/en/sig/ -name "*.md" | grep -v "_index.md" | xargs rm && \
+    cp *.md ../content/en/sig/ && \
+    cd .. && rm -rf ./build
+
 RUN cd /src/ && \
     git clone -b stable https://gitee.com/openeuler/docs && \
     cp -rf /src/docs/content/* /src/website/content/ && \
