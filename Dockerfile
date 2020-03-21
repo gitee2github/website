@@ -26,12 +26,13 @@ RUN mkdir -p /src/website/build && cd /src/website/build && \
     cp *.md ../content/en/sig/ && \
     cd .. && rm -rf ./build
 
-RUN cd /src/ && \
-    git clone -b stable https://gitee.com/openeuler/docs && \
-    cp -rf /src/docs/content/* /src/website/content/ && \
-    cd /src/website && /usr/local/bin/hugo -b / && \
+RUN mkdir -p /src/website/doc_build && cd /src/website/doc_build && \
+    chmod +x ../script/docs-builder.sh && \
+    ../script/docs-builder.sh && cp -r ./content/* ../content/ && \ 
+    cd /src/website && rm -fr ./doc_build && \ 
+    /usr/local/bin/hugo -b / && \
     cp -rf /src/website/public/* /usr/share/nginx/html/ && \
-    chmod -R 755 /usr/share/nginx/html
+    chmod -R 755 /usr/share/nginx/html 
 
 ENV RUN_USER nginx
 ENV RUN_GROUP nginx
