@@ -1,142 +1,77 @@
-+++
-title = "安全"
-id = "security"
-+++
+# 漏洞响应
+openEuler社区非常重视社区版本的安全性，openEuler安全委员会负责接收、调查和披露openEuler社区相关的安全漏洞。我们鼓励漏洞研究人员和行业组织主动将openEuler社区的疑似安全漏洞报告给openEuler社区安全委员会。我们会快速的响应、分析和解决上报的安全问题或安全漏洞。
 
-<h4 id="itm1">扫描和提交CVE问题</h4>
-openEuler的安全系统会扫描属于openEuler软件包范围内的CVE问题，并向openEuler社区的安全团队提交CVE问题。CVE类的问题的issue标题必须以CVE ID起始，后面跟上CVE问题的简要描述，如：
+## 支持版本
+漏洞响应流程主要支持openEuler社区的LTS发行版和其分支版本。
 
-**CVE-2019-11255:** CSI volume snapshot, cloning and resizing features can result in unauthorized volume data access or mutation 
-
+## 漏洞处理流程
+每个一个安全漏洞都会有一个指定的人员进行跟踪和处理，协调员是openEuler安全委员会的成员，他将负责跟踪和推动漏洞的修复和披露。漏洞端到端的处理流程如下图。
 
 
-<h4 id="itm2">安全团队处理和分发CVE问题</h4>
-
-安全团队会根据CVE问题所属的包分发对应的CVE ISSUE到repo内。CVE ISSUE会包含以下信息：
-
-+ 漏洞的详细描述（以下信息由CVE扫描工具提供）
-
-  + [CVEID] : 必须包含对应的CVE链接
-
-  + [PRODUCT]：CVE提供的信息，包含供应商，开发人员或项目名称，以及存在漏洞的实际软    	件或硬件的名称
-
-  + [ VERSION ]：包括版本，发行日期或供应商，开发人员或项目用来区分发行版本的任何差异信息。也可以用特定的版本号，版本范围或“版本号或日期之前/之后的所有版本”来描述。
-
-  + [ PROBLEMTYPE ]：
-
-  + [ REFERENCES ]：相关URL链接和参考说明
-
-  + [ DESCRIPTION ]：漏洞的详细描述说明，包括：使用该漏洞的攻击类型的说明；漏洞的影		响；受漏洞影响的软件产品中的软件组件；可以利用此漏洞的任何攻击媒介
-
-  + [ ASSIGNINGCNA ]：分配CNA的名称
+![](安全问题处理流程.jpg)
 
 
+在这里我们主要介绍流程中漏洞上报、漏洞评估和漏洞披露这三部分内容。
 
-<h4 id="itm3">处理CVE问题</h4>
+## 漏洞上报
+如果您认为openEuler产品存在一个疑似安全漏洞，我们希望您将漏洞上报给openEuler社区，并与我们配合以负责任的方式修复和披露该问题。
 
-Maintainer会对CVE问题进行确认和分发。CVE问题的解决方案可以由贡献者提供，并经过Maintainer或Committer的评审提交。提交时请关联CVE ISSUE，并在ISSUE内提供完善的的信息：
+### 漏洞上报方式
+您可以通过email将openEuler产品的潜在安全漏洞发送到openEuler安全团队邮箱（邮箱地址）。因为漏洞信息比较敏感，建议您使用安全团队成员的openPGP密钥对邮件信息进行加密，安全团队成员和密钥信息如下：
+- 刘金刚@liujingang09，liujingang09@huawei.com,[GPG秘钥](public_key_liujingang.asc)
+- 杨丽[@yangli69393]，<y69393@huawei.com>
+- 颜小兵[@yanxiaobing2020]，yanxiaobing@huawei.com，[GPG秘钥](public_key_yanxiaobing.asc)
+- 朱健伟@zhujianwei001，<zhujianwei7@huawei.com>
 
-- 是漏洞吗？（ **Am I vulnerable?** ）：
-  + 描述问题发生需要的场景（包括软硬件和交互场景等）
-  + 问题所造成的影响和影响的范围
-  + 如何确认使用的版本是否包含该问题
+### 漏洞上报内容
+为了便于快速的确认和验证疑似漏洞，请在漏洞上报邮件中包含但不限于以下内容：
+- 基本信息：包括漏洞影响的模块、漏洞的触发条件和成功利用后对系统的影响等。
+- 技术细节：包括系统配置、定位方法、Exploit的描述、POC、问题重现方法和步骤等。		
+- 修复方案建议
+- 上报者的组织和联系方式
+- 上报者可能的漏洞披露计划
 
-+ 如何缓解漏洞造成的影响( **How do I mitigate the vulnerability?** )
-  + 短期缓解方案
-  + 长期缓解方案：比如patch的安装地址、安装方式等。
-  
-+ 对该漏洞的评分
-  
-  <table board="2" class="table table-bordered table-striped">
-      <caption><b>CVSS打分表</b></caption>
-      <thead>
-          <tr>
-              <th align="left" style="width:40px">打分项</th>
-              <th align="left" style="width:40px">openEuler</th>
-              <th align="left" style="width:40px">NVD</th>
-          </tr>
-          <tr>
-              <td align="left">CVSS v3 Base Score</td>
-              <td>7.3</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">Attack Vector</td>
-              <td>Network</td>
-              <td>Local</td>
-          </tr>
-           <tr>
-              <td align="left">Attack complexity</td>
-              <td>Low</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">Privileges Required</td>
-              <td>None</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">User Interaction</td>
-              <td>Low</td>
-              <td>Required</td>
-          </tr>
-          <tr>
-              <td align="left">Scope</td>
-              <td>Unchanged</td>
-              <td>Unchanged</td>
-          </tr>
-          <tr>
-              <td align="left">Confidentiality</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-          <tr>
-              <td align="left">Integrity Impact</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-          <tr>
-              <td align="left">Availability Impact</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-      </thead>
-      <tbody>
-      </tbody>
-  </table>
-  
-+ 漏洞的详细描述（以下信息由CVE扫描工具提供）
-
-  + [CVEID] : 必须包含对应的CVE链接
-+ [PRODUCT]：CVE提供的信息，包含供应商，开发人员或项目名称，以及存在漏洞的实际软件或硬件的名称
-  
-  + [ VERSION ]：包括版本，发行日期或供应商，开发人员或项目用来区分发行版本的任何差异信息。也可以用特定的版本号，版本范围或“版本号或日期之前/之后的所有版本”来描述。
-+ [ PROBLEMTYPE ]：
-  
-  + [ REFERENCES ]：相关URL链接和参考说明
-+ [ DESCRIPTION ]：漏洞的详细描述说明，包括：使用该漏洞的攻击类型的说明；漏洞的影响；受漏洞影响的软件产品中的软件组件；可以利用此漏洞的任何攻击媒介
-  
-  + [ ASSIGNINGCNA ]：分配CNA的名称
-  
-    
-
-<h4 id="itm4">CVE问题合入策略</h4>
-
-+ **快速通道**：对openEuler评定级别是严重的安全类问题，openEuler安全团队会启动快速通道，优先向涉及到且在生命周期内的LTS版本提供解决方案。
-
-  
-
-+ **普通合入**：对重要及以下影响的安全类问题，根据问题的严重程度和影响范围可以选择以下几种策略：
-
-  + 正式版本存在的安全类问题，可视问题影响选择：
-
-    + 策略一：补丁向所有涉及到且在生命周期内的LTS&社区版本发布
-    + 策略二：补丁向当前最新的LTS版本&社区版本发布
-    + 策略三：补丁合入当前开发的LTS版本&社区版本（此类问题不会发布安全公告）
-
-  + 未流入正式版本的安全类问题：作为开发版本的ISSUE处理，合入到当前开发版本，此类问题也不需要发布安全公告；
+### 邮件响应时间
+我们将在48小时内响应通过邮箱上报的疑似安全漏洞，并向上报者反馈漏洞处理的进展。
 
 
-<h4 id="itm5">CVE问题处理流程</h4>
+## 漏洞严重性评估
+业界普遍使用CVSS标准评估漏洞的严重性，openEuler在使用CVSSv3进行漏洞评估时，需要设定漏洞攻击场景，基于在该攻击场景下的实际影响进行评估。漏洞严重等级评估是指针对漏洞利用难易程度，以及利用后对机密性、完整性、可用性的影响进行评估，并生成一个评分值。
+### 评估标准
+openEuler社区采用CVSS v3对漏洞进行评估，CVSS V3由通过对以下向量来评估一个漏洞的影响：
+- 攻击向量（AV）-表示攻击的“远程性”以及如何利用此漏洞。
+- 攻击复杂性（AC）-讲述攻击执行的难度以及成功进行攻击需要哪些因素。
+- 用户交互（UI）-确定攻击是否需要用户参与。
+- 所需的权限（PR）-记录成功进行攻击所需的用户身份验证级别。
+- 范围（S）-确定攻击者是否可以影响具有不同权限级别的组件。
+- 机密性（C）-衡量信息泄露给非授权方后导致的影响程度。
+- 完整性（I）-衡量信息被篡改后导致的影响程度。
+- 可用性（A）-衡量用户在需要访问数据或服务时受影响的程度。
 
-<img src="./security/procedure.png" width="100%" style="max-width:1079px" />
+### 评估原则
+- 评估漏洞的严重等级，不是评估风险。
+- 评估时必须基于攻击场景，且保证在该场景下，攻击者成功攻击后能对系统造成机密性、完整性、可用性影响。
+- 当安全漏洞有多个攻击场景时，应以造成最大的影响，即CVSS评分最高的攻击场景为依据。
+- 被嵌入调用的库存在漏洞，要根据该库在产品中的使用方式，确定漏洞的攻击场景后进行评估。
+- 安全缺陷不能被触发或不影响CIA(机密性/完整性/可用性)，CVSS评分为0分。
+
+### 评估步骤
+对漏洞进行评估时，可根据下述步骤进行操作：
+- 设定可能的攻击场景，基于攻击场景评分；
+- 确定漏洞组件（Vulnerable Component）和受影响组件（Impact Component）；
+- 选择基础评估指标的值：通过对可利用指标（攻击向量/攻击复杂度/所需权限/用户交互/范围）和受影响指标（机密性/完整性/可用性）给出漏洞影响评估。
+
+### 严重等级划分
+|严重等级（Severity Rating） |	CVSS评分（Score）|
+| -----------------        |  --------------  |
+|  致命（Critical）	    |    9.0 - 10.0 |
+|  高（High）	        |    7.0 - 8.9  |
+|  中（Medium）	        |    4.0 - 6.9  |
+|  低（Low）	        |    0.1 - 3.9  |
+|  无（None）	        |       0.0     |
+### 和NVD评估分数差异说明
+CVSS基础评分与受影响组件的版本号，提供和使用的方式，平台以及软件的编译方式相关，NVD评分考虑了漏洞被利用的所有场景，而openEuler是基于上游社区自己构建的，主要应用于服务器场景，所以对于openEuler开源产品来说，直接采用NVD评分是不合适的，因此openEuler对所有受影响的CVE有自己的评分，并且多数打分可能和NVD不同。
+
+## 漏洞披露
+为了保护openEuler用户的安全，在进行调查、修复和发布安全公告之前，openEuler社区不会公开披露、讨论或确认openEuler产品的安全问题。安全漏洞修复后openEuler社区会发布安全公告，安全公告内容包括该漏洞的技术细节、CVE编号、CVSS安全评分、严重性等级以及受到该漏洞影响的版本和修复版本等信息。安全公告提供邮件订阅功能，您可以通过“[sa-announce](https://mailweb.openeuler.org/postorius/lists/sa-announce.openeuler.org/)"链接订阅openEuler社区的安全公告。
+
