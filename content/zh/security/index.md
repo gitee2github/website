@@ -19,11 +19,11 @@ openEuler社区非常重视社区版本的安全性，openEuler安全委员会�
 ### 漏洞上报方式
 您可以通过email将openEuler产品的潜在安全漏洞发送到openEuler安全团队邮箱（邮箱地址）。因为漏洞信息比较敏感，建议您使用安全团队成员的openPGP密钥对邮件信息进行加密，安全团队成员和密钥信息如下：
 
-+ 刘金刚@liujingang09，liujingang09@huawei.com,<a href="https://gitee.com/openeuler/security-committee/blob/master/public-key/public_key_liujingang.asc" download>GPG公钥</a>
++ 刘金刚@liujingang09，liujingang09@huawei.com,<a href="security/public_key_liujingang.asc" download>GPG公钥</a>
 
 + 杨丽[@yangli69393]，<y69393@huawei.com>
 
-+ 颜小兵[@yanxiaobing2020]，yanxiaobing@huawei.com，<a href="https://gitee.com/openeuler/security-committee/blob/master/public-key/public_key_yanxiaobing.asc" download>GPG公钥</a>
++ 颜小兵[@yanxiaobing2020]，yanxiaobing@huawei.com，<a href="security/public_key_yanxiaobing.asc" download>GPG公钥</a>
 
 + 朱健伟@zhujianwei001，<zhujianwei7@huawei.com>
 
