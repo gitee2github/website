@@ -111,6 +111,9 @@ other = "/en/releases.html"
 [download_allRelease]
 other = "All Releases>>"
 
+[download_lifecycle]
+other = "Lifecycle:"
+
 [versions_versionPlan]
 other = "Version Plan"
 
