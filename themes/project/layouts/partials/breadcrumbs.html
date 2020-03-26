@@ -10,6 +10,9 @@
                 {{ $versionArr := index $versionArr 1 }}
                 {{ $versionArr := string $versionArr }}
                 <h1 class="text-uppercase">{{ upper $versionArr }}</h1>
+                {{ end }}
+                {{ if in $version "about_openeuler" }}
+                <h1 class="text-uppercase">About us</h1>
                 {{ else }}
                 <h1>{{ .Title }}</h1>
                 {{ end }}
