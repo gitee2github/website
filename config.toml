@@ -106,6 +106,14 @@ paginate = 10
     weight = 5
     hasChildren = true
 
+[[menu.main]]
+    identifier = "1.0_BASE"
+    name = "1.0_BASE"
+    parent = "docs"
+    url = "/en/docs/1.0_Base/docs/Installation/Installation.html"
+    weight = 2
+
+
 # [[menu.main]]
 #    identifier = "releases"
 #    name = "Releases"
@@ -235,6 +243,19 @@ paginate = 10
     weight = 5
     hasChidren = true
 
+[[languages.zh.menu.main]]
+    identifier = "1.0_BASE"
+    name = "1.0_BASE"
+    parent = "docs"
+    url = "/zh/docs/1.0_Base/docs/Releasenotes/release_notes.html"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "20.03LTS"
+    name = "20.03LTS"
+    parent = "docs"
+    url = "/zh/docs/20.03_LTS/docs/Releasenotes/release_notes.html"
+    weight = 2
 #[[languages.zh.menu.main]]
 #    identifier = "release"
 #    name = "发行说明"
