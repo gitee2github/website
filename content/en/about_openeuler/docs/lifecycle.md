@@ -8,4 +8,4 @@ LTS release: released every 2 years, and community support is provided for 4 yea
 
 Community Innovation release: released every 6 months between 2 LTS releases and 6 months' support is provided.
 
-Please visit <> for details.
+Please visit <https://openeuler.org/en/lifecycle.html> for details.

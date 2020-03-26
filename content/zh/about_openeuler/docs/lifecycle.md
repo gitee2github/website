@@ -8,4 +8,4 @@
 
 社区创新版本：LTS版本之间每隔6个月openEuler会发布一个社区创新版本，提供6个月社区支持。
 
-详情请访问<>。
+详情请访问<https://openeuler.org/zh/lifecycle.html>。
