@@ -224,31 +224,14 @@
   }
   .reason h2 {
     font-size: 0.46rem;
-    margin-bottom: .68rem;
+    margin-bottom: .38rem;
   }
   .reason .content_why {
     flex-direction: column;
   }
-  .reason .content_why .bg {
-    width: 95%;
-    height: 4rem;
-    background-position: center;
-    position: relative;
-  }
-  .reason .content_why .bg h3 {
-    font-size: .6rem;
-  }
-  .reason .content_why .bg p {
-    font-size: .24rem;
-    margin-top: .6rem;
-    line-height: inherit;
-    position: absolute;
-    bottom: .44rem;
-    padding: 0 10px;
-  }
+  
   .reason .content_why .detail {
     margin-left: 0;
-    margin-top: 0.5rem;
   }
   .reason .content_why .detail p {
     font-size: .28rem;
@@ -601,7 +584,6 @@
   .reason .content_why .detail {
     margin-left: 0;
     width: 580px;
-    margin-top: 0.5rem;
   }
   .action .active_box .active h2 {
     font-size: 0.45rem;
@@ -655,10 +637,6 @@
   }
   footer .notice {
     width: 360px;
-  }
-  .reason .content_why .bg p {
-    margin-top: 40px;
-    padding: 0 10px;
   }
   #mask {
     position: fixed;

@@ -93,40 +93,54 @@ paginate = 10
     weight = 10
 
 [[menu.main]]
-    identifier="news"
-    name = "News"
-    url  = "/en/news.html"
-    weight = 1
-
-#[[menu.main]]
-#   identifier = "releases"
-#    name = "Releases"
-#    url  = "/en/releases.html"
-#    weight = 4
+    identifier="blog"
+    name = "Blog"
+    url  = "http://blog.openeuler.org/"
+    weight = 2
 
 [[menu.main]]
     identifier = "docs"
     name = "Docs"
-    url  = "/en/building/docs.html"
+    url  = "/en/docs.html"
     weight = 5
-    #hasChildren = true
+    hasChildren = true
+
+[[menu.main]]
+    identifier = "V20.03LTS"
+    name = "V20.03LTS"
+    parent = "docs"
+    url = "/en/docs/v20.03lts/docs/Installation/Installation.html"
+    weight=3
+
+[[menu.main]]
+    identifier = "V1.0BASE"
+    name = "V1.0BASE"
+    parent = "docs"
+    url = "/en/docs/v1.0base/docs/Installation/Installation.html"
+    weight=4
+
+# [[menu.main]]
+#    identifier = "releases"
+#    name = "Releases"
+#    url  = "/en/releases.html"
+#    weight = 6
 
 [[menu.main]]
     identifier = "download"
     name = "Download"
     url  = "/en/download.html"
-    weight = 6
+    weight = 7
 
 [[menu.main]]
     identifier = "security"
     name = "Security"
     url  = "/en/security.html"
-    weight = 7
+    weight = 8
 [[menu.main]]
     identifier = "lang"
     name = "中文"
     url = "/zh"
-    weight = 8
+    weight = 9
 
 # Menu chinese
 [[languages.zh.menu.main]]
@@ -200,23 +214,31 @@ paginate = 10
 
 
 [[languages.zh.menu.main]]
-    identifier="news"
-    name = "新闻"
-    url  = "/zh/news.html"
+    identifier="blog"
+    name = "博客"
+    url  = "http://blog.openeuler.org/"
     weight = 2
-
-#[[languages.zh.menu.main]]
-#    identifier = "releases"
-#    name = "版本"
-#    url  = "/zh/releases.html"
-#    weight = 4
 
 [[languages.zh.menu.main]]
     identifier = "docs"
     name = "文档"
-    url  = "/zh/building/docs.html"
+    url  = "/zh/docs/home.html"
     weight = 5
-    #hasChidren = true
+    hasChidren = true
+
+[[languages.zh.menu.main]]
+    identifier = "V20.03LTS"
+    name = "V20.03LTS"
+    parent = "docs"
+    url = "/zh/docs/v20.03lts/docs/Releasenotes/release_notes.html"
+    weight = 2
+
+[[languages.zh.menu.main]]
+    identifier = "V1.0BASE"
+    name = "V1.0BASE"
+    parent = "docs"
+    url = "/zh/docs/v1.0base/docs/Releasenotes/release_notes.html"
+    weight = 3
 
 #[[languages.zh.menu.main]]
 #    identifier = "release"
@@ -228,7 +250,7 @@ paginate = 10
 #[[languages.zh.menu.main]]
 #    identifier = "install"
 #    name = "安装指南"
-#    parent = "docs"
+#   parent = "docs"
 #    url = "/zh/docs/Installation/installation.html"
 #    weight=3
 
@@ -240,10 +262,10 @@ paginate = 10
 #    weight = 4
 
 #[[languages.zh.menu.main]]
-#    identifier = "container"
-#    name = "容器用户指南"
+#    identifier = "secHarden"
+#    name = "安全加固指南"
 #    parent = "docs"
-#    url = "/zh/docs/Container/container.html"
+#   url = "/zh/docs/SecHarden/secHarden.html"
 #    weight = 5
 
 #[[languages.zh.menu.main]]
@@ -253,24 +275,36 @@ paginate = 10
 #    url = "/zh/docs/Virtualization/virtualization.html"
 #    weight = 6
 
+#[[languages.zh.menu.main]]
+#    identifier = "container"
+#    name = "容器用户指南"
+#    parent = "docs"
+#    url = "/zh/docs/Container/container.html"
+#    weight = 7
+
+#[[languages.zh.menu.main]]
+#    identifier = "releases"
+#    name = "版本"
+#    url  = "/zh/releases.html"
+#    weight = 7
 
 [[languages.zh.menu.main]]
     identifier = "download"
     name = "下载"
     url  = "/zh/download.html"
-    weight = 6
+    weight = 8
 
 [[languages.zh.menu.main]]
     identifier = "security"
     name = "安全"
     url  = "/zh/security.html"
-    weight = 7
+    weight = 9
 
 [[languages.zh.menu.main]]
     identifier = "lang"
     name = "EN"
     url = "/en"
-    weight = 8
+    weight = 10
 
 # Top bar social links menu
 
@@ -367,7 +401,7 @@ paginate = 10
 [[params.card]]
     image = "/img/2.svg"
     title = "Quick Start"
-    url = "/en/building/docs.html"
+    url = "/en/docs/Installation/obtaining-the-installation-source.html"
     description = "Tutorial guide for you a quick start"
     weight = 2
 
@@ -396,7 +430,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
-    url = "/zh/building/quickstart.html"
+    url = "/zh/docs/Installation/%E8%8E%B7%E5%8F%96%E5%AE%89%E8%A3%85%E6%BA%90.html"
     description = "如果您想要尝试使用openEuler，这里提供教程助您快速入门。"
     weight = 2
 

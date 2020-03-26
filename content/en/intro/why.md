@@ -1,9 +1,12 @@
 +++
-question = "Why openEuler"
+question = "What is openEuler"
 title = "openEuler"
 brief = ""
 +++
 
-<div><p>Co-built, shared, and co-governed community</p></div>
-<div><p>With spirit of openness, collaboration, and innovation</p></div>
-<div><p>OS community that best matches the application scenarios</p></div>
+<div><p>openEuler is an open source, free Linux
+distribution platform. The platform provides an open community for global
+developers to build an open, diversified, and architecture-inclusive software
+ecosystem. openEuler is also an innovative platform that encourages everyone to
+propose new ideas, explore new approaches, and practice new solutions.</p></div>
+

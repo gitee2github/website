@@ -178,6 +178,13 @@ Please select one applicable statement from the following and fill in the blanks
         </td>
     </tr>
     <tr>
+        <td>
+            <input type="hidden" value="" id="oauth-code" />
+            <input type="hidden" value="" id="client" />
+            <input type="hidden" value="en" id="language" />
+        </td>
+    </tr>
+    <tr>
         <td colspan="2">
             * require field. Please make sure the E-Mail is related with your gitee account.
         </td>

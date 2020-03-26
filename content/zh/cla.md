@@ -187,6 +187,13 @@ title = "签署CLA"
         </td>
     </tr>
     <tr>
+        <td>
+             <input type="hidden" value="" id="oauth-code" />
+             <input type="hidden" value="" id="client" />
+             <input type="hidden" value="zh" id="language" />
+        </td>
+    </tr>
+    <tr>
         <td colspan="2">
             * 必填。请确保邮箱与你的gitee账号绑定。
         </td>

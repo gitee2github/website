@@ -11,21 +11,29 @@
         <div id="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12"  class="downloadWholeBlock">
+                    <div class="col-md-12 downloadWholeBlock"id="tabArchi">
+                        {{ range where $.Page.Site.Pages "Type" "releases" }}
+                        {{ if .Params }}
+                        {{ if .Params.isLastestVersion}}
                         <div id="downloadBlock">
                             <div class="downloadContentBlock">
-                                <h5>{{ i18n "download_issues"}}</h5>
-                                <h5><a href="https://gitee.com/openeuler/community-issue">https://gitee.com/openeuler/community-issue</a></h5>
-                            </div>
-                            <div class="downloadButtonBlock">
-                                <a href="https://openeuler.obs.cn-south-1.myhuaweicloud.com/release/openEuler-1.0-aarch64-dvd.iso"><button type="button" class="btn btn-primary btn-lg btn-download" >{{ i18n "download_iso_button"}}</button></a>
+                                <div class="downloadVersion"><strong style="font-size:18px;">{{.Params.version}}</strong>&nbsp;&nbsp;&nbsp;&nbsp;<span><a href='{{ i18n "download_versionsUrl"}}'>{{ i18n "download_allRelease"}}</a></span></div>
+                                <div class="downloadDescription">{{ .Content }}</div>
+                                {{ if .Params.releaseNote}}
+                                <div class="titleLine1"><strong>{{ i18n "download_releaseNote"}}</strong><a href="{{.Params.releaseNote}}" target="_blank">Link</a></div>
+                                {{ end }}
+                                <div class="titleLine1"><strong>{{ i18n "download_getiso"}}</strong><a href="{{.Params.ISOUrl}}" target="_blank">Link</a></div>
+                                {{ if .Params.installationGuide}}
+                                <div class="titleLine1"><strong>{{ i18n "download_installationGuide"}}</strong><a href="{{.Params.installationGuide}}" target="_blank">Link</a></div>
+                                {{ end }}
+                                <div class="titleLine1"><strong>{{ i18n "download_issues"}}</strong><a href="https://gitee.com/openeuler/community-issue" target="_blank">Link</a></div>
                             </div>
                         </div>
-                        
-                    </div>
-                    <!-- /.col-md-9 -->
+                        {{ end }}
+                        {{ end }}
+                        {{ end }}
+                    </div>  
                 </div>
-                <!-- /.row -->
             </div>
             <!-- /.container -->
         </div>

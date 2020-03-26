@@ -294,7 +294,7 @@
   padding: 170px 30px 70px;
 }
 .reason h2 {
-  margin-bottom: 67px;
+  margin-bottom: 40px;
   font-size: 40px;
   color: #333333;
   text-align: center;
@@ -307,30 +307,7 @@
   max-width: 1366px;
   margin: 0 auto;
 }
-.reason .content_why .bg {
-  background: url('../img/flows.png') no-repeat;
-  height: 300px;
-  width: 500px;
-  flex-shrink: 0;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  padding: 0 10px;
-  text-align: center;
-}
-.reason .content_why .bg h3 {
-  font-size: 59px;
-  color: #FFFFFF;
-  margin-top: 80px;
-}
-.reason .content_why .bg p {
-  margin-top: 60px;
-  font-size: 18px;
-  line-height: 28px;
-}
+
 .reason .content_why .detail {
   margin-left: 50px;
 }
@@ -340,26 +317,11 @@
   line-height: 30px;
   padding-left: 15px;
 }
-/* .reason .content_why .detail p:nth-child(1) {
-  margin-bottom: 40px;
-} */
 
-.reason .content_why .detail>div {
+/*.reason .content_why .detail>div {
   position: relative;
   margin: 30px 0px;
-}
-
-.reason .content_why .detail>div p::before{
-  content:'';
-  display: inline-block;
-  position: absolute;
-  top: 10px;
-  left:0;
-  border-radius: 50%;
-  background: #000;
-  width: 5px;
-  height: 5px;
-}
+}*/
 
 .e_mail {
   background: url('../img/bg2.png') no-repeat;
@@ -1065,8 +1027,8 @@ html {
   color:#666666;
 }
 html,body {
-  margin: 0;
-  padding:0;
+  /*margin: 0;
+  padding:0;*/
   height: 100%;
 }
 #all{
@@ -1094,7 +1056,28 @@ html,body {
   text-align: left;
   padding:10px;
   padding-left:40px;
+  padding-right:40px;
 }
 .downloadWholeBlock{
   margin-bottom: 30px;
+}
+.downloadContentBlock .titleLine{
+  margin-top:10px;
+}
+.downloadContentBlock .titleLine1{
+  margin-top:10px;
+  font-size:15px;
+}
+.downloadContentBlock .titleLine1 strong{
+  margin-right:5px;
+}
+.downloadContentBlock .contentLine{
+  margin-top:5px;
+}
+.downloadVersion{
+  margin-bottom: 10px;
+}
+.downloadDescription{
+  margin-bottom:20px;
+  margin-top:20px;
 }
