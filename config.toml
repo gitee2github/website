@@ -105,20 +105,6 @@ paginate = 10
     weight = 5
     hasChildren = true
 
-[[menu.main]]
-    identifier = "V20.03LTS"
-    name = "V20.03LTS"
-    parent = "docs"
-    url = "/en/docs/v20.03lts/docs/Installation/Installation.html"
-    weight=3
-
-[[menu.main]]
-    identifier = "V1.0BASE"
-    name = "V1.0BASE"
-    parent = "docs"
-    url = "/en/docs/v1.0base/docs/Installation/Installation.html"
-    weight=4
-
 # [[menu.main]]
 #    identifier = "releases"
 #    name = "Releases"
@@ -225,20 +211,6 @@ paginate = 10
     url  = "/zh/docs/home.html"
     weight = 5
     hasChidren = true
-
-[[languages.zh.menu.main]]
-    identifier = "V20.03LTS"
-    name = "V20.03LTS"
-    parent = "docs"
-    url = "/zh/docs/v20.03lts/docs/Releasenotes/release_notes.html"
-    weight = 2
-
-[[languages.zh.menu.main]]
-    identifier = "V1.0BASE"
-    name = "V1.0BASE"
-    parent = "docs"
-    url = "/zh/docs/v1.0base/docs/Releasenotes/release_notes.html"
-    weight = 3
 
 #[[languages.zh.menu.main]]
 #    identifier = "release"
