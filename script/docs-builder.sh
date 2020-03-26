@@ -25,7 +25,7 @@ do
 
   cd ..
 
-  sed -e "s/{{version}}/$b/g" $fd/menu.temp >> $pd/config.toml 
+  #sed -e "s/{{version}}/$b/g" $fd/menu.temp >> $pd/config.toml 
 
   cd ./docs
   
