@@ -7,7 +7,7 @@
 {{ else }}
     {{ $versionArr := split $version "docs" }}
     {{ $versionArr := index $versionArr 1 }}
-    {{ $versionArr := split $versionArr "\\" }}
+    {{ $versionArr := split $versionArr "/" }}
     {{ $versionArr := index $versionArr 1 }}
     {{ $versionArr := string $versionArr }}
     {{ $versionArr := delimit (slice "docs" $versionArr) "/"}}

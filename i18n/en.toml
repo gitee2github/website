@@ -11,6 +11,31 @@ other = "Subscription"
 [main_email_subscribe_buttontext]
 other = "Subscribe"
 
+[main_apply_source]
+other = "Test Machines Application"
+
+[main_apply_description]
+other= "Lack of test machines? Try to apply here. "
+
+[main_apply_guidance]
+other = "Apply"
+
+[main_apply_guidanceLink]
+other = "http://blog.openeuler.org/post/fred_li/2020-03-25-apply-for-vm-from-pcl/"
+
+[main_apply_thanks]
+other = "Sponsored by "
+
+[main_apply_pengchenLab]
+other ="Peng Cheng Liboratory "
+
+[main_apply_pengchenLink]
+other ="http://www.szpclab.com/"
+
+[main_apply_sponsore]
+other = " "
+
+
 [main_cards_title]
 other = "Welcome to openEuler Community"
 
@@ -110,6 +135,9 @@ other = "/en/releases.html"
 
 [download_allRelease]
 other = "All Releases>>"
+
+[download_lifecycle]
+other = "Lifecycle:"
 
 [versions_versionPlan]
 other = "Version Plan"
