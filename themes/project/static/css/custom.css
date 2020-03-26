@@ -318,54 +318,77 @@
   padding-left: 15px;
 }
 
-/*.reason .content_why .detail>div {
-  position: relative;
-  margin: 30px 0px;
-}*/
 
-.e_mail {
+
+.emailAndApply{
   background: url('../img/bg2.png') no-repeat;
-  height: 380px;
-  background-size: cover;
+  padding: 25px 30px 45px;
+}
+
+.emailAndApplyBox{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.e_mail h2{
-  color: #fff;
-  font-size: 40px;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
-.e_mail h3{
-  color: #fff;
+.emailAndApplyBoxL2{
+  width:47%;
+  margin-right:50px;
+}
+.emailAndApplyBox h2{
+  color:white;
 }
 
-.e_mail ul {
-  width: 40%;
+.emailAndApplyBox ul {
+  padding:0;
+  margin:0;
+  width:80%;
 }
-.e_mail ul li {
+
+.emailAndApplyBox ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.e_mail ul li h3 {
+
+.emailAndApplyBox ul li h3 {
   font-size: 28px;
   color: #FFFFFF;
   line-height: 36px;
 }
 
-.e_mail ul li h3 a {
+.emailAndApplyBox ul li h3 {
+  font-size: 28px;
   color: #FFFFFF;
+  line-height: 36px;
 }
 
-.e_mail ul li p {
+.emailAndApplyBox ul li h3 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.emailAndApplyBox ul li p {
   margin-top: 8px;
   font-size: 16px;
   color: #FFFFFF;
   line-height: 20px;
   padding-right: 50px;
 }
+
+.emailAndApplyBox h3{
+  color: #fff;
+}
+.emailAndApplyBox h3 a{ 
+text-decoration: underline;
+} 
+.emailAndApplyBox ul li .btn {
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 11px 18px;
+  text-transform: none;
+}
+
 #members .col-md-12 .client-header h4 {
   border: none;
   text-transform: none; 
@@ -380,12 +403,6 @@
   align-items: center;
 }
 
-.e_mail ul li .btn {
-  background: #FFFFFF;
-  border-radius: 2px;
-  padding: 11px 18px;
-  text-transform: none;
-}
 .div-archives>div>ul{
   position: relative;
 }

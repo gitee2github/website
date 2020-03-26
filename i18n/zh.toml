@@ -11,6 +11,30 @@ other = "邮件订阅"
 [main_email_subscribe_buttontext]
 other = "订阅"
 
+[main_apply_source]
+other = "测试资源申请"
+
+[main_apply_description]
+other= "如果缺乏测试设备，可以尝试在此申请。"
+
+[main_apply_guidance]
+other = "申请指南"
+
+[main_apply_guidanceLink]
+other = "http://blog.openeuler.org/post/fred_li/2020-03-25-apply-for-vm-from-pcl/#2"
+
+[main_apply_thanks]
+other = "感谢"
+
+[main_apply_pengchenLab]
+other ="鹏城实验室"
+
+[main_apply_pengchenLink]
+other ="http://www.pcl.ac.cn/"
+
+[main_apply_sponsore]
+other = "赞助"
+
 [main_cards_title]
 other = "欢迎加入openEuler社区"
 

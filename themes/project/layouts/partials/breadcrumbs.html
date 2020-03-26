@@ -6,7 +6,7 @@
                 {{ if in $version "docs" }}
                 {{ $versionArr := split $version "docs" }}
                 {{ $versionArr := index $versionArr 1 }}
-                {{ $versionArr := split $versionArr "\\" }}
+                {{ $versionArr := split $versionArr "/" }}
                 {{ $versionArr := index $versionArr 1 }}
                 {{ $versionArr := string $versionArr }}
                 <h1 class="text-uppercase">{{ upper $versionArr }}</h1>

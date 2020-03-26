@@ -307,44 +307,64 @@
   .partners .box img:nth-child(2) {
     width: 4.5rem;
   }
-  .e_mail {
+  .emailAndApply{
+    background:none;
+    padding:0;
+  }
+  .emailAndApplyBox{
+    display: inline;
+  }
+  .emailAndApplyBoxL2{
+    width:100%;
+    margin-right: 0 !important;
+    background: url('../img/bannernew.jpg') no-repeat;
+  }
+
+  .emailAndApplyBoxL3{
+    width:100%;
+    margin-right: 0 !important;
+    background: url('../img/3.jpg') no-repeat;
+  }
+
+  .emailAndApplyBoxL2 {
+    text-align:center;
     justify-content: space-around;
     padding: .4rem 0;
-    height: 7.5rem;
     background-position: top;
   }
-  .e_mail h2 {
+  .emailAndApplyBoxL2 h2 {
+   
     font-size: 0.46rem;
     margin-bottom: 0;
   }
-  .e_mail ul {
+  .emailAndApplyBoxL2 ul {
     width: auto;
     padding: 0px;
   }
 
-  .e_mail ul li {
+  .emailAndApplyBoxL2 ul li {
     justify-content: space-around;
   }
 
-  .e_mail ul li:last-child {
+  .emailAndApplyBoxL2 ul li:last-child {
     margin-bottom: 0;
   }
-  .e_mail ul li h3 {
+  .emailAndApplyBoxL2 ul li h3 {
     font-size: .38rem;
     line-height: .44rem;
   }
-  .e_mail ul li p {
+  .emailAndApplyBoxL2 ul li p {
     font-size: .24rem;
     margin-top: 0;
     padding-right: 0;
   }
-  .e_mail ul li .btn {
+  .emailAndApplyBoxL2 ul li .btn {
     padding: .1rem .15rem;
     font-size: .26rem;
     font-family: "HuaweiSansBold";
   }
 
-  .e_mail ul li > div {
+  .emailAndApplyBoxL2 ul li > div {
     width: 60%;
   }
 
