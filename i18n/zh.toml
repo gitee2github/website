@@ -110,6 +110,9 @@ other = "/zh/releases.html"
 [download_allRelease]
 other = "获取全部版本>>"
 
+[download_lifecycle]
+other = "生命周期:"
+
 [versions_versionPlan]
 other = "版本计划"
 
