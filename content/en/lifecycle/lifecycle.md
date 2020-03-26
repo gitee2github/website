@@ -10,4 +10,4 @@ The community version is divided into an LTS (long-term support) release and an 
 
 - **Community Innovation release**: released every 6 months between 2 LTS releases and 6 months' support is provided.
 
-<img src="./releases/lifecycle-1.png" width="100%" style="max-width:1079px" />
+<img src="./lifecycle/lifecycle-1.png" width="100%" style="max-width:1079px" />

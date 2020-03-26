@@ -10,4 +10,4 @@ title = "openEuler版本规划及生命周期"
 
 - **社区创新版本**：LTS版本之间每隔6个月openEuler会发布一个社区创新版本，提供6个月社区支持。
 
-<img src="./releases/lifecycle-1.png" width="100%" style="max-width:1079px" />
+<img src="./lifecycle/lifecycle-1.png" width="100%" style="max-width:1079px" />
