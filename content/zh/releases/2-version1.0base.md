@@ -1,13 +1,12 @@
 +++
-isLastestVersion="true"
 version="openEuler 1.0 Base"
 description=""
-status="Maintained"
+status="EOL"
 releaseDate="2020/02/11"
 releaseNote="https://openeuler.org/zh/docs/Releasenotes/release_notes.html"
 installationGuide="https://openeuler.org/zh/docs/Installation/installation.html"
-EOLDate="-"
-ISOUrl="https://121.36.97.194/openeuler1.0/base/iso/"
+EOLDate="2020/03/26"
+ISOUrl="https://repo.openeuler.org/openeuler1.0/base/iso/"
 +++
 openEuler 1.0 Base版本是为了满足特定用户指定场景业务需求发布的版本，在openEuler 1.0 Standard版本发布后，本版本停止服务。
 

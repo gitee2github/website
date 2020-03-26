@@ -121,8 +121,30 @@ paginate = 10
 [[menu.main]]
     identifier = "security"
     name = "Security"
-    url  = "/en/security.html"
     weight = 8
+    hasChidren = true
+
+[[menu.main]]
+    identifier = "subMitIssue"
+    name = "Submit a cve issue"
+    url  = "/en/security.html"
+    weight = 1
+    parent = "security"
+
+[[menu.main]]
+    identifier = "Advisories"
+    name = "Security Advisories"
+    url  = "https://cve.openeuler.org/cve#/home?lang=en"
+    weight = 2
+    parent = "security"
+
+[[menu.main]]
+    identifier = "CVE"
+    name = "CVE"
+    url  = "https://cve.openeuler.org/cve#/CVE?lang=en"
+    weight = 3
+    parent = "security"
+
 [[menu.main]]
     identifier = "lang"
     name = "中文"
@@ -270,8 +292,30 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "security"
     name = "安全"
-    url  = "/zh/security.html"
+    
     weight = 9
+    hasChidren = true
+
+[[languages.zh.menu.main]]
+    identifier = "subMitIssue"
+    name = "漏洞上报"
+    url  = "/zh/security.html"
+    weight = 1
+    parent = "security"
+
+[[languages.zh.menu.main]]
+    identifier = "Advisories"
+    name = "安全公告"
+    url  = "https://cve.openeuler.org/cve#/home?lang=zh"
+    weight = 2
+    parent = "security"
+
+[[languages.zh.menu.main]]
+    identifier = "CVE"
+    name = "CVE"
+    url  = "https://cve.openeuler.org/cve#/CVE?lang=zh"
+    weight = 3
+    parent = "security"
 
 [[languages.zh.menu.main]]
     identifier = "lang"
