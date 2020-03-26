@@ -108,7 +108,7 @@ paginate = 10
 
 [[menu.main]]
     identifier = "1.0_BASE"
-    name = "1.0_BASE"
+    name = "1.0 BASE"
     parent = "docs"
     url = "/en/docs/1.0_Base/docs/Installation/Installation.html"
     weight = 2
@@ -245,14 +245,14 @@ paginate = 10
 
 [[languages.zh.menu.main]]
     identifier = "1.0_BASE"
-    name = "1.0_BASE"
+    name = "1.0 BASE"
     parent = "docs"
     url = "/zh/docs/1.0_Base/docs/Releasenotes/release_notes.html"
     weight = 2
 
 [[languages.zh.menu.main]]
-    identifier = "20.03LTS"
-    name = "20.03LTS"
+    identifier = "20.03_LTS"
+    name = "20.03 LTS"
     parent = "docs"
     url = "/zh/docs/20.03_LTS/docs/Releasenotes/release_notes.html"
     weight = 2
