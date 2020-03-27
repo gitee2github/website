@@ -439,7 +439,7 @@ paginate = 10
 [[params.card]]
     image = "/img/2.svg"
     title = "Quick Start"
-    url = "/en/docs/Installation/obtaining-the-installation-source.html"
+    url = "/en/docs/1.0_Base/docs/Installation/obtaining-the-installation-source.html"
     description = "Tutorial guide for you a quick start"
     weight = 2
 
@@ -468,7 +468,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
-    url = "/zh/docs/Installation/%E8%8E%B7%E5%8F%96%E5%AE%89%E8%A3%85%E6%BA%90.html"
+    url = "/zh/docs/20.03_LTS/docs/Installation/%E8%8E%B7%E5%8F%96%E5%AE%89%E8%A3%85%E6%BA%90.html"
     description = "如果您想要尝试使用openEuler，这里提供教程助您快速入门。"
     weight = 2
 
