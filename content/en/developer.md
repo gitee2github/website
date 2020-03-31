@@ -235,4 +235,4 @@ The community holds developer conferences every year. You can contact us by send
 
 # Feedback <a name="Feedback"></a>
 
-If you have any questions about the developer guide or the development process, please feel free to contact [us](community@openEuler.org), use [Question of Development Process] as the title, and write down your questions and doubts in the email. The openEuler community operation team will try the best to answer your questions.
+If you have any questions about the developer guide or the development process, please feel free to contact us (community@openEuler.org), use [Question of Development Process] as the title, and write down your questions and doubts in the email. The openEuler community operation team will try the best to answer your questions.
