@@ -2,7 +2,7 @@
 title = "Contributions to the Community"
 +++
 
-This document provides guidance for you to participate in the openEuler community.
+This document provides guidance for you to contribute to the openEuler community.
 
 # Welcome <a name="Welcome"></a>
 
@@ -20,7 +20,7 @@ Welcome to openEuler!
     - [Assigning an Issue to Yourself](#Assigning_an_Issue_to_Yourself)
     - [Submitting Issues](#Submitting_Issues)
     - [Establishing the Development Environment](#Establishing_the_Development_Environment)
-      - [Installing_openEulert](#Installing_openEuler)
+      - [Installing openEulert](#Installing_openEuler)
       - [Preparing the Development Environment](#Preparing_the_Development_Environment)
       - [Downloading and Compiling Software Packages](#Downloading_and_Compiling_Software_Packages)
     - [Participating in Code Contribution](#Participating_in_Code_Contribution)
@@ -78,7 +78,7 @@ SIG is short for Special Interest Group. The openEuler community is organized ba
 - Core SIG members lead the governance. For details, see [SIG Role Description](./../../community-membership-cn.md). You can accumulate experience and improve your influence while making contributions.
 - Each SIG has one or more projects on Gitee, and these projects have one or more repositories. The SIG deliverables are stored in these repositories.
 - Issues can be submitted in the repository corresponding to the SIG where specific issues can be discussed, submitted, resolved, and reviewed.
-- You can also communicate with SIG members through mailing lists, IRC or video meetings.
+- You can also communicate with SIG members through mail lists, IRC or video meetings.
 
 
 
@@ -89,7 +89,7 @@ Find a SIG you are interested in so that you can raise questions in the right pl
 - **Method 1**: If you do not know what SIGs or projects are available, you can view the [SIG List](https://openeuler.org/zh/sig.html) which contains all SIGs established in the openEuler community. You can quickly locate a SIG of the field that you are interested in through the list. In addition, the following SIG information is provided:
   
   - SIG projects and repository locations of the projects
-  - Communication methods in the SIG, including mailing lists, IRC, and video meetings
+  - Communication methods in the SIG, including mail lists, IRC, and video meetings
   - Maintainer contact information
   
 - **Method 2**: If you know the name of a project, perform a fuzzy search in the repository list of openEuler to quickly locate the home page address of the project. Generally, you can find the SIG information, communication method, members, and contact information of the project in the `README.md` file on the home page.
@@ -104,7 +104,7 @@ Find a SIG you are interested in so that you can raise questions in the right pl
 
 ### Assigning an Issue to Yourself <a name="Assigning_an_Issue_to_Yourself"></a>
 
-- **Finding an issue list**: Click <img src="figure/Issue图标" alt="捕获" style="zoom:50%;" /> to find the SIG issue list (for example, the issue list address of the community team is https://gitee.com/openEuler/community/issues).
+- **Finding an issue list**: Click **Issues** to find the SIG issue list (for example, the issue list address of the community team is https://gitee.com/openEuler/community/issues).
 
 - **Assigning an issue**: If you want to process one of the issues, you can assign it to yourself. Enter `/assign` or `/assign @yourself` in the comment box. The robot will assign the issue to you and your name will be displayed in the owner list.
 - **Discussing an issue**: Participants communicate and discuss on each issue page. You can leave your opinions in the comment box.
@@ -114,7 +114,7 @@ Find a SIG you are interested in so that you can raise questions in the right pl
 ### Submitting Issues <a name="Submitting_Issues"></a>
 
 - **Problems**: You can report a problem or defect to the community by creating an issue. Submit the issue to the issue list of the project repository and view the [Issue Submission Guide](issue-submit.md) to obtain more information. When submitting an issue, **please comply with** the issue submission guidelines.
-- **Suggestions**: You can submit an issue to share your own comments or suggestions on SIGs. Everyone can fully communicate and discuss this issue. To attract more attention, you can attach the issue link to an email and send the email to all users through the mailing list.
+- **Suggestions**: You can submit an issue to share your own comments or suggestions on SIGs. Everyone can fully communicate and discuss this issue. To attract more attention, you can attach the issue link to an email and send the email to all users through the mail list.
 
 
 
@@ -143,7 +143,7 @@ If you want to download, modify, build, and validate the software packages provi
 
 The coding language, development environment, and coding conventions used by projects may vary in each SIG. If you want to know and participate in the code contribution, find the contributor guide provided by the project for developers. This guide is generally provided as the `CONTRIBUTING.md` file on the SIG home page, alternatively, you can find it in the `README.md` file of the project. (For details about how to find the repository of the project, see [Finding Your Interests](#Finding Your Interests).)
 
-In addition to these files, the SIG may provide other guidance information which is located in the specific community directory of SIG or project. If you do not find any related information or have any questions, submit an issue in the SIG or send the question to the mailing list of the SIG to which the project belongs. If you do not receive any response for a long time, contact community@openeuler.org.
+In addition to these files, the SIG may provide other guidance information which is located in the specific community directory of SIG or project. If you do not find any related information or have any questions, submit an issue in the SIG or send the question to the mail list of the SIG to which the project belongs. If you do not receive any response for a long time, contact community@openeuler.org.
 
 
 
@@ -184,7 +184,7 @@ openEuler is an open community. We hope that all participants in the community a
 + Whether the contribution architecture is correct?
 + Whether the contribution is complete?
 
-Note: If your PR does not draw enough attention, you can seek help through the SIG mailing list or dev@openEuler.org.
+Note: If your PR does not draw enough attention, you can seek help through the SIG mail list or dev@openEuler.org.
 
 
 
@@ -205,29 +205,29 @@ If you are not interested in compiling code, you can find interesting work in [N
 
 
 
-# Community Security Issue Disclosure Process <a name="Community_Security_Issue_Feedback"></a>
+## Community Security Issue Disclosure Process <a name="Community_Security_Issue_Feedback"></a>
 
 + [Security Handling Process](https://gitee.com/openEuler/community/blob/master/zh/security-committee/security-process.md) - Briefly describes the process of handling security issues.
 + [Security Disclosure Information](https://gitee.com/openEuler/community/blob/master/zh/security-committee/security-disclosure.md) - If you want to report security vulnerabilities, please refer to this page.
 
 
 
-# Participating in Community Activities <a name="Participating_in_Community_Activities"></a>
+## Participating in Community Activities <a name="Participating_in_Community_Activities"></a>
 
-## Communication Methods in Community <a name="Communication_Methods_in_Community"></a>
+### Communication Methods in Community <a name="Communication_Methods_in_Community"></a>
 
-The openEuler community supports communication through mailing lists, IRC, and video meetings. For details, see [Community Communication Guide](./communication).
+The openEuler community supports communication through mail lists, IRC, and video meetings. For details, see [Community Communication Guide](./communication).
 
 
 
-## Community News and Events <a name="Community_News_and_Events"></a>
+### Community News and Events <a name="Community_News_and_Events"></a>
 
 The information about openEuler community and technical communication meetings and other community events can be found on the [openEuler News](https://openEuler.org/zh/news.html) page.
 
 
 
 
-## Community Gatherings <a name="Community_Gatherings"></a>
+### Community Gatherings <a name="Community_Gatherings"></a>
 
 The community holds developer conferences every year. You can contact us by sending emails to <dev@openEuler.org> or sending messages to [https://openeuler.org](https://openeuler.org). Join us!
 

@@ -89,7 +89,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 - **方式一**：如果您不了解有哪些SIG或项目，您可以查看[SIG列表](https://openeuler.org/zh/sig.html)，它包含当前openEuler社区成立的所有SIG团队的清单。您可以通过该列表快速的定位到您感兴趣的领域所对应SIG团队。同时还会您提供该SIG团队的如下信息：
   
   - SIG下的项目，以及项目的Repository地址
-  - SIG内的交流方式，包括邮件列表、IRC会议频道等
+  - SIG内的交流方式，包括邮件列表、IRC或视频会议等
   - Maintainer的联系方式
   
 - **方式二**：如果您知道感兴趣的项目名称，可以在openEuler的Repository列表下进行模糊搜索，从而快速定位到对应项目的首页地址。通常情况下，在该项目首页地址的`README.md`文件中，可以找到该项目所属的SIG信息、交流方式、成员和联系方式等。
@@ -104,7 +104,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 ### 给自己分配一个Issue <a name="给自己分配一个Issue"></a>
 
-- **找到Issue列表**：在您感兴趣的项目的首页内（Gitee上的项目的Repository）的工具栏，点击<img src="figure/Issue图标" alt="捕获" style="zoom:50%;" />，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为https://gitee.com/openeuler/community/issues）
+- **找到Issue列表**：在您感兴趣的项目的首页内（Gitee上的项目的Repository）的工具栏，点击“Issues”，您可以找到该SIG的Issue列表（如Community团队的Issue列表地址为https://gitee.com/openeuler/community/issues）
 
 - **找到愿意处理的Issue**：如果您愿意处理其中的一个issue，可以将它分配给自己。只需要在评论框内输入 `/assign`或 `/assign @yourself`，机器人就会将问题分配给您，您的名字将显示在负责人列表里。
 - **参与Issue内的讨论**：每个Issue下面可能已经有参与者们的交流和讨论，如果您感兴趣，也可以在评论框中发表自己的意见。
@@ -202,29 +202,29 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 如果您的兴趣不在编写代码方面，可以在[非代码贡献指南](non-code-contributions.md)中找到感兴趣的工作。
 
 
-# 社区安全问题披露 <a name="社区安全问题反馈"></a>
+## 社区安全问题披露 <a name="社区安全问题反馈"></a>
 
 + [安全处理流程](https://gitee.com/openeuler/community/blob/master/zh/security-committee/security-process.md)——简要描述了处理安全问题的过程
 + [安全披露信息](https://gitee.com/openeuler/community/blob/master/zh/security-committee/security-disclosure.md)——如果您希望报告安全漏洞，请参考此页面
 
 
 
-# 参与社区活动 <a name="参与社区活动"></a>
+## 参与社区活动 <a name="参与社区活动"></a>
 
-## 社区内沟通方式说明 <a name="社区内沟通方式说明"></a>
+### 社区内沟通方式说明 <a name="社区内沟通方式说明"></a>
 
 openEuler社区的交流方式有邮件列表、IRC会议和视频会议等，使用方式请参考[社区交流方式指导](./communication)
 
 
 
-## 社区新闻和大事件 <a name="社区新闻和大事件"></a>
+### 社区新闻和大事件 <a name="社区新闻和大事件"></a>
 
 openEuler参加或举办的社区和技术交流会议，关于这些事件和其他社区事件信息均可以在[openEuler新闻](https://openeuler.org/zh/news.html)页面上找到
 
 
 
 
-## 社区聚会 <a name="社区聚会"></a>
+### 社区聚会 <a name="社区聚会"></a>
 
 社区每年会定期举办开发者大会，您可以通过[https://openeuler.org](https://openeuler.org)上的信息或通过电子邮件<dev@openeuler.org>与我们联系。来加入我们把~
 
