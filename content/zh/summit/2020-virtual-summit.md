@@ -211,12 +211,5 @@ room3Period5MeetingInfo = "Meeting info XXXXXXXXXXXXXXX XXXXXXXX35"
 room3Period5SignUpLink = "https://"
 room3Period5MeetingLink = "https://"
 
-
-
-
-
-
-
-
 Partners="友情链接"
 +++
