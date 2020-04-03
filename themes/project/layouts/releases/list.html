@@ -47,7 +47,11 @@
                                         {{ end }}
                                         <td>{{ .Params.EOLDate}}</td>
                                         <td><a href="{{ .Params.ISOUrl}}" target="_blank">Link</a></td>
+                                        {{ if .Params.installationGuide}}
                                         <td><a href="{{ .Params.installationGuide}}" target="_blank">Link</a></td>
+                                        {{ else }}
+                                        <td>-</td>
+                                        {{ end }}
                                     </tr>
                                 {{ end }}
                                 {{ end }}

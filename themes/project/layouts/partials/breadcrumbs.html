@@ -9,6 +9,7 @@
                 {{ $versionArr := split $versionArr "/" }}
                 {{ $versionArr := index $versionArr 1 }}
                 {{ $versionArr := string $versionArr }}
+                {{ $versionArr := replace $versionArr "_" " "}}
                 <h1 class="text-uppercase">{{ upper $versionArr }}</h1>
                 {{ end }}
                 {{ if in $version "about_openeuler" }}
