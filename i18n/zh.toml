@@ -41,6 +41,9 @@ other = "欢迎加入openEuler社区"
 [main_cards_description]
 other = "openEuler通过社区合作，打造创新平台，构建支持多处理器架构、统一和开放的操作系统，推动软硬件应用生态繁荣发展。"
 
+[main_cards_first_link]
+other = "/zh/summit/2020-virtual-summit.html"
+
 [main_cards_title_second]
 other = "iSula"
 

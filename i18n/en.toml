@@ -39,6 +39,9 @@ other = " "
 [main_cards_title]
 other = "Welcome to openEuler Community"
 
+[main_cards_first_link]
+other = "/en/summit/2020-virtual-summit.html"
+
 [main_cards_description]
 other = "openEuler builds an innovative platform and a unified and open OS that supports the multi-processor architecture."
 
