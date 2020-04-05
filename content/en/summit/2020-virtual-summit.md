@@ -1,13 +1,13 @@
 +++
-title = "2020-virtual-summit"
+title = "openEuler Virtual Summit 2020"
 
 banner= "./img/BANNER.png"
 bannerM= "./img/bannerM.png"
 
 
-DesignSubmmit= "设计峰会"
+DesignSubmmit= "Design Summit"
 
-step1 = "项目组分组确定"
+step1 = "CFP"
 date1InPC = "4月3日-4月9日" 
 date1InMB = "4.3-4.9" 
 
