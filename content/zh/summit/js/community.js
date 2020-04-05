@@ -1,3 +1,7 @@
+/**
+ * @file It's a JavaScript file used in the summit page.
+ */
+
 $('.community-day li').click(function () {
     $('.community-day li').removeClass('active');
     $(this).addClass('active');
