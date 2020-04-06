@@ -135,6 +135,14 @@
     line-height: .36rem;
     margin: .35rem auto 0;
   }
+
+  .item.active img.mobile{
+    display: block;
+}
+  .item.active img.pc{
+    display: none;
+}
+
   .bannernew .cards {
     width: 90%;
     position: static;
@@ -314,6 +322,8 @@
   .emailAndApplyBox{
     display: inline;
   }
+
+  
   .emailAndApplyBoxL2{
     width:100%;
     margin-right: 0 !important;

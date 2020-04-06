@@ -1,8 +1,8 @@
 +++
 title = "openEuler Virtual Summit 2020"
 
-banner= "./img/BANNER.png"
-bannerM= "./img/bannerM.png"
+banner= "./img/summitBannerWeb_en.png"
+bannerM= "./img/summitBannerMobile_en.png"
 
 
 DesignSummit= "Design Summit"

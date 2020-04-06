@@ -1,3 +1,8 @@
+{{$lan := index (split .URL "/") 1 }}
+{{$imgSource :=  (print "../img/websiteBanner_" $lan ".png") }}
+{{$imgSourceMobile :=  (print "../img/websiteBannerMobile_" $lan ".png") }}
+
+<!-- {{print $imgSourceMobile}} -->
 {{ if isset .Site.Params "cards" }}
 {{ if .Site.Params.cards.enable }}
 {{ if gt (len .Site.Params.card) 0 }}
@@ -7,14 +12,15 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" ontouchstart='getFlag()'
             ontouchmove='setFlag()' ontouchend='change()'>
             <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="0"></li>
             </ol>
             <div class="carousel-inner wrapper" role="listbox">
                 <div class="item active">
-                    <a href='{{i18n "main_cards_first_link"}}'><img src="../img/new4.png"></a>
+                    <a href='{{i18n "main_cards_first_link"}}'><img class="pc" src="{{$imgSource}}"></a>
+                    <a href='{{i18n "main_cards_first_link"}}'><img class="mobile" src={{$imgSourceMobile}} alt=""></a>
                     <div class="carousel-caption">
                     </div>
                 </div>
