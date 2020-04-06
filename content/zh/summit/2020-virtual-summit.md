@@ -71,7 +71,7 @@ keyNoteSpeakerPicInMB5 = "./img/userImagInMB.png"
 
 keyNoteTime6 = "4 月 17 日 16:10 - 16：20"
 keyNoteTitle6 = "待定"
-keyNoteSpeaker6 = "中电普化"
+keyNoteSpeaker6 = "普华软件"
 keyNoteInfo6 = ""
 keyNoteInfoContent6 = ""
 keyNoteSpeakerIntro6 = ""
