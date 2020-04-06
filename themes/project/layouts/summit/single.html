@@ -848,8 +848,10 @@
                 </div>
             </div>
         </div>
+        {{$lan := index (split .URL "/") 1 }}
+        {{$faqPath :=  (print "/" $lan "/summitfaq/docsfaq/answer1.html") }}        
         <div id="FAQ">
-            <a href="">
+            <a href={{$faqPath}}>
                 <img src="./img/service.png" alt="">
                 <span>FAQ</span>
             </a>

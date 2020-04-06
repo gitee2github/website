@@ -4,6 +4,10 @@
     {{ with .Site.GetPage "/about_openeuler/menu"}}
     {{- .Content -}}
     {{ end }}
+{{ else if in $version "summitfaq" }}
+    {{ with .Site.GetPage "/summitfaq/menufaq"}}
+    {{- .Content -}}
+{{ end }}
 {{ else }}
     {{ $versionArr := split $version "docs" }}
     {{ $versionArr := index $versionArr 1 }}
