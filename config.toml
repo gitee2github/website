@@ -91,7 +91,16 @@ paginate = 10
     name = "Meetings"
     url = "/en/meetings.html"
     parent = "community"
+    weight = 11
+
+
+[[menu.main]]
+    identifier = "summit"
+    name = "Virtual Summit"
+    url = "/en/summit/2020-virtual-summit.html"
+    parent = "community"
     weight = 10
+
 
 [[menu.main]]
     identifier="blog"
@@ -226,8 +235,15 @@ paginate = 10
     name = "会议"
     url = "/zh/meetings.html"
     parent = "community"
-    weight = 10
+    weight = 11
 
+
+[[languages.zh.menu.main]]    
+    identifier = "summit"
+    name = "社区峰会"
+    url = "/zh/summit/2020-virtual-summit.html"
+    parent = "community"
+    weight = 10
 
 
 [[languages.zh.menu.main]]
