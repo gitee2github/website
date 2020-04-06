@@ -45,7 +45,7 @@ keyNoteSpeakerPicInMB2 = "./img/userImagInMB.png"
 
 keyNoteTime3 = "14:40 - 15:30, 17th April"
 keyNoteTitle3 = ""
-keyNoteSpeaker3 = "Wei Xiong"
+keyNoteSpeaker3 = "Dr. Wei Xiong"
 keyNoteInfo3 =""
 keyNoteInfoContent3 = ""
 keyNoteSpeakerIntro3 = ""
