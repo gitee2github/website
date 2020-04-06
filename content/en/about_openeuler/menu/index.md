@@ -6,3 +6,6 @@ headless: true
 - [How to join openEuler Community]({{< relref "./docs/howtojoin.md" >}})
 - [Where to get openEuler]({{< relref "./docs/wheretogetopeneuler.md" >}})
 - [What is openEuler lifecycle?]({{< relref "./docs/lifecycle.md" >}})
+- [How can I find projects interested?]({{< relref "./docs/findprojects.md" >}})
+- [How can I add or remove software in my SIG as a Maintainer?]({{< relref "./docs/modifyswinsig.md" >}})
+- [Cannot subscribe the mail lists. What can I do?]({{< relref "./docs/maillistfailure.md" >}})
