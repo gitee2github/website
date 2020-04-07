@@ -56,7 +56,7 @@ keyNoteTitle4 = "参与 openEuler 社区的心路历程"
 keyNoteSpeaker4 = "马俊杰"
 keyNoteInfo4 =""
 keyNoteInfoContent4 =""
-keyNoteSpeakerIntro4 = "openEuler 社区成员"
+keyNoteSpeakerIntro4 = "openEuler Infrastructure SIG Committer"
 keyNoteSpeakerPicInPC4 = "./img/userImagInPC.png"
 keyNoteSpeakerPicInMB4 = "./img/userImagInMB.png"
 
