@@ -1,8 +1,3 @@
-+++
-title = "安全"
-id = "security"
-+++
-
 # 漏洞响应
 openEuler社区非常重视社区版本的安全性，openEuler安全委员会负责接收、调查和披露openEuler社区相关的安全漏洞。我们鼓励漏洞研究人员和行业组织主动将openEuler社区的疑似安全漏洞报告给openEuler社区安全委员会。我们会快速的响应、分析和解决上报的安全问题或安全漏洞。
 
@@ -22,15 +17,16 @@ openEuler社区非常重视社区版本的安全性，openEuler安全委员会�
 如果您认为openEuler产品存在一个疑似安全漏洞，我们希望您将漏洞上报给openEuler社区，并与我们配合以负责任的方式修复和披露该问题。
 
 ### 漏洞上报方式
-您可以通过email将openEuler产品的潜在安全漏洞发送到openEuler安全团队邮箱（邮箱地址）。因为漏洞信息比较敏感，建议您使用安全团队成员的openPGP密钥对邮件信息进行加密，安全团队成员和密钥信息如下：
+您可以通过email将openEuler产品的潜在安全漏洞发送到openEuler安全团队邮箱（securities@openeuluer.com）。因为漏洞信息比较敏感，建议您使用安全团队邮箱<a href="security/public_key_securities.asc" download>GPG公钥</a>对邮件信息进行加密。
+安全团队成员信息如下：
 
-+ 刘金刚@liujingang09，liujingang09@huawei.com,<a href="security/public_key_liujingang.asc" download>GPG公钥</a>
++ 刘金刚@liujingang09，liujingang09@huawei.com, <a href="security/public_key_liujingang.asc" download>GPG公钥</a>
 
-+ 杨丽[@yangli69393]，<y69393@huawei.com>
++ 杨丽[@yangli69393]，<runningforever@gmail.com>
 
-+ 颜小兵[@yanxiaobing2020]，yanxiaobing@huawei.com，<a href="security/public_key_yanxiaobing.asc" download>GPG公钥</a>
++ 颜小兵[@yanxiaobing2020]，yanxiaobing@huawei.com, <a href="security/public_key_yanxiaobing.asc" download>GPG公钥</a>
 
-+ 朱健伟@zhujianwei001，<zhujianwei7@huawei.com>
++ 朱健伟@zhujianwei001，<zhujianwei7@huawei.com>, <a href="security/public_key_zhujianwei.asc" download>GPG公钥</a>
 
 ### 漏洞上报内容
 为了便于快速的确认和验证疑似漏洞，请在漏洞上报邮件中包含但不限于以下内容：
@@ -92,15 +88,36 @@ openEuler社区采用CVSS v3对漏洞进行评估，CVSS V3由通过对以下向
 
 
 ### 严重等级划分
-|严重等级（Severity Rating） |	CVSS评分（Score）|
-| -----------------        |  --------------  |
-|  致命（Critical）	    |    9.0 - 10.0 |
-|  高（High）	        |    7.0 - 8.9  |
-|  中（Medium）	        |    4.0 - 6.9  |
-|  低（Low）	        |    0.1 - 3.9  |
-|  无（None）	        |       0.0     |
+ <table board="2" class="table table-bordered table-striped">     
+      <thead>
+          <tr>
+              <th align="left" style="width:40px">严重等级（Severity Rating）</th>
+              <th align="left" style="width:40px">CVSS评分（Score）</th>
+          </tr>
+          <tr>
+              <td align="left">致命（Critical）</td>
+              <td>9.0 - 10.0</td>
+          </tr>
+          <tr>
+              <td align="left">高（High）</td>
+              <td>7.0 - 8.9</td>
+          </tr>
+           <tr>
+              <td align="left">中（Medium）</td>
+              <td>4.0 - 6.9</td>
+          </tr>
+          <tr>
+              <td align="left">低（Low）</td>
+              <td>0.1 - 3.9</td>
+          </tr>
+          <tr>
+              <td align="left">无（None）</td>
+              <td>0.0</td>              
+          </tr>          
+      </thead>      
+  </table>
 ### 和NVD评估分数差异说明
-CVSS基础评分与受影响组件的版本号，提供和使用的方式，平台以及软件的编译方式相关，NVD评分考虑了漏洞被利用的所有场景，而openEuler是基于上游社区自己构建的，主要应用于服务器场景，所以对于openEuler开源产品来说，直接采用NVD评分是不合适的，因此openEuler对所有受影响的CVE有自己的评分，并且多数打分可能和NVD不同。
+CVSS基础评分与受影响组件的版本号，提供和使用的方式，平台以及软件的编译方式相关，NVD评分考虑了漏洞被利用的所有场景，而openEuler是基于上游社区自己构建的，主要应用于服务器场景，所以对于openEuler开源产品来说，直接采用NVD评分是不合适的，因此openEuler对所有受影响的CVE有自己的评分，存在打分和NVD不同的情况。
 
 ## 漏洞披露
 为了保护openEuler用户的安全，在进行调查、修复和发布安全公告之前，openEuler社区不会公开披露、讨论或确认openEuler产品的安全问题。安全漏洞修复后openEuler社区会发布安全公告，安全公告内容包括该漏洞的技术细节、CVE编号、CVSS安全评分、严重性等级以及受到该漏洞影响的版本和修复版本等信息。安全公告提供邮件订阅功能，您可以通过“[sa-announce](https://mailweb.openeuler.org/postorius/lists/sa-announce.openeuler.org/)"链接订阅openEuler社区的安全公告。

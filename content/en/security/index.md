@@ -1,142 +1,107 @@
-+++
-title = "Security"
-id = "security"
-+++
++++ title = "Security" id = "security" +++
 
-<h4 id="itm1">Submit a CVE Issue</h4>
+# Vulnerability Response
+The openEuler community attaches great importance to the community version security. The security committee of openEuler community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. Researchers and industry organizations working on vulnerability prevention are encouraged to report the potential security vulnerabilities in the openEuler community to the security committee. The reported security issues or vulnerabilities will be quickly analyzed and resolved by the committee.
 
-openEuler's security system scans CVE issues and submits CVE issues to the security committee of openEuler community. The issue title of a CVE issue must start with a CVE ID, followed by a brief description of the CVE issue, for example,
+## Versions Supported
+The vulnerability response process supports the LTS distribution of the openEuler community and its branch versions.
 
-**CVE-2019-11255:** CSI volume snapshot, cloning and resizing features can result in unauthorized volume data access or mutation 
-
-
-
-<h4 id="itm2">Security Group Distributes CVE Issues</h4>
-
-The security Group will distribute the CVE issues to the related repos. CVE issues contain the following information:
-
-+ Detailed description of the vulnerability (the following information is provided by the CVE scanning tool)
-
-    + [CVEID]: Including the corresponding CVE link
-
-    + [PRODUCT]: Information provided by CVE, including the vendor, developer, or project, and the name of the actual software or hardware that has the vulnerability
-
-    + [VERSION]: Including version, release date, or any discrepancies used by vendors, developers, or projects to distinguish release versions. It can also be described with a specific version number, version range, or "all versions before / after version number or date".
-
-    + [PROBLEMTYPE]:
-
-    + [REFERENCES]: related URL and reference descriptions
-
-    + [DESCRIPTION]: Detailed description of the vulnerability, including description of the type of attack using the vulnerability; impact of the vulnerability; software components in the software product affected by the vulnerability,  any attack vector that can exploit this vulnerability
-
-    + [ASSIGNINGCNA]: assign the name of CNA
+## Vulnerability Handling Process
+Each security vulnerability is tracked and handled by a designated person. This person is a member of the security committee of openEuler community, who is responsible for tracking, resolving, and disclosing the vulnerability. The following flowchart shows the E2E vulnerability handling process.
 
 
-<h4 id="itm3">Handle CVE Issues</h4>
-
-Maintainer identifies and distributes CVE issues. Solutions to CVE problems can be provided by contributors and submitted for review by the Maintainer or Committer. When submitting, please associate with CVE ISSUE and provide complete information in Issues:
-
-- Is it a loophole? (**Am I vulnerable?**):
-    + Describe the scenarios of the problem (including software and hardware and interaction scenarios)
-    + Impact and scope of impact
-    + How to confirm whether the version used contains the issue
-
-+ How to mitigate the impact of the vulnerability (**How do I mitigate the vulnerability?**)
-    + Short-term mitigation plan
-    + Long-term mitigation plan: such as patch installation address, installation method, etc.
-  
-+ Rating for this vulnerability
-  
-  <table board="2" class="table table-bordered table-striped">
-      <caption><b>CVSS Scoring Sheet</b></caption>
-      <thead>
-          <tr>
-              <th align="left" style="width:40px">Scoring Item</th>
-              <th align="left" style="width:40px">openEuler</th>
-              <th align="left" style="width:40px">NVD</th>
-          </tr>
-          <tr>
-              <td align="left">CVSS v3 Base Score</td>
-              <td>7.3</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">Attack Vector</td>
-              <td>Network</td>
-              <td>Local</td>
-          </tr>
-           <tr>
-              <td align="left">Attack complexity</td>
-              <td>Low</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">Privileges Required</td>
-              <td>None</td>
-              <td>7.8</td>
-          </tr>
-          <tr>
-              <td align="left">User Interaction</td>
-              <td>Low</td>
-              <td>Required</td>
-          </tr>
-          <tr>
-              <td align="left">Scope</td>
-              <td>Unchanged</td>
-              <td>Unchanged</td>
-          </tr>
-          <tr>
-              <td align="left">Confidentiality</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-          <tr>
-              <td align="left">Integrity Impact</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-          <tr>
-              <td align="left">Availability Impact</td>
-              <td>Low</td>
-              <td>High</td>
-          </tr>
-      </thead>
-      <tbody>
-      </tbody>
-  </table>
-
-  
-+ Detailed description of the vulnerability (the following information is provided by the CVE scanning tool)
-
-    + [CVEID]: Must include the corresponding CVE link
-+ [PRODUCT]: Information provided by CVE, including the name of the vendor, developer, or project, and the name of the actual software or hardware that has the vulnerability
-  
-    + [VERSION]: Includes version, release date, or any discrepancies used by vendors, developers, or projects to distinguish release versions. It can also be described with a specific version number, version range, or "all versions before / after version number or date".
-
-+ [PROBLEMTYPE]:
-    + [REFERENCES]: related URL links and reference descriptions
-
-+ [DESCRIPTION]: Detailed description of the vulnerability, including: description of the type of attack using the vulnerability; impact of the vulnerability; software components in the software product affected by the vulnerability; any attack vector that can exploit this vulnerability
-  
-    + [ASSIGNINGCNA]: assign the name of CNA    
-
-
-<h4 id="itm4">CVE Issues Management Policy</h4>
-
-+ **Fast Way**: The openEuler rating is a serious security issue. The openEuler security team will start the fast track to provide solutions to the LTS versions involved and within the life cycle.
-
-  
-
-+ **Common Integration**: For security issues that are important and affect the following, you can choose the following strategies based on the severity and scope of the problem:
-
-    + There are security problems in the official version. Depending on the problem, the selection will be affected:
-
-        + Strategy 1: Patches are released to all LTS & community versions involved and within the life cycle
-        + Strategy 2: The patch is released to the latest LTS version & community version
-        + Strategy 3: Patches are incorporated into the currently developed LTS version & community version (such issues will not issue a security bulletin)
-
-    + Security issues that have not flown into the official version: handled as a development version of ISSUE and incorporated into the current development version. Such issues do not require a security announcement;
-
-<h4 id="itm5">CVE Issues Proceure</h4>
 
 <img src="./security/procedure.png" width="100%" style="max-width:1079px" />
+
+
+
+## Vulnerability Reporting
+We hope that you can report the potential vulnerability of an openEuler product to the openEuler community and work with us to resolve and disclose the vulnerability.
+
+
+### Reporting Channel
+You can send the potential security vulnerabilities of an openEuler product to the e-mail of the openEuler security team (securities@openeuler.com). Given that the vulnerability information is sensitive, you are advised to use the <a href="security/public_key_securities.asc" download>public GPG key</a> of the security team to encrypt the e-mail. 
+The information of the security team members is described as follows:
+
++ Liu Jinggang @ liujinggang09, liujingang09@huawei.com, <a href="security/public_key_liujingang.asc" download>public GPG key</a>
++ Yang Li [@yangli69393], y69393@huawei.com
++ Yan Xiaobing [@yanxiaobing2020], yanxiaobing@huawei.com, <a href="security/public_key_yanxiaobing.asc" download>public GPG  key</a>
++ Zhu Jianwei @ zhujianwei001, zhujianwei7@huawei.com, <a href="security/public_key_zhujianwei.asc" download>public GPG key</a>
+
+### Reporting Content
+To quickly identify and verify suspected vulnerabilities, the reporting e-mail should include but is not limited to the following content:
+
++ Basic information: including the modules affected by the vulnerability, triggering conditions of the vulnerability, and impact on the system after the vulnerability is exploited.
++ Technical details: including system configuration, fault locating method, description of exploit, POC, and method and procedure of fault reproduction.
++ Suggestions on resolving the vulnerability.
++ Organization and contact information of the vulnerability reporter.
++ Reporter's possible plan for vulnerability disclosure.
+
+### E-mail Response
+We will respond to the reporting of suspected security vulnerabilities through e-mail within 48 hours and keep the reporter informed of the vulnerability handling progress.
+
+
+## Vulnerability Severity Assessment
+The Common Vulnerability Scoring System (CYSS) is widely used in the industry to assess vulnerability severity. Currently openEuler is using CVSS v3 to assess vulnerabilities, and such assessment focuses on the impact caused by the vulnerability in a preset attack scenario. The vulnerability severity assessment covers factors such as the exploit difficulty and the impact of vulnerability exploit on the confidentiality, integrity, and availability of the product. A score will be given after these factors are assessed.
+
+### Assessment Criteria
+The CVSS v3 adopted by the openEuler community assesses the impact of a vulnerability based on the following variables:
+
++ Attack vector (AV): indicating the remoteness of an attack and how to exploit this vulnerability.
++ Attack complexity (AC): describing the difficulty in executing an attack and the conditions for a successful attack.
++ User interaction (UI): determining whether the attack requires users' participation.
++ Permission required (PR): recording the level of user authorization required for a successful attack.
++ Scope (S): determining whether an attack can affect components of different permission levels.
++ Confidentiality (C): measuring the impact of unauthorized information disclosure.
++ Integrity (I): measuring the impact of information tampering.
++ Availability (A): measuring the impact on data access or services for users affected by the vulnerability.
+
+### Assessment Principles
++ The severity of a vulnerability is assessed, not the risk of the vulnerability.
++ The assessment must be based on an attack scenario where the system confidentiality, integrity, and availability are affected by a successful attack.
++ When a security vulnerability has multiple attack scenarios, the attack scenario with the highest CVSS score (that is, with the greatest impact) shall prevail in the assessment.
++ When a library that is embedded or invoked has vulnerabilities, the assessment on its vulnerability severity should be based on an attack scenario, which is determined by the usage of the library in the product.
++ When a security defect does not trigger or affect the confidentiality/integrity/availability (CIA), the CVSS score is 0.
+
+### Assessment Procedure
+Perform this procedure to assess a vulnerability: 
+
++ Set a possible attack scenario and score based on this attack scenario.
++ Identify vulnerable components and affected components.
++ Select the value of the basic assessment indicator, and perform the vulnerability impact assessment based on the exploitable indicators (attack vector, attack complexity, permission required, user interaction, and scope) and affected indicators (confidentiality, integrity, and availability).
+
+### Severity Rating
+<table board="2" class="table table-bordered table-striped">     
+      <thead>
+          <tr>
+              <th align="left" style="width:40px">Severity Rating</th>
+              <th align="left" style="width:40px">Score</th>
+          </tr>
+          <tr>
+              <td align="left">Critical</td>
+              <td>9.0 - 10.0</td>
+          </tr>
+          <tr>
+              <td align="left">High</td>
+              <td>7.0 - 8.9</td>
+          </tr>
+           <tr>
+              <td align="left">Medium</td>
+              <td>4.0 - 6.9</td>
+          </tr>
+          <tr>
+              <td align="left">Low</td>
+              <td>0.1 - 3.9</td>
+          </tr>
+          <tr>
+              <td align="left">None</td>
+              <td>0.0</td>              
+          </tr>          
+      </thead>      
+  </table>
+
+### Scoring Difference Between National Vulnerability Database (NVD) and CVSS
+The CVSS scoring is determined by a series of factors, including the version number of an affected component and how it is provided and used, as well as the platform and software compilation mode. The NVD scoring takes into account all scenarios where vulnerabilities are exploited. This assessment mode is not suitable for the open source openEuler, which is built based on the upstream community and mainly applies to server scenarios. As a result, openEuler will score all common vulnerabilities and exposures (CVEs) based on their specific impact. For the same CVE, the scoring by openEuler may be different from that by NVD.
+
+## Vulnerability Disclosure
+For the security of openEuler users, the openEuler community will not discuss, confirm, or disclose the security issues of an openEuler product until the vulnerability is investigated and resolved and the security announcement is issued. After a security vulnerability is resolved, the openEuler community will release a security announcement, with information including the technical details, CVE identifier, CVSS security score, and severity level of the vulnerability, as well as the affected and fixed versions. You can subscribe to security announcements of the openEuler community on the <a href="https://mailweb.openeuler.org/postorius/lists/sa-announce.openeuler.org/" download>sa-announce</a>.
