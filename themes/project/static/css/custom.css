@@ -135,6 +135,31 @@
   border: 1px solid #78ABF6;
 }
 
+#FAQ{
+  width: 56px;
+  height: 56px;
+  background-color: #EF0005;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  top: 70%;
+  border-radius: 2px;
+}
+#FAQ a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+}
+#FAQ a img{
+  width: 24px;
+}
+
+
 /*�ֲ�end*/
 @media screen and (max-width:768px){
   .wrapper>div>div>p:nth-child(1) {

@@ -102,6 +102,9 @@ other = "Get more in "
 [main_mail_more_link]
 other = "/en/community/mails.html"
 
+[main_faq]
+other = "/en/about_openeuler/docs/whtisopeneuler.html"
+
 [main_mail_more_list]
 other = "Mail List"
 
