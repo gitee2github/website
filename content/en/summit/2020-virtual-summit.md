@@ -7,11 +7,11 @@ bannerM= "./img/summitBannerMobile_en.png"
 
 DesignSummit= "Design Summit"
 
-registerUrlAtBanner = "https://"
+registerUrlAtBanner = "http://hdxu.cn/KeBk7"
 
 step1 = "CFP"
 date1InPC = "3rd - 9th April" 
-date1InMB = "4.3 - 4.9" 
+date1InMB = "4.3 - 4.9"
 
 step2 = "Register"
 date2InPC = "10th - 15th April" 
