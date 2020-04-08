@@ -7,6 +7,8 @@ bannerM= "./img/summitBannerMobile_en.png"
 
 DesignSummit= "Design Summit"
 
+registerUrlAtBanner = "https://"
+
 step1 = "CFP"
 date1InPC = "3rd - 9th April" 
 date1InMB = "4.3 - 4.9" 

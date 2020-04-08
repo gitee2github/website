@@ -6,6 +6,8 @@ bannerM= "./img/summitBannerMobile_zh.png"
 
 DesignSummit= "设计峰会"
 
+registerUrlAtBanner = "https://"
+
 step1 = "议题召集"
 date1InPC = "4 月 3 日 - 4 月 9 日" 
 date1InMB = "4.3 - 4.9" 
