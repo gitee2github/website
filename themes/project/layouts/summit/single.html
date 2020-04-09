@@ -7,10 +7,10 @@
         <header>
             {{ partial "nav.html" . }}
         </header>
-        <div class="banner">
+        <div>
             <div class="banner-bg">
-                <img class="pc" src={{.Params.banner}} alt="">
-                <img class="mobile" src={{.Params.bannerM}} alt="">
+                <a href='{{.Params.registerUrlAtBanner}}' target="_blank"><img class="pc" src={{.Params.banner}} alt="Banner" ></a>
+                <a href='{{.Params.registerUrlAtBanner}}' target="_blank"><img class="mobile" src={{.Params.bannerM}} alt="Banner"></a>
             </div>
         </div>
         <div class="community-list container">
