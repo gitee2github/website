@@ -459,6 +459,11 @@
   .main .content .nav li p {
     font-size: .24rem;
   }
+
+  #FAQ{
+    display:none
+  }
+  
   footer {
     padding: .4rem .6rem;
   }

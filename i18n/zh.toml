@@ -101,6 +101,9 @@ other = "更多订阅请点击"
 [main_mail_more_link]
 other = "/zh/community/mails.html"
 
+[main_faq]
+other = "/zh/about_openeuler/docs/whtisopeneuler.html"
+
 [main_mail_more_list]
 other = "邮件列表"
 # DOC page
