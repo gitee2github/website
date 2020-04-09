@@ -229,6 +229,13 @@ room3Period5MeetingInfo = " "
 room3Period5SignUpLink = "https://"
 room3Period5MeetingLink = "https://"
 
+logo1 = "./img/logo1_web_zh.png"
+logo1Mobile = "./img/logo1_mobile_zh.png"
+logo2 = "./img/logo2_web_zh.png"
+logo2Mobile = "./img/logo2_mobile_zh.png"
+logo3 = "./img/logo3_web_zh.png"
+logo3Mobile = "./img/logo3_mobile_zh.png"
+
 Partners="友情链接"
 openEulerLink = "https://openeuler.org/zh/"
 kunPengLink = "https://www.huaweicloud.com/kunpeng/"

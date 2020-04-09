@@ -896,17 +896,20 @@
                 <div class="row">
                     <div class="col-xs-4">
                         <a href="{{.Params.openEulerLink}}">
-                            <img src="./img/logo01.png" alt="">
+                             <img class="pc" src={{.Params.logo1}} alt="">
+                             <img class="mobile" src={{.Params.logo1Mobile}} alt="">
                         </a>
                     </div>
                     <div class="col-xs-4">
                         <a href="{{.Params.kunPengLink}}" target="_blank">
-                            <img src="./img/logo02.png" alt="">
+                             <img class="pc" src="{{ .Params.logo2}}" alt="">
+                             <img class="mobile" src={{.Params.logo2Mobile}} alt="">
                         </a>
                     </div>
                     <div class="col-xs-4">
                         <a href="{{.Params.pengChengLink}}" target="_blank">
-                            <img src="./img/logo03.png" alt="">
+                             <img class="pc" src={{.Params.logo3}} alt="">
+                             <img class="mobile" src={{.Params.logo3Mobile}} alt="">
                         </a>
                     </div>
                 </div>
