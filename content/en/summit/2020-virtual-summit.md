@@ -231,5 +231,9 @@ room3Period5SignUpLink = "https://"
 room3Period5MeetingLink = "https://"
 
 Partners="Links"
+openEulerLink = "https://openeuler.org/en/"
+kunPengLink = "https://www.huaweicloud.com/en-us/kunpeng/"
+pengChengLink = "http://www.szpclab.com/"
+
 +++
 +++
