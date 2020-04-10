@@ -7,7 +7,7 @@ bannerM= "./img/summitBannerMobile_en.png"
 
 DesignSummit= "Design Summit"
 
-registerUrlAtBanner = "http://hdxu.cn/KeBk7"
+registerUrlAtBanner = "https://e.huawei.com/en/form/event/en/open-euler-virtual-summit-2020"
 
 step1 = "CFP"
 date1InPC = "3rd - 9th April" 

@@ -309,9 +309,9 @@ html,body{
     transition: all 0.5s;
 }
 .keynotes-item-time{
-    font-size: 12px;
+    font-size: 18px;
     line-height: 14px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.85);
     transition: all 0.5s;
 }
 .keynotes-item-content{
