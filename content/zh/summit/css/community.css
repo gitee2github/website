@@ -55,7 +55,7 @@ html,body{
     padding: 47px 0 45px 0;
 }
 .community-summit{
-    height: 1239px;
+    height: 1500px;
     width: 100%;
     background-image: url('../img/01.png');
     background-position: center;
@@ -180,45 +180,44 @@ html,body{
     font-size: 16px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 .summit-room-item{
-    width: 190px;
-    height: 260px;
+    width: 290px;
+    height: 160px;
     background-color: #fff;
     display: inline-block;
     padding: 27px 24px;
     border-radius: 2px;
     position: relative;
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .summit-row-first{
     float: left;
-    width: 154px;
+    width: 170px;
     min-height: 20px;
 }
 .summit-row-first-room{
-    height: 260px;
+    height: 160px;
 }
-.summit-row-first-room .summit-title-text{
-    line-height: 260px;
-}
+
 .summit-room-item-title{
     font-size: 24px;
     line-height: 27px;
     color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 33px;
+    margin-bottom: 15px;
 }
 .summit-room-item-name p{
     font-size: 14px;
     line-height: 17px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.65);
     margin: 0 0 4px 0;
 }
 .summit-room-item-name p:last-child{
     font-size: 12px;
     line-height: 14px;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 0;
 }
 .summit-room-item-info p{
@@ -326,6 +325,7 @@ html,body{
     margin-top: 10px;
     line-height: 21px;
     transition: all 0.5s;
+    text-align: right;
 }
 .keynotes-item-detail{
     padding:0;
@@ -338,7 +338,7 @@ html,body{
 .keynotes-speaker-head{
     background-color: aliceblue;
     width: 160px;
-    height: 183px;
+    
     float: left;
     margin-right: 20px;
 }
@@ -368,13 +368,13 @@ html,body{
 .keynotes-info-content{
     font-size: 14px;
     line-height: 17px;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.65);
     margin-top: 30px;
 }
 .keynotes-speaker-info{
     font-size: 14px;
     line-height: 17px;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.65);
     margin-top: 26px;
 }
 .keynotes-item-content{
@@ -423,8 +423,11 @@ html,body{
     display: none;
 }
 .summit .mobile-hide .summit-title-text{
-    width: 190px;
+    width: 170px;
     padding: 0 27px;
+}
+.summit .mobile-hide .summit-title-text-month{
+    margin-top:55px;
 }
 
 /* @media screen and (min-width: 1140px){ */
@@ -460,6 +463,14 @@ html,body{
 
 /* } */
 @media screen and (max-width: 1139px) {
+    .summit-room-item-hover{
+        justify-content: flex-end;
+
+    }
+    .summit-room-item-hover a{
+        margin-top:3px;
+        margin-bottom:3px;
+    }
     #FAQ{
         display: none;
     }
@@ -550,14 +561,11 @@ html,body{
     }
     .summit-room-item{
         width: 100%;
-        height: auto;
+        height: 150px;
         padding: .2rem;
-        margin-bottom: 12px;
         padding-bottom: .34rem;
     }
-    .summit-room-item-hover{
-        display: none;
-    }
+
     .summit div[class^=col-]{
         padding-left: .1rem;
         padding-right: .1rem;
@@ -572,9 +580,18 @@ html,body{
         color: rgba(0, 0, 0, 0.5);
         margin-bottom: .24rem;
     }
+
+    .summit-room-item-date{
+        display: block;
+        font-size: .2rem;
+        line-height: .23rem;
+        color: rgba(0, 0, 0, 0.5);
+        margin-bottom: .1rem;
+    }
     .summit-room-item-title{
         margin-bottom: 2px;
-        font-size: .3rem;
+        font-size: .25rem;
+        line-height: 15px;
     }
     .community-item-tip{
         margin-bottom: 0;
@@ -679,7 +696,6 @@ html,body{
     }
     .keynotes-speaker-head{
         width: 2.22rem;
-        height: 2.54rem;
         margin-right: .38rem;
     }
     .keynotes-speaker-detail .keynotes-speaker-name{
