@@ -451,6 +451,14 @@ html,body{
         height: 100%;
         transform: rotateY(0deg);
     }
+
+    .community-parters img.mobile{
+        display: none;
+    }
+    .community-parters img.pc{
+        display: block;
+    }
+
 /* } */
 @media screen and (max-width: 1139px) {
     #FAQ{
@@ -682,6 +690,15 @@ html,body{
     .keynotes-speaker-detail .keynotes-speaker-info{
         font-size: .18rem;
         line-height: .24rem;
+    }
+
+    @media screen and (min-width: 319px) and (max-width: 767px) {
+        .community-parters img.mobile{
+            display: block;
+        }
+        .community-parters img.pc{
+            display: none;
+        }
     }
     
 }
