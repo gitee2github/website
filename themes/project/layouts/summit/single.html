@@ -8,9 +8,9 @@
             {{ partial "nav.html" . }}
         </header>
         <div>
-            <div class="banner-bg">
-                <a href='{{.Params.registerUrlAtBanner}}' target="_blank"><img class="pc" src={{.Params.banner}} alt="Banner" ></a>
-                <a href='{{.Params.registerUrlAtBanner}}' target="_blank"><img class="mobile" src={{.Params.bannerM}} alt="Banner"></a>
+            <div class="banner-bg" >
+                <a class="bannerRegister" href="" target="_blank"><img class="pc" src={{.Params.banner}} alt="Banner" ></a>
+                <a class="bannerRegister" href="" target="_blank"><img class="mobile" src={{.Params.bannerM}} alt="Banner"></a>
             </div>
         </div>
         <div class="community-list container">
@@ -309,6 +309,38 @@
                                     <p class="keynotes-speaker-name">{{.Params.keyNoteSpeaker8}}</p>
                                     <span class="keynotes-speaker-info">
                                         {{.Params.keyNoteSpeakerIntro8}}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="keynotes-list-item">
+                    <a href="javascript:">
+                        <div class="keynotes-item-simple">
+                            <span class="glyphicon glyphicon-time keynotes-item-time" aria-hidden="true"></span>
+                            <span class="keynotes-item-time">{{.Params.keyNoteTime9}}</span>
+                            <span
+                                class="keynotes-item-time keynotes-item-speaker-right">{{.Params.keyNoteSpeaker9}}</span>
+                            <div class="row">
+                                <p class="keynotes-item-content col-lg-11 col-md-12 col-sm-12 col-xs-12">
+                                    {{.Params.keyNoteTitle9}}</p>
+                                <span
+                                    class="keynotes-item-time keynotes-item-speaker col-lg-1">{{.Params.keyNoteSpeaker9}}</span>
+                            </div>
+                        </div>
+                        <div class="keynotes-item-detail clear">
+                            <div class="keynotes-info">
+                                <p class="keynotes-info-title mobile-hide">{{.Params.keyNoteInfo9}}</p>
+                                <p class="keynotes-info-title mobile-show"> {{.Params.keyNoteTitle9}}</p>
+                                <div class="keynotes-info-content">{{.Params.keyNoteInfoContent9}}</div>
+                            </div>
+                            <div class="keynotes-speaker clear">
+                                <div class="keynotes-speaker-head"><img style="width:100%;"src='{{.Params.keyNoteSpeakerPicInPC9}}'></div>
+                                <div class="keynotes-speaker-detail">
+                                    <p class="keynotes-speaker-name">{{.Params.keyNoteSpeaker9}}</p>
+                                    <span class="keynotes-speaker-info">
+                                        {{.Params.keyNoteSpeakerIntro9}}
                                     </span>
                                 </div>
                             </div>
@@ -924,6 +956,11 @@
     </div>
     {{ partial "scripts.html" . }}
     <script src="./js/community.js"></script>
+    <!--涉及对HUGO框架变量的引用，需要把Js写在single.html,不然会有问题。故以下代码不提取到Js文件-->
+    <script>
+        var traceData = window.location.search;
+        var registerUrl='{{.Params.registerUrlAtBanner}}' + traceData;
+        $('.bannerRegister').attr('href',registerUrl);
+    </script>
 </body>
-
 </html>
