@@ -241,4 +241,7 @@ room3Period5SignUpLink = "https://"
 room3Period5MeetingLink = "https://"
 
 Partners="友情链接"
+openEulerLink = "https://openeuler.org/zh/"
+kunPengLink = "https://www.huaweicloud.com/kunpeng/"
+pengChengLink = "https://dw.pcl.ac.cn/dwmain/main/"
 +++
