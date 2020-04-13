@@ -123,6 +123,13 @@ paginate = 10
     weight = 2
 
 
+[[menu.main]]
+    identifier = "20.03_LTS"
+    name = "20.03 LTS"
+    parent = "docs"
+    url = "/en/docs/20.03_LTS/docs/Releasenotes/release_notes.html"
+    weight = 2
+
 # [[menu.main]]
 #    identifier = "releases"
 #    name = "Releases"
