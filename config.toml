@@ -462,7 +462,7 @@ paginate = 10
 [[params.card]]
     image = "/img/2.svg"
     title = "Quick Start"
-    url = "/en/docs/1.0_Base/docs/Installation/obtaining-the-installation-source.html"
+    url = "/en/docs/20.03_LTS/docs/Quickstart/quick-start.html"
     description = "Tutorial guide for you a quick start"
     weight = 2
 
