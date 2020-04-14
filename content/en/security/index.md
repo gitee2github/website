@@ -1,4 +1,7 @@
-+++ title = "Security" id = "security" +++
++++
+title = "Security"
+id = "security"
++++
 
 # Vulnerability Response
 The openEuler community attaches great importance to the community version security. The security committee of openEuler community is responsible for receiving, investigating, and disclosing security vulnerabilities related to the community. Researchers and industry organizations working on vulnerability prevention are encouraged to report the potential security vulnerabilities in the openEuler community to the security committee. The reported security issues or vulnerabilities will be quickly analyzed and resolved by the committee.
