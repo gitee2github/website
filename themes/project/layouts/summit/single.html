@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 {{ partial "head.html" . }}
-<link rel="stylesheet" href="./css/community.css?t=202000412">
+<link rel="stylesheet" href="./css/community.css?t=202000415">
 <body>
     <div id="all">
         <header>
@@ -350,7 +350,10 @@
             </div>
         </div>
         <div class="community-summit">
-            <p class="community-item-title summit-design">{{.Params.DesignSummit}}</p>
+            <p class="community-item-title summit-design">
+                <span >{{.Params.DesignSummit1}}</span>
+                <span>{{.Params.DesignSummit2}}</span>
+            </p>
             <!-- <p class="community-item-tip">Design Summit</p> -->
             <!-- <ul class="community-day">
                 <li class="first-day active">DAY 1</li>

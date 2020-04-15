@@ -4,7 +4,8 @@ title = "openEuler 峰会 2020"
 banner= "./img/summitBannerWeb_zh.png"
 bannerM= "./img/summitBannerMobile_zh.png"
 
-DesignSummit= "设计峰会"
+DesignSummit1= "设计峰会"
+DesignSummit2= "（项目组专题研讨）"
 
 registerUrlAtBanner = "https://e.huawei.com/cn/form/event/en/open-euler-virtual-summit-2020"
 
@@ -123,7 +124,7 @@ room1Period1GroupName = ""
 room1Period1ChairName = "郭寒军"
 room1Period1ChairIntroduction =  "openEuler Kernel Maintainer"
 room1Period1MeetingInfo = " "
-roomPeriodSignUp = "会场信息"
+roomPeriodSignUp = "点击参会"
 room1Period1SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
 roomPeriodMeeting = "会议内容"
 room1Period1MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-community-kernel"
