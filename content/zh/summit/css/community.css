@@ -85,7 +85,7 @@ html,body{
     background-repeat: no-repeat;
 }
 .community-item-title.parters-link{
-    background-image: url('../img/2.png');
+    background-image: url('../img/3.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -624,8 +624,14 @@ html,body{
     .community-item-title{
         font-size: .5rem;
         line-height: .56rem;
-        margin-bottom: 0;
+        margin-bottom: 15px;
         background-size: 180px;
+    }
+    .summit-design {
+        background-size:372px; 
+    }
+    .summit-design span{
+        display:block;
     }
     .summit .mobile-show{
         padding: 0;

@@ -5,7 +5,8 @@ banner= "./img/summitBannerWeb_en.png"
 bannerM= "./img/summitBannerMobile_en.png"
 
 
-DesignSummit= "Design Summit"
+DesignSummit1= "Design Summit "
+DesignSummit2= "(SIG Workshop)"
 
 registerUrlAtBanner = "https://e.huawei.com/en/form/event/en/open-euler-virtual-summit-2020"
 
