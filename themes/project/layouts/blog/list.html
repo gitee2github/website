@@ -20,10 +20,10 @@
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
                     
-                    <a href="/zh/blog/1/01/01/guidance.html" > 
-                        <p class="col-md-8"style = "font-family: PingFangSC-Medium; font-size: 25px;text-align: right;">{{ i18n "main_postablog_source" }}  </p>
+                    <a href="/zh/blogguidance.html" target="_blank" > 
+                        <p class="col-md-10"style = "font-family: PingFangSC-Medium; font-size: 25px;text-align: right;">{{ i18n "main_postablog_source" }}  </p>
                     </a>
-                    <div class="col-md-8" id="blog-listing-medium">
+                    <div class="col-md-10" id="blog-listing-medium">
 
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
                         {{ range $paginator.Pages }}
@@ -57,13 +57,13 @@
 
                         <ul class="pager">
                             {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous"><a href="{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
                             {{ else }}
                             <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
                             {{ end }}
 
                             {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
+                            <li class="next"><a href="{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
                             {{ else }}
                             <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
                             {{ end }}
