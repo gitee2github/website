@@ -14,6 +14,9 @@ other = "Subscribe"
 [main_apply_source]
 other = "Test Machines Application"
 
+[main_postablog_source]
+other = "Post a Blog"
+
 [main_apply_description]
 other= "Lack of test machines? Try to apply here. "
 
@@ -21,7 +24,7 @@ other= "Lack of test machines? Try to apply here. "
 other = "Apply"
 
 [main_apply_guidanceLink]
-other = "http://blog.openeuler.org/post/fred_li/2020-03-25-apply-for-vm-from-pcl/"
+other = "/en/blog/2020/03/25/2020-03-25-apply-for-vm-from-pcl.html"
 
 [main_apply_thanks]
 other = "Sponsored by "
@@ -34,6 +37,8 @@ other ="https://dw.pcl.ac.cn/dwmain/main/"
 
 [main_apply_sponsore]
 other = " "
+
+
 
 
 [main_cards_title]
@@ -72,6 +77,9 @@ other = "Events"
 [main_news_title]
 other = "News"
 
+[main_blog_title]
+other = "blog"
+
 [main_list_more]
 other = "More"
 
@@ -80,6 +88,9 @@ other = "Event"
 
 [main_news_subtitle]
 other = "News"
+
+[main_blog_subtitle]
+other = "Blog"
 
 [main_nav_news_name]
 other = "News"
