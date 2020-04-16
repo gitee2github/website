@@ -1,8 +1,7 @@
 ---
 headless: true
 ---
-- [问题1]({{< relref "summitfaq/docsfaq/answer1.md" >}})
-- [问题2]({{< relref "summitfaq/docsfaq/answer2.md" >}})
-- [问题3]({{< relref "summitfaq/docsfaq/answer3.md" >}})
-- [问题4]({{< relref "summitfaq/docsfaq/answer4.md" >}})
-- [问题5]({{< relref "summitfaq/docsfaq/answer5.md" >}})
+- [openEuler是什么？]({{< relref "summitfaq/docsfaq/answer1.md" >}})
+- [如何观看 openEuler Virtual Summit 2020 的 Keynote 直播?]({{< relref "summitfaq/docsfaq/answer2.md" >}})
+- [如何参与设计峰会Track的会议?]({{< relref "summitfaq/docsfaq/answer3.md" >}})
+- [会议结束后是否还能回顾精彩内容？]({{< relref "summitfaq/docsfaq/answer4.md" >}})
