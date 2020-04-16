@@ -105,7 +105,7 @@ paginate = 10
 [[menu.main]]
     identifier="blog"
     name = "Blog"
-    url  = "http://blog.openeuler.org/"
+    url  = "/en/blog.html"
     weight = 2
 
 [[menu.main]]
@@ -256,7 +256,7 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier="blog"
     name = "博客"
-    url  = "http://blog.openeuler.org/"
+    url  = "/zh/blog.html"
     weight = 2
 
 [[languages.zh.menu.main]]
@@ -519,6 +519,9 @@ paginate = 10
 [params.news]
     enable = true
 
+[params.blog]
+    enable = true
+
 [params.events]
     enable = true
 
@@ -582,5 +585,17 @@ paginate = 10
     languageCode = "zh-cn"
     contentDir = "content/zh"
 
+# Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = true
+    appId = 'KcTcd38EvA1I33vSIV6qWNea-gzGzoHsz'
+    appKey = 'oJBVUOcItn0essSFvY6tS77O'
+    notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false # Verification code
+    avatar = 'mm'
+    placeholder = 'Please leave a message...'
+    visitor = true
 
 

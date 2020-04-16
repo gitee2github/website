@@ -14,6 +14,9 @@ other = "订阅"
 [main_apply_source]
 other = "测试资源申请"
 
+[main_postablog_source]
+other = "写博客"
+
 [main_apply_description]
 other= "如果缺乏测试设备，可以尝试在此申请。"
 
@@ -21,7 +24,7 @@ other= "如果缺乏测试设备，可以尝试在此申请。"
 other = "申请指南"
 
 [main_apply_guidanceLink]
-other = "http://blog.openeuler.org/post/fred_li/2020-03-25-apply-for-vm-from-pcl/#2"
+other = "/zh/blog/2020/03/25/2020-03-25-apply-for-vm-from-pcl.html"
 
 [main_apply_thanks]
 other = "感谢"
@@ -71,6 +74,9 @@ other = "活动"
 [main_news_title]
 other = "新闻"
 
+[main_blog_title]
+other = "博客"
+
 [main_list_more]
 other = "更多"
 
@@ -79,6 +85,9 @@ other = "事件"
 
 [main_news_subtitle]
 other = "新闻"
+
+[main_blog_subtitle]
+other = "博客"
 
 [main_nav_news_name]
 other = "新闻"
