@@ -137,7 +137,7 @@ room1Period2MeetingInfo = " "
 room1Period2SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
 room1Period2MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-container"
 
-room1Period3Kernel = "Packaging"
+room1Period3Kernel = "Packaging & Base Service"
 room1Period3GroupName = " "
 room1Period3ChairName = "何晓文"
 room1Period3ChairIntroduction = "Packaging Maintainer"
@@ -145,13 +145,7 @@ room1Period3MeetingInfo = " "
 room1Period3SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
 room1Period3MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-packaging"
 
-room1Period4Kernel = "Base Service"
-room1Period4GroupName = " "
-room1Period4ChairName = "李次华"
-room1Period4ChairIntroduction = "Base Service Maintainer"
-room1Period4MeetingInfo = " "
-room1Period4SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
-room1Period4MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-base-service"
+
 
 room1Period5Kernel = "社区治理"
 room1Period5GroupName = " "
@@ -188,7 +182,7 @@ room2Period1MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-sum
 
 room2Period2Kernel = "Documentation"
 room2Period2GroupName = " "
-room2Period2ChairName = "朱艳婷"
+room2Period2ChairName = "谭志鹏"
 room2Period2ChairIntroduction = "Documentation Maintainer"
 room2Period2MeetingInfo = " "
 room2Period2SignUpLink = "https://welink-meeting.zoom.us/j/806028921"
