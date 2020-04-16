@@ -285,7 +285,7 @@ logo3 = "./img/logo3_web_en.png"
 logo3Mobile = "./img/logo3_mobile_en.png"
 
 Partners="Links"
-openEulerLink = "https://openeuler.org/en/"
+mulanLink = "https://mulanos.oschina.net/"
 kunPengLink = "https://www.huaweicloud.com/kunpeng/"
 pengChengLink = "https://dw.pcl.ac.cn/dwmain/main/"
 +++
