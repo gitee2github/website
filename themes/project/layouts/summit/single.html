@@ -546,6 +546,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
+                                        {{ if .Params.room2Period3Kernel}}
                                         <div class="summit-room-item">
                                             <p class="summit-room-item-title">{{.Params.room2Period3Kernel}}</p>
                                             <span class="summit-room-item-time">{{.Params.Period3}}</span>
@@ -562,6 +563,7 @@
                                                 <a href='{{.Params.room2Period3MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                             </div>
                                         </div>
+                                        {{ end }}
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="summit-room-item">
@@ -692,6 +694,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
+                                        {{ if .Params.room3Period5Kernel}}
                                         <div class="summit-room-item">
                                             <p class="summit-room-item-title">{{.Params.room3Period5Kernel}}</p>
                                             <span class="summit-room-item-time">{{.Params.Period5}}</span>
@@ -708,6 +711,7 @@
                                                 <a href='{{.Params.room3Period5MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                             </div>
                                         </div>
+                                        {{ end }}
                                     </div>
                                 </div>
                             </div>
@@ -998,6 +1002,7 @@
                                     <a href='{{.Params.room2Period2MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                 </div>
                             </div>
+                            {{ if .Params.room2Period3Kernel}}
                             <div class="summit-room-item">
                                 <p class="summit-room-item-title">{{.Params.room2Period3Kernel}}</p>
                                 <span class="summit-room-item-date">{{.Params.date1}}</span>
@@ -1015,6 +1020,9 @@
                                     <a href='{{.Params.room2Period3MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                 </div>
                             </div>
+                            {{ else }}
+                            <div class="summit-room-item-noBackground"></div>
+                            {{ end }}
                             <div class="summit-room-item">
                                 <p class="summit-room-item-title">{{.Params.room2Period4Kernel}}</p>
                                 <span class="summit-room-item-date">{{.Params.date1}}</span>
@@ -1153,6 +1161,7 @@
                                     <a href='{{.Params.room3Period4MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                 </div>
                             </div>
+                            {{ if .Params.room3Period5Kernel}}
                             <div class="summit-room-item">
                                 <p class="summit-room-item-title">{{.Params.room3Period5Kernel}}</p>
                                 <span class="summit-room-item-date">{{.Params.date2}}</span>
@@ -1170,6 +1179,9 @@
                                     <a href='{{.Params.room3Period5MeetingLink}}' target="_blank">{{.Params.roomPeriodMeeting}}</a>
                                 </div>
                             </div>
+                            {{ else }}
+                            <div class="summit-room-item-noBackground"></div>
+                            {{ end }}
                             <div class="summit-room-item">
                                 <p class="summit-room-item-title">{{.Params.room3Period6Kernel}}</p>
                                 <span class="summit-room-item-date">{{.Params.date2}}</span>
