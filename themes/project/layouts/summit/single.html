@@ -1258,7 +1258,13 @@
     <!--涉及对HUGO框架变量的引用，需要把Js写在single.html,不然会有问题。故以下代码不提取到Js文件-->
     <script>
         var traceData = window.location.search;
-        var registerUrl='{{.Params.registerUrlAtBanner}}' + traceData;
+        traceData = traceData.split('?')[1];
+        var registerUrl;
+        if(traceData){
+            registerUrl='{{.Params.registerUrlAtBanner}}' + traceData;
+        }else{
+            registerUrl='{{.Params.registerUrlAtBanner}}'
+        }
         $('.bannerRegister').attr('href',registerUrl);
     </script>
 </body>
