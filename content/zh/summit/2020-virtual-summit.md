@@ -145,7 +145,13 @@ room1Period3MeetingInfo = " "
 room1Period3SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
 room1Period3MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-packaging"
 
-
+room1Period4Kernel = "Kubernetes"
+room1Period4GroupName = " "
+room1Period4ChairName = "周鹏飞"
+room1Period4ChairIntroduction = "SIG-Kubernetes Maintainer"
+room1Period4MeetingInfo = " "
+room1Period4SignUpLink = "https://welink-meeting.zoom.us/j/138895546"
+room1Period4MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-kubernetes"
 
 room1Period5Kernel = "社区治理"
 room1Period5GroupName = " "
