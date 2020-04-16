@@ -59,7 +59,7 @@ keyNoteTitle4 = "从“共建”到“共赢” 推动 openEuler 成为全球领
 keyNoteSpeaker4 = "宇亮"
 keyNoteInfo4 ='基础操作系统领域从业20余年，见证了国产Linux操作系统发展历史。先后服务于中科红旗、中标软件等，2016年加入普华，任普华公司基础软件事业部营销副总。自国家电子政务内外网“12库3金”项目起至今，先后参与了大部分国产操作系统具有里程碑意义的重大项目。'
 keyNoteInfoContent4 =""
-keyNoteSpeakerIntro4 = "普华公司基础软件事业部副总经理"
+keyNoteSpeakerIntro4 = "普华基础软件股份有限公司 基础软件事业部副总经理"
 keyNoteSpeakerPicInPC4 = "./img/yuliang.jpg"
 keyNoteSpeakerPicInMB4 = "./img/yuliang.jpg"
 
@@ -194,17 +194,11 @@ room2Period2MeetingInfo = " "
 room2Period2SignUpLink = "https://welink-meeting.zoom.us/j/806028921"
 room2Period2MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-documentation"
 
-room2Period3Kernel = "Runtime"
-room2Period3GroupName = " "
-room2Period3ChairName = "陈振煜"
-room2Period3ChairIntroduction = "Runtime Maintainer"
-room2Period3MeetingInfo = " "
-room2Period3SignUpLink = "https://welink-meeting.zoom.us/j/806028921"
-room2Period3MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-runtime"
+
 
 room2Period4Kernel = "Networking"
 room2Period4GroupName = " "
-room2Period4ChairName = "严安"
+room2Period4ChairName = "陆志浩"
 room2Period4ChairIntroduction = "Networking Maintainer"
 room2Period4MeetingInfo = " "
 room2Period4SignUpLink = "https://welink-meeting.zoom.us/j/806028921"
@@ -267,13 +261,7 @@ room3Period4MeetingInfo = " "
 room3Period4SignUpLink = "https://welink-meeting.zoom.us/j/532232850"
 room3Period4MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-virtualization"
 
-room3Period5Kernel = "Programming"
-room3Period5GroupName = " "
-room3Period5ChairName = "严志华"
-room3Period5ChairIntroduction = "Programming Maintainer"
-room3Period5MeetingInfo = " "
-room3Period5SignUpLink = "https://welink-meeting.zoom.us/j/873301882"
-room3Period5MeetingLink = "http://etherpad.openeuler.org/p/openeuler-virtual-summit-2020-programming"
+
 
 room3Period6Kernel = "Dev-utils"
 room3Period6GroupName = " "
