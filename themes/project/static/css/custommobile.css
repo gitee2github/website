@@ -248,6 +248,27 @@
   .reason .content_why .detail p:nth-child(1) {
     margin-bottom: .2rem;
   }
+
+  .publisher h2{
+    font-size: 22px;
+  }
+
+  .publisher .imgDivLeft{
+    text-align: center;
+    padding-right:0px;
+  }
+  
+  .publisher .imgDivRight{
+    margin-top:20px;
+    text-align: center;
+    padding-left:10px;
+  }
+  .publisher img{
+    height:50px;
+  }
+ .friendsLink h2{
+  font-size: 22px;
+ }
   .action {
     padding: .6rem;
   }
@@ -463,7 +484,7 @@
   #FAQ{
     display:none
   }
-  
+
   footer {
     padding: .4rem .6rem;
   }

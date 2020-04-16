@@ -2,6 +2,12 @@
 [main_partner_title]
 other = "社区会员"
 
+[main_osDistribution_title]
+other = "基于openEuler的OS发行版"
+
+[main_FriendlyCommunities_title]
+other = "友情链接"
+
 [main_partner_subtitle]
 other = "会员中心正在构建中，敬请期待"
 
