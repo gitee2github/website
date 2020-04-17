@@ -19,7 +19,7 @@ summary = "本文介绍华为在Web主流开源服务中推动ARM64支持的情�
 我们目前参与了主流的共9个Web相关项目。如下所示
 
 |  项目   | 主要语言 |
-|   -    |        - |
+|   ---   |   ---  |
 | Apache Httpd Server  | C |
 | Apache Tomcat  | Java |
 | Memcached | C |
@@ -106,7 +106,7 @@ CI/CD是保证软件持续可用的重要方法。主流软件的CI系统都有X
 最后附上我们参与Web社区的总览表格及相关链接，感兴趣的同学可以进一步详读，有任何问题，欢迎留言。
 
 | | Official arm64 CI | CI tool | Package in Downloads | Official ARM support |
-| - | - | - | - | - |
+| ---- | ---- | ---- | ---- | ---- |
 | [Apache Tomcat](https://tomcat.apache.org/) | [YES](https://github.com/apache/tomcat/commit/f386fbb4abaa3fe8f3b3df1da7d14f756c729e2e) | [TravisCI](https://github.com/apache/tomcat/blob/master/.travis.yml) | [Binary](https://tomcat.apache.org/download-90.cgi) | WIP(work in progress) |
 | [Memcached](https://memcached.org/) | [YES](https://github.com/memcached/memcached/pull/593) | 1. [BuildBot](http://build.memcached.org:8010/) 2. [TravisCI](https://github.com/memcached/memcached/blob/master/.travis.yml) | [Source Code](https://memcached.org/downloads) | [YES](https://github.com/memcached/memcached/wiki/Hardware) |
 | [Apache httpd](https://httpd.apache.org/) | [YES](https://markmail.org/message/ajm3eouaqfhm22ox)  | [TravisCI](https://github.com/apache/httpd/blob/trunk/.travis.yml) | [Source Code](http://httpd.apache.org/download.cgi) | [YES](https://github.com/apache/httpd/blob/2.4.x/CHANGES#L17-L20) |
