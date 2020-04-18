@@ -215,10 +215,16 @@ html,body{
     margin: 0 0 4px 0;
 }
 .summit-room-item-name p:last-child{
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 0;
+    position: absolute;
+    bottom:8px;
+}
+
+.summit-room-item-name a{
+    margin-right:5px;
 }
 .summit-room-item-info p{
     font-size: 12px;
@@ -300,7 +306,7 @@ html,body{
 }
 .keynotes-item-simple{
     width: 1140px;
-    height: 100px;
+    height: 110px;
     background-color: #fff;
     text-align: left;
     padding: 20px;
@@ -435,6 +441,11 @@ html,body{
         padding: 20px;
         height: auto;
     }
+    .keynotes-list-item:hover .replay{
+        color:white;
+        cursor: pointer;
+        
+    }
     .keynotes-list-item:hover .keynotes-item-simple{
         background-color: #337fc4;
         color: #fff;
@@ -517,6 +528,11 @@ html,body{
         width: 100%;
         padding: .14rem;
         height: auto;
+        padding-bottom:0;
+    }
+    .keynotes-list-item .replay{
+        font-size:12px;
+        
     }
     .keynotes-item-speaker{
         display: none;
