@@ -7,7 +7,7 @@ bannerM= "./img/summitBannerMobile_zh.png"
 DesignSummit1= "设计峰会"
 DesignSummit2= "（项目组专题研讨）"
 
-registerUrlAtBanner = "http://live.vhall.com/976318980?invite="
+registerUrlAtBanner = "https://www.bilibili.com/video/BV1dg4y187cq"
 
 step1 = "议题召集"
 date1InPC = "4 月 3 日 - 4 月 9 日" 

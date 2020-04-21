@@ -8,7 +8,7 @@ bannerM= "./img/summitBannerMobile_en.png"
 DesignSummit1= "Design Summit "
 DesignSummit2= "(SIG Workshop)"
 
-registerUrlAtBanner = "http://live.vhall.com/976318980?invite="
+registerUrlAtBanner = "https://youtu.be/IsjYdPydP2M"
 
 step1 = "CFP"
 date1InPC = "3rd - 9th April" 
