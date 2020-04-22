@@ -35,8 +35,7 @@ Welcome to openEuler!
   - [Community Security Issue Feedback](#Community_Security_Issue_Feedback)
   - [Participating in Community Activities](#Participating_in_Community_Activities)
     - [Communication Methods in Community](#Communication_Methods_in_Community)
-    - [Community News and Events](#Community_News_and_Events)
-    - [Community Gatherings](#Community_Gatherings)
+    - [Community Events](#Community_Events)
 - [Feedback](#Feedback)
 
 
@@ -96,7 +95,7 @@ Find a SIG you are interested in so that you can raise questions in the right pl
 
   
 
-  If you cannot locate the SIG that you are interested in using either of the preceding methods, send a help email to community@openEuler.org. You are advised to use [Question of Development Process] as the title in the email and write down features of the SIG or project you are looking for. We will help you.
+  If you cannot locate the SIG that you are interested in using either of the preceding methods, send a help email to <community@openEuler.org>. You are advised to use [Question of Development Process] as the title in the email and write down features of the SIG or project you are looking for. We will help you.
 
 
 
@@ -104,7 +103,7 @@ Find a SIG you are interested in so that you can raise questions in the right pl
 
 ### Assigning an Issue to Yourself <a name="Assigning_an_Issue_to_Yourself"></a>
 
-- **Finding an issue list**: Click **Issues** to find the SIG issue list (for example, the issue list address of the community team is https://gitee.com/openEuler/community/issues).
+- **Finding an issue list**: Click **Issues** to find the SIG issue list (for example, the issue list address of the community team is <https://gitee.com/openEuler/community/issues>).
 
 - **Assigning an issue**: If you want to process one of the issues, you can assign it to yourself. Enter `/assign` or `/assign @yourself` in the comment box. The robot will assign the issue to you and your name will be displayed in the owner list.
 - **Discussing an issue**: Participants communicate and discuss on each issue page. You can leave your opinions in the comment box.
@@ -143,7 +142,7 @@ If you want to download, modify, build, and validate the software packages provi
 
 The coding language, development environment, and coding conventions used by projects may vary in each SIG. If you want to know and participate in the code contribution, find the contributor guide provided by the project for developers. This guide is generally provided as the `CONTRIBUTING.md` file on the SIG home page, alternatively, you can find it in the `README.md` file of the project. (For details about how to find the repository of the project, see [Finding Your Interests](#Finding_Your_Interests).)
 
-In addition to these files, the SIG may provide other guidance information which is located in the specific community directory of SIG or project. If you do not find any related information or have any questions, submit an issue in the SIG or send the question to the mail list of the SIG to which the project belongs. If you do not receive any response for a long time, contact community@openeuler.org.
+In addition to these files, the SIG may provide other guidance information which is located in the specific community directory of SIG or project. If you do not find any related information or have any questions, submit an issue in the SIG or send the question to the mail list of the SIG to which the project belongs. If you do not receive any response for a long time, contact <community@openeuler.org>.
 
 
 
@@ -220,14 +219,8 @@ The openEuler community supports communication through mail lists, IRC, and vide
 
 
 
-### Community News and Events <a name="Community_News_and_Events"></a>
 
-The information about openEuler community and technical communication meetings and other community events can be found on the [openEuler News](https://openeuler.org/en/news.html) page.
-
-
-
-
-### Community Gatherings <a name="Community_Gatherings"></a>
+### Community Events <a name="Community_Events"></a>
 
 The community holds developer conferences every year. You can contact us by sending emails to <dev@openEuler.org> or sending messages to [https://openeuler.org](https://openeuler.org). Join us!
 
@@ -235,4 +228,4 @@ The community holds developer conferences every year. You can contact us by send
 
 # Feedback <a name="Feedback"></a>
 
-If you have any questions about the developer guide or the development process, please feel free to contact us (community@openEuler.org), use [Question of Development Process] as the title, and write down your questions and doubts in the email. The openEuler community operation team will try the best to answer your questions.
+If you have any questions about the developer guide or the development process, please feel free to contact us (<community@openEuler.org>), use [Question of Development Process] as the title, and write down your questions and doubts in the email. The openEuler community operation team will try the best to answer your questions.
