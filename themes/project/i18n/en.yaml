@@ -49,6 +49,9 @@
 - id: continueReading
   translation: "View All"
 
+  id: archivesTitle
+  translation: "归档"
+
 - id: readMore
   translation: "Read more"
 

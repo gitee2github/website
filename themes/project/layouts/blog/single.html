@@ -1,83 +1,73 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+{{ partial "head.html" . }}
 
-  <body>
 
     <div id="all">
 
         <header>
 
-          {{ partial "nav.html" . }}
+            {{ partial "nav.html" . }}
 
         </header>
 
         {{ partial "breadcrumbs.html" . }}
 
         <div id="content">
+
             <div class="container">
 
                 <div class="row">
 
-                    <!-- *** LEFT COLUMN *** -->
-
-                    <div class="col-md-10" id="blog-post">
-
-                        <p class="text-muted mb-small text-right">{{ if .Params.author }}{{ .Params.author }} | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
-
-                        <div id="post-content">
-                          {{ .Content }}
-                        </div>
-                        <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
-
-                    </div>
-                    <!-- /#blog-post -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN *** -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-                        
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
-
-                </div>
-                <!-- /.row -->
-                <div class="box" style="margin-top:15px;">
-                  <div style="font-size:12px;color:gray"><strong>【免责声明】</strong>本文仅代表作者本人观点，与本网站无关。本网站对文中陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完整性提供任何明示或暗示的保证。本文仅供读者参考，由此产生的所有法律责任均由读者本人承担。</div>
-                  <div style="font-size:12px;color:gray;margin-top:8px;"><strong>[Disclaimer]</strong> This article only represents the author's opinions, and is irrelevant to this website. This website is neutral in terms of the statements and opinions in this article, and does not provide any express or implied warranty of accuracy, reliability, or completeness of the contents contained therein. This article is for readers' reference only, and all legal responsibilities arising therefrom are borne by the reader himself.</div>
+            <div class="col-md-9" id="blog-post">
+            <p class="text-muted mb-small text-right">{{ if .Params.author }}{{ .Params.author }} |
+            {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+            <div id="post-content">
+            {{ .Content }}
             </div>
-          <div >
-              <!-- 加入评论功能 -->
-              {{ partial "comments.html" . }}
-          </div>
+            {{ if .Site.DisqusShortname }}
+            <div id="comments">
+            {{ template "_internal/disqus.html" . }}
+            </div>
+            {{ end }}
 
-            <!-- /.container -->
+            </div>
+            <div class="col-md-3">
+                <h3 style="overflow:hidden"><a href="/zh/blogguidance.html"><img src="{{  "/svg/edit.svg" }}" >
+                {{i18n "main_postablog_source"}}</a></h3>
+            {{partial "widgets/tags.html" . }}
+            {{partial "widgets/archives.html" . }}
+
         </div>
-        <!-- /#content -->
-       
+        </div>
+        <!-- /.row -->
+        <div class="box" style="margin-top:15px;">
+            <div style="font-size:12px;color:gray">
+            <strong>【免责声明】</strong>本文仅代表作者本人观点，与本网站无关。本网站对文中陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完整性提供任何明示或暗示的保证。本文仅供读者参考，由此产生的所有法律责任均由读者本人承担。
+            </div>
+            <div style="font-size:12px;color:gray;margin-top:8px;"><strong>[Disclaimer]</strong> This article only
+            represents the author's opinions, and is irrelevant to this website. This website is neutral in terms of the
+            statements and opinions in this article, and does not provide any express or implied warranty of accuracy,
+            reliability, or completeness of the contents contained therein. This article is for readers' reference only,
+            and all legal responsibilities arising therefrom are borne by the reader himself.</div>
+            </div>
+            <div>
 
-        {{ partial "footer.html" . }}
+        {{ partial "comments.html" . }}
+        </div>
+
+
+        </div>
+
 
     </div>
-    <!-- /#all -->
+    {{ partial "footer.html" . }}
 
-    {{ partial "scripts.html" . }}
+    </div>
 
-  </body>
+
+{{ partial "scripts.html" . }}
+
+
 </html>
