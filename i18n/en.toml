@@ -127,7 +127,7 @@ other = "Mail List"
 
 # DOC page
 [doc_git_footer]
-other = "Edit this page"
+other = "Feedback"
 
 # 404 page
 [404_title]
