@@ -123,7 +123,7 @@ other = "/zh/about_openeuler/docs/whtisopeneuler.html"
 other = "邮件列表"
 # DOC page
 [doc_git_footer]
-other = "编辑此页"
+other = "意见反馈"
 
 # 404 page
 [404_title]
