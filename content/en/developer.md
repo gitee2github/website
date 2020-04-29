@@ -177,7 +177,7 @@ openEuler is an open community. We hope that all participants in the community a
 
 
 
-**For reviewers**, it is strongly recommended that you surpass yourselves, respect each other, and promote collaboration in accordance with the [Code of Conduct](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md). [The Gentle Art Of Patch Review](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) puts forward a series of review focuses, explaining that the review is to promote the participation of new contributors and prevent the contributors from being overwhelmed by subtle errors at the beginning. Therefore, when you review PRs, focus on the following:
+**For reviewers**, it is strongly recommended that you surpass yourselves, respect each other, and promote collaboration in accordance with the [Code of Conduct](https://gitee.com/openeuler/community/blob/master/code-of-conduct.md). ["The Gentle Art Of Patch Review"](https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) puts forward a series of review focuses, explaining that the review is to promote the participation of new contributors and prevent the contributors from being overwhelmed by subtle errors at the beginning. Therefore, when you review PRs, focus on the following:
 
 + Is the idea of the contribution reasonable?
 + Whether the contribution architecture is correct?
@@ -189,7 +189,7 @@ Note: If your PR does not draw enough attention, you can seek help through the S
 
 ### Test <a name="Test"></a>
 
-
+TBD
 
 
 ### Packaging Community Components <a name="Packaging_Community_Components"></a>

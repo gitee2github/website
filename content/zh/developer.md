@@ -148,7 +148,7 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 下载代码和拉分支 <a name="下载代码和拉分支"></a>
 
-如果要参与代码贡献，您还需要了解如何在Gitee下载代码，通过PR合入代码等。openEuler使用过的是Gitee代码托管平台，向了解具体的指导，请参考[Gitee Workflow Guide](<https://gitee.com/openeuler/community/blob/master/zh/contributors/Gitee-workflow.md>)。该托管平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
+如果要参与代码贡献，您还需要了解如何在Gitee下载代码，通过PR合入代码等。openEuler使用Gitee代码托管平台，想了解具体的指导，请参考[Gitee Workflow Guide](<https://gitee.com/openeuler/community/blob/master/zh/contributors/Gitee-workflow.md>)。该托管平台的使用方法类似GitHub，如果您以前使用GitHub，本章的内容您可以大致了解甚至跳过。
 
 
 
@@ -177,7 +177,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 
 
-**对于检视者**，强烈建议本着[行为准则](<https://gitee.com/openeuler/community/blob/master/code-of-conduct.md>)，超越自我，相互尊重和促进协作。在检视其他人的PR的时候，[补丁审核的柔和艺术](<https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/>)提出了一系列检视的重点，旨在说明检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
+**对于检视者**，强烈建议本着[行为准则](<https://gitee.com/openeuler/community/blob/master/code-of-conduct.md>)，超越自我，相互尊重和促进协作。[《补丁审核的柔和艺术》](<https://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/>)一文中提出了一系列检视的重点，说明代码检视的活动也希望能够促进新的贡献者积极参与，而不会使贡献者一开始就被细微的错误淹没，所以检视的时候，可以重点关注包括：
 
 + 贡献背后的想法是否合理
 + 贡献的架构是否正确
@@ -189,6 +189,7 @@ openEuler是一个开放的社区，我们希望所有参与社区的人都能�
 
 ### 测试 <a name="测试"></a>
 
+TBD
 
 ### 选择社区组件打包 <a name="选择社区组件打包"></a>
 
