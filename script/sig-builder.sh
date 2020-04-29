@@ -27,7 +27,12 @@ do
 
     if [ -f ./community/sig/$dir/README.md ]
     then
-      mail=$(grep -P "[a-zA-Z|-]+@openeuler.org" -o ./community/sig/$dir/README.md)
+      mail=$(grep -P "[a-zA-Z|-]+@openeuler.org" -o ./community/sig/$dir/README.md | head -1)
+      if [ "$mail"x = "sig-yousigname@openeuler.org"x ]
+      then
+        continue
+      fi
+
       if [ -n "$mail" ]
       then
         echo "replace mail to $mail"
