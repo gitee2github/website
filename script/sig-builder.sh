@@ -20,6 +20,7 @@ do
  
   if [ -d ./community/sig/$dir ] 
   then
+    sed -i "s/\r//g" ./community/sig/$dir/OWNERS
     mt=$(sed '1d' ./community/sig/$dir/OWNERS | awk '{print $2}' | tr '\n' ', ')     
     sed -e "s/{{sig_name}}/$dir/g" $fd/sig.temp > $dir.md
     sed -i "s/{{maintainers}}/$mt/g" $dir.md 
