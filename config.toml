@@ -21,6 +21,10 @@ buildFuture = true
 # Define the number of posts per page
 paginate = 10
 
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
+
 [menu]
 
 # Main menu
@@ -443,9 +447,10 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = false
-    tags = false
+    categories = true
+    tags = true
     search = false
+    archives = true
 
 [params.cards]
     enable = true
