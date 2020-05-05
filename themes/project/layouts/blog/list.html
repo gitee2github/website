@@ -1,63 +1,53 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+    {{ partial "head.html" . }}
 
-  <body>
+
 
     <div id="all">
 
         <header>
 
-          {{ partial "nav.html" . }}
+            {{ partial "nav.html" . }}
 
         </header>
+
         {{ partial "breadcrumbs.html" . }}
-       
 
         <div id="content">
-            <div class="container">
-                <div class="row">
-                    <!-- *** LEFT COLUMN *** -->
-                    
-                    <a href="/zh/blogguidance.html" target="_blank" > 
-                        <p class="col-md-10"style = "font-family: PingFangSC-Medium; font-size: 25px;text-align: right;">{{ i18n "main_postablog_source" }}  </p>
-                    </a>
-                    <div class="col-md-10" id="blog-listing-medium">
 
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- *** LEFT COLUMN *** -->
+                    <div class="col-md-9">
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
                         {{ range $paginator.Pages }}
+
                         <section class="post">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ .Params.author }}
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
-                                          in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                                          {{ end }}
-                                          {{ end }}
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">{{ .Params.Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
-                                    </p>
-                                </div>
-                            </div>
+                                <h2><a href="{{ .Permalink }}">{{ .Title }}</a>
+                                </h2>
+                                <h5 class="author-category">
+                                    {{ if isset .Params "author" }}
+                                    {{ .Params.author }}
+                                    {{ end }}
+                                </h5>
+                                <p style="float:right;margin-right:100px;" class="date-comments">
+                                    <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i>
+                                        {{ .Date.Format .Site.Params.date_format }}</a>
+                                </p>
+                                <br>
+                                <p>{{ .Params.Summary }}</p>
                         </section>
                         {{ end }}
 
                         <ul class="pager">
                             {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous"><a href="{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a>
+                            </li>
                             {{ else }}
                             <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
                             {{ end }}
@@ -70,6 +60,17 @@
                         </ul>
                     </div>
                     <!-- /.col-md-9 -->
+
+                    <div class="col-md-3">
+                        <h3 style="overflow:hidden"><a href="/zh/blogguidance.html"><img src="{{ "/svg/edit.svg" }}" alt="edit" >
+                        {{i18n "main_postablog_source"}}</a></h3>
+                        {{partial "widgets/tags.html" . }}
+
+                    </div>
+
+                    <div class="col-md-2">
+                        {{partial "widgets/archives.html" . }}
+                    </div>
                 </div>
                 <!-- /.row -->
             </div>
@@ -84,5 +85,6 @@
 
     {{ partial "scripts.html" . }}
 
-  </body>
+
+
 </html>

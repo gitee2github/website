@@ -679,8 +679,11 @@ footer .notice span {
   text-decoration: none;
   color: inherit;
   padding: 6px 0px;
+  overflow: hidden;
 }
-
+.book-menu .jstree-default .jstree-node{
+  overflow-x: hidden;
+}
 .book-menu .jstree-default .jstree-anchor a {
   text-decoration: none;
   color: inherit;
@@ -819,6 +822,7 @@ footer .notice span {
 .container .book-menu {
   font-size: inherit;
   flex: 0 0 5rem;
+  margin-bottom:30px;
 }
 
 .container div.book-page {

@@ -84,7 +84,7 @@ other = "Events"
 other = "News"
 
 [main_blog_title]
-other = "blog"
+other = "Blog"
 
 [main_list_more]
 other = "More"
@@ -127,7 +127,7 @@ other = "Mail List"
 
 # DOC page
 [doc_git_footer]
-other = "Edit this page"
+other = "Feedback"
 
 # 404 page
 [404_title]
