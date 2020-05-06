@@ -23,6 +23,12 @@ other = "测试资源申请"
 [main_postablog_source]
 other = "写博客"
 
+[main_blog_pageview]
+other = "总浏览量"
+
+[main_blog_pageview_units]
+other = "次"
+
 [main_apply_description]
 other= "如果缺乏测试设备，可以尝试在此申请。"
 
