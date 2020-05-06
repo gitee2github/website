@@ -496,7 +496,7 @@ paginate = 10
 [[languages.zh.params.card]]
     image = "/img/2.svg"
     title = "快速入门"
-    url = "/zh/docs/20.03_LTS/docs/Quickstart/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
+    url = "/zh/docs/20.03_LTS/docs/Quickstart/quick-start.html"
     description = "如果您想要尝试使用openEuler，这里提供教程助您快速入门。"
     weight = 2
 
