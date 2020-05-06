@@ -44,9 +44,6 @@ other ="https://dw.pcl.ac.cn/dwmain/main/"
 [main_apply_sponsore]
 other = " "
 
-
-
-
 [main_cards_title]
 other = "Welcome to openEuler Community"
 
@@ -58,6 +55,11 @@ other = "openEuler builds an innovative platform and a unified and open OS that 
 
 [main_cards_title_second]
 other = "iSula"
+
+
+[main_cards_summer2020_link]
+other = "https://isrc.iscas.ac.cn/summer2020"
+
 
 [main_cards_title_enter_repository]
 other = ">>More"
