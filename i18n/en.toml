@@ -44,7 +44,11 @@ other ="https://dw.pcl.ac.cn/dwmain/main/"
 [main_apply_sponsore]
 other = " "
 
+[main_blog_pageview]
+other = " "
 
+[main_blog_pageview_units]
+other = " viewed"
 
 
 [main_cards_title]

@@ -50,7 +50,7 @@
   translation: "View All"
 
   id: archivesTitle
-  translation: "归档"
+  translation: "Archives"
 
 - id: readMore
   translation: "Read more"
