@@ -1,0 +1,27 @@
+table:not(:last-child) {
+    margin-bottom: 1em;
+}
+table {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+table td,
+table th {
+    text-align: left;
+    border-top: 1px solid #dbdbdb;
+    border-left: none;
+    border-right: none;
+    padding: 8px 12px;
+    vertical-align: top;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table th {
+    border-top: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+thead th {
+    border-width: 0 0 2px;
+    color: #363636;
+}
