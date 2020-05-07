@@ -682,7 +682,7 @@ footer .notice span {
   overflow: hidden;
 }
 .book-menu .jstree-default .jstree-node{
-  overflow-x: hidden;
+  overflow:hidden;
 }
 .book-menu .jstree-default .jstree-anchor a {
   text-decoration: none;
