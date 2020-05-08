@@ -44,6 +44,13 @@ other ="https://dw.pcl.ac.cn/dwmain/main/"
 [main_apply_sponsore]
 other = " "
 
+[main_blog_pageview]
+other = " "
+
+[main_blog_pageview_units]
+other = " viewed"
+
+
 [main_cards_title]
 other = "Welcome to openEuler Community"
 
@@ -124,7 +131,7 @@ other = "Mail List"
 
 # DOC page
 [doc_git_footer]
-other = "Edit this page"
+other = "Feedback"
 
 # 404 page
 [404_title]

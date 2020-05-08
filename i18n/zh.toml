@@ -23,6 +23,12 @@ other = "测试资源申请"
 [main_postablog_source]
 other = "写博客"
 
+[main_blog_pageview]
+other = "总浏览量"
+
+[main_blog_pageview_units]
+other = "次"
+
 [main_apply_description]
 other= "如果缺乏测试设备，可以尝试在此申请。"
 
@@ -123,7 +129,7 @@ other = "/zh/about_openeuler/docs/whtisopeneuler.html"
 other = "邮件列表"
 # DOC page
 [doc_git_footer]
-other = "编辑此页"
+other = "意见反馈"
 
 # 404 page
 [404_title]
