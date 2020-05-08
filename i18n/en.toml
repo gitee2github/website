@@ -56,11 +56,6 @@ other = "openEuler builds an innovative platform and a unified and open OS that 
 [main_cards_title_second]
 other = "iSula"
 
-
-[main_cards_summer2020_link]
-other = "https://isrc.iscas.ac.cn/summer2020"
-
-
 [main_cards_title_enter_repository]
 other = ">>More"
 
@@ -187,3 +182,6 @@ other = "ISO"
 
 [versions_installationGuide]
 other = "Installation Guide"
+
+[main_cards_summer2020_link]
+other = "https://isrc.iscas.ac.cn/summer2020"
