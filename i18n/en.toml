@@ -1,4 +1,7 @@
 # home page
+[main_home_logo]
+other = "/en"
+
 [main_partner_title]
 other = "Members"
 
