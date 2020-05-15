@@ -4,7 +4,7 @@ title = "openEuler社区参与之旅"
 date = "2020-05-13"
 tags = ["社区运营", "参与贡献"]
 archives = "2020-05"
-author = "/amy_Mayun"
+author = "/myeuler"
 summary = "openEuler社区参与之旅，介绍如何一步步参与到开源社区以及我能在社区贡献什么。"
 +++
 ```
@@ -19,14 +19,14 @@ openEuler社区已经建立起来了，也有不少合作伙伴, OSV, ISV等参�
 
 openEuler的主站点是https://openeuler.org/
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-01.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-01.png" >
 
 
 主站点主要是提供一些入口，对于工程师来说，最重要的应该是<font color="red"><b>下载链接</b></font>：
 
 https://openeuler.org/zh/releases.html
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-02.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-02.png" >
 
 除了下载以外，对工程师来说，真正的<font color="red"><b>社区开始之旅的起点</b></font>：
 
@@ -85,9 +85,9 @@ https://opensource.org/licenses/alphabetical
 
 这两个网址互相有链接，它们分别长这个样子：
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-03.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-03.png" >
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-04.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-04.png" >
 
 长得这么像，为什么要分两个网址呢？ 两者有什么分工呢？我们在后续讲解中会慢慢的给大家说清楚。
 
@@ -104,18 +104,18 @@ https://opensource.org/licenses/alphabetical
 
 它的界面这个样子。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-05.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-05.png" >
 
 其中红圈里大家可以看到Issues这个字样，这就是我们所有问题&bug&需求的入口了。点进去以后可以看到：
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-06.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-06.png" >
 
 
 红圈位置的按钮就是我们建立一个新的Issue的入口。
 
 进入以后，就可以提交issue了，有分类栏来说明这个issue属于什么类别。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-07.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-07.png" >
 
 在这里，可能会有一些同学们会问：<font color="red"><b>为什么没有一个bugzilla</b></font>
 ？这是一个拷问灵魂的问题，是呀，为啥没有建立一个工程师们更为熟悉的bugzilla呢？我没有办法给出一个合理的解释，不过目前看越来越多的项目都逐步通过issue，PR等机制来管理项目，如果再独立构建一个bugzilla系统，那么和PR，Merge合入等的工作就需要进行交联，复杂度会增加，因此目前我们还是选择通过issue来管理bug和需求。
@@ -146,7 +146,7 @@ https://gitee.com/openeuler/community/blob/master/zh/contributors/issue-submit.m
 
 ### 第一步：建立自己的分支
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-08.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-08.png" >
 
 在红圈处先要Fork一个“分支”到自己的账号下。如果大家不清楚fork的含义，建议学习一下git的使用方法。在这里要提一句，无论如何，现代工程师要理解git的开发模式，不了解git在当代几乎会寸步难行。
 
@@ -155,7 +155,7 @@ https://gitee.com/openeuler/community/blob/master/zh/contributors/issue-submit.m
 
 当fork完毕以后，大家可以在下图的红圈1中发现，目录已经从openEuler切换成了自己的账户。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-09.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-09.png" >
 
 接下来，就可以在自己的“分支”上进行代码的修改了。
 
@@ -163,13 +163,13 @@ https://gitee.com/openeuler/community/blob/master/zh/contributors/issue-submit.m
 
 比如我修改了一个函数，增加了一行printf(“hello, world”)这行代码。那么PR看起来就是这样的：
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-10.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-10.png" >
 
 你需要为这个PR起一个名字，同时填写一个说明。分别是红圈1和2，最后确定patch没有问题以后，点击红圈3中的“创建”按钮提交。
 
 你会在openEuler/iSulad上看到你所提交的PR，红圈一表明你提交的PR已经进入了iSulad的社区，红圈2中的数字228是这个PR的编号。同时这个PR的URL是：https://gitee.com/openeuler/iSulad/pulls/228
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-11.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-11.png" >
 
 至此，作为一个patch提交者的工作就做完了，你剩下所要做的事情就是耐心的等待iSulad开发组的maintainer来审核你的patch，比如我相信今天晚上他会非常诧异，谁提交了这么一个stupid的patch，而且公然用useless demo这样的PR题目来挑战他脆弱而敏感的maintainer神经。
 
@@ -250,7 +250,7 @@ https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.m
 
 所以，一个软件从源代码到能进入到我们的OS安装光盘中，要经历三个步骤。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-12.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-12.png" >
 
 #### 第一步：
 
@@ -307,7 +307,7 @@ openEuler所有的SIG组都在https://gitee.com/openeuler/community/tree/master/
 
 openEuler是一个完全开放的组织架构，而且非常简单，https://gitee.com/openeuler/community这里可以看到基本的情况。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-13.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-13.png" >
 
 我想这副图已经说的很清楚了。
 
@@ -364,7 +364,7 @@ openEuler是一个完全开放的组织架构，而且非常简单，https://git
 
 一般来说，一个软件只需要上传两个“原材料”就足够制作一个软件包了。如下图所示：
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-14.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-14.png" >
 
 第一个材料：首先要上传这个软件包的spec文件，也就是告诉构建系统如何编译，制作cloc这个软件包。
 
@@ -435,7 +435,7 @@ d)   软件的功能是正常的。
 
 另外一种方法是，直接在https://gitee.com/openeuler中建立项目，类似将项目“托管”到openEuler社区。比如现在社区中的iSula和A-Tune这样的项目就是这样的模式。
 
-<img src="/zh/blog/amy_Mayun/2020-05-13-openEuler-travel-15.png" >
+<img src="/zh/blog/myeuler/2020-05-13-openEuler-travel-15.png" >
 
 
 至此，我相信所有人都能明白了为什么openEuler会建立两个仓：
