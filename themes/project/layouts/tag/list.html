@@ -22,12 +22,12 @@
                 <div class="row">
 
 
-        <div class="col-md-9">
+        <div class="col-md-8">
 
             <section class="post">
 
             {{range .Data.Pages}}
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <h3 style="font-family:方正兰亭中黑;"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             <h5 class="author-category">
                 {{ if isset .Params "author" }}
                 {{ .Params.author }}
@@ -61,7 +61,7 @@
 
 
         <div class="col-md-3">
-            <h3 style="overflow:hidden"><a href="/zh/blogguidance.html"><img src="{{ "/svg/edit.svg" }}" alt="edit" >
+            <h3 style="overflow:hidden;font-family:方正兰亭中黑;"><a href="/zh/blogguidance.html"><img src="{{ "/svg/edit.svg" }}" alt="edit" >
                 {{i18n "main_postablog_source"}}</a></h3>
             {{partial "widgets/tags.html" . }}
             {{partial "widgets/archives.html" . }}

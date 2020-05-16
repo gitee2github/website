@@ -10,7 +10,7 @@
     <div class="panel-body">
         <ul class="tag-cloud">
             {{ range $index, $items :=  .Site.Taxonomies.tags }}
-            <li><a href="{{ $.Site.BaseURL }}/{{$lan}}/tags/{{ $index | urlize }}.html"><i class="fa fa-tags"></i> {{ $index }}</a>
+            <li><a href="{{ $.Site.BaseURL }}{{$lan}}/tags/{{ $index | urlize }}.html"><i class="fa fa-tags"></i> {{ $index }}</a>
             </li>
             {{ end }}
         </ul>
