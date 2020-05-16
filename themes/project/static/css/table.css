@@ -30,3 +30,13 @@ thead th {
     height: auto;
     max-width: 100%;
 }
+
+table tr td, 
+table th {
+    border-right: 1px solid  #dbdbdb;
+}
+
+table tr td:last-child, 
+table th:last-child {
+    border-right: none;
+}
