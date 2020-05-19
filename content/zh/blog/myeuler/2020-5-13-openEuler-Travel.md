@@ -1,13 +1,11 @@
-```
 +++
 title = "openEuler社区参与之旅"
 date = "2020-05-13"
 tags = ["社区运营", "参与贡献"]
 archives = "2020-05"
-author = "/myeuler"
+author = "myeuler"
 summary = "openEuler社区参与之旅，介绍如何一步步参与到开源社区以及我能在社区贡献什么。"
 +++
-```
 
 ## 引言
 
