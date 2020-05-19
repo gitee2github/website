@@ -38,7 +38,7 @@ summary = "A-Tune让系统调优更智能"
 
 运行在操作系统上的业务类型成百上千，形态千差万别，从硬件到操作系统，到中间件再到上层应用，涉及的调优参数组合上万+。随着业务复杂度和调优对象的增加，调优组合和调优所需成本指数级增长，大大超过了工程师的能力范围。
 
-<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-01.png style="width:100%;">
+<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-01.png" style="width:100%;">
 
 - 应用场景剧增，实验室测试无法穷举
 
@@ -66,7 +66,7 @@ A-Tune能够利用人工智能技术自动分析业务特征，寻找优化配�
 
 A-Tune分层架构如下图所示，主要包括智能决策层、系统画像层、交互系统层以及优化模式库。
 
-<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-02.png style="width:100%;">
+<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-02.png" style="width:100%;">
 
 - **智能决策层**：包含感知系统和决策系统。感知系统获取环境资源使用数据，利用人工智能技术推理判断业务类型；决策系统根据感知子系统获得的数据进行调优决策。
 
@@ -92,7 +92,7 @@ A-Tune分层架构如下图所示，主要包括智能决策层、系统画像�
 
 实验结果如下图所示：
 
-<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-03.png style="width:100%;" >
+<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-03.png" style="width:100%;" >
 
 注：实验室测试数据，结果在不同环境存在偏差
 
