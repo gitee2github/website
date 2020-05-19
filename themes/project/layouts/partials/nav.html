@@ -1,6 +1,6 @@
 <!--h5 -->
 <div class="isH5 isPad nav_table">
-  <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+  <a class="navbar-brand home" href="{{ i18n "main_home_logo" }}">
     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
@@ -61,36 +61,37 @@
   <div class="navbar navbar-default yamm" role="navigation" id="navbar">
 
     <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
-          <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
-          <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo"
+        <div class="navbar-header">
+        <a class="navbar-brand home" href="{{ i18n "main_home_logo" }}">
+            <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
+            <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo"
             class="visible-xs visible-sm">
-          <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+            <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
         </a>
         <div class="navbar-buttons">
-          <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse"
+            <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse"
             data-target="#navigation">
             <span class="sr-only">{{ i18n "navToggle" }}</span>
             <i class="fa fa-align-justify"></i>
-          </button>
+            </button>
         </div>
-      </div>
-      <!--/.navbar-header -->
-      <div class="navbar-collapse collapse" id="navigation">
+        </div>
+        <!--/.navbar-header -->
+        {{$curURL:= .RelPermalink}}
+        {{$curDir:= substr $curURL 4}}
+        <div class="navbar-collapse collapse" id="navigation">
         <ul class="nav navbar-nav navbar-right">
-          {{ $current := . }}
-          {{ range .Site.Menus.main }}
-          {{ $topLevel := replace .URL "/" "" }}
-          {{ $isChildren := false }}
-          {{ range .Children }}
-          {{ if eq .Identifier $current.Type }}
-          {{ $isChildren = true }}
-          {{ end }}
-          {{ end }}
-          {{ if ne .Identifier "lang" }}
-          <li
-            class="dropdown{{ if eq $current.RelPermalink .URL | or $isChildren | or (eq (trim $current.RelPermalink "/") $topLevel) | or (eq $current.Type .Identifier) | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $topLevel := replace .URL "/" "" }}
+            {{ $isChildren := false }}
+            {{ range .Children }}
+            {{ if eq .Identifier $current.Type }}
+            {{ $isChildren = true }}
+            {{ end }}
+            {{ end }}
+            {{ if ne .Identifier "lang" }}
+            <li>
             {{ if .HasChildren }}
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
@@ -106,48 +107,70 @@
             <a href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
             {{ end  }}
-          </li>
-          {{ end }}
-          {{ if eq .Identifier "lang" }}
-          <li style="width:67px;text-align: center;"
-          class=" dropdown{{ if eq $current.RelPermalink .URL | or $isChildren | or (eq (trim $current.RelPermalink "/") $topLevel) | or (eq $current.Type .Identifier) | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
-          <a href="{{ .URL }}">{{ .Name }}</a>  
-          </li>
-          {{ end }}
-          {{ end }}
-          <li style="width:67px;text-align: center;"class=""> 
+            </li>
+            {{ end }}
+            {{ if eq .Identifier "lang" }}
+            {{$newLan := .URL}}
+            {{$newPath := (print $newLan "/" $curDir)}}
+            {{$splitPath := split $curDir "/"}}
+            {{$menu := first 1 $splitPath }}
+            {{$docMenu := first 2 $splitPath }}
+            {{$finalMenu := index $menu 0}}
+            {{$finalDocMenu := index $docMenu 1}}
+
+            {{if or (eq $finalMenu "blog") (eq $finalMenu "tags") (eq $finalMenu "archives")}}
+            {{$newPath = (print $newLan "/blog.html")}}
+            {{end}}
+
+            {{if eq $finalMenu "events"}}
+            {{$newPath = (print $newLan "/events.html")}}
+            {{end}}
+
+            {{if eq $finalDocMenu "20.03_LTS"}}
+            {{$newPath = (print $newLan "/docs/20.03_LTS/docs/Quickstart/quick-start.html")}}
+            {{end}}
+
+            {{if eq $finalDocMenu "1.0_Base"}}
+            {{$newPath = (print $newLan "/docs/1.0_Base/docs/Releasenotes/release_notes.html")}}
+            {{end}}
+
+
+        <li style="width:67px;text-align: center;">
+            <a href="{{ $newPath }}">{{ .Name }}</a>  
+            </li>
+            {{ end }}
+            {{ end }}
+            <li style="width:67px;text-align: center;"class=""> 
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"><img style="width:18px;"src="{{ .Site.BaseURL }}img/gitee-logo.ico"><span class="caret"></span></a>
-          <ul class="dropdown-menu">
+            <ul class="dropdown-menu">
             <li><a href="https://gitee.com/openeuler">{{i18n "main_nav_repository"}}</a></li>
             <li><a href="https://gitee.com/src-openeuler">{{i18n "main_nav_packageSources"}}</a></li>
-          </ul>
-        </li>
-            
-          </li>
-          
+            </ul>
+        </li>    
+        </li>   
         </ul>
-      </div>
-      <!--/.nav-collapse -->
+        </div>
+        <!--/.nav-collapse -->
 
-      <div class="collapse clearfix" id="search">
+        <div class="collapse clearfix" id="search">
 
         <form class="navbar-form" role="search">
-          <div class="input-group">
+            <div class="input-group">
             <input type="text" class="form-control" placeholder="Search">
             <span class="input-group-btn">
 
-              <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+            <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
 
             </span>
-          </div>
+            </div>
         </form>
 
-      </div>
-      <!--/.nav-collapse -->
+    </div>
+    <!--/.nav-collapse -->
 
     </div>
-  </div>
-  <!-- /#navbar -->
+    </div>
+    <!-- /#navbar -->
 
 </div>
 

@@ -1,4 +1,7 @@
 # home page
+[main_home_logo]
+other = "/zh"
+
 [main_partner_title]
 other = "社区会员"
 
