@@ -9,3 +9,4 @@ headless: true
 - [我怎样才能找到感兴趣的项目组？]({{< relref "./docs/findprojects.md" >}})
 - [SIG Maintainer如何增删项目？]({{< relref "./docs/modifyswinsig.md" >}})
 - [使用邮件列表经常有问题，怎么办？]({{< relref "./docs/maillistfailure.md" >}})
+- [如何在开源社区组织一个会议？]({{< relref "./docs/howtomanagemeetings.md" >}})
