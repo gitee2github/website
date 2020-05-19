@@ -102,4 +102,4 @@ A-Tune分层架构如下图所示，主要包括智能决策层、系统画像�
 
 https://gitee.com/openeuler/A-Tune
 
-<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-04.png style="width:20%;" >
+<img src="/zh/blog/shanshishi/2020-05-08-atune-tuning-smarter-04.png" style="width:20%;" >
