@@ -91,7 +91,8 @@
             {{ end }}
             {{ end }}
             {{ if ne .Identifier "lang" }}
-            <li>
+            <li
+            class="dropdown{{ if eq $current.RelPermalink .URL | or $isChildren | or (eq (trim $current.RelPermalink "/") $topLevel) | or (eq $current.Type .Identifier) | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
             {{ if .HasChildren }}
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
@@ -102,7 +103,7 @@
             </ul>
             {{ else }}
             {{ if eq .Identifier "blog"}}
-            <a href="{{ .URL }}" target="_blank">{{ .Name }}</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
             {{ else }}
             <a href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
@@ -135,7 +136,8 @@
             {{end}}
 
 
-        <li style="width:67px;text-align: center;">
+            <li style="width:67px;text-align: center;"
+            class=" dropdown{{ if eq $current.RelPermalink .URL | or $isChildren | or (eq (trim $current.RelPermalink "/") $topLevel) | or (eq $current.Type .Identifier) | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}">
             <a href="{{ $newPath }}">{{ .Name }}</a>  
             </li>
             {{ end }}
