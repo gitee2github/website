@@ -62,13 +62,13 @@ summary = "openEuler Raspberry Pi 版本镜像的构建、使用"
 
 若 SD 卡之前安装过镜像，盘符会有三个，选择 SD 卡对应盘符（图例中为 E: 盘），格式化即可：
 
-![](images/2020-05-25-raspberrypi-userguide-disk.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-disk.jpg">
 
-![](images/2020-05-25-raspberrypi-userguide-disk-beforeformat.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-disk-beforeformat.jpg">
 
-![](images/2020-05-25-raspberrypi-userguide-disk-afterformat.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-disk-afterformat.jpg">
 
-![](images/2020-05-25-raspberrypi-userguide-disk-after.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-disk-after.jpg">
 
 ### 写入 SD 卡
 
@@ -76,13 +76,13 @@ summary = "openEuler Raspberry Pi 版本镜像的构建、使用"
 
 右键选择“以管理员身份运行”，打开 Win32 Disk Imager，选择镜像 img 文件和待写入的 SD 卡，点击【写入/Write】。
 
-![](images/2020-05-25-raspberrypi-userguide-writeSD.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-writeSD.jpg">
 
 写入完成即可。
 
 写入成功后，SD 卡自动分区后的盘符为：
 
-![](images/2020-05-25-raspberrypi-userguide-disk.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-disk.jpg">
 
 # 使用树莓派
 
@@ -104,13 +104,13 @@ summary = "openEuler Raspberry Pi 版本镜像的构建、使用"
 
 登录成功后，树莓派即显示本机相关信息，包括本机 IP。如下图（ssh 登录也显示这些信息）：
 
-![](images/2020-05-25-raspberrypi-userguide-loginPi.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-loginPi.jpg">
 
-2. ssh 远程登录
+1. ssh 远程登录
 
 如果树莓派连接已知路由器，可登录路由器管理，新增的 IP 即为树莓派 IP：
 
-![](images/2020-05-25-raspberrypi-userguide-getIP.jpg)
+<img src="/zh/blog/woqidaideshi/images/2020-05-25-raspberrypi-userguide-getIP.jpg">
 
 从上图看到，树莓派对应 IP 为：192.168.1.102，使用命令 `ssh root@192.168.1.102` 后输入密码 `openeuler`，即可远程登录树莓派。
 
