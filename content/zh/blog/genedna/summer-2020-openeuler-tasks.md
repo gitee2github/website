@@ -52,11 +52,21 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
     由于历史原因，目前 [openEuler](https://openeuler.org) 还没有正式提供桌面环境，所以在这次活动中 [sig-UKUI](https://gitee.com/openeuler/community/tree/master/sig/sig-UKUI) 的 Maintainer [douyan@kylinos.cn](mailto:douyan@kylinos.cn) 和 [jianfengli@ubuntukylin.com](mailto:jianfengli@ubuntukylin.com) 发起了移植 [UKUI](https://www.ukui.org) 到 [openEuler](https://openeuler.org) 的任务。在 [No.1](https://gitee.com/openeuler/marketing/issues/I1H8G3) 任务则是把轻量级桌面系统 [Xfce](https://www.xfce.org) 移植到 [openEuler](https://openeuler.org) 系统中。
 
+    [UKUI](https://www.ukui.org) 是麒麟软件桌面研发团队开发的基于 Linux 发行版的轻量级桌面环境，其设计紧贴普通用户需求，特别是针对有一定 Windows 系统使用习惯的用户，减少其使用 Linux 系统的学习成本。2019年，麒麟软件全面启动 UKUI 3.0 的设计和研发工作，全新的 UKUI 3.0 使用 QT 开发，秉承 “友好易用，简单轻松” 的设计理念，将为用户提供更愉快的交互体验。
+
     - [No.100 - 将 UKUI 移植到 openEuler，并支持生物识别](https://gitee.com/openeuler/marketing/issues/I1IRJ3) 任务地址 https://gitee.com/openeuler/marketing/issues/I1IRJ3
 
 4. Linux 容器引擎相关任务 - **建议熟悉 Linux 容器引擎技术实现(如 Docker )的同学申请此类任务**
 
     [openEuler](https://openeuler.org) 在兼容主流的容器引擎同时，孵化自己的容器引擎项目 [iSula](https://gitee.com/openeuler/iSulad)，它在支持 Docker 镜像的同时支持 OCI 格式的镜像和规范。 [iSulad SIG](https://gitee.com/openeuler/community/tree/master/sig/iSulad) 的 Maintainers 为同学带来了多个任务。更多 [iSula](https://gitee.com/openeuler/iSulad) 的任务请访问它的官方[文档](https://openeuler.org/zh/docs/20.03_LTS/docs/Container/container.html)
+
+    Linux 容器相关知识可以参考：
+
+    - Docker 相关文档 https://docs.docker.com
+    - [Open Container Initiative](https://opencontainers.org) 基金会对 Linux Container 定义可以在其 Github 网站 https://github.com/opencontainers
+    - https://riscv.org
+
+    任务列表：
 
     - [No.7 - 构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库](https://gitee.com/openeuler/marketing/issues/I1HVZF)  任务链接 https://gitee.com/openeuler/marketing/issues/I1HVZF
     - [No.9 - iSula 相关项目支持编译 Debian 包](https://gitee.com/openeuler/marketing/issues/I1HWDZ) 任务链接 https://gitee.com/openeuler/marketing/issues/I1HWDZ 
@@ -69,12 +79,32 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 5. Kubernetes 相关任务 - **建议熟悉 Kubernetes 编排调度技术的同学申请此类任务**
 
-    - [openEuler](https://openeuler.org) 当然不会缺席当前业界最热的开源项目 [Kubernetes](https://kubernetes.io) ，多个 SIG 组的 Maintainer 推出了相关的任务，从相对简单的集成任务到有一定难度的开发任务。
-    - [No61. - openEuler 集成 Kubernetes 相关软件包](https://gitee.com/openeuler/marketing/issues/I1IF4R) 任务链接https://gitee.com/openeuler/marketing/issues/I1IF4R
+    [openEuler](https://openeuler.org) 当然不会缺席当前业界最热的开源项目 [Kubernetes](https://kubernetes.io) ，多个 SIG 组的 Maintainer 推出了相关的任务，从相对简单的集成任务到有一定难度的开发任务。[Kubernetes](https://kubernetes.io) 的资料很多，这里就不一一列举。
+
+    相关资料：
+
+    - https://kubernetes-csi.github.io/docs
+    - https://goharbor.io
+    - https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial
+    - https://github.com/libfuse/libfuse
+    - https://www.kernel.org/doc/html/latest/filesystems/fuse.html
+
+    任务列表：
+
+    - [No61. - openEuler 集成 Kubernetes 相关软件包](https://gitee.com/openeuler/marketing/issues/I1IF4R) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IF4R
     - [No.91 - 用RUST实现基于FUSE的Kubernetes CSI接口](https://gitee.com/openeuler/marketing/issues/I1IMJY) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IMJY
     - [No. 14 - openEuler 集成 Harbor 项目](https://gitee.com/openeuler/marketing/issues/I1HXBE) 任务链接  https://gitee.com/openeuler/marketing/issues/I1HXBE
 
 6. 虚拟化、云相关任务 - **建议熟悉 QEMU 等虚拟化技术的同学申请此类任务**
+
+    [QEMU](https://www.qemu.org) 可以说是云计算的基石技术，在很多云计算的架构中是配合 KVM 来完成虚拟化工作。因为 KVM 是硬件辅助的虚拟化技术，主要负责比较繁琐的 CPU 和内存虚拟化，而 QEMU 则负责 I/O 虚拟化，两者合作各自发挥自身的优势相得益彰。
+
+    相关资料：
+
+    - https://www.qemu.org
+    - https://www.youtube.com/watch?v=dk6SUD8ovXw
+
+    任务列表：
 
     - [No.56 - 以 openEuler LTS 为基础生成公有云镜像](https://gitee.com/openeuler/marketing/issues/I1ICCJ) 任务链接 https://gitee.com/openeuler/marketing/issues/I1ICCJ
     - [No.52 - openEuler 虚拟化调度性能评估工具及方法构建](https://gitee.com/openeuler/marketing/issues/I1I9XJ) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I9XJ
@@ -83,6 +113,18 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
     - [No.62 - QEMU 用户态进程热补丁框架](https://gitee.com/openeuler/marketing/issues/I1IG8E) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IG8E
 
 7. Golang 相关任务 -  **建议熟悉 Golang 语言、对 aarch64 架构和算法有一定程度了解等的同学申请此类任务**
+
+    [Golang](https://golang.org) 随着容器技术和 [Kubernetes](https://kubernetes.io) 的逐渐被开发者接受。[openEuler](https://openeuler.org) 社区提出的 [Golang](https://golang.org) 大多是基于 ARM64 的优化任务。需要对 ARM 的指令集和 Golang 语言编译器等有一定的了解才能顺利完成任务
+
+    相关资料：
+
+    - https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/arm-neon-programming-quick-reference
+    - https://gcc.gnu.org/onlinedocs/gcc-5.2.0/gcc.pdf
+    - https://static.docs.arm.com/ddi0487/a/DDI0487A_j_armv8_arm.pdf
+    - https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf
+    - https://courses.cs.washington.edu/courses/cse469/18wi/Materials/arm64.pdf
+
+    任务列表：
 
     - [No.81 - 优化Go同步包中锁或原子操作在 ARM64 上的实现，提升安全并发的性能](https://gitee.com/openeuler/marketing/issues/I1IJ86) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IJ86
     - [No.80 - 增强 Golang 编译器基于ARM64的智能化编译](https://gitee.com/openeuler/marketing/issues/I1IJ5W) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IJ5W
