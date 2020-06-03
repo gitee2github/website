@@ -10,7 +10,8 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 ## openEuler 社区 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 任务详解分类
 
-- [openEuler](https://openeuler.org) 社区在 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 活动中共发布了 [102](https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md) 个任务，涵盖了 Linux 、容器、云计算和编程语言等多个技术栈。参与暑期 2020 活动的同学可以通过阅读本文的深度解析，找到感兴趣和符合自身技术栈的任务，这样可以在申请任务的过程中提高成功率。同时，openEuler 社区在 June 7th, 2020 、June 8th, 2020 和 June 9th, 2020 三天点晚间 19:00 ~ 20:00 间在[ Bilibili ](https://live.bilibili.com/527064077) 进行直播，由相关任务的社区 Maintainer 为大家更为详细的讲解技术点、具体要求等，现场回答同学们的问题。
+[openEuler](https://openeuler.org) 社区在 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 活动中共发布了 [102](https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md) 个任务，涵盖了 Linux 、容器、云计算和编程语言等多个技术栈。参与暑期 2020 活动的同学可以通过阅读本文的深度解析，找到感兴趣和符合自身技术栈的任务，这样可以在申请任务的过程中提高成功率。同时，openEuler 社区在 June 7th, 2020 、June 8th, 2020 和 June 9th, 2020 三天点晚间 19:00 ~ 20:00 间在[ Bilibili ](https://live.bilibili.com/527064077) 进行直播，由相关任务的社区 Maintainer 为大家更为详细的讲解技术点、具体要求等，现场回答同学们的问题。
+
     - 关于直播活动请大家加入到暑期 2020 学生的微信群，关注微信群的时间通知。
 
       <img src="/img/events/summer-2020-wechat.jpg" style="width:40%;"/>
@@ -31,7 +32,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
           - [No.10 - iSula 项目内存池设计与实现](https://gitee.com/openeuler/marketing/issues/I1HX3G)
           - [No.11 - iSula 项目线程池设计与实现](https://gitee.com/openeuler/marketing/issues/I1HX5Y)
           - [No.12 - iSula-kits 支持在多个 OS 发型版上运行](https://gitee.com/openeuler/marketing/issues/I1HXE7)
-          - [No. 13 - iSula 容器镜像构建工具支持多存储驱动](https://gitee.com/openeuler/marketing/issues/I1HXS9)-
+          - [No.13 - iSula 容器镜像构建工具支持多存储驱动](https://gitee.com/openeuler/marketing/issues/I1HXS9)-
           - [No.84 - 在 RISC-V 架构 openEuler 平台上提供 iSulad](https://gitee.com/openeuler/marketing/issues/I1HXS9)
 
 1. [No.88 - 移植 openEuler 至 RK3399 平台](https://gitee.com/openeuler/marketing/issues/I1IJ4B) 团体项目 - **建议申请此任务的团队需要有一定的 Linux 操作系统实战能力，掌握 Linux 内核及硬件驱动相关知识，熟悉掌握操作系统引导与启动机制。**
