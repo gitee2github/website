@@ -347,19 +347,31 @@
   font-size:40px
 }
 
-.publisher .imgDivLeft{
-  text-align: right;
-  padding-right:50px;
+.publisher .imgdivleft{
+  text-align: center;
 }
 
-.publisher .imgDivRight{
-  text-align: left;
-  padding-left:50px;
+.publisher .imgdivmiddle{
+  text-align: center;
+}
+.publisher .imgdivright{
+  text-align: center;
 }
 
-.publisher img{
-  height:80px;
+#imgLeft{
+  height:60px;
+  padding-top:3px;
 }
+
+#imgMiddle{
+  height:70px;
+} 
+
+#imgRight{
+  height:60px;
+  padding-top:3px;
+}
+
 .friendsLink h2{
   font-size: 40px;
  }
