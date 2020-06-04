@@ -38,18 +38,21 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 ### B 站直播计划
 
-[[June 7th, 2020]] 19:00 ~ 20:00 方亚芬讲解 
+June 7th, 2020 19:00 ~ 20:00 方亚芬讲解
+
 * 暑期 2020 团体任务 - [No.88 - 移植 openEuler 至 RK3399 平台](https://gitee.com/openeuler/marketing/issues/I1IJ4B)
 * [No.1 - 为 openEuler 添加 Xfce 桌面环境并能够运行在树莓派 4B 上](https://gitee.com/openeuler/marketing/issues/I1H8G3)
 * [No.2 - 精简 openEuler 的树莓派 4B 镜像体积小于 500 MiB](https://gitee.com/openeuler/marketing/issues/I1H8H9) 
 * [No.3 - 为 openEuler 树莓派 4B 镜像提供 UEFI 启动支持](https://gitee.com/openeuler/marketing/issues/I1H8HV)
 
-[[June 8th, 2020]] 19:00 ~ 20:00 何晓文讲解 
+June 8th, 2020 19:00 ~ 20:00 何晓文讲解 
+
 * 暑期 2020 团体任务 [No.88 - 移植 openEuler 至 RK3399 平台](https://gitee.com/openeuler/marketing/issues/I1IJ4B)
 * [No.49 - 基于 openEuler 的 ABI 检查工具](https://gitee.com/openeuler/marketing/issues/I1HQSE)
 * [No.47 - 开发 openEuler bootstrap 工具](https://gitee.com/openeuler/marketing/issues/I1HAXJ)          
 
-[[June 9th, 2020]] 19:00 ~ 20:00 蔡灏旻讲解容器技术相关任务 
+June 9th, 2020 19:00 ~ 20:00 蔡灏旻讲解容器技术相关任务 
+
 * [No.7 - 构建可运行 iSulad 点容器镜像，并推送到 Docker Hub 镜像仓库](https://gitee.com/openeuler/marketing/issues/I1HVZF)
 * [No.9 - iSula 相关项目支持编译 Debian 包](https://gitee.com/openeuler/marketing/issues/I1HWDZ)
 * [No.10 - iSula 项目内存池设计与实现](https://gitee.com/openeuler/marketing/issues/I1HX3G)
@@ -178,7 +181,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
     - [No.92 - 用 Rust 实现无锁 LRU 缓存](https://gitee.com/openeuler/marketing/issues/I1IMNR) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IMNR
     - [No.91 - 用 RUST 实现基于 FUSE 的 Kubernetes CSI 接口](https://gitee.com/openeuler/marketing/issues/I1IMJY) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IMJY
     - [No.89 - 基于 Rust 实现 HDFS 的用户态 FUSE 驱动](https://gitee.com/openeuler/marketing/issues/I1IMGW) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IMGW
-    - [no.87 - 基于 Rust 高性能 HTTP 库 Hyper 或 Tide 实现 S3 服务端](https://gitee.com/openeuler/marketing/issues/I1IMFO) 任务链接 https://gitee.com/openeuler/marketing/issues/
+    - [no.87 - 基于 Rust 高性能 HTTP 库 Hyper 或 Tide 实现 S3 服务端](https://gitee.com/openeuler/marketing/issues/I1IMFO) 任务链接 https://gitee.com/openeuler/marketing/issues/I1IMFO
 
 9. 存储相关任务 - **建议熟悉 Linux 存储知识的同学申请此类任务**
 
@@ -288,7 +291,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
     - [No.23 - 在 openEuler aarch64 架构上完成 Hadoop WordCount 统计过程](https://gitee.com/openeuler/marketing/issues/I1I290) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I290
     - [No.22 - 在 openEuler aarch64 架构上完成 mlpack 基于公开数据集完成 mnist 训练过程](https://gitee.com/openeuler/marketing/issues/I1I281) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I281
     - [No. 24 - 在 openEuler aarch64 架构上完成 Spark WordCount 统计过程](https://gitee.com/openeuler/marketing/issues/I1I29G) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I29G
-    - [No.25 - 在 openEuler aarch64 架构上完成 Flink WordCount 统计过程](https://gitee.com/openeuler/marketing/issues/I1I2A0) 任务链接 https://gitee.com/openeuler/marketing/issues/
+    - [No.25 - 在 openEuler aarch64 架构上完成 Flink WordCount 统计过程](https://gitee.com/openeuler/marketing/issues/I1I2A0) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I2A0
     
 15. Linux 系统相关任务 - **建议熟悉 Linux 系统的同学申请此类任务**
 
