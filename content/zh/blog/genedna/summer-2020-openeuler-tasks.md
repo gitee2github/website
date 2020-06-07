@@ -10,7 +10,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 ## openEuler 社区 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 任务详解分类
 
-[openEuler](https://openeuler.org) 社区在 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 活动中共发布了 [102](https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md) 个任务，涵盖了 Linux 、容器、云计算和编程语言等多个技术栈。参与暑期 2020 活动的同学可以通过阅读本文的深度解析，找到感兴趣和符合自身技术栈的任务，这样可以在申请任务的过程中提高成功率。同时，openEuler 社区在 June 7th, 2020 、June 8th, 2020 和 June 9th, 2020 三天点晚间 19:00 ~ 20:00 间在[ Bilibili ](https://live.bilibili.com/527064077) 进行直播，由相关任务的社区 Maintainer 为大家更为详细的讲解技术点、具体要求等，现场回答同学们的问题。
+[openEuler](https://openeuler.org) 社区在 [暑期 2020](https://isrc.iscas.ac.cn/summer2020) 活动中共发布了 [102](https://gitee.com/openeuler/marketing/blob/master/events/summer2020/tasks.md) 个任务，涵盖了 Linux 、容器、云计算和编程语言等多个技术栈。参与暑期 2020 活动的同学可以通过阅读本文的深度解析，找到感兴趣和符合自身技术栈的任务，这样可以在申请任务的过程中提高成功率。同时，openEuler 社区在 June 7th, 2020 、June 8th, 2020 和 June 9th, 2020 三天点晚间 19:00 ~ 20:00 间在[ Bilibili ](https://live.bilibili.com/22290444) 进行直播，由相关任务的社区 Maintainer 为大家更为详细的讲解技术点、具体要求等，现场回答同学们的问题。
 
 更多问题可以和本文作者 邮件/Twitter/Telegram 联系：
 
@@ -36,7 +36,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 <img src="/img/events/summer-2020-wechat.jpg" style="width:40%;"/>
 
-### B 站直播计划
+### B 站直播计划，房间地址 https://live.bilibili.com/22290444
 
 June 7th, 2020 19:00 ~ 20:00 方亚芬讲解
 
