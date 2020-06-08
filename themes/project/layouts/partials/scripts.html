@@ -65,7 +65,7 @@
                 }
             });
             $('#docstreeview').on('ready.jstree', function (e, data) {
-                $('#docstreeview').fadeIn('slow');
+                $('#docstreeview').show();
                 var relativeURL = getRelativePath();
                 var wholeData = $('#docstreeview').jstree().get_json();
                 var currentID = getCurrentID(wholeData, relativeURL);
