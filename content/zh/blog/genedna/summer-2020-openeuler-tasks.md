@@ -26,7 +26,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 - 在哪里找到 aarch64 的环境？
 
-    可以在树莓派上进行开发，相关内容请参考 https://openeuler.org/zh/blog/2020/05/25/2020-05-25-raspberrypi-userguide.html 。[openEuler](https://openeuler.org) 社区也正在筹备为开发者提供华为公有云的开发环境，具体可咨询任务导师。
+    可以在树莓派上进行开发，相关内容请参考 https://openeuler.org/zh/blog/2020/05/25/2020-05-25-raspberrypi-userguide.html 。华为公司为针对 aarch64 架构的任务赞助华为公有云的鲲鹏计算资源，可使用 openEuler 的镜像用于完成任务开发。在学生申请任务成功后，会由活动组织方统一发放。
 
 - 任务验收标准不清晰？
 
