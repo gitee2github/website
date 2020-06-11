@@ -61,6 +61,29 @@ June 9th, 2020 19:00 ~ 20:00 蔡灏旻讲解容器技术相关任务
 * [No.13 - iSula 容器镜像构建工具支持多存储驱动](https://gitee.com/openeuler/marketing/issues/I1HXS9)-
 * [No.84 - 在 RISC-V 架构 openEuler 平台上提供 iSulad](https://gitee.com/openeuler/marketing/issues/I1HXS9)
 
+June 15th, 2020 20:00 ~ 21:00 虚拟化相关任务讲解
+
+* [No.52 - openEuler 虚拟化调度性能评估工具及方法构建](https://gitee.com/openeuler/marketing/issues/I1I9XJ)
+* [No.6 - 虚拟化场景下的类似 top 点调测工具 virttop](https://gitee.com/openeuler/marketing/issues/I1HVM7)
+* [No.66 - QEMU 中集成 virtio-fuzz 能力以支持模拟设备的模糊测试](https://gitee.com/openeuler/marketing/issues/I1IHCJ)
+* [No.62 - QEMU 用户态进程热补丁框架](https://gitee.com/openeuler/marketing/issues/I1IG8E)
+
+June 16th, 2020 20:00 ~ 21:00 测试相关任务讲解
+
+* [No.69 - api-sanity-checker 与 oss-fuzz 测试结合的误报优化](https://gitee.com/openeuler/marketing/issues/I1IHNM)
+* [No.34 - 对 openEuler 社区发布包 keepalived 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6CG)
+* [No.35 - 对 openEuler 社区发布包 kmod-kvdo 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6CY)
+* [No.36 - 对 openEuler 社区发布包 OpenVPN 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6D6)
+* [No.37 - 对 openEuler 社区发布包 lrzsz 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6EO)
+* [No.38 - 对 openEuler 社区发布包 ipvsadm 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6F2)
+* [No.39 - 对 openEuler 社区发布包 MongoDB 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6GM)
+* [No.40 - 对 openEuler 社区发布包 Redis 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6GW)
+* [No.41 - 对 openEuler 社区发布包 sssd 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6IK)
+* [No.42 - 对 openEuler 社区发布包 MySQL 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6IN)
+* [No.43 - 对 openEuler 社区发布包 rpcbind 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6JE)
+* [No.44 - 对 openEuler 社区发布包 haproxy 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6JI)
+* [No.29 - 对openEuler社区发布包osc和obs-build进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I5WZ)
+
 ### 任务分类
 
 1. [No.88 - 移植 openEuler 至 RK3399 平台](https://gitee.com/openeuler/marketing/issues/I1IJ4B) 团体项目 - **建议申请此任务的团队需要有一定的 Linux 操作系统实战能力，掌握 Linux 内核及硬件驱动相关知识，熟悉掌握操作系统引导与启动机制。**
@@ -271,7 +294,7 @@ June 9th, 2020 19:00 ~ 20:00 蔡灏旻讲解容器技术相关任务
     - [No.35 - 对 openEuler 社区发布包 kmod-kvdo 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6CY) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6CY
     - [No.36 - 对 openEuler 社区发布包 OpenVPN 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6D6) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6D6
     - [No.37 - 对 openEuler 社区发布包 lrzsz 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6EO) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6EO
-    - [No.38 - 对openEuler社区发布包ipvsadm进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6F2) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6F2
+    - [No.38 - 对 openEuler 社区发布包 ipvsadm 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6F2) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6F2
     - [No.39 - 对 openEuler 社区发布包 MongoDB 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6GM) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6GM
     - [No.40 - 对 openEuler 社区发布包 Redis 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6GW) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6GW
     - [No.41 - 对 openEuler 社区发布包 sssd 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6IK) 任务链接 https://gitee.com/openeuler/marketing/issues/I1I6IK
