@@ -84,6 +84,10 @@ June 16th, 2020 20:00 ~ 21:00 测试相关任务讲解
 * [No.44 - 对 openEuler 社区发布包 haproxy 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6JI)
 * [No.29 - 对openEuler社区发布包osc和obs-build进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I5WZ)
 
+June 17th, 2020 20:00 ~ 21:00 openEuler 社区之旅参与介绍
+
+* 介绍如何在 openEuler 社区贡献
+
 ### 任务分类
 
 1. [No.88 - 移植 openEuler 至 RK3399 平台](https://gitee.com/openeuler/marketing/issues/I1IJ4B) 团体项目 - **建议申请此任务的团队需要有一定的 Linux 操作系统实战能力，掌握 Linux 内核及硬件驱动相关知识，熟悉掌握操作系统引导与启动机制。**
