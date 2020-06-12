@@ -347,28 +347,27 @@
   font-size:40px
 }
 
-.publisher .imgdivleft{
-  text-align: center;
+.publisher .imgdivleft,
+.publisher .imgdivmiddle,
+.publisher .imgdivright {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-top: 30px;
 }
 
-.publisher .imgdivmiddle{
-  text-align: center;
-}
-.publisher .imgdivright{
-  text-align: center;
+#imgLeft {
+    height: 50px;
+    padding-top: 2px;
 }
 
-#imgLeft{
-  height:60px;
-  padding-top:3px;
-}
-
-#imgMiddle{
-  height:70px;
+#imgMiddle {
+    height:  70px;
 } 
 
-#imgRight{
-  height:60px;
+#imgRight {
+    height: 60px;
   padding-top:3px;
 }
 
