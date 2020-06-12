@@ -34,7 +34,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 关于直播活动请大家加入到暑期 2020 学生的微信群，关注微信群的时间通知。
 
-<img src="/img/events/summer-2020-wechat.jpg" style="width:40%;"/>
+<img src="/img/events/summer-2020-wechat-2.jpg" style="width:40%;"/>
 
 ### B 站直播计划，房间地址 https://live.bilibili.com/22290444
 
@@ -83,6 +83,10 @@ June 16th, 2020 20:00 ~ 21:00 测试相关任务讲解
 * [No.43 - 对 openEuler 社区发布包 rpcbind 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6JE)
 * [No.44 - 对 openEuler 社区发布包 haproxy 进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I6JI)
 * [No.29 - 对openEuler社区发布包osc和obs-build进行加固测试](https://gitee.com/openeuler/marketing/issues/I1I5WZ)
+
+June 17th, 2020 20:00 ~ 21:00 openEuler 社区之旅参与介绍
+
+* 介绍如何在 openEuler 社区贡献
 
 ### 任务分类
 
