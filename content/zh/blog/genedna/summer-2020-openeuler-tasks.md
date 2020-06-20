@@ -34,7 +34,7 @@ summary = "openEuler 社区参与暑期 2020 的 102 个任务具体分析"
 
 关于直播活动请大家加入到暑期 2020 学生的微信群，关注微信群的时间通知。
 
-<img src="/img/events/summer-2020-wechat-2.jpg" style="width:40%;"/>
+<img src="/img/events/summer-2020-wechat-3.jpg" style="width:40%;"/>
 
 ### B 站直播计划，房间地址 https://live.bilibili.com/22290444
 
