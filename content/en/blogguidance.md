@@ -61,7 +61,7 @@ And if you are going to post a blog in Chinese, the content/zh/blog is your work
 Assume that you are preparing a English blog.
 
 ```
-cd content/en/post
+cd content/en/blog
 mkdir <your-gitee-id>
 cd <your-gitee-id>
 touch YEAR-MONTH-DAY-title.md
