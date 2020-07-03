@@ -1,10 +1,17 @@
++++
+title = "The Future of Cloud in a COVID-19 Era"
+date = "2020-06-24"
+tags = ["cloud","COVID-19","Open Hardware"]
+archives = "2020-06"
+author = "ByBryan Che"
+summary = "How was Huawei Cloud able to grow so quickly over such a short time? One of the things that distinguishes Huawei is that we believe in the power of open innovation."
+
++++
+
 # The Future of Cloud in a COVID-19 Era
 
 
 
-ByBryan Che
-
-June 24, 2020
 
 ## **Three Years of Astonishing Cloud Growth**
 
@@ -12,12 +19,12 @@ Almost exactly three years ago in June 2017, Huawei launched its public cloud bu
 
 The top vendors in the space were:
 
-![img](https://blog.huawei.com/wp-content/uploads/2020/06/1-3.png)
+<img src="https://blog.huawei.com/wp-content/uploads/2020/06/1-3.png" />
            Source: [China Internet Watch](https://www.chinainternetwatch.com/22936/public-cloud-market-share-h1-2017/) / **Public Cloud Market Share in H1 2017 (IaaS)**
 
 Three years later, and Canalys has just released its latest figures for the China public cloud market, as of June 2020:
 
-![img](https://blog.huawei.com/wp-content/uploads/2020/06/2-3.png)
+<img src="https://blog.huawei.com/wp-content/uploads/2020/06/2-3.png" />
 
 Several things are noteworthy from a comparison between 2017 and 2020:
 
@@ -49,7 +56,7 @@ As China and the world accelerate their adoption of cloud, what will this look l
 
 To help address the economic fallout from COVID-19, the Chinese government recently announced to accelerate a multi-trillion yuan investment plan towards **New Infrastructure**, the goal of which is to provide ubiquitous and high quality connectivity and computing. Target technologies and industries for New Infrastructure spending include cloud, AI, 5G, blockchain, and industrial internet.
 
-![img](https://blog.huawei.com/wp-content/uploads/2020/06/shutterstock_741922060-1024x683.jpg)
+<img src="https://blog.huawei.com/wp-content/uploads/2020/06/shutterstock_741922060-1024x683.jpg" />
 
 So, not only did COVID-19 bring a spike in cloud consumption in China while everyone stayed home, it is also leading to a massive new investment across the country in digital technologies. This in turn will only further accelerate the adoption of cloud services in China.
 
@@ -71,7 +78,7 @@ In addition, though, as Europe invests in these technologies, it is also doing s
 
 According to a recent Gartner study, the adoption rate of public cloud for many European countries is similar to that of China and also lags many other markets:
 
-![img](https://blog.huawei.com/wp-content/uploads/2020/06/15.png)
+<img src="https://blog.huawei.com/wp-content/uploads/2020/06/15.png" />
 
 With projects like Next Generation EU and GAIA-X, however, European adoption of cloud and digital technologies should rapidly accelerate over the next few years. And just as in China and around the world, we look forward to sharing our experience and expertise and to working together openly and securely to build out this next generation of digital services.
 
@@ -81,7 +88,7 @@ How was Huawei Cloud able to grow so quickly over such a short time? One of the 
 
 This is how we view our Huawei Cloud business:
 
-![img](https://blog.huawei.com/wp-content/uploads/2020/06/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE%E6%9C%AA%E5%91%BD%E5%90%8D.png)
+<img src="https://blog.huawei.com/wp-content/uploads/2020/06/QQ%E6%8B%BC%E9%9F%B3%E6%88%AA%E5%9B%BE%E6%9C%AA%E5%91%BD%E5%90%8D.png" />
 
 ## **Open Hardware**
 
