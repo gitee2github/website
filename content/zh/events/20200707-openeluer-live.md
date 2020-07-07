@@ -1,6 +1,6 @@
 +++
 title = "【手把手带你玩转openEuler】系列直播进行中"
-date = "2019-12-10"
+date = "2020-07-07"
 tags = ["openEuler", "live"]
 banner = "img/banners/banner-20200707-openeluer-live.png"
 author = "openEuler"
