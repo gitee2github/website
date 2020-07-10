@@ -10,7 +10,7 @@
     <div class="panel-body">
         <ul class="tag-cloud">
             {{ range (where .Site.RegularPages "Section" "blog").GroupByDate "2006-01" }}
-            <li> <a href="{{ $.Site.BaseURL }}/{{$lan}}/archives/{{ .Key | urlize }}.html"><i
+            <li> <a href="{{ $.Site.BaseURL }}{{$lan}}/archives/{{ .Key | urlize }}.html"><i
                         class="fa fa-tags"></i>{{ .Key }}({{ len .Pages }})</a><br>
             </li>
             {{ end }}

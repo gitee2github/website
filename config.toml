@@ -162,14 +162,14 @@ paginate = 10
 [[menu.main]]
     identifier = "Advisories"
     name = "Security Advisories"
-    url  = "https://cve.openeuler.org/cve#/home?lang=en"
+    url  = "https://cve.openeuler.org/#/home?lang=en"
     weight = 2
     parent = "security"
 
 [[menu.main]]
     identifier = "CVE"
     name = "CVE"
-    url  = "https://cve.openeuler.org/cve#/CVE?lang=en"
+    url  = "https://cve.openeuler.org/#/CVE?lang=en"
     weight = 3
     parent = "security"
 
@@ -354,14 +354,14 @@ paginate = 10
 [[languages.zh.menu.main]]
     identifier = "Advisories"
     name = "安全公告"
-    url  = "https://cve.openeuler.org/cve#/home?lang=zh"
+    url  = "https://cve.openeuler.org/#/home?lang=zh"
     weight = 2
     parent = "security"
 
 [[languages.zh.menu.main]]
     identifier = "CVE"
     name = "CVE"
-    url  = "https://cve.openeuler.org/cve#/CVE?lang=zh"
+    url  = "https://cve.openeuler.org/#/CVE?lang=zh"
     weight = 3
     parent = "security"
 
@@ -574,7 +574,7 @@ paginate = 10
 
 [params.copyright]
     enable = true
-    text = "Copyright © openEuler 2020. All rights reserved.<br><a href=\"/en/brand.html\">Brand</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>"
+    text = "Copyright © openEuler 2020. All rights reserved.<br><a href=\"/en/brand.html\">Brand</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Private Policy</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>"
 
 [languages.zh.params.copyright]
     enable = true
