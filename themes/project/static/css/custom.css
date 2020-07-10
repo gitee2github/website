@@ -347,33 +347,6 @@
   font-size:40px
 }
 
-<<<<<<< HEAD
-.publisher .imgdivleft{
-  text-align: center;
-}
-
-.publisher .imgdivmiddle{
-  text-align: center;
-}
-.publisher .imgdivright{
-  text-align: center;
-}
-
-#imgLeft{
-  height:60px;
-  padding-top:3px;
-}
-
-#imgMiddle{
-  height:70px;
-} 
-
-#imgRight{
-  height:60px;
-  padding-top:3px;
-}
-
-=======
 .publisher .imgdivleft,
 .publisher .imgdivmiddle,
 .publisher .imgdivright {
@@ -398,7 +371,6 @@
   padding-top:3px;
 }
 
->>>>>>> upstream/master
 .friendsLink h2{
   font-size: 40px;
  }
