@@ -1,15 +1,12 @@
 {{ template "_internal/google_analytics.html" . }}
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jstree/3.3.4/jstree.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-<script src="{{ .Site.BaseURL }}js/front.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery-3.1.1.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/jstree.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.cookie.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.waypoints.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.counterup.min.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/jquery-parallax.js?v=20200710"></script>
+<script src="{{ .Site.BaseURL }}js/front.js?v=20200710"></script>
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
 <!-- used to for mobile -->
@@ -34,7 +31,7 @@
                 } else {
                     if (wholeData[j].children.length > 0) {
                         var v = getCurrentID(wholeData[j].children, relativeURL);
-                        if (v != "") {
+                        if (v !== '') {
                             return v;
                         }
                     }
@@ -46,20 +43,18 @@
             $('#docstreeview').jstree();
             $('#docstreeview').jstree().hide_dots();
             $('#docstreeview').jstree().hide_icons();
-            $('#docstreeview').on("changed.jstree", function (e, data) {
+            $('#docstreeview').on('changed.jstree', function (e, data) {
                 if (data.node) {
                     var link = data.node.a_attr.href;
-                    if (link == "" || link == "#") {
-                        var aElementID = "#" + data.node.id + "_anchor";
-                        var aElement = $(aElementID).find("a");
+                    if (link ==='' || link === '#') {
+                        var aElementID = '#' + data.node.id + '_anchor';
+                        var aElement = $(aElementID).find('a');
                         if (aElement.length) {
-                            link = aElement.attr("href");
+                            link = aElement.attr('href');
                         }
                     }
-                    console.log(link);
                     var relativeURL = getRelativePath();
-                    console.log(relativeURL);
-                    if (link != relativeURL) {
+                    if (link !== relativeURL) {
                         location.href = link;
                     }
                 }
