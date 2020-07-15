@@ -197,7 +197,7 @@ other = "Installation Guide"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "手把手带你玩转openEuler系列直播"
+other = "Live series—learn about openEuler"
 
 [main_cards_live_description]
-other = "为了让更多人更深入认识openEuler并积极参与进来，社区将通过一系列直播和大家近距离接触，邀请openEuler开源的重要参与者、SIG组maintainer等资深专家来进行持续分享，解读openEuler怎么玩、如何参与，欢迎来直播间学习交流！"
+other = "The key participants and SIG maintainers of openEuler community will take you to learn about how to use openEuler and how to participate in the openEuler community through a series of live broadcasts. Welcome to openEuler live!"
