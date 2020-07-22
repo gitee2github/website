@@ -574,7 +574,7 @@ paginate = 10
 
 [params.copyright]
     enable = true
-    text = "Copyright © openEuler 2020. All rights reserved.<br><a href=\"/en/brand.html\">Brand</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Private Policy</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>"
+    text = "Copyright © openEuler 2020. All rights reserved.<br><a href=\"/en/brand.html\">Brand</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>&nbsp;&nbsp;<a href=\"/en/privacyPolicy.html\">Privacy Policy</a>"
 
 [languages.zh.params.copyright]
     enable = true
