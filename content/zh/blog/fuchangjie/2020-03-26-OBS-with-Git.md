@@ -14,7 +14,7 @@ summary = "OBS系统如何借助Source Services自动获取git仓库中的代码
  - 利用Source Services（下称源服务）直接获取git源码并编译成包
  - 利用webhook 使源服务在git仓库push时触发，从而实现OBS始终跟进git仓库最新版本源码的效果
 
-> 此文章的全部步骤使用[openEuler OBS](http://openeuler-build.huawei.com/)完成，使用其他服务器时可能出现工具不全的情况。
+> 此文章的全部步骤使用[openEuler OBS](https://build.openeuler.org/)完成，使用其他服务器时可能出现工具不全的情况。
 
 ## 利用源服务直接获取git源码并编译成包
 
@@ -165,11 +165,11 @@ spec文件中可以以
 
 当状态显示为 **blocked** 时， 表明源服务正在运行。当源服务运行完毕时会正常开始打包过程。
 
-我的参考案例：[链接](http://openeuler-build.huawei.com/package/show/home:changjie_fu/hi)
+我的参考案例：[链接](https://build.openeuler.org/package/show/home:changjie_fu/hi)
 
 ### Source Services 在实际场景中的应用
 
-在[oVirt-SIG](http://openeuler-build.huawei.com/project/show/oVirt-SIG)组中，我们应用了源服务实现代码由git到OBS的同步。
+在[oVirt-SIG](https://build.openeuler.org/project/show/oVirt-SIG)组中，我们应用了源服务实现代码由git到OBS的同步。
 
 首先，我们在git仓库中以：**spec文件、patch文件、 **源码tar包** 的格式上传并管理源码。
 
@@ -233,7 +233,7 @@ spec文件中可以以
 >
 > 在 Payload URL中以：
 >
-> ` http://openeuler-build.huawei.com/trigger/webhook?id=<令牌ID>`
+> ` https://build.openeuler.org/trigger/webhook?id=<令牌ID>`
 >
 > 为格式填入。
 > 
