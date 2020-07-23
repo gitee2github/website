@@ -132,6 +132,9 @@ other = "/en/about_openeuler/docs/whtisopeneuler.html"
 [main_mail_more_list]
 other = "Mail List"
 
+[main_footer_QRcode]
+other = "Wechat Subscription"
+
 # DOC page
 [doc_git_footer]
 other = "Feedback"
