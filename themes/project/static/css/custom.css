@@ -576,14 +576,43 @@ footer .contact h2 {
   color: #fff;
 }
 footer .notice {
-  width: 670px;
-  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .notice a {
+  font-size: 14px;
+  color: #fff;
+}
+footer .notice a:hover {
+  text-decoration: none;
+}
+footer .notice a:nth-child(2) {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding: 0 15px;
+  margin: 0 15px;
+}
+footer .notice p {
+  font-size: 12px;
   color: #909090;
   line-height: 28px;
-  text-align:right;
+  text-align: center;
+  margin-bottom: 0;
 }
 footer .notice span {
-  color: #5F9BDE;
+  display: block;
+  height: 60px;
+  line-height: 70px;
+}
+footer .qr-code {
+  text-align: center;
+}
+footer .qr-code p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, .7);
+  margin-top: 10px;
 }
 
 .client-header h2 {
