@@ -350,7 +350,7 @@ logo3 = "./img/logo3_web_zh.png"
 logo3Mobile = "./img/logo3_mobile_zh.png"
 
 Partners="友情链接"
-mulanLink = "https://mulanos.oschina.net/"
+mulanLink = "http://www.mulanos.cn/"
 kunPengLink = "https://www.huaweicloud.com/kunpeng/"
 pengChengLink = "https://dw.pcl.ac.cn/dwmain/main/"
 +++

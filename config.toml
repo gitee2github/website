@@ -574,11 +574,11 @@ paginate = 10
 
 [params.copyright]
     enable = true
-    text = "Copyright © openEuler 2020. All rights reserved.<br><a href=\"/en/brand.html\">Brand</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Private Policy</a>&nbsp;&nbsp;<a href=\"/en/legal.html\">Legal Notice</a>"
+    text = "<span><a href=\"/en/brand.html\">Brand</a><a href=\"/en/legal.html\">Private Policy</a><a href=\"/en/legal.html\">Legal Notice</a></span><p>Copyright © openEuler 2020. All rights reserved.</p>"
 
 [languages.zh.params.copyright]
     enable = true
-    text = "版权所有 © openEuler 2020 保留一切权利 <br><a href=\"/zh/brand.html\">品牌</a>&nbsp;&nbsp;<a href=\"/zh/legal.html\">法律声明</a>&nbsp;&nbsp;<a href=\"/zh/privacyPolicy.html\">隐私政策</a>"
+    text = "<span><a href=\"/zh/brand.html\">品牌</a><a href=\"/zh/legal.html\">法律声明</a><a href=\"/zh/privacyPolicy.html\">隐私政策</a></span><p>版权所有 © openEuler 2020 保留一切权利</p>"
 
 [languages]
 
