@@ -30,9 +30,9 @@ summary = "【手把手带你玩转openEuler】系列直播进行中"
 ​    视频回顾：https://www.bilibili.com/video/BV1vK4y1s7QG 
 
 
- ** ** 3、使用openEuler** ** 
+ ** 3、使用openEuler** 
 
-    视频回顾：https://www.bilibili.com/video/BV13z4y1D7mq
+    视频回顾：[https://www.bilibili.com/video/BV13z4y1D7mq](http://www.bilibili.com/video/BV13z4y1D7mq)
 
 
  **4、openEuler构建之OBS使用指导** 
