@@ -549,7 +549,7 @@ footer {
   background: #111;
   color: #fff;
 }
-footer .foot {
+footer .foot.isPc {
   max-width: 1366px;
   margin: 0 auto;
   display: flex;
@@ -608,6 +608,7 @@ footer .notice span {
 }
 footer .qr-code {
   text-align: center;
+  margin-top: 5px;
 }
 footer .qr-code p {
   font-size: 12px;
