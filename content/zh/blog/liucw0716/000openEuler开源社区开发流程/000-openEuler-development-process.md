@@ -1,11 +1,11 @@
++++
 title = "openEuler开源社区开发流程"
-date = "2020-03-03"
-tags = ["git"]
-archives = "2020-03"
+date = "2020-07-28"
+tags = ["git","社区开发"]
+archives = "2020-07"
 author = "罗振宇"
-summary = "如何使用git提交pr"
-
-------
+summary = "如何使用gitee提交pr"
++++
 
 ### 使用git提交PR
 
