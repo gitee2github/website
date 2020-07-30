@@ -491,10 +491,11 @@
   footer .foot {
     display: block;
   }
+  footer .foot.isPc {
+    display: none;
+  }
   footer .foot .contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    text-align: center;
   }
   footer .foot .contact h2 {
     font-size: 0.46rem;
@@ -502,12 +503,15 @@
   }
   footer .foot .contact p {
     font-size: .24rem;
+    margin: 0 auto;
   }
   footer .foot .contact svg {
     width: 12px;
   }
+  footer .qr-code {
+    margin-top: 20px;
+  }
   footer .foot .notice {
-    margin-top: .4rem;
     width: auto;
   }
   #mask {
