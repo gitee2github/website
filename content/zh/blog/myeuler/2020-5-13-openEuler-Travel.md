@@ -46,7 +46,7 @@ openEuler社区原则上只接受开源协议的软件，哪些开源协议是�
 
 https://opensource.org/licenses/alphabetical
 
-对于社区本身，我们默认使用mulan V2协议，https://opensource.org/licenses/MulanPSL-2.0，这是一个非常友好的开源协议，也欢迎大家更多的使用这个协议来开发开源软件。
+对于社区本身，我们默认使用[mulan V2协议](http://opensource.org/licenses/MulanPSL-2.0)，这是一个非常友好的开源协议，也欢迎大家更多的使用这个协议来开发开源软件。
 
 ## 我能做点什么
 
