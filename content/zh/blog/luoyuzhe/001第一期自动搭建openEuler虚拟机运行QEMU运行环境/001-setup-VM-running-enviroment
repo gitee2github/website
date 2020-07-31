@@ -1,7 +1,7 @@
 +++
 title="第一期自动搭建openEuler虚拟机运行QEMU运行环境"
 date="2020-07-31"
-tags=["openEuler","调优虚拟机","QEMU运行环境"]
+tags=["openEuler","虚拟机","QEMU运行环境"]
 archives="2020-07"
 author="罗宇哲"
 summary="自动搭建openEuler虚拟机运行QEMU运行环境"
