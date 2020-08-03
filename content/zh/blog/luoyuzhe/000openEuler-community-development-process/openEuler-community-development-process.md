@@ -51,17 +51,17 @@ cat \~/.ssh/id_rsa.pub
 
 <https://gitee.com/profile/sshkeys>
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF01.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF01.png">
 
 二、提交PR
 
 1. 进入要修改的仓库，点击右上角的Forked，将其fork到自己的仓库，如下图所示。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF02.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF02.png">
 
 2. Fork成功之后会自动进入Fork的仓库目录，点击克隆/下载-\>选择复制任一链接。见下图。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF03.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF03.png">
 
 3. 将仓库clone到本地，并进入仓库目录。以上图perl-Text-ParseWords仓库为例。
 
@@ -73,18 +73,18 @@ cd perl-Text-ParseWords
 
 4. 可以通过git remote –v查看所有远程库的url，见下图。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF04.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF04.png">
 
 > 发现没有原作者的项目地址，使用git remote add upstream
 > https://gitee.com/openeuler/perl-Text-ParseWords.git添加，再次执行git remote
 > –v。如下图所示。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF05.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF05.png">
 
 > 使用git remote set-url --push upstream
 > no_push，设置不直接将改变推送到上游openEuler里面的仓库，而是只推送到自己Fork的gitee仓库下。见下图。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF06.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF06.png">
 
 > 4.1  git fetch
 >     upstream与上游openEuler社区保持同步；如果是已提交过一次代码以后再做代码修改操作，可以跳过2.3/2.4两个步骤。
@@ -117,11 +117,11 @@ git config --global credential.helper store
 
 > 输入上述命令以后用户名密码就会被git记住，之后在这个目录下都不需要再输入用户名密码了
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF07.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF07.png">
 
 7. 进入改动过代码的自己的仓库，选择下图小标1，或者点击小标2后接着进入新建Pull Requests。
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF08.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF08.png">
 
 8. 例子中2.6步建立的分支为test_ci，在新建Pull Requests之后，如下图所示
 
