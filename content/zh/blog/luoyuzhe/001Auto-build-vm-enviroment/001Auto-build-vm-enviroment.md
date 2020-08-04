@@ -29,11 +29,11 @@ summary="自动搭建openEuler虚拟机运行QEMU运行环境"
 
 sudo ./start-qemu.sh后：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU1.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU1.png">
 
 开启gdb运行后：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU2.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU2.png">
 
 ###### Prepare.sh 脚本功能介绍
 
@@ -41,23 +41,23 @@ sudo ./start-qemu.sh后：
 
 下载openEuler镜像：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU3.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU3.png">
 
 下载并解压交叉编译gcc，设置环境变量：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU4.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU4.png">
 
 安装依赖项：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU5.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU5.png">
 
 下载并安装QEMU-4.1.1:
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU6.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU6.png">
 
 下载QEMU UEFI启动固件并生成img文件，大小可以分配：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU7.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU7.png">
 
 ###### Build.sh脚本功能介绍
 
@@ -66,37 +66,37 @@ sudo ./start-qemu.sh后：
 
 下载并编译Linux内核4.19.1版：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU8.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU8.png">
 
 把编译好的Image文件copy到目标文件夹：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU9.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU9.png">
 
 下载并解压busybox:
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU10.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU10.png">
 
 编译安装busybox:
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU11.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU11.png">
 
 制作根文件系统：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU12.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU12.png">
 
 ###### qemu启动脚本介绍
 
 start-qemu.sh: qemu普通启动。
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU13.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU13.png">
 
 start-qemu-gdb.sh:带gdb 启动。
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU14.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU14.png">
 
 start-euleros.sh :用qemu启动euleros镜像。
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU15.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU15.png">
 
 采用gdb模式启动的时候首先运行sudo./start-qemu-gdb.sh命令，然后重新启动一个terminal，运行aarch64-linux-gnu-gdb，输入端口号然后按c。
 
@@ -157,11 +157,11 @@ QEMU会读入openEuler的镜像文件然后进入安装流程。选择安装open
 
 ###### A.选择 Use text mode 选项
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU16.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU16.png">
 
 ###### B.选择Root password选项并配置
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU17.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU17.png">
 
 配置完之后我们可以发现大部分之前有[!]的选项之前都变成了[x]。
 
@@ -169,39 +169,39 @@ QEMU会读入openEuler的镜像文件然后进入安装流程。选择安装open
 
 选择大小：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU18.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU18.png">
 
 选择使用空间：
 
 VMware：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU19.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU19.png">
 
 VirtualBox：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU20.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU20.png">
 
 选择Partition方式：
 
 VMware：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU21.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU21.png">
 
 VirtualBox：
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU22.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU22.png">
 
 ###### 配置用户账户，输入b完成配置
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU23.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU23.png">
 
 ###### E.安装完成
 
 到这一步需要按一下回车然后输入之前设定的用户名和密码才行。
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU24.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU24.png">
 
-<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment／QEMU25.png">
+<img src="/zh/blog/luoyuzhe/001Auto-build-vm-enviroment/QEMU25.png">
 
 然后就和linux的操作基本一样了\~有一个问题是每次运行都要安装一次，所以装好之后最好能保存一个虚拟机快照。
 
