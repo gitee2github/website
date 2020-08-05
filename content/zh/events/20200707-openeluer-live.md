@@ -15,8 +15,7 @@ summary = "【手把手带你玩转openEuler】系列直播进行中"
 欢迎来B站openEuler直播间和社区讲师互动！
 
  
-
-***已******播出******：
+ **已播出回顾：** 
 
  **1、初识openEuler**  讲师：朱延朋 
 
@@ -46,6 +45,7 @@ summary = "【手把手带你玩转openEuler】系列直播进行中"
  **6、虚拟化介绍** 
 
    视频回顾：https://www.bilibili.com/video/BV1of4y1X7p1
+
 
 
  **后续直播计划：** 
