@@ -122,7 +122,7 @@ openEuler是基于Linux 内核的企业级Linux服务器操作系统平台的开
 
 在上面这张表中，有两个重要的项目对Linux的诞生产生了重要的影响，它们是Unix系统和GNU项目。在下面两篇连载中，我们将简要介绍Unix系统和GNU项目。下图展示了与Linux有关的操作系统发展史：
 
-<img src="/zh/blog/luoyuzhe/002History-of-Linux-kernel/Linux-OS-history.jpg">
+<img src="/zh/blog/luoyuzhe/002History-of-Linux-kernel-1/Linux-OS-history.jpg">
 
 ### 四、结语
 

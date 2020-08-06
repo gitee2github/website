@@ -47,7 +47,7 @@ UNIX System V Release 4发布后不久，AT&T就将其所有UNIX权利出售给�
 
 下图以树状图的形式展示了从UNIX系统衍生出的各种操作系统[2]：
 
-<img src="/zh/blog/luoyuzhe/003History-of-Linux-kernel-2/ Derivate-OS-of-NUIX.gif">
+<img src="/zh/blog/luoyuzhe/003History-of-Linux-kernel-2/Derivate-OS-of-NUIX.gif">
 
 
 ### 二、总结
