@@ -34,7 +34,7 @@ summary = "【手把手带你玩转openEuler】系列直播进行中"
 
 
  **4、openEuler构建之OBS使用指导**    讲师：朱春意
-   
+
     视频回顾：https://www.bilibili.com/video/BV1YK411H7E2
 
 
