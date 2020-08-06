@@ -1,10 +1,10 @@
 +++
-title="第二期Linux内核发展史"
+title="第二期Linux内核发展史-1"
 date="2020-08-06"
 tags=["Linux","内核","发展史"]
 archives="2020-08"
 author="罗宇哲"
-summary="Linux内核发展史"
+summary="Linux内核发展史-1"
 +++
 
  _作者：罗宇哲，中国科学院软件研究所智能软件研究中心_ 
