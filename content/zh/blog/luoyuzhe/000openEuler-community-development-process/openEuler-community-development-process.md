@@ -125,6 +125,6 @@ git config --global credential.helper store
 
 8. 例子中2.6步建立的分支为test_ci，在新建Pull Requests之后，如下图所示
 
-<img src="/zh/blog/luoyuzhe/000openEuler开源社区开发流程/OEKF09.png">
+<img src="/zh/blog/luoyuzhe/000openEuler-community-development-process/OEKF09.png">
 
 > 填写标题和说明即可创建Pull Request。
