@@ -196,10 +196,16 @@ other = "安装指南"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "带你玩转openEuler系列直播"
+other = "如何参与openEuler内核开发"
 
-[main_cards_live_description]
-other = "为了让更多人更深入认识openEuler并积极参与进来，社区将通过一系列直播和大家近距离接触，邀请openEuler开源的重要参与者、SIG组maintainer等资深专家来进行持续分享，解读openEuler怎么玩、如何参与，欢迎来直播间学习交流！"
+[main_cards_live_subtitle]
+other = "手把手带你玩转openEuler系列直播【第9期】"
+
+[main_cards_live_time]
+other = "8月11号（周二） 20：00—21：00 "
+
+[main_cards_live_des]
+other = "B站openEuler直播间"
 
 [main_footer_QRcode]
 other = "扫码关注公众号"

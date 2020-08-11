@@ -99,7 +99,7 @@
 
 .wrapper .carousel-caption p:nth-child(1) {
     font-family:  "MicrosoftYaHei", "Microsoft YaHei";
-    font-size:  62px;
+    font-size:  45px;
     font-weight: 400;
     position: relative;
     top: -160px;
@@ -121,10 +121,10 @@
 
 .wrapper .carousel-caption p:nth-child(2) {
     width: 100%;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 400;
     position: relative;
-    top: -130px;
+    top: -150px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
