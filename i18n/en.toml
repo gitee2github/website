@@ -200,7 +200,13 @@ other = "Installation Guide"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "Live series—learn about openEuler"
+other = "openEuler kernel development"
 
-[main_cards_live_description]
-other = "The key participants and SIG maintainers of openEuler community will take you to learn about how to use openEuler and how to participate in the openEuler community through a series of live broadcasts. Welcome to openEuler live!"
+[main_cards_live_subtitle]
+other = "openEuler live series (9th)"
+
+[main_cards_live_time]
+other = "August 11th(Tuesday)  20：00—21：00"
+
+[main_cards_live_des]
+other = "Bilibili live broadcasting room—openEuler"
