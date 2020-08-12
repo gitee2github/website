@@ -15,7 +15,7 @@ summary = "介绍yaml文件用途及编写方法"
 
 `yaml`文件名称与仓库名称应该保持一致，并跟软件包的`spec`文件在同级目录，一般放置到根目录。例如，`oemaker`代码仓的`yaml`文件名称是`oemaker.yaml`，放置到根目录，如下所示：
 
-<img src="content/zh/blog/trainey/imgs/oemaker_example.png">
+<img src="/zh/blog/trainey/imgs/oemaker_example.png">
 
 #### 三、yaml文件字段介绍
 
