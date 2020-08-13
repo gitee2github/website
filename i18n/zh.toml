@@ -196,13 +196,13 @@ other = "安装指南"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "如何参与openEuler内核开发"
+other = "openEuler网络配置"
 
 [main_cards_live_subtitle]
-other = "手把手带你玩转openEuler系列直播【第9期】"
+other = "手把手带你玩转openEuler系列直播【第10期】"
 
 [main_cards_live_time]
-other = "8月11号（周二） 20：00—21：00 "
+other = "8月13号（周四） 20：00—21：00 "
 
 [main_cards_live_des]
 other = "B站openEuler直播间"
