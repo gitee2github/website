@@ -196,7 +196,7 @@ other = "安装指南"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "IMA完整性度量"
+other = "可信计算：内核完整性度量"
 
 [main_cards_live_subtitle]
 other = "手把手带你玩转openEuler系列直播【第11期】"
