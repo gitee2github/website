@@ -160,9 +160,10 @@ SIG就是Special Interest Group的缩写，openEuler社区按照不同的SIG来�
 
 #### 提交一个Pull-Request <a name="提交一个Pull-Request"></a>
 
-当你提交一个PR的时候，就意味您已经开始给社区贡献代码了。请参考[openEuler社区PR提交指导](<https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.md>)。
+当你提交一个PR的时候，就意味您已经开始给社区贡献代码了。请参考[openEuler社区PR提交指导](<https://gitee.com/openeuler/community/blob/master/zh/contributors/pull-request.md>)。  
 
-
+#### 如何新增软件包
+openEuler支持在gitee新增软件包的同时自动在obs的openEuler:Fctory上创建同名仓库。这样在向已创建的gitee仓库提交代码时，会自动对代码编译进行检测。具体流程可参考[如何新增软件包](https://gitee.com/openeuler/community/blob/master/zh/contributors/create-package.md)。
 
 ### 检视代码 <a name="检视代码"></a>
 
