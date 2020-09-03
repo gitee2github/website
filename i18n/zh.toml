@@ -196,13 +196,13 @@ other = "安装指南"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "容器镜像构建工具isula-build源码剖析"
+other = "轻量级容器引擎iSulad功能介绍及代码架构解析"
 
 [main_cards_live_subtitle]
-other = "玩转openEuler系列直播之iSula容器专题（3）"
+other = "玩转openEuler系列直播之iSula容器专题（4）"
 
 [main_cards_live_time]
-other = "9月1号（周二） 20：00—21：00 "
+other = "9月3号（周四） 20：00—21：00 "
 
 [main_cards_live_des]
 other = "B站openEuler直播间"

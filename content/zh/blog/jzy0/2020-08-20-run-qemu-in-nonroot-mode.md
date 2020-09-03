@@ -22,18 +22,19 @@ error: internal error: qemu unexpectedly closed the monitor: 2020-07-14T13:29:11
 ### 步骤
 
 从创建用户到起虚拟机：
-1. 创建一个用户
+1. 创建一个用户并添加进kvm组
 ```
 [root]    useradd -m jzy
+[root]	  gpasswd -a jzy kvm
 ```
 2. 配置 `/etc/libvirt/qemu.conf`
 ```
-user = "root"
+# user = "root"
 后面加
 user = "jzy"
 ```
 ```
-group = "root"
+# group = "root"
 后面加
 group = "jzy"
 ```
@@ -63,7 +64,7 @@ drwxr-xr-x 2 jzy jzy 4.0K Jul 23 11:29 kvm
 [jzy@localhost ~]$ ll kvm
 total 7.2G
 -rwxr-xr-x 1 jzy  jzy  1.6K Jul 23 11:29 openE_jzy.xml
--rwxr-xr-x 1 root root 4.4G Jul 23 11:25 openEuler-20.03-LTS-aarch64-dvd.iso
+-rwxr-xr-x 1 jzy  jzy  4.4G Jul 23 11:25 openEuler-20.03-LTS-aarch64-dvd.iso
 -rwxr-xr-x 1 root root 2.9G Jul 23 11:32 openEuler-image.qcow2
 ```
 6. 就可以起虚拟机了
