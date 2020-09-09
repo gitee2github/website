@@ -68,6 +68,9 @@ other = "iSula"
 [main_cards_title_enter_repository]
 other = ">>更多"
 
+[main_cards_connect]
+other = "https://e.huawei.com/topic/hic-hc-2020/cn/index.html?utm_campaign=04MHQHQ20W6R9P&;utm_medium=pm-display&amp;utm_source=openeluer&amp;source=openeluer&;utm_content=hic_hc_2020"
+
 [main_nav_repository]
 other = "代码仓"
 
@@ -196,13 +199,13 @@ other = "安装指南"
 other = "/zh/events/20200607.html"
 
 [main_cards_live_title]
-other = "轻量级容器引擎iSulad性能分析"
+other = "轻量级容器引擎iSulad容器基础技术与实践"
 
 [main_cards_live_subtitle]
-other = "玩转openEuler系列直播之iSula容器专题（5）"
+other = "玩转openEuler系列直播之iSula容器专题（6）"
 
 [main_cards_live_time]
-other = "9月8号（周二） 20：00—21：00 "
+other = "9月10号（周四） 20：00—21：00 "
 
 [main_cards_live_des]
 other = "B站openEuler直播间"

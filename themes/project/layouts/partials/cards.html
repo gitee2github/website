@@ -3,6 +3,10 @@
 {{$imgSourceMobile :=  (print "../img/websiteBannerMobile_" $lan ".png") }}
 {{$summerBanner := (print "../img/summerBanner_" $lan ".jpg")}}
 {{$summerBannerMobile := (print "../img/summerBannerMobile_" $lan ".jpg")}}
+{{$imgConnect :=  (print "../img/HC_banner_" $lan ".png") }}
+{{$imgWebConnect :=  (print "../img/HC_banner_web_" $lan ".png") }}
+
+
 
 <!-- {{print $imgSourceMobile}} -->
 {{ if isset .Site.Params "cards" }}
@@ -20,6 +24,7 @@
                 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="6"></li>
             </ol>
             <div class="carousel-inner wrapper" role="listbox">
                 <div class="item active">
@@ -31,6 +36,10 @@
                                 {{ i18n "main_cards_live_des"}}</p>
                         </div>
                     </a>
+                </div>
+                <div class="item">
+                    <a href="{{i18n "main_cards_connect"}}" target="_blank"><img class="pc" src="{{$imgConnect}}"></a>
+                    <a href="{{i18n "main_cards_connect"}}" target="_blank"><img class="mobile" src="{{$imgWebConnect}}" ></a>
                 </div>
                 <div class="item">
                     <a href="{{i18n "main_cards_summer2020_link" }}" ><img class="pc" src="{{$summerBanner}}"></a>
