@@ -11,13 +11,13 @@ _作者简介：李峰， 具有多年容器、操作系统软件开发经验，
 
 iSulad 是一种由 C/C++编程语言编写的容器引擎，当前已经在 openeuler 社区开源(https://gitee.com/openeuler/iSulad)。 当前主流的容器引擎 docker、containerd、cri-o 等均是由 GO 语言编写。随着边缘计算、物联网等嵌入式设备场景的不断兴起，在资源受限环境下，业务容器化的需求越来越强烈。由高级语言编写的容器引擎在底噪占用上的劣势越来越凸显。另外由于容器引擎对外接口的标准化，因此用 C/C++重写一个容器引擎成为了可能。iSulad 整体架构如下图所示。
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-01.png" alt="iSulad" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-01.png" alt="iSulad" style="zoom:100%;" />
 
 iSulad 对外提供命令行以及基于 gRPC 的 CRI 两种对外接口，其中核心功能根据业务分为镜像管理和容器管理。
 
 通过下图可以理解 iSulad 在生态中的定位。
 
- <img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-09.png" alt="iSulad" style="zoom:100%;" />
+ <img src="./2020-09-14-isulad-architecture-09.png" alt="iSulad" style="zoom:100%;" />
 
 本文介绍 iSulad 的功能特性以及对整体架构进行介绍。
 
@@ -195,13 +195,13 @@ CRI(Container Runtime Interface)是由 K8S 定义的容器引擎需要向 k8S �
 
 CRI 接口基于 gRPC 实现。iSulad 遵循 CRI 接口规范，实现 CRI gRPC Server，包括 Runtime Service 和 Image Service 分别用来提供容器运行时接口和镜像操作接口。iSulad 的 gRPC Server 需要监听本地的 Unix socket，而 K8S 的组件 kubelet 则作为 gRPC Client 运行。
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-06.png" alt="iSulad" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-06.png" alt="iSulad" style="zoom:100%;" />
 
 ### 支持 CNI 网络标准协议
 
 CNI(Container Network Interface) 是 google 和 CoreOS 主导制定的容器网络标准协议。通过 CNI 协议，iSulad 通过 JSON 格式的文件与具体网络插件进行通信，进而实现容器的网络功能。容器网络具体的功能均由网络插件来实现。iSulad 中使用 C 语言实现了 clibcni 接口模块，用来实现对应功能。
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-05.png" alt="iSulad" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-05.png" alt="iSulad" style="zoom:100%;" />
 
 ### 遵循 OCI 标准
 
@@ -211,11 +211,11 @@ OCI 包含两个标准规范 **容器运行时标准 （runtime spec）和 容�
 
 首先介绍下，什么是容器镜像。容器运行所需的 rootfs 以及一些资源配置等信息被打包成特定的数据结构，称为容器镜像。基于容器镜像可以方便地运行容器。由于运行环境和应用被一起打包到了容器镜像中，这样就解决了应用部署时的环境依赖问题。每个容器镜像由一个或多个层数据、以及一个 config.json 配置文件组成。多个层之间有依赖关系，这种依赖关系称为父子关系（被依赖的层为父层）。运行容器之前，所有层的数据会合并挂载成一个 rootfs 供容器使用，称为容器层。合并后的数据如果有冲突，则子层的数据会覆盖父层中路径名称都相同的数据，镜像组织结构如下图所示：
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-08.png" alt="iSulad-img-single" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-08.png" alt="iSulad-img-single" style="zoom:100%;" />
 
 镜像的分层是为了解决空间占用问题。如果本层及其所有递归依赖的父层具有相同的数据，这些数据就可以复用，以减少空间占用。下图描述的是具有相同 layer0 层和 layer1 层的两个容器镜像的数据复用结构：
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-07.png" alt="iSulad-img-dual" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-07.png" alt="iSulad-img-dual" style="zoom:100%;" />
 
 iSulad 支持 OCI 标准镜像格式以及与 docker 兼容的镜像格式。能够 支持从 docker hub 等镜像仓库下载容器镜像，或者导入由 docker 导出的镜像文件来启动容器使用。
 
@@ -407,7 +407,7 @@ config.v2.json 为 iSulad 维护管理容器持久化的一些信息,包括容�
 
 iSulad 采用 DDD（Domain Driven Design，领域驱动设计）的思想进行架构分层组织，层次划分如下：
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-03.jpg" alt="ddd" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-03.jpg" alt="ddd" style="zoom:100%;" />
 
 各逻辑分层划分以及对应的职责如下：
 
@@ -421,7 +421,7 @@ iSulad 采用 DDD（Domain Driven Design，领域驱动设计）的思想进行�
 
 根据上述逻辑分层的设计思想，iSulad 对应源码目录架构设计为:
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-04.jpg" alt="iSulad-img-single" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-04.jpg" alt="iSulad-img-single" style="zoom:100%;" />
 
 其中 api 目录中定义了 iSulad 对外提供的 gRPC 服务的 proto 文件，在编译时会使用 grpc 生成对应客户端、服务端代码。
 
@@ -683,7 +683,7 @@ iSulad 的应用层代码位于 src/daemon/executor 目录，其作用为调用�
 
 可以借助**Structure101** 代码分析工具，梳理出 iSulad 各个代码目录之前的调用依赖关系。
 
-<img src="/zh/blog/lifeng2221dd1/2020-09-14-isulad-architecture-02.jpg" alt="iSulad" style="zoom:100%;" />
+<img src="./2020-09-14-isulad-architecture-02.jpg" alt="iSulad" style="zoom:100%;" />
 
 首先，用户界面层（cmd）作为上层，仅会调用其他模块的接口，不会被其他模块所依赖。cmd 会调用 client 目录中的函数，与 daemon 端进行通信。由于 cmd 目录中存在 iSulad daemon 的命令行接口，因此会依赖 daemon 目录下的函数定义。
 
