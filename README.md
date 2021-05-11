@@ -9,7 +9,7 @@ Website is openEuler community contents management system base on [Hugo](https:/
 1. Build Image
 
 ```
-docker build -t website:v0.0.1 .
+docker build -t website:v0.0.1 
 ```
 
 2. Running in container
