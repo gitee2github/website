@@ -12,7 +12,7 @@ openEuler Blog is designed to support the following formats:
 4. animation
 
 ## Folder design
-The content of blogs are under <https://gitee.com/openeuler/website>
+The content of blogs are under <https://gitee.com/openeuler/website> .
 
 ```
 |__ docs/blog_example          --list the some blog examples
